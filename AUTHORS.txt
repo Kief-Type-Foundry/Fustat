@@ -6,4 +6,4 @@
 # Name or Organization <email address> 
 
 Mohamed Gaber <gaber@kieftype.com>
-Khaled Hosny <dr.khaled.hosny@gmail.com>
+Khaled Hosny <khaled@aliftype.com>
