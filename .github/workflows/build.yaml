@@ -1,0 +1,67 @@
+name: Build font and specimen
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Fetch
+      uses: actions/checkout@v2
+    - name: Unshallow
+      run: git fetch --prune --unshallow --tags --force
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.10"
+        cache: 'pip'
+    - name: Install Python Dependencies
+      run: make MAKEFLAGS=-r setup
+    - name: Build
+      run: make PYTHON=venv/bin/python -j -B
+    - name: Test
+      run: make PYTHON=venv/bin/python -j test
+    - name: Dist
+      run: make PYTHON=venv/bin/python -j dist
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: Fustat
+        path: Fustat-*.zip
+        if-no-files-found: error
+
+  deploy:
+    if: github.ref_type == 'tag'
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Download artifacts
+      uses: actions/download-artifact@v2
+      with:
+        path: Fustat
+    - name: Extract release notes from annotated tag message
+      env:
+        # e.g. v0.100-rc.1, v1.200-beta.2, but not v1.000
+        PRERELEASE_TAG_PATTERN: "v[[:digit:]]+\\.[[:digit:]]+-+(rc|beta)\\.[[:digit:]]+"
+      run: |
+        # GH checkout action doesn't preserve tag annotations, we must fetch them
+        # https://github.com/actions/checkout/issues/290
+        git fetch --tags --force
+        echo "$(git tag -l --format='%(contents:body)' ${{ github.ref_name }})" > "${{ runner.temp }}/release_body.md"
+        echo "release_name=$(git tag -l --format='%(contents:subject)' ${{ github.ref_name }})" >> $GITHUB_ENV
+        if egrep -q "$PRERELEASE_TAG_PATTERN" <<< "${{ github.ref_name }}"; then
+          echo "Tag contains a pre-release suffix"
+          echo "is_prerelease=true" >> $GITHUB_ENV
+        else
+          echo "Tag does not contain pre-release suffix"
+          echo "is_prerelease=false" >> $GITHUB_ENV
+        fi
+    - name: Publish
+      uses: softprops/action-gh-release@v1
+      with:
+        name: ${{ env.release_name }}
+        body_path: ${{ runner.temp }}/release_body.md
+        fail_on_unmatched_files: true
+        prerelease: ${{ env.is_prerelease }}
+        files: Fustat/*/*.zip

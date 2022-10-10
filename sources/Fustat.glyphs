@@ -84,8 +84,7 @@ hehgoal-ar.medi
 name = hehgoal.ascending;
 },
 {
-automatic = 1;
-code = "hamza-ar alef-ar alef-ar.fina alef-ar.short alef-ar.short.fina behDotless-ar behDotless-ar.fina behDotless-ar.fina.high behDotless-ar.medi behDotless-ar.medi.high behDotless-ar.init behDotless-ar.init.high hah-ar hah-ar.fina hah-ar.medi hah-ar.init dal-ar dal-ar.fina reh-ar reh-ar.fina seen-ar seen-ar.fina seen-ar.medi seen-ar.init sad-ar sad-ar.fina sad-ar.medi sad-ar.init tah-ar tah-ar.fina tah-ar.medi tah-ar.init ain-ar ain-ar.fina ain-ar.medi ain-ar.init fehDotless-ar fehDotless-ar.fina fehDotless-ar.medi fehDotless-ar.init qafDotless-ar qafDotless-ar.fina kafDotless-ar kafDotless-ar.fina kaf-ar.medi kaf-ar.init keheh-ar keheh-ar.fina lam-ar lam-ar.fina lam-ar.medi lam-ar.init meem-ar meem-ar.fina meem-ar.medi meem-ar.init noonghunna-ar noonghunna-ar.fina heh-ar heh-ar.fina heh-ar.medi heh-ar.init hehgoal-ar hehgoal-ar.fina hehgoal-ar.medi hehgoal-ar.init hehgoal-ar.init.short ae-ar hehDoachashmee-ar hehDoachashmee-ar.fina hehDoachashmee-ar.medi waw-ar waw-ar.fina alefMaksura-ar alefMaksura-ar.fina yehbarree-ar yehbarree-ar.fina kashida-ar alefMadda-ar alefHamzaabove-ar alefHamzabelow-ar beh-ar teh-ar theh-ar tteh-ar peh-ar jeem-ar khah-ar tcheh-ar thal-ar ddal-ar zain-ar rreh-ar jeh-ar sheen-ar sheenThreedotsbelow-ar dad-ar zah-ar ghain-ar feh-ar fehDotmovedbelow-ar veh-ar fehThreedotsbelow-ar qaf-ar qafDotabove-ar qafThreedotsabove-ar kaf-ar ng-ar gaf-ar kehehThreedotsabove-ar noon-ar tehMarbuta-ar hehHamzaabove-ar hehgoalHamzaabove-ar tehMarbutagoal-ar wawHamzaabove-ar yehHamzaabove-ar yeh-ar yeh-farsi yehbarreeHamzaabove-ar lam_alef-ar lam_alef-ar.short lam_alef-ar.fina lam_alef-ar.fina.short";
+code = "hamza-ar alef-ar alef-ar.fina alef-ar.short alef-ar.short.fina behDotless-ar behDotless-ar.fina behDotless-ar.fina.high behDotless-ar.medi behDotless-ar.medi.high behDotless-ar.init behDotless-ar.init.high hah-ar hah-ar.fina hah-ar.medi hah-ar.init dal-ar dal-ar.fina reh-ar reh-ar.fina seen-ar seen-ar.fina seen-ar.medi seen-ar.init sad-ar sad-ar.fina sad-ar.medi sad-ar.init tah-ar tah-ar.fina tah-ar.medi tah-ar.init ain-ar ain-ar.fina ain-ar.medi ain-ar.init fehDotless-ar fehDotless-ar.fina fehDotless-ar.medi fehDotless-ar.init qafDotless-ar qafDotless-ar.fina kafDotless-ar kafDotless-ar.fina kaf-ar.medi kaf-ar.init keheh-ar keheh-ar.fina lam-ar lam-ar.fina lam-ar.medi lam-ar.init meem-ar meem-ar.fina meem-ar.medi meem-ar.init noonghunna-ar noonghunna-ar.fina heh-ar heh-ar.fina heh-ar.medi heh-ar.init hehgoal-ar hehgoal-ar.fina hehgoal-ar.medi hehgoal-ar.init ae-ar hehDoachashmee-ar hehDoachashmee-ar.fina hehDoachashmee-ar.medi waw-ar waw-ar.fina alefMaksura-ar alefMaksura-ar.fina yehbarree-ar yehbarree-ar.fina kashida-ar alefMadda-ar alefHamzaabove-ar alefHamzabelow-ar beh-ar teh-ar theh-ar tteh-ar peh-ar jeem-ar khah-ar tcheh-ar thal-ar ddal-ar zain-ar rreh-ar jeh-ar sheen-ar sheenThreedotsbelow-ar dad-ar zah-ar ghain-ar feh-ar fehDotmovedbelow-ar veh-ar fehThreedotsbelow-ar qaf-ar qafDotabove-ar qafThreedotsabove-ar kaf-ar ng-ar gaf-ar kehehThreedotsabove-ar noon-ar tehMarbuta-ar hehHamzaabove-ar hehgoalHamzaabove-ar tehMarbutagoal-ar wawHamzaabove-ar yehHamzaabove-ar yeh-ar yeh-farsi yehbarreeHamzaabove-ar lam_alef-ar lam_alef-ar.short lam_alef-ar.fina lam_alef-ar.fina.short";
 name = ArabicLetters;
 }
 );
@@ -612,7 +611,6 @@ fontMaster = (
 {
 ascender = 800;
 capHeight = 700;
-custom = light;
 customParameters = (
 {
 name = "Master Icon Glyph Name";
@@ -628,6 +626,7 @@ GSOffsetMakeStroke = 1;
 GSOffsetPosition = 1;
 GSOffsetVertical = 15;
 };
+weight = Light;
 weightValue = 30;
 xHeight = 362;
 },
@@ -50165,12 +50164,6 @@ layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
 width = 239;
 },
 {
-associatedMasterId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
-layerId = "F96EA7E4-6156-4C09-8C8D-E5A3CE1502C2";
-name = "[16]";
-width = 286;
-},
-{
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
 width = 288;
 },
@@ -50207,18 +50200,11 @@ layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
 width = 246;
 },
 {
-associatedMasterId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
-guideLines = (
+components = (
 {
-angle = 90;
-position = "{232, 298}";
+name = comma;
 }
 );
-layerId = "0E83F976-86AB-4CC5-9ADE-C9354E1C6DB9";
-name = "[16]";
-width = 286;
-},
-{
 guideLines = (
 {
 angle = 90;
@@ -52563,34 +52549,6 @@ nodes = (
 width = 239;
 },
 {
-associatedMasterId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
-layerId = "F96EA7E4-6156-4C09-8C8D-E5A3CE1502C2";
-name = "[16]";
-paths = (
-{
-closed = 1;
-nodes = (
-"204 14 LINE SMOOTH",
-"221 39 OFFCURVE",
-"230 56 OFFCURVE",
-"230 81 CURVE SMOOTH",
-"230 129 OFFCURVE",
-"191 167 OFFCURVE",
-"143 167 CURVE SMOOTH",
-"95 167 OFFCURVE",
-"56 129 OFFCURVE",
-"56 81 CURVE SMOOTH",
-"56 43 OFFCURVE",
-"80 13 OFFCURVE",
-"110 2 CURVE",
-"50 -89 LINE",
-"109 -128 LINE"
-);
-}
-);
-width = 286;
-},
-{
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
 paths = (
 {
@@ -54804,8 +54762,8 @@ interpolationWeight = 30;
 instanceInterpolations = {
 "3114FB65-9464-41A5-B67E-A8F9F43C0EF1" = 1;
 };
-name = UltraLight;
-weightClass = UltraLight;
+name = ExtraLight;
+weightClass = ExtraLight;
 },
 {
 customParameters = (
@@ -54948,8 +54906,8 @@ instanceInterpolations = {
 "090CB6A0-BE7C-4D17-A551-206C7456A8A3" = 1;
 };
 linkStyle = Regular;
-name = UltraBold;
-weightClass = UltraBold;
+name = ExtraBold;
+weightClass = ExtraBold;
 }
 );
 keepAlternatesTogether = 1;
