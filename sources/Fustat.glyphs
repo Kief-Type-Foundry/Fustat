@@ -37069,11 +37069,11 @@ nodes = (
 {
 closed = 1;
 nodes = (
+"384 0 LINE",
 "384 449 LINE",
 "381 457 LINE",
 "354 453 LINE",
-"354 1 LINE",
-"384 0 LINE"
+"354 0 LINE"
 );
 }
 );
