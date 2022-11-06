@@ -57,12 +57,12 @@ setup: requirements.txt
 ${NAME}-%.ttf: ${GLYPHSFILE}
 	echo "    MAKE    $(@F)"
 	mkdir -p $(@D)
-	${FONTMAKE} ${FMOPTS} $< --output-path=$@ --output=ttf --interpolate=".* $(*F)"
+	${FONTMAKE} ${FMOPTS} $< --output-path=$@ --flatten-components --output=ttf --interpolate=".* $(*F)"
 
 ${VARIABLE}: ${GLYPHSFILE}
 	echo "    MAKE    $(@F)"
 	mkdir -p $(@D)
-	${FONTMAKE} ${FMOPTS} $< --output-path=$@ --output=variable
+	${FONTMAKE} ${FMOPTS} $< --output-path=$@ --flatten-components --output=variable
 
 dist: ttf vf
 	echo "    DIST    ${DIST}"
