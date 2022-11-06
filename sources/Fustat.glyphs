@@ -307,7 +307,7 @@ code = "lookup compose {
 #sub pehVabove-ar							by behDotless-ar vabove-ar threedotsdownbelow-ar;
 #sub beeh-ar								by behDotless-ar twodotsverticalbelow-ar;
 #sub beheh-ar								by behDotless-ar fourdotsbelow-ar;
-#sub tehThreedotsdown-ar					by behDotless-ar threedotsdownabove-ar;
+ sub tehThreedotsdown-ar					by behDotless-ar threedotsdownabove-ar;
  sub tteh-ar								by behDotless-ar tahabove-ar;
 #sub ttehVabove-ar							by behDotless-ar tahabove_vabove-ar;
 #sub tteheh-ar								by behDotless-ar twodotsverticalabove-ar;
@@ -354,7 +354,7 @@ code = "lookup compose {
 #sub dalRing-ar								by dal-ar ringbelow-ar;
 #sub dalDotbelow-ar							by dal-ar dotbelow-ar;
 #sub dalDotbelowTah-ar						by dal-ar tahabove-ar dotbelow-ar;
-#sub dalThreedotsdown-ar					by dal-ar threedotsdownabove-ar;
+ sub dalThreedotsdown-ar					by dal-ar threedotsdownabove-ar;
 #sub dalFourdots-ar							by dal-ar fourdotsabove-ar;
 #sub dalVinvertedabove-ar					by dal-ar vinvertedabove-ar;
 #sub dalTwodotsverticalbelowTah-ar			by dal-ar tahabove-ar twodotsverticalbelow-ar;
@@ -402,7 +402,7 @@ code = "lookup compose {
 #sub ainThreedotsbelow-ar					by ain-ar threedotsdowncenter-ar;
 #sub ainThreedots-ar						by ain-ar threedotsupabove-ar;
 #sub ainTwodotshorizontalabove-ar			by ain-ar twodotshorizontalabove-ar;
-#sub ainThreedotsdownabove-ar				by ain-ar threedotsdownabove-ar;
+ sub ainThreedotsdownabove-ar				by ain-ar threedotsdownabove-ar;
 #sub ainTwodotsverticalabove-ar				by ain-ar twodotsverticalabove-ar;
 #sub ghainThreedotsabove-ar					by ain-ar dotabove_threedotsupabove-ar;
  sub feh-ar									by fehDotless-ar dotabove-ar;
@@ -41763,6 +41763,52 @@ unicode = 0679;
 },
 {
 color = 0;
+glyphname = "tehThreedotsdown-ar";
+layers = (
+{
+components = (
+{
+name = "behDotless-ar";
+},
+{
+name = "threedotsdownabove-ar";
+transform = "{1, 0, 0, 1, 386, -362}";
+}
+);
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+width = 881;
+},
+{
+components = (
+{
+name = "behDotless-ar";
+},
+{
+name = "threedotsdownabove-ar";
+transform = "{1, 0, 0, 1, 355, -362}";
+}
+);
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+width = 916;
+},
+{
+components = (
+{
+name = "behDotless-ar";
+},
+{
+name = "threedotsdownabove-ar";
+transform = "{1, 0, 0, 1, 347, -362}";
+}
+);
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+width = 936;
+}
+);
+unicode = 067D;
+},
+{
+color = 0;
 glyphname = "peh-ar";
 layers = (
 {
@@ -42519,6 +42565,52 @@ unicode = 0688;
 },
 {
 color = 0;
+glyphname = "dalThreedotsdown-ar";
+layers = (
+{
+components = (
+{
+name = "dal-ar";
+},
+{
+name = "threedotsdownabove-ar";
+transform = "{1, 0, 0, 1, 127, -338}";
+}
+);
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+width = 485;
+},
+{
+components = (
+{
+name = "dal-ar";
+},
+{
+name = "threedotsdownabove-ar";
+transform = "{1, 0, 0, 1, 100, -338}";
+}
+);
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+width = 542;
+},
+{
+components = (
+{
+name = "dal-ar";
+},
+{
+name = "threedotsdownabove-ar";
+transform = "{1, 0, 0, 1, 98, -264}";
+}
+);
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+width = 616;
+}
+);
+unicode = 068F;
+},
+{
+color = 0;
 glyphname = "zain-ar";
 layers = (
 {
@@ -42911,6 +43003,52 @@ width = 563;
 }
 );
 unicode = 063A;
+},
+{
+color = 0;
+glyphname = "ainThreedotsdownabove-ar";
+layers = (
+{
+components = (
+{
+name = "ain-ar";
+},
+{
+name = "threedotsdownabove-ar";
+transform = "{1, 0, 0, 1, 162, -235}";
+}
+);
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+width = 563;
+},
+{
+components = (
+{
+name = "ain-ar";
+},
+{
+name = "threedotsdownabove-ar";
+transform = "{1, 0, 0, 1, 136, -235}";
+}
+);
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+width = 535;
+},
+{
+components = (
+{
+name = "ain-ar";
+},
+{
+name = "threedotsdownabove-ar";
+transform = "{1, 0, 0, 1, 149, -191}";
+}
+);
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+width = 581;
+}
+);
+unicode = 075E;
 },
 {
 color = 0;
