@@ -159,6 +159,38 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 {
 name = licenseURL;
 value = "http://scripts.sil.org/OFL";
+},
+{
+name = typoAscender;
+value = 1200;
+},
+{
+name = typoDescender;
+value = -500;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 1200;
+},
+{
+name = hheaDescender;
+value = -500;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1200;
+},
+{
+name = winDescent;
+value = 500;
 }
 );
 date = "2022-10-31 09:13:08 +0000";
