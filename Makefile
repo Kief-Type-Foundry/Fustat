@@ -14,7 +14,7 @@ VARIABLEDIR = ${FONTSDIR}/variable
 STATICDIR = ${FONTSDIR}/static
 VENVDIR = venv
 
-FMOPTS = --master-dir="{tmp}" --instance-dir="{tmp}"
+FMOPTS =
 
 ifneq (,$(findstring s,$(MAKEFLAGS)))
   FMOPTS += --verbose=WARNING
@@ -24,8 +24,6 @@ else
   QUITE =
   VERBOSE = --verbose
 endif
-
-FONTMAKE = ${PYTHON} -m fontmake
 
 VERSION=$(shell git describe --tags --abbrev=0)
 DIST=$(NAME)-$(VERSION)
@@ -54,15 +52,26 @@ setup: requirements.txt
 	${VENVDIR}/bin/pip install ${QUITE} -U wheel
 	${VENVDIR}/bin/pip install ${QUITE} --no-deps -r $<
 
-${NAME}-%.ttf: ${GLYPHSFILE}
-	echo "    MAKE    $(@F)"
-	mkdir -p $(@D)
-	${FONTMAKE} ${FMOPTS} $< --output-path=$@ --flatten-components --output=ttf --interpolate=".* $(*F)"
+${BUILDDIR}/${NAME}.designspace: ${GLYPHSFILE}
+	echo "    GEN     $(@F)"
+	${PYTHON} -m glyphsLib glyphs2ufo \
+		--minimal \
+		--propagate-anchors \
+		--write-public-skip-export-glyphs \
+		--glyph-data=${SOURCEDIR}/GlyphData.xml \
+		--output-dir=$(@D) \
+		$<
 
-${VARIABLE}: ${GLYPHSFILE}
+
+${NAME}-%.ttf: ${BUILDDIR}/${NAME}.designspace
 	echo "    MAKE    $(@F)"
 	mkdir -p $(@D)
-	${FONTMAKE} ${FMOPTS} $< --output-path=$@ --flatten-components --output=variable
+	${PYTHON} -m fontmake ${FMOPTS} $< --output-path=$@ --flatten-components --output=ttf --interpolate=".* $(*F)"
+
+${VARIABLE}: ${BUILDDIR}/${NAME}.designspace
+	echo "    MAKE    $(@F)"
+	mkdir -p $(@D)
+	${PYTHON} -m fontmake ${FMOPTS} $< --output-path=$@ --flatten-components --output=variable
 
 dist: ttf vf
 	echo "    DIST    ${DIST}"
