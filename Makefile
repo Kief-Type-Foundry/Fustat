@@ -30,9 +30,7 @@ DIST=$(NAME)-$(VERSION)
 
 export SOURCE_DATE_EPOCH ?= $(shell stat -c "%Y" ${GLYPHSFILE})
 
-MASTERS = Light Regular Bold
-
-INSTANCES = ${MASTERS} ExtraLight Medium SemiBold ExtraBold
+INSTANCES = ExtraLight Light Regular Medium SemiBold Bold ExtraBold
 STATIC = $(INSTANCES:%=${STATICDIR}/${NAME}-%.ttf)
 VARIABLE = ${VARIABLEDIR}/${NAME}[wght].ttf
 
