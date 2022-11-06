@@ -19,8 +19,6 @@ jobs:
       run: make MAKEFLAGS=-r setup
     - name: Build
       run: make PYTHON=venv/bin/python -j -B
-    - name: Test
-      run: make PYTHON=venv/bin/python -j test
     - name: Dist
       run: make PYTHON=venv/bin/python -j dist
     - name: Upload artifacts
