@@ -667,6 +667,11 @@ lookup lam_alef {
   sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina;
 } lam_alef;";
 name = rlig;
+},
+{
+code = "sub lam-ar.init hah-ar.fina by lam_hah-ar;
+sub lam-ar.init hah-ar.medi by lam_hah-ar.init;";
+name = liga;
 }
 );
 fontMaster = (
