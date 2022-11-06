@@ -138,6 +138,19 @@ value = 1;
 {
 name = vendorID;
 value = "1KTF";
+},
+{
+name = "Axis Mappings";
+value = {
+wght = {
+200 = 30;
+300 = 55;
+400 = 75;
+500 = 100;
+700 = 115;
+800 = 135;
+};
+};
 }
 );
 date = "2022-10-31 09:13:08 +0000";
@@ -625,15 +638,6 @@ customParameters = (
 {
 name = "Master Icon Glyph Name";
 value = "seen-ar.init";
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 200;
-}
-);
 }
 );
 descender = -200;
@@ -656,15 +660,6 @@ customParameters = (
 {
 name = "Master Icon Glyph Name";
 value = "seen-ar.init";
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 400;
-}
-);
 }
 );
 descender = -200;
@@ -687,15 +682,6 @@ customParameters = (
 {
 name = "Master Icon Glyph Name";
 value = "seen-ar.init";
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 800;
-}
-);
 }
 );
 descender = -200;
@@ -61765,10 +61751,9 @@ name = Autohint;
 value = 1;
 }
 );
-interpolationWeight = 85;
+interpolationWeight = 75;
 instanceInterpolations = {
-"090CB6A0-BE7C-4D17-A551-206C7456A8A3" = 0.16667;
-"14EEE41F-D714-4243-A717-73445EE7DABA" = 0.83333;
+"14EEE41F-D714-4243-A717-73445EE7DABA" = 1;
 };
 name = Regular;
 },
