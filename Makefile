@@ -55,10 +55,10 @@ setup: requirements.txt
 	${VENVDIR}/bin/pip install ${QUITE} --no-deps -r $<
 
 ${NAME}-%.ttf: ${GLYPHSFILE}
-	${FONTMAKE} ${FMOPTS} --output-dir=$(@D) --output=ttf --interpolate=".* $*" $<
+	${FONTMAKE} ${FMOPTS} $< --output-path=$@ --output=ttf --interpolate=".* $(*F)"
 
 ${VARIABLE}: ${GLYPHSFILE}
-	${FONTMAKE} ${FMOPTS} --output-dir=$(@D) --output=variable $<
+	${FONTMAKE} ${FMOPTS} $< --output-path=$@ --output=variable
 
 dist: ttf vf
 	@echo "    DIST            ${DIST}"
