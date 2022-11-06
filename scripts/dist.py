@@ -51,6 +51,8 @@ def main():
             parts = [version] + str(name).split(";")[1:]
             name.string = ";".join(parts)
 
+    font["post"].formatType = 3
+
     font.save(args.input)
 
 

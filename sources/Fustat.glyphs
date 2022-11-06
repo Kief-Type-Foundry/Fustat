@@ -95,6 +95,14 @@ name = ArabicLetters;
 copyright = "Copyright 2022 The Fustat Project Authors (https://github.com/Kief-Type-Foundry/Fustat)";
 customParameters = (
 {
+name = "Disable Last Change";
+value = 1;
+},
+{
+name = "Use Line Breaks";
+value = 1;
+},
+{
 name = fsType;
 value = (
 );
@@ -105,18 +113,6 @@ value = (
 0,
 13
 );
-},
-{
-name = "Disable Last Change";
-value = 1;
-},
-{
-name = "Update Features";
-value = 0;
-},
-{
-name = "Use Line Breaks";
-value = 1;
 },
 {
 name = "Use Typo Metrics";
@@ -134,6 +130,10 @@ Tag = wght;
 {
 name = "Variable Font Origin";
 value = "14EEE41F-D714-4243-A717-73445EE7DABA";
+},
+{
+name = "Don't use Production Names";
+value = 1;
 }
 );
 date = "2022-10-31 09:13:08 +0000";

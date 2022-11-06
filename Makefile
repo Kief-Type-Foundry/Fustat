@@ -44,7 +44,7 @@ ttf: ${STATIC}
 
 define copyfont
 cp $(1) $(2);
-$(foreach font,$(1),${PYTHON} ${SCRIPTDIR}/set-version.py $(2)/$(notdir ${font}) ${VERSION} ${VERBOSE};)
+$(foreach font,$(1),${PYTHON} ${SCRIPTDIR}/dist.py $(2)/$(notdir ${font}) ${VERSION} ${VERBOSE};)
 endef
 
 setup: requirements.txt
