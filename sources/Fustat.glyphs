@@ -1,9 +1,7 @@
 {
 .appVersion = "1361";
 DisplayStrings = (
-"/alef-ar",
-"/hehgoalMark-ar/hamzaabove-ar",
-"/hamzaaboveMark-ar/hamzaabove-ar"
+"/lam_hah-ar.init"
 );
 classes = (
 {
@@ -50006,6 +50004,32 @@ leftKerningGroup = yeh2;
 glyphname = "lam_hah-ar";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{545, -96}";
+},
+{
+name = bottom_2;
+position = "{225, -246}";
+},
+{
+name = caret_1;
+position = "{353, 0}";
+},
+{
+name = center_2;
+position = "{403, -107}";
+},
+{
+name = top_1;
+position = "{437, 804}";
+},
+{
+name = top_2;
+position = "{149, 465}";
+}
+);
 components = (
 {
 name = "hah-ar";
@@ -50037,6 +50061,32 @@ nodes = (
 width = 703;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{586, -96}";
+},
+{
+name = bottom_2;
+position = "{245, -274}";
+},
+{
+name = caret_1;
+position = "{333, 0}";
+},
+{
+name = center_2;
+position = "{425, -107}";
+},
+{
+name = top_1;
+position = "{416, 852}";
+},
+{
+name = top_2;
+position = "{179, 465}";
+}
+);
 components = (
 {
 name = "hah-ar";
@@ -50068,6 +50118,32 @@ nodes = (
 width = 718;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{689, -96}";
+},
+{
+name = bottom_2;
+position = "{241, -266}";
+},
+{
+name = caret_1;
+position = "{363, 0}";
+},
+{
+name = center_2;
+position = "{485, -107}";
+},
+{
+name = top_1;
+position = "{485, 869}";
+},
+{
+name = top_2;
+position = "{229, 509}";
+}
+);
 components = (
 {
 name = "hah-ar";
@@ -50118,7 +50194,7 @@ position = "{145, -46}";
 },
 {
 name = caret_1;
-position = "{273, 0}";
+position = "{282, 0}";
 },
 {
 name = top_1;
@@ -50608,7 +50684,7 @@ position = "{188, -96}";
 },
 {
 name = caret_1;
-position = "{316, 0}";
+position = "{328, 0}";
 },
 {
 name = top_1;
@@ -50667,7 +50743,7 @@ position = "{146, -96}";
 },
 {
 name = caret_1;
-position = "{274, 0}";
+position = "{270, 0}";
 },
 {
 name = top_1;
@@ -51436,7 +51512,7 @@ position = "{290, -96}";
 },
 {
 name = caret_1;
-position = "{421, 0}";
+position = "{427, 0}";
 },
 {
 name = top_1;
@@ -51563,7 +51639,7 @@ position = "{322, -96}";
 },
 {
 name = caret_1;
-position = "{461, 0}";
+position = "{469, 0}";
 },
 {
 name = top_1;
@@ -51617,7 +51693,7 @@ position = "{273, -96}";
 },
 {
 name = caret_1;
-position = "{426, 0}";
+position = "{430, 0}";
 },
 {
 name = top_1;
@@ -51693,6 +51769,28 @@ rightMetricsKey = "=-20";
 glyphname = "lam_hah-ar.init";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{405, -96}";
+},
+{
+name = bottom_2;
+position = "{165, -96}";
+},
+{
+name = caret_1;
+position = "{283, 0}";
+},
+{
+name = top_1;
+position = "{367, 804}";
+},
+{
+name = top_2;
+position = "{149, 465}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -51725,6 +51823,28 @@ nodes = (
 width = 618;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{449, -96}";
+},
+{
+name = bottom_2;
+position = "{155, -96}";
+},
+{
+name = caret_1;
+position = "{303, 0}";
+},
+{
+name = top_1;
+position = "{435, 869}";
+},
+{
+name = top_2;
+position = "{229, 509}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -51851,6 +51971,28 @@ nodes = (
 width = 657;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{416, -96}";
+},
+{
+name = bottom_2;
+position = "{155, -96}";
+},
+{
+name = caret_1;
+position = "{283, 0}";
+},
+{
+name = top_1;
+position = "{376, 852}";
+},
+{
+name = top_2;
+position = "{179, 465}";
+}
+);
 components = (
 {
 alignment = -1;
