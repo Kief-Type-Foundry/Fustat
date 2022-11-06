@@ -605,7 +605,11 @@ lookup high_tooth {
      [behDotless-ar.medi behDotless-ar.fina]
   by  behDotless-ar.medi.high;
 } high_tooth;
-";
+
+lookup lam_alef {
+  sub lam-ar.init alef-ar.fina by lam_alef-ar;
+  sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina;
+} lam_alef;";
 name = rlig;
 }
 );
