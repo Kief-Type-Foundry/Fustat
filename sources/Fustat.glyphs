@@ -134,6 +134,10 @@ value = "14EEE41F-D714-4243-A717-73445EE7DABA";
 {
 name = "Don't use Production Names";
 value = 1;
+},
+{
+name = vendorID;
+value = "1KTF";
 }
 );
 date = "2022-10-31 09:13:08 +0000";
