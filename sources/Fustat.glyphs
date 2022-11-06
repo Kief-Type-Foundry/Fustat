@@ -1,9 +1,9 @@
 {
 .appVersion = "1361";
 DisplayStrings = (
-"/three-ar/three-persian",
-"/twodotshorizontalabove-ar/threedotsdownbelow-ar/threedotsupabove-ar",
-"/ain-ar.fina"
+"/alef-ar",
+"/hehgoalMark-ar/hamzaabove-ar",
+"/hamzaaboveMark-ar/hamzaabove-ar"
 );
 classes = (
 {
@@ -73,7 +73,6 @@ name = dots.above;
 },
 {
 code = "alef-ar.fina
-alef-ar.short.fina
 behDotless-ar.medi
 behDotless-ar.medi.high
 dal-ar.fina
@@ -89,7 +88,7 @@ hehgoal-ar.medi
 name = hehgoal.ascending;
 },
 {
-code = "hamza-ar alef-ar alef-ar.fina alef-ar.short alef-ar.short.fina behDotless-ar behDotless-ar.fina behDotless-ar.fina.high behDotless-ar.medi behDotless-ar.medi.high behDotless-ar.init behDotless-ar.init.high hah-ar hah-ar.fina hah-ar.medi hah-ar.init dal-ar dal-ar.fina reh-ar reh-ar.fina seen-ar seen-ar.fina seen-ar.medi seen-ar.init sad-ar sad-ar.fina sad-ar.medi sad-ar.init tah-ar tah-ar.fina tah-ar.medi tah-ar.init ain-ar ain-ar.fina ain-ar.medi ain-ar.init fehDotless-ar fehDotless-ar.fina fehDotless-ar.medi fehDotless-ar.init qafDotless-ar qafDotless-ar.fina kafDotless-ar kafDotless-ar.fina kaf-ar.medi kaf-ar.init keheh-ar keheh-ar.fina lam-ar lam-ar.fina lam-ar.medi lam-ar.init meem-ar meem-ar.fina meem-ar.medi meem-ar.init noonghunna-ar noonghunna-ar.fina heh-ar heh-ar.fina heh-ar.medi heh-ar.init hehgoal-ar hehgoal-ar.fina hehgoal-ar.medi hehgoal-ar.init ae-ar hehDoachashmee-ar hehDoachashmee-ar.fina hehDoachashmee-ar.medi waw-ar waw-ar.fina alefMaksura-ar alefMaksura-ar.fina yehbarree-ar yehbarree-ar.fina kashida-ar alefMadda-ar alefHamzaabove-ar alefHamzabelow-ar beh-ar teh-ar theh-ar tteh-ar peh-ar jeem-ar khah-ar tcheh-ar thal-ar ddal-ar zain-ar rreh-ar jeh-ar sheen-ar sheenThreedotsbelow-ar dad-ar zah-ar ghain-ar feh-ar fehDotmovedbelow-ar veh-ar fehThreedotsbelow-ar qaf-ar qafDotabove-ar qafThreedotsabove-ar kaf-ar ng-ar gaf-ar kehehThreedotsabove-ar noon-ar tehMarbuta-ar hehHamzaabove-ar hehgoalHamzaabove-ar tehMarbutagoal-ar wawHamzaabove-ar yehHamzaabove-ar yeh-ar yeh-farsi yehbarreeHamzaabove-ar lam_alef-ar lam_alef-ar.fina";
+code = "hamza-ar alef-ar alef-ar.fina behDotless-ar behDotless-ar.fina behDotless-ar.fina.high behDotless-ar.medi behDotless-ar.medi.high behDotless-ar.init behDotless-ar.init.high hah-ar hah-ar.fina hah-ar.medi hah-ar.init dal-ar dal-ar.fina reh-ar reh-ar.fina seen-ar seen-ar.fina seen-ar.medi seen-ar.init sad-ar sad-ar.fina sad-ar.medi sad-ar.init tah-ar tah-ar.fina tah-ar.medi tah-ar.init ain-ar ain-ar.fina ain-ar.medi ain-ar.init fehDotless-ar fehDotless-ar.fina fehDotless-ar.medi fehDotless-ar.init qafDotless-ar qafDotless-ar.fina kafDotless-ar kafDotless-ar.fina kaf-ar.medi kaf-ar.init keheh-ar keheh-ar.fina lam-ar lam-ar.fina lam-ar.medi lam-ar.init meem-ar meem-ar.fina meem-ar.medi meem-ar.init noonghunna-ar noonghunna-ar.fina heh-ar heh-ar.fina heh-ar.medi heh-ar.init hehgoal-ar hehgoal-ar.fina hehgoal-ar.medi hehgoal-ar.init ae-ar hehDoachashmee-ar hehDoachashmee-ar.fina hehDoachashmee-ar.medi waw-ar waw-ar.fina alefMaksura-ar alefMaksura-ar.fina yehbarree-ar yehbarree-ar.fina";
 name = ArabicLetters;
 }
 );
@@ -221,21 +220,21 @@ code = "lookup compose {
  #sub uHamzaabove-ar							by highhamza-ar u-ar;
 #} early;
 
- sub alefHamzaabove-ar						by alef-ar.short hamzaabove-ar;
+ sub alefHamzaabove-ar						by alef-ar hamzaabove-ar;
  sub alefHamzabelow-ar						by alef-ar hamzabelow-ar;
- sub alefMadda-ar							by alef-ar.short madda-ar;
-#sub alefWasla-ar							by alef-ar.short wasla-ar;
-#sub alefWavyhamzaabove-ar					by alef-ar.short wavyhamzaabove-ar;
+ sub alefMadda-ar							by alef-ar madda-ar;
+#sub alefWasla-ar							by alef-ar wasla-ar;
+#sub alefWavyhamzaabove-ar					by alef-ar wavyhamzaabove-ar;
 #sub alefWavyhamzabelow-ar					by alef-ar wavyhamzabelow-ar;
-#sub alefTwoabove-ar						by alef-ar.short twoabove-ar;
-#sub alefThreeabove-ar						by alef-ar.short threeabove-ar;
+#sub alefTwoabove-ar						by alef-ar twoabove-ar;
+#sub alefThreeabove-ar						by alef-ar threeabove-ar;
 #sub alefFatha-ar							by alef-ar fathaattached-ar;
 #sub alefRightFatha-ar						by alef-ar fathaattachedright-ar;
 #sub alefRightMiddleStroke-ar				by alef-ar strokeright-ar;
 #sub alefLeftMiddleStroke-ar				by alef-ar strokeleft-ar;
 #sub alefKasra-ar							by alef-ar kasraattached-ar;
 #sub alefRightKasra-ar						by alef-ar kasraattachedright-ar;
-#sub alefRoundDotAbove-ar					by alef-ar.short rounddotattachedabove-ar;
+#sub alefRoundDotAbove-ar					by alef-ar rounddotattachedabove-ar;
 #sub alefRightRoundDot-ar					by alef-ar rounddotattachedright-ar;
 #sub alefLeftRoundDot-ar					by alef-ar rounddotattachedleft-ar;
 #sub alefRoundDotBelow-ar					by alef-ar rounddotattachedbelow-ar;
@@ -528,7 +527,6 @@ name = medi;
 },
 {
 code = " sub alef-ar								by alef-ar.fina;
- sub alef-ar.short							by alef-ar.short.fina;
  sub behDotless-ar							by behDotless-ar.fina;
  sub hah-ar									by hah-ar.fina;
  sub dal-ar									by dal-ar.fina;
@@ -573,12 +571,7 @@ code = " sub alef-ar								by alef-ar.fina;
 name = fina;
 },
 {
-code = "#lookup short_alef {
-# lookupflag UseMarkFilteringSet @MC_top;
-# sub [alef-ar alef-ar.fina]' @MC_top by [alef-ar.short alef-ar.short.fina];
-#} short_alef;
-
-lookup isolated_heh {
+code = "lookup isolated_heh {
   lookupflag IgnoreMarks;
     ignore
     sub @ArabicLetters heh-ar';
@@ -1855,144 +1848,6 @@ width = 196;
 );
 leftMetricsKey = "=alef-ar";
 rightMetricsKey = "=-20";
-},
-{
-glyphname = "alef-ar.short";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{108, -48}";
-},
-{
-name = top;
-position = "{108, 716}";
-}
-);
-layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
-paths = (
-{
-closed = 1;
-nodes = (
-"145 0 LINE",
-"160 14 LINE",
-"160 14 OFFCURVE",
-"145 138 OFFCURVE",
-"145 247 CURVE SMOOTH",
-"145 659 LINE",
-"142 667 LINE",
-"70 658 LINE",
-"70 0 LINE"
-);
-}
-);
-width = 230;
-},
-{
-associatedMasterId = "14EEE41F-D714-4243-A717-73445EE7DABA";
-components = (
-{
-name = "alef-ar";
-}
-);
-layerId = "63067D81-B144-4BC7-9223-DE3B49682313";
-name = "Dec 20 19, 16:30";
-width = 230;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{129, -48}";
-},
-{
-name = top;
-position = "{129, 714}";
-}
-);
-layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
-paths = (
-{
-closed = 1;
-nodes = (
-"195 0 LINE",
-"210 14 LINE",
-"210 14 OFFCURVE",
-"195 138 OFFCURVE",
-"195 247 CURVE SMOOTH",
-"195 663 LINE",
-"192 671 LINE",
-"60 655 LINE",
-"60 0 LINE"
-);
-}
-);
-width = 270;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{102, -48}";
-},
-{
-name = top;
-position = "{102, 717}";
-}
-);
-layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
-paths = (
-{
-closed = 1;
-nodes = (
-"110 0 LINE",
-"125 14 LINE",
-"125 14 OFFCURVE",
-"110 138 OFFCURVE",
-"110 247 CURVE SMOOTH",
-"110 656 LINE",
-"107 664 LINE",
-"80 660 LINE",
-"80 0 LINE"
-);
-}
-);
-width = 205;
-}
-);
-},
-{
-glyphname = "alef-ar.short.fina";
-layers = (
-{
-components = (
-{
-name = "alef-ar.fina";
-}
-);
-layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
-width = 231;
-},
-{
-components = (
-{
-name = "alef-ar.fina";
-}
-);
-layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
-width = 281;
-},
-{
-components = (
-{
-name = "alef-ar.fina";
-}
-);
-layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
-width = 196;
-}
-);
 },
 {
 glyphname = "behDotless-ar";
@@ -41967,11 +41822,11 @@ layers = (
 {
 components = (
 {
-name = "alef-ar.short";
+name = "alef-ar";
 },
 {
 name = "madda-ar";
-transform = "{1, 0, 0, 1, 20, 16}";
+transform = "{1, 0, 0, 1, 20, 104}";
 }
 );
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -41980,11 +41835,11 @@ width = 230;
 {
 components = (
 {
-name = "alef-ar.short";
+name = "alef-ar";
 },
 {
 name = "madda-ar";
-transform = "{1, 0, 0, 1, 20, 14}";
+transform = "{1, 0, 0, 1, 20, 104}";
 }
 );
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -41993,11 +41848,11 @@ width = 270;
 {
 components = (
 {
-name = "alef-ar.short";
+name = "alef-ar";
 },
 {
 name = "madda-ar";
-transform = "{1, 0, 0, 1, 26, 17}";
+transform = "{1, 0, 0, 1, 26, 104}";
 }
 );
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -42013,11 +41868,11 @@ layers = (
 {
 components = (
 {
-name = "alef-ar.short";
+name = "alef-ar";
 },
 {
-name = "hamzaaboveMark-ar";
-transform = "{1, 0, 0, 1, 24, 16}";
+name = "hamzaabove-ar";
+transform = "{1, 0, 0, 1, 24, 104}";
 }
 );
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -42026,11 +41881,11 @@ width = 230;
 {
 components = (
 {
-name = "alef-ar.short";
+name = "alef-ar";
 },
 {
-name = "hamzaaboveMark-ar";
-transform = "{1, 0, 0, 1, 20, 14}";
+name = "hamzaabove-ar";
+transform = "{1, 0, 0, 1, 20, 104}";
 }
 );
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -42039,11 +41894,11 @@ width = 270;
 {
 components = (
 {
-name = "alef-ar.short";
+name = "alef-ar";
 },
 {
-name = "hamzaaboveMark-ar";
-transform = "{1, 0, 0, 1, 26, 17}";
+name = "hamzaabove-ar";
+transform = "{1, 0, 0, 1, 26, 104}";
 }
 );
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -47911,7 +47766,7 @@ layers = (
 {
 components = (
 {
-name = "alef-ar.short.fina";
+name = "alef-ar.fina";
 },
 {
 name = "madda-ar";
@@ -47924,7 +47779,7 @@ width = 231;
 {
 components = (
 {
-name = "alef-ar.short.fina";
+name = "alef-ar.fina";
 },
 {
 name = "madda-ar";
@@ -47937,7 +47792,7 @@ width = 281;
 {
 components = (
 {
-name = "alef-ar.short.fina";
+name = "alef-ar.fina";
 },
 {
 name = "madda-ar";
@@ -47957,10 +47812,10 @@ layers = (
 {
 components = (
 {
-name = "alef-ar.short.fina";
+name = "alef-ar.fina";
 },
 {
-name = "hamzaaboveMark-ar";
+name = "hamzaabove-ar";
 transform = "{1, 0, 0, 1, 24, 104}";
 }
 );
@@ -47970,10 +47825,10 @@ width = 231;
 {
 components = (
 {
-name = "alef-ar.short.fina";
+name = "alef-ar.fina";
 },
 {
-name = "hamzaaboveMark-ar";
+name = "hamzaabove-ar";
 transform = "{1, 0, 0, 1, 19, 104}";
 }
 );
@@ -47983,10 +47838,10 @@ width = 281;
 {
 components = (
 {
-name = "alef-ar.short.fina";
+name = "alef-ar.fina";
 },
 {
-name = "hamzaaboveMark-ar";
+name = "hamzaabove-ar";
 transform = "{1, 0, 0, 1, 19, 104}";
 }
 );
@@ -56286,6 +56141,16 @@ rightMetricsKey = "=0";
 glyphname = "hamzaabove-ar";
 layers = (
 {
+anchors = (
+{
+name = _top;
+position = "{84, 700}";
+},
+{
+name = top;
+position = "{84, 957}";
+}
+);
 components = (
 {
 name = "hamzaaboveMark-ar";
@@ -56388,6 +56253,16 @@ nodes = (
 width = 194;
 },
 {
+anchors = (
+{
+name = _top;
+position = "{109, 700}";
+},
+{
+name = top;
+position = "{109, 993}";
+}
+);
 components = (
 {
 name = "hamzaaboveMark-ar";
@@ -56539,6 +56414,16 @@ nodes = (
 width = 194;
 },
 {
+anchors = (
+{
+name = _top;
+position = "{76, 700}";
+},
+{
+name = top;
+position = "{76, 936}";
+}
+);
 components = (
 {
 name = "hamzaaboveMark-ar";
