@@ -48,26 +48,28 @@ $(foreach font,$(1),${PYTHON} ${SCRIPTDIR}/dist.py $(2)/$(notdir ${font}) ${VERS
 endef
 
 setup: requirements.txt
-	@echo "    Setting up Python virtual environment"
+	echo "    Setting up Python virtual environment"
 	${PYTHON} -m venv ${VENVDIR}
 	${VENVDIR}/bin/pip install ${QUITE} -U pip
 	${VENVDIR}/bin/pip install ${QUITE} -U wheel
 	${VENVDIR}/bin/pip install ${QUITE} --no-deps -r $<
 
 ${NAME}-%.ttf: ${GLYPHSFILE}
-	@echo "    MAKE            $(@F)"
+	echo "    MAKE    $(@F)"
+	mkdir -p $(@D)
 	${FONTMAKE} ${FMOPTS} $< --output-path=$@ --output=ttf --interpolate=".* $(*F)"
 
 ${VARIABLE}: ${GLYPHSFILE}
-	@echo "    MAKE            $(@F)"
+	echo "    MAKE    $(@F)"
+	mkdir -p $(@D)
 	${FONTMAKE} ${FMOPTS} $< --output-path=$@ --output=variable
 
 dist: ttf vf
-	@echo "    DIST            ${DIST}"
-	@rm -rf ${DIST}{,.zip}
-	@mkdir -p ${DIST}/${STATICDIR}
-	@mkdir -p ${DIST}/${VARIABLEDIR}
+	echo "    DIST    ${DIST}"
+	rm -rf ${DIST}{,.zip}
+	mkdir -p ${DIST}/${STATICDIR}
+	mkdir -p ${DIST}/${VARIABLEDIR}
 	$(call copyfont,${STATIC},${DIST}/${STATICDIR})
 	$(call copyfont,${VARIABLE},${DIST}/${VARIABLEDIR})
-	@echo "    ZIP             ${DIST}.zip"
-	@zip -rq ${DIST}.zip ${DIST}
+	echo "    ZIP             ${DIST}.zip"
+	zip -rq ${DIST}.zip ${DIST}
