@@ -130,6 +130,10 @@ Name = Weight;
 Tag = wght;
 }
 );
+},
+{
+name = "Variable Font Origin";
+value = "14EEE41F-D714-4243-A717-73445EE7DABA";
 }
 );
 date = "2022-10-31 09:13:08 +0000";
@@ -619,6 +623,15 @@ customParameters = (
 {
 name = "Master Icon Glyph Name";
 value = "seen-ar.init";
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 200;
+}
+);
 }
 );
 descender = -200;
@@ -641,6 +654,15 @@ customParameters = (
 {
 name = "Master Icon Glyph Name";
 value = "seen-ar.init";
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+}
+);
 }
 );
 descender = -200;
@@ -663,6 +685,15 @@ customParameters = (
 {
 name = "Master Icon Glyph Name";
 value = "seen-ar.init";
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 800;
+}
+);
 }
 );
 descender = -200;
