@@ -19,6 +19,9 @@ from argparse import ArgumentParser
 
 from fontTools.ttLib import TTFont
 
+from gftools.fix import fix_unhinted_font
+from gftools.stat import gen_stat_tables
+
 
 def main():
     parser = ArgumentParser(description="Set font version.")
@@ -52,6 +55,10 @@ def main():
             name.string = ";".join(parts)
 
     font["post"].formatType = 3
+
+    if "fvar" in font:
+        gen_stat_tables([font])
+    fix_unhinted_font(font)
 
     font.save(args.input)
 
