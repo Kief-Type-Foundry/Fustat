@@ -44,7 +44,7 @@ ttf: ${STATIC}
 
 define copyfont
 cp $(1) $(2);
-$(foreach font,$(1),${PYTHON} ${SCRIPTDIR}/dist.py $(2)/$(notdir ${font}) ${VERSION} ${VERBOSE};)
+$(foreach font,$(1),${PYTHON} ${SCRIPTDIR}/set-version.py $(2)/$(notdir ${font}) ${VERSION} ${VERBOSE};)
 endef
 
 setup: requirements.txt
@@ -71,5 +71,5 @@ dist: ttf vf
 	mkdir -p ${DIST}/${VARIABLEDIR}
 	$(call copyfont,${STATIC},${DIST}/${STATICDIR})
 	$(call copyfont,${VARIABLE},${DIST}/${VARIABLEDIR})
-	echo "    ZIP             ${DIST}.zip"
+	echo "    ZIP     ${DIST}.zip"
 	zip -rq ${DIST}.zip ${DIST}
