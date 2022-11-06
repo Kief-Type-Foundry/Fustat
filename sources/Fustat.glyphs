@@ -146,7 +146,8 @@ wght = {
 200 = 30;
 300 = 55;
 400 = 75;
-500 = 100;
+500 = 85;
+600 = 100;
 700 = 115;
 800 = 135;
 };
@@ -61740,10 +61741,6 @@ value = (
 "behDotless-ar.init",
 "alef-ar"
 );
-},
-{
-name = Autohint;
-value = 1;
 }
 );
 interpolationWeight = 30;
@@ -61764,10 +61761,6 @@ value = (
 "behDotless-ar.init",
 "alef-ar"
 );
-},
-{
-name = Autohint;
-value = 1;
 }
 );
 interpolationWeight = 55;
@@ -61789,10 +61782,6 @@ value = (
 "behDotless-ar.init",
 "alef-ar"
 );
-},
-{
-name = Autohint;
-value = 1;
 }
 );
 interpolationWeight = 75;
@@ -61812,15 +61801,12 @@ value = (
 "behDotless-ar.init",
 "alef-ar"
 );
-},
-{
-name = Autohint;
-value = 1;
 }
 );
+interpolationWeight = 85;
 instanceInterpolations = {
-"090CB6A0-BE7C-4D17-A551-206C7456A8A3" = 0.41667;
-"14EEE41F-D714-4243-A717-73445EE7DABA" = 0.58333;
+"090CB6A0-BE7C-4D17-A551-206C7456A8A3" = 0.16667;
+"14EEE41F-D714-4243-A717-73445EE7DABA" = 0.83333;
 };
 name = Medium;
 weightClass = Medium;
@@ -61836,10 +61822,26 @@ value = (
 "behDotless-ar.init",
 "alef-ar"
 );
+}
+);
+instanceInterpolations = {
+"090CB6A0-BE7C-4D17-A551-206C7456A8A3" = 0.41667;
+"14EEE41F-D714-4243-A717-73445EE7DABA" = 0.58333;
+};
+name = SemiBold;
+weightClass = SemiBold;
 },
 {
-name = Autohint;
-value = 1;
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+"yeh-farsi",
+"dal-ar.fina",
+"hah-ar.medi",
+"behDotless-ar.init",
+"alef-ar"
+);
 }
 );
 interpolationWeight = 115;
@@ -61862,10 +61864,6 @@ value = (
 "behDotless-ar.init",
 "alef-ar"
 );
-},
-{
-name = Autohint;
-value = 1;
 }
 );
 interpolationWeight = 135;
