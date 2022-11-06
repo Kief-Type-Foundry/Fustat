@@ -199,7 +199,6 @@ designerURL = "http://gaber.design/";
 familyName = Fustat;
 featurePrefixes = (
 {
-automatic = 1;
 code = "languagesystem DFLT dflt;
 
 languagesystem arab dflt;
