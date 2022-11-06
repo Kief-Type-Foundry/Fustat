@@ -154,11 +154,11 @@ wght = {
 },
 {
 name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 },
 {
 name = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://scripts.sil.org/OFL";
 },
 {
 name = typoAscender;
@@ -195,7 +195,7 @@ value = 500;
 );
 date = "2022-10-31 09:13:08 +0000";
 designer = "Mohamed Gaber, Khaled Hosny";
-designerURL = "http://gaber.design/";
+designerURL = "https://gaber.design/";
 familyName = Fustat;
 featurePrefixes = (
 {
@@ -61879,7 +61879,7 @@ weightClass = ExtraBold;
 );
 keepAlternatesTogether = 1;
 manufacturer = "Kief Type Foundry, Alif Type Foundry";
-manufacturerURL = "http://kieftype.com/";
+manufacturerURL = "https://kieftype.com/";
 unitsPerEm = 1000;
 userData = {
 GSDimensionPlugin.Dimensions = {
