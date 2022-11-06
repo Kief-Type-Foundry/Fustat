@@ -151,6 +151,14 @@ wght = {
 800 = 135;
 };
 };
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "http://scripts.sil.org/OFL";
 }
 );
 date = "2022-10-31 09:13:08 +0000";
