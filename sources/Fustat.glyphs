@@ -61661,23 +61661,6 @@ weightClass = ExtraBold;
 }
 );
 keepAlternatesTogether = 1;
-kerning = {
-"14EEE41F-D714-4243-A717-73445EE7DABA" = {
-"@MMK_L_feh" = {
-"@MMK_R_yeh" = -40;
-"@MMK_R_yeh2" = -203;
-};
-"@MMK_L_hah-join" = {
-"@MMK_R_hah-join" = -100;
-};
-"fehThreedotsbelow-ar.init" = {
-"@MMK_R_yeh2" = -143;
-};
-"fehThreedotsbelow-ar.medi" = {
-"@MMK_R_yeh2" = -143;
-};
-};
-};
 manufacturer = "Kief Type Foundry, Alif Type Foundry";
 manufacturerURL = "http://kieftype.com/";
 unitsPerEm = 1000;
