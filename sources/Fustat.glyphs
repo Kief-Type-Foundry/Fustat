@@ -55593,26 +55593,7 @@ layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 width = 240;
 }
 );
-unicode = 0020;
-},
-{
-glyphname = nbspace;
-layers = (
-{
-layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
-width = 232;
-},
-{
-layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
-width = 234;
-},
-{
-layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
-width = 600;
-}
-);
-widthMetricsKey = space;
-unicode = 00A0;
+unicode = "0020,00A0";
 },
 {
 glyphname = "dotabove-ar";
