@@ -61526,10 +61526,6 @@ value = (
 {
 name = Autohint;
 value = 1;
-},
-{
-name = Filter;
-value = RemoveOverlap;
 }
 );
 interpolationWeight = 30;
@@ -61554,10 +61550,6 @@ value = (
 {
 name = Autohint;
 value = 1;
-},
-{
-name = Filter;
-value = RemoveOverlap;
 }
 );
 interpolationWeight = 55;
@@ -61583,10 +61575,6 @@ value = (
 {
 name = Autohint;
 value = 1;
-},
-{
-name = Filter;
-value = RemoveOverlap;
 }
 );
 interpolationWeight = 85;
@@ -61611,10 +61599,6 @@ value = (
 {
 name = Autohint;
 value = 1;
-},
-{
-name = Filter;
-value = RemoveOverlap;
 }
 );
 instanceInterpolations = {
@@ -61639,10 +61623,6 @@ value = (
 {
 name = Autohint;
 value = 1;
-},
-{
-name = Filter;
-value = RemoveOverlap;
 }
 );
 interpolationWeight = 115;
@@ -61669,10 +61649,6 @@ value = (
 {
 name = Autohint;
 value = 1;
-},
-{
-name = Filter;
-value = RemoveOverlap;
 }
 );
 interpolationWeight = 135;
