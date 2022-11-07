@@ -6,6 +6,8 @@
 
   <glyph name="alef-ar" unicode="0627" category="Letter" script="arabic" anchors="top, bottom" sortName="arL0004" accents="alefabove-ar, alefbelow-ar, damma-ar, dammatan-ar, dotbelow-ar, fatha-ar, fathatan-ar, hamzaabove-ar, hamzabelow-ar, kasra-ar, kasratan-ar, madda-ar, shadda-ar, sukun-ar, twodotshorizontalbelow-ar" />
   <glyph name="alef-ar.fina" category="Letter" script="arabic" anchors="top, bottom" sortName="arL0005" accents="alefabove-ar, alefbelow-ar, damma-ar, dammatan-ar, dotbelow-ar, fatha-ar, fathatan-ar, hamzaabove-ar, hamzabelow-ar, kasra-ar, kasratan-ar, madda-ar, shadda-ar, sukun-ar, twodotshorizontalbelow-ar" />
+  <glyph name="alef-ar.short" category="Letter" script="arabic" anchors="top, bottom" sortName="arL0006" accents="alefabove-ar, alefbelow-ar, damma-ar, dammatan-ar, dotbelow-ar, fatha-ar, fathatan-ar, hamzaabove-ar, hamzabelow-ar, kasra-ar, kasratan-ar, madda-ar, shadda-ar, sukun-ar, twodotshorizontalbelow-ar" />
+  <glyph name="alef-ar.fina.short" category="Letter" script="arabic" anchors="top, bottom" sortName="arL0007" accents="alefabove-ar, alefbelow-ar, damma-ar, dammatan-ar, dotbelow-ar, fatha-ar, fathatan-ar, hamzaabove-ar, hamzabelow-ar, kasra-ar, kasratan-ar, madda-ar, shadda-ar, sukun-ar, twodotshorizontalbelow-ar" />
   <glyph name="behDotless-ar" unicode="066E" category="Letter" script="arabic" anchors="top, bottom, ring" sortName="arL0008" accents="alefabove-ar, alefbelow-ar, damma-ar, dammatan-ar, dotbelow-ar, fatha-ar, fathatan-ar, hamzaabove-ar, hamzabelow-ar, kasra-ar, kasratan-ar, madda-ar, shadda-ar, sukun-ar, twodotshorizontalbelow-ar" />
   <glyph name="behDotless-ar.fina" category="Letter" script="arabic" anchors="top, bottom, ring" sortName="arL0009" accents="alefabove-ar, alefbelow-ar, damma-ar, dammatan-ar, dotbelow-ar, fatha-ar, fathatan-ar, hamzaabove-ar, hamzabelow-ar, kasra-ar, kasratan-ar, madda-ar, shadda-ar, sukun-ar, twodotshorizontalbelow-ar" />
   <glyph name="behDotless-ar.medi" category="Letter" script="arabic" anchors="top, bottom, ring" sortName="arL0010" accents="alefabove-ar, alefbelow-ar, damma-ar, dammatan-ar, dotbelow-ar, fatha-ar, fathatan-ar, hamzaabove-ar, hamzabelow-ar, kasra-ar, kasratan-ar, madda-ar, shadda-ar, sukun-ar, twodotshorizontalbelow-ar" />
@@ -91,29 +93,29 @@
   <glyph name="yehSmall-ar" unicode="06E6" category="Letter" subCategory="Modifier" script="arabic" sortName="arL0089" />
   <glyph name="yehSmall-farsi" unicode="08C9" category="Letter" subCategory="Modifier" script="arabic" sortName="arL0090" />
 
-  <glyph name="alefMadda-ar" unicode="0622" category="Letter" script="arabic" decompose="alef-ar, madda-ar" sortName="arL0091" />
-  <glyph name="alefHamzaabove-ar" unicode="0623" category="Letter" script="arabic" decompose="alef-ar, hamzaabove-ar" sortName="arL0092" />
+  <glyph name="alefMadda-ar" unicode="0622" category="Letter" script="arabic" decompose="alef-ar.short, madda-ar" sortName="arL0091" />
+  <glyph name="alefHamzaabove-ar" unicode="0623" category="Letter" script="arabic" decompose="alef-ar.short, hamzaabove-ar" sortName="arL0092" />
   <glyph name="alefHamzabelow-ar" unicode="0625" category="Letter" script="arabic" decompose="alef-ar, hamzabelow-ar" sortName="arL0093" />
-  <glyph name="alefWasla-ar" unicode="0671" category="Letter" script="arabic" decompose="alef-ar, wasla-ar" sortName="arL0094" />
-  <glyph name="alefWavyhamzaabove-ar" unicode="0672" category="Letter" script="arabic" decompose="alef-ar, wavyhamzaabove-ar" sortName="arL0095" />
+  <glyph name="alefWasla-ar" unicode="0671" category="Letter" script="arabic" decompose="alef-ar.short, wasla-ar" sortName="arL0094" />
+  <glyph name="alefWavyhamzaabove-ar" unicode="0672" category="Letter" script="arabic" decompose="alef-ar.short, wavyhamzaabove-ar" sortName="arL0095" />
   <glyph name="alefWavyhamzabelow-ar" unicode="0673" category="Letter" script="arabic" decompose="alef-ar, wavyhamzabelow-ar" sortName="arL0096" />
-  <glyph name="alefTwoabove-ar" unicode="0773" category="Letter" script="arabic" decompose="alef-ar, twoabove-ar" sortName="arL0097" />
-  <glyph name="alefThreeabove-ar" unicode="0774" category="Letter" script="arabic" decompose="alef-ar, threeabove-ar" sortName="arL0098" />
-  <glyph name="alefFatha-ar" unicode="0870" category="Letter" script="arabic" decompose="alef-ar, fathaattached-ar" sortName="arL0099" />
-  <glyph name="alefRightFatha-ar" unicode="0871" category="Letter" script="arabic" decompose="alef-ar, fathaattachedright-ar" sortName="arL0100" />
+  <glyph name="alefTwoabove-ar" unicode="0773" category="Letter" script="arabic" decompose="alef-ar.short, twoabove-ar" sortName="arL0097" />
+  <glyph name="alefThreeabove-ar" unicode="0774" category="Letter" script="arabic" decompose="alef-ar.short, threeabove-ar" sortName="arL0098" />
+  <glyph name="alefFatha-ar" unicode="0870" category="Letter" script="arabic" decompose="alef-ar.short, fathaattached-ar" sortName="arL0099" />
+  <glyph name="alefRightFatha-ar" unicode="0871" category="Letter" script="arabic" decompose="alef-ar.short, fathaattachedright-ar" sortName="arL0100" />
   <glyph name="alefRightMiddleStroke-ar" unicode="0872" category="Letter" script="arabic" decompose="alef-ar, strokeright-ar" sortName="arL0101" />
   <glyph name="alefLeftMiddleStroke-ar" unicode="0873" category="Letter" script="arabic" decompose="alef-ar, strokeleft-ar" sortName="arL0102" />
   <glyph name="alefKasra-ar" unicode="0874" category="Letter" script="arabic" decompose="alef-ar, kasraattached-ar" sortName="arL0103" />
   <glyph name="alefRightKasra-ar" unicode="0875" category="Letter" script="arabic" decompose="alef-ar, kasraattachedright-ar" sortName="arL0104" />
-  <glyph name="alefRoundDotAbove-ar" unicode="0876" category="Letter" script="arabic" decompose="alef-ar, rounddotattachedabove-ar" sortName="arL0105" />
+  <glyph name="alefRoundDotAbove-ar" unicode="0876" category="Letter" script="arabic" decompose="alef-ar.short, rounddotattachedabove-ar" sortName="arL0105" />
   <glyph name="alefRightRoundDot-ar" unicode="0877" category="Letter" script="arabic" decompose="alef-ar, rounddotattachedright-ar" sortName="arL0106" />
   <glyph name="alefLeftRoundDot-ar" unicode="0878" category="Letter" script="arabic" decompose="alef-ar, rounddotattachedleft-ar" sortName="arL0107" />
   <glyph name="alefRoundDotBelow-ar" unicode="0879" category="Letter" script="arabic" decompose="alef-ar, rounddotattachedbelow-ar" sortName="arL0108" />
-  <glyph name="alefDotAbove-ar" unicode="087A" category="Letter" script="arabic" decompose="alef-ar, dotabove-ar" sortName="arL0109" />
-  <glyph name="alefRightFathaDotAbove-ar" unicode="087B" category="Letter" script="arabic" decompose="alef-ar, fathaattachedright-ar, dotabove-ar" sortName="arL0110" />
-  <glyph name="alefRightMiddleStrokeDotAbove-ar" unicode="087C" category="Letter" script="arabic" decompose="alef-ar, strokeright-ar, dotabove-ar" sortName="arL0111" />
-  <glyph name="alefRightKasraDotAbove-ar" unicode="087D" category="Letter" script="arabic" decompose="alef-ar, kasraattachedright-ar, dotabove-ar" sortName="arL0112" />
-  <glyph name="alefRightFathaLeftRing-ar" unicode="087E" category="Letter" script="arabic" decompose="alef-ar, fathaattachedright-ar, ringattachedleft-ar" sortName="arL0113" />
+  <glyph name="alefDotAbove-ar" unicode="087A" category="Letter" script="arabic" decompose="alef-ar.short, dotabove-ar" sortName="arL0109" />
+  <glyph name="alefRightFathaDotAbove-ar" unicode="087B" category="Letter" script="arabic" decompose="alef-ar.short, fathaattachedright-ar, dotabove-ar" sortName="arL0110" />
+  <glyph name="alefRightMiddleStrokeDotAbove-ar" unicode="087C" category="Letter" script="arabic" decompose="alef-ar.short, strokeright-ar, dotabove-ar" sortName="arL0111" />
+  <glyph name="alefRightKasraDotAbove-ar" unicode="087D" category="Letter" script="arabic" decompose="alef-ar.short, kasraattachedright-ar, dotabove-ar" sortName="arL0112" />
+  <glyph name="alefRightFathaLeftRing-ar" unicode="087E" category="Letter" script="arabic" decompose="alef-ar.short, fathaattachedright-ar, ringattachedleft-ar" sortName="arL0113" />
   <glyph name="alefRightMiddleStrokeLeftRing-ar" unicode="087F" category="Letter" script="arabic" decompose="alef-ar, strokeright-ar, ringattachedleft-ar" sortName="arL0114" />
   <glyph name="alefRightKasraLeftRing-ar" unicode="0880" category="Letter" script="arabic" decompose="alef-ar, kasraattachedright-ar, ringattachedleft-ar" sortName="arL0115" />
   <glyph name="alefRightHamza-ar" unicode="0881" category="Letter" script="arabic" decompose="alef-ar, hamzaattachedright-ar" sortName="arL0116" />
@@ -619,14 +621,14 @@
   <glyph name="meemDotbelow-ar.medi" category="Letter" script="arabic" decompose="meem-ar.medi, dotbelow-ar" sortName="arL0614" />
   <glyph name="hehgoalHamzaabove-ar.medi" category="Letter" script="arabic" decompose="hehgoal-ar.medi, hamzaabove-ar" sortName="arL0615" />
   <glyph name="hehVinvertedabove-ar.medi" category="Letter" script="arabic" decompose="hehDoachashmee-ar.medi, vinvertedabove-ar" sortName="arL0616" />
-  <glyph name="alefMadda-ar.fina" category="Letter" script="arabic" decompose="alef-ar.fina, madda-ar" sortName="arL0617" />
-  <glyph name="alefHamzaabove-ar.fina" category="Letter" script="arabic" decompose="alef-ar.fina, hamzaabove-ar" sortName="arL0618" />
+  <glyph name="alefMadda-ar.fina" category="Letter" script="arabic" decompose="alef-ar.short.fina, madda-ar" sortName="arL0617" />
+  <glyph name="alefHamzaabove-ar.fina" category="Letter" script="arabic" decompose="alef-ar.short.fina, hamzaabove-ar" sortName="arL0618" />
   <glyph name="alefHamzabelow-ar.fina" category="Letter" script="arabic" decompose="alef-ar.fina, hamzabelow-ar" sortName="arL0619" />
-  <glyph name="alefWasla-ar.fina" category="Letter" script="arabic" decompose="alef-ar.fina, wasla-ar" sortName="arL0620" />
-  <glyph name="alefWavyhamzaabove-ar.fina" category="Letter" script="arabic" decompose="alef-ar.fina, wavyhamzaabove-ar" sortName="arL0621" />
+  <glyph name="alefWasla-ar.fina" category="Letter" script="arabic" decompose="alef-ar.short.fina, wasla-ar" sortName="arL0620" />
+  <glyph name="alefWavyhamzaabove-ar.fina" category="Letter" script="arabic" decompose="alef-ar.short.fina, wavyhamzaabove-ar" sortName="arL0621" />
   <glyph name="alefWavyhamzabelow-ar.fina" category="Letter" script="arabic" decompose="alef-ar.fina, wavyhamzabelow-ar" sortName="arL0622" />
-  <glyph name="alefTwoabove-ar.fina" category="Letter" script="arabic" decompose="alef-ar.fina, twoabove-ar" sortName="arL0623" />
-  <glyph name="alefThreeabove-ar.fina" category="Letter" script="arabic" decompose="alef-ar.fina, threeabove-ar" sortName="arL0624" />
+  <glyph name="alefTwoabove-ar.fina" category="Letter" script="arabic" decompose="alef-ar.short.fina, twoabove-ar" sortName="arL0623" />
+  <glyph name="alefThreeabove-ar.fina" category="Letter" script="arabic" decompose="alef-ar.short.fina, threeabove-ar" sortName="arL0624" />
   <glyph name="beh-ar.fina" category="Letter" script="arabic" decompose="behDotless-ar.fina, dotbelow-ar" sortName="arL0625" />
   <glyph name="teh-ar.fina" category="Letter" script="arabic" decompose="behDotless-ar.fina, twodotshorizontalabove-ar" sortName="arL0626" />
   <glyph name="theh-ar.fina" category="Letter" script="arabic" decompose="behDotless-ar.fina, threedotsupabove-ar" sortName="arL0627" />
@@ -844,7 +846,9 @@
   <glyph name="fehDotless_alefMaksura-ar" category="Letter" subCategory="Ligature" script="arabic" anchors="top, bottom" sortName="arL0835" accents="alefabove-ar, alefbelow-ar, damma-ar, dammatan-ar, dotbelow-ar, fatha-ar, fathatan-ar, hamzaabove-ar, hamzabelow-ar, kasra-ar, kasratan-ar, madda-ar, shadda-ar, sukun-ar, twodotshorizontalbelow-ar" />
 
   <glyph name="kaf_alef-ar" category="Letter" subCategory="Ligature" script="arabic" anchors="top, bottom" sortName="arL0836" accents="alefabove-ar, alefbelow-ar, damma-ar, dammatan-ar, dotbelow-ar, fatha-ar, fathatan-ar, gafsarkashabove-ar, gafsarkashcenter-ar, hamzaabove-ar, hamzabelow-ar, kasra-ar, kasratan-ar, madda-ar, shadda-ar, sukun-ar, twodotshorizontalbelow-ar" />
+  <glyph name="kaf_alef-ar.short" category="Letter" subCategory="Ligature" script="arabic" anchors="top, bottom" sortName="arL0837" accents="alefabove-ar, alefbelow-ar, damma-ar, dammatan-ar, dotbelow-ar, fatha-ar, fathatan-ar, gafsarkashabove-ar, gafsarkashcenter-ar, hamzaabove-ar, hamzabelow-ar, kasra-ar, kasratan-ar, madda-ar, shadda-ar, sukun-ar, twodotshorizontalbelow-ar" />
   <glyph name="kaf_alef-ar.fina" category="Letter" subCategory="Ligature" script="arabic" anchors="top, bottom" sortName="arL0838" accents="alefabove-ar, alefbelow-ar, damma-ar, dammatan-ar, dotbelow-ar, fatha-ar, fathatan-ar, gafsarkashabove-ar, gafsarkashcenter-ar, hamzaabove-ar, hamzabelow-ar, kasra-ar, kasratan-ar, madda-ar, shadda-ar, sukun-ar, twodotshorizontalbelow-ar" />
+  <glyph name="kaf_alef-ar.fina.short" category="Letter" subCategory="Ligature" script="arabic" anchors="top, bottom" sortName="arL0839" accents="alefabove-ar, alefbelow-ar, damma-ar, dammatan-ar, dotbelow-ar, fatha-ar, fathatan-ar, gafsarkashabove-ar, gafsarkashcenter-ar, hamzaabove-ar, hamzabelow-ar, kasra-ar, kasratan-ar, madda-ar, shadda-ar, sukun-ar, twodotshorizontalbelow-ar" />
   <glyph name="kaf_kafDotless-ar" category="Letter" subCategory="Ligature" script="arabic" anchors="top, bottom" sortName="arL0840" accents="alefabove-ar, alefbelow-ar, damma-ar, dammatan-ar, dotbelow-ar, fatha-ar, fathatan-ar, gafsarkashabove-ar, gafsarkashcenter-ar, hamzaabove-ar, hamzabelow-ar, kasra-ar, kasratan-ar, madda-ar, shadda-ar, sukun-ar, twodotshorizontalbelow-ar" />
   <glyph name="kaf_kafDotless-ar.fina" category="Letter" subCategory="Ligature" script="arabic" anchors="top, bottom" sortName="arL0841" accents="alefabove-ar, alefbelow-ar, damma-ar, dammatan-ar, dotbelow-ar, fatha-ar, fathatan-ar, gafsarkashabove-ar, gafsarkashcenter-ar, hamzaabove-ar, hamzabelow-ar, kasra-ar, kasratan-ar, madda-ar, shadda-ar, sukun-ar, twodotshorizontalbelow-ar" />
   <glyph name="kaf_lam-ar" category="Letter" subCategory="Ligature" script="arabic" anchors="top, bottom, stroke" sortName="arL0842" accents="alefabove-ar, alefbelow-ar, damma-ar, dammatan-ar, dotbelow-ar, doublestroke-ar, fatha-ar, fathatan-ar, gafsarkashabove-ar, gafsarkashcenter-ar, hamzaabove-ar, hamzabelow-ar, kasra-ar, kasratan-ar, madda-ar, shadda-ar, stroke-ar, sukun-ar, twodotshorizontalbelow-ar" />
