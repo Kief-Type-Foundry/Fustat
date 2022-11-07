@@ -60,6 +60,7 @@ ${BUILDDIR}/${NAME}.designspace: ${GLYPHSFILE}
 		--minimal \
 		--propagate-anchors \
 		--write-public-skip-export-glyphs \
+		--generate-GDEF \
 		--glyph-data=${SOURCEDIR}/GlyphData.xml \
 		--output-dir=$(@D) \
 		$<

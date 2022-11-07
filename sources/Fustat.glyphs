@@ -46,7 +46,7 @@ kasratan-ar
 name = marktop;
 },
 {
-code = "hamza-ar alef-ar alef-ar.fina behDotless-ar behDotless-ar.fina behDotless-ar.medi behDotless-ar.medi.high behDotless-ar.init behDotless-ar.init.high hah-ar hah-ar.fina hah-ar.medi hah-ar.init dal-ar dal-ar.fina reh-ar reh-ar.fina seen-ar seen-ar.fina seen-ar.medi seen-ar.init sad-ar sad-ar.fina sad-ar.medi sad-ar.init tah-ar tah-ar.fina tah-ar.medi tah-ar.init ain-ar ain-ar.fina ain-ar.medi ain-ar.init fehDotless-ar fehDotless-ar.fina fehDotless-ar.medi fehDotless-ar.init qafDotless-ar qafDotless-ar.fina kafDotless-ar kafDotless-ar.fina kaf-ar.medi kaf-ar.init keheh-ar keheh-ar.fina lam-ar lam-ar.fina lam-ar.medi lam-ar.init meem-ar meem-ar.alt meem-ar.fina meem-ar.fina.alt meem-ar.medi meem-ar.init noonghunna-ar noonghunna-ar.fina heh-ar heh-ar.fina heh-ar.medi heh-ar.init hehgoal-ar hehgoal-ar.fina hehgoal-ar.medi hehgoal-ar.init ae-ar hehDoachashmee-ar hehDoachashmee-ar.fina hehDoachashmee-ar.medi waw-ar waw-ar.fina alefMaksura-ar alefMaksura-ar.fina yehbarree-ar yehbarree-ar.fina kashida-ar alefMadda-ar alefHamzaabove-ar alefHamzabelow-ar beh-ar teh-ar theh-ar tteh-ar tehThreedotsdown-ar peh-ar jeem-ar khah-ar tcheh-ar thal-ar ddal-ar dalThreedotsdown-ar zain-ar rreh-ar jeh-ar sheen-ar sheenThreedotsbelow-ar dad-ar zah-ar ghain-ar ainThreedotsdownabove-ar feh-ar fehDotmovedbelow-ar veh-ar fehThreedotsbelow-ar qaf-ar qafDotabove-ar qafThreedotsabove-ar kaf-ar ng-ar gaf-ar kehehThreedotsabove-ar noon-ar tehMarbuta-ar hehHamzaabove-ar hehgoalHamzaabove-ar tehMarbutagoal-ar wawHamzaabove-ar yehHamzaabove-ar yeh-ar yeh-farsi yehbarreeHamzaabove-ar lam_alef-ar lam_alef-ar.fina lam_alef-ar.fina.alt lam_hah-ar lam_hah-ar.init behDotless_hah-ar behDotless_hah-ar.init
+code = "hamza-ar alef-ar alef-ar.fina behDotless-ar behDotless-ar.fina behDotless-ar.medi behDotless-ar.medi.high behDotless-ar.init behDotless-ar.init.high hah-ar hah-ar.fina hah-ar.medi hah-ar.init dal-ar dal-ar.fina reh-ar reh-ar.fina seen-ar seen-ar.fina seen-ar.medi seen-ar.init sad-ar sad-ar.fina sad-ar.medi sad-ar.init tah-ar tah-ar.fina tah-ar.medi tah-ar.init ain-ar ain-ar.fina ain-ar.medi ain-ar.init fehDotless-ar fehDotless-ar.fina fehDotless-ar.medi fehDotless-ar.init qafDotless-ar qafDotless-ar.fina kafDotless-ar kafDotless-ar.fina kaf-ar.medi kaf-ar.init keheh-ar keheh-ar.fina lam-ar lam-ar.fina lam-ar.medi lam-ar.init meem-ar meem-ar.alt meem-ar.fina meem-ar.fina.alt meem-ar.medi meem-ar.init noonghunna-ar noonghunna-ar.fina heh-ar heh-ar.fina heh-ar.medi heh-ar.init hehgoal-ar hehgoal-ar.fina hehgoal-ar.medi ae-ar hehDoachashmee-ar hehDoachashmee-ar.fina hehDoachashmee-ar.medi waw-ar waw-ar.fina alefMaksura-ar alefMaksura-ar.fina yehbarree-ar yehbarree-ar.fina kashida-ar alefMadda-ar alefHamzaabove-ar alefHamzabelow-ar beh-ar teh-ar theh-ar tteh-ar tehThreedotsdown-ar peh-ar jeem-ar khah-ar tcheh-ar thal-ar ddal-ar dalThreedotsdown-ar zain-ar rreh-ar jeh-ar sheen-ar sheenThreedotsbelow-ar dad-ar zah-ar ghain-ar ainThreedotsdownabove-ar feh-ar fehDotmovedbelow-ar veh-ar fehThreedotsbelow-ar qaf-ar qafDotabove-ar qafThreedotsabove-ar kaf-ar ng-ar gaf-ar kehehThreedotsabove-ar noon-ar tehMarbuta-ar hehHamzaabove-ar hehgoalHamzaabove-ar tehMarbutagoal-ar wawHamzaabove-ar yehHamzaabove-ar yeh-ar yeh-farsi yehbarreeHamzaabove-ar lam_alef-ar lam_alef-ar.fina lam_alef-ar.fina.alt lam_hah-ar lam_hah-ar.init behDotless_hah-ar behDotless_hah-ar.init
 ";
 name = ArabicLetters;
 }
@@ -500,7 +500,7 @@ code = " lookup center_marks;
 #sub noonThreedotsabove-ar					by behDotless-ar.init threedotsdownbelow-ar;
 #sub noonAfrican-ar							by behDotless-ar.init dotabove-ar;
  sub [heh-ar hehDoachashmee-ar]				by heh-ar.init;
- sub hehgoal-ar								by hehgoal-ar.init hehgoalMark-ar;
+ sub hehgoal-ar								by behDotless-ar.init hehgoalMark-ar;
  sub yeh-farsi								by behDotless-ar.init twodotshorizontalbelow-ar;
  sub yehbarree-ar							by behDotless-ar.init twodotshorizontalbelow-ar;
 #sub kashida-ar								by kashida-ar.init;
@@ -37770,43 +37770,6 @@ width = 435;
 );
 leftMetricsKey = "=-20";
 rightMetricsKey = "=-20";
-},
-{
-glyphname = "hehgoal-ar.init";
-layers = (
-{
-components = (
-{
-name = "behDotless-ar.init";
-transform = "{1, 0, 0, 1, -20, 0}";
-}
-);
-layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
-width = 211;
-},
-{
-components = (
-{
-name = "behDotless-ar.init";
-transform = "{1, 0, 0, 1, -20, 0}";
-}
-);
-layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
-width = 266;
-},
-{
-components = (
-{
-name = "behDotless-ar.init";
-transform = "{1, 0, 0, 1, -20, 0}";
-}
-);
-layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
-width = 171;
-}
-);
-leftMetricsKey = "=-20";
-rightMetricsKey = "=behDotless-ar.init";
 },
 {
 glyphname = "ae-ar";
