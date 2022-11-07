@@ -55006,11 +55006,11 @@ layers = (
 anchors = (
 {
 name = bottom_1;
-position = "{446, -46}";
+position = "{446, -56}";
 },
 {
 name = bottom_2;
-position = "{145, -46}";
+position = "{145, -56}";
 },
 {
 name = caret_1;
@@ -55022,7 +55022,7 @@ position = "{485, 812}";
 },
 {
 name = top_2;
-position = "{107, 671}";
+position = "{124, 671}";
 }
 );
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -55496,11 +55496,11 @@ width = 592;
 anchors = (
 {
 name = bottom_1;
-position = "{489, -96}";
+position = "{489, -56}";
 },
 {
 name = bottom_2;
-position = "{188, -96}";
+position = "{188, -56}";
 },
 {
 name = caret_1;
@@ -55512,7 +55512,7 @@ position = "{528, 852}";
 },
 {
 name = top_2;
-position = "{106, 730}";
+position = "{189, 710}";
 }
 );
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -55555,11 +55555,11 @@ width = 655;
 anchors = (
 {
 name = bottom_1;
-position = "{447, -96}";
+position = "{447, -56}";
 },
 {
 name = bottom_2;
-position = "{146, -96}";
+position = "{146, -56}";
 },
 {
 name = caret_1;
@@ -55571,7 +55571,7 @@ position = "{450, 830}";
 },
 {
 name = top_2;
-position = "{105, 700}";
+position = "{119, 670}";
 }
 );
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -58123,7 +58123,9 @@ components = (
 name = "lam_alef-ar";
 },
 {
+anchor = top_2;
 name = "hamzaabove-ar";
+transform = "{1, 0, 0, 1, 40, -29}";
 }
 );
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -58135,7 +58137,9 @@ components = (
 name = "lam_alef-ar";
 },
 {
+anchor = top_2;
 name = "hamzaabove-ar";
+transform = "{1, 0, 0, 1, 80, 10}";
 }
 );
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -58147,7 +58151,9 @@ components = (
 name = "lam_alef-ar";
 },
 {
+anchor = top_2;
 name = "hamzaabove-ar";
+transform = "{1, 0, 0, 1, 43, -30}";
 }
 );
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -58211,7 +58217,9 @@ components = (
 name = "lam_alef-ar";
 },
 {
+anchor = bottom_2;
 name = "hamzabelow-ar";
+transform = "{1, 0, 0, 1, 61, -56}";
 }
 );
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -58223,7 +58231,9 @@ components = (
 name = "lam_alef-ar";
 },
 {
+anchor = bottom_2;
 name = "hamzabelow-ar";
+transform = "{1, 0, 0, 1, 79, -56}";
 }
 );
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -58235,7 +58245,9 @@ components = (
 name = "lam_alef-ar";
 },
 {
+anchor = bottom_2;
 name = "hamzabelow-ar";
+transform = "{1, 0, 0, 1, 70, -56}";
 }
 );
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -58255,7 +58267,9 @@ components = (
 name = "lam_alef-ar.fina";
 },
 {
+anchor = bottom_2;
 name = "hamzabelow-ar";
+transform = "{1, 0, 0, 1, 61, -56}";
 }
 );
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -58267,7 +58281,9 @@ components = (
 name = "lam_alef-ar.fina";
 },
 {
+anchor = bottom_2;
 name = "hamzabelow-ar";
+transform = "{1, 0, 0, 1, 79, -56}";
 }
 );
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -58279,7 +58295,9 @@ components = (
 name = "lam_alef-ar.fina";
 },
 {
+anchor = bottom_2;
 name = "hamzabelow-ar";
+transform = "{1, 0, 0, 1, 70, -56}";
 }
 );
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -58299,7 +58317,9 @@ components = (
 name = "lam_alef-ar";
 },
 {
+anchor = top_2;
 name = "madda-ar";
+transform = "{1, 0, 0, 1, 36, -29}";
 }
 );
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -58311,7 +58331,9 @@ components = (
 name = "lam_alef-ar";
 },
 {
+anchor = top_2;
 name = "madda-ar";
+transform = "{1, 0, 0, 1, 80, 10}";
 }
 );
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -58323,7 +58345,9 @@ components = (
 name = "lam_alef-ar";
 },
 {
+anchor = top_2;
 name = "madda-ar";
+transform = "{1, 0, 0, 1, 43, -30}";
 }
 );
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -58343,7 +58367,9 @@ components = (
 name = "lam_alef-ar.fina";
 },
 {
+anchor = top_2;
 name = "madda-ar";
+transform = "{1, 0, 0, 1, 36, -29}";
 }
 );
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -58355,7 +58381,9 @@ components = (
 name = "lam_alef-ar.fina";
 },
 {
+anchor = top_2;
 name = "madda-ar";
+transform = "{1, 0, 0, 1, 80, 10}";
 }
 );
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -58367,7 +58395,9 @@ components = (
 name = "lam_alef-ar.fina";
 },
 {
+anchor = top_2;
 name = "madda-ar";
+transform = "{1, 0, 0, 1, 43, -30}";
 }
 );
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
