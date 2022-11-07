@@ -56,15 +56,7 @@ setup: requirements.txt
 
 ${BUILDDIR}/${NAME}.designspace: ${GLYPHSFILE}
 	echo "    GEN     $(@F)"
-	${PYTHON} -m glyphsLib glyphs2ufo \
-		--minimal \
-		--propagate-anchors \
-		--write-public-skip-export-glyphs \
-		--generate-GDEF \
-		--glyph-data=${SOURCEDIR}/GlyphData.xml \
-		--output-dir=$(@D) \
-		$<
-
+	${PYTHON} ${SCRIPTDIR}/glyphs-to-ufo.py $< $(@D) ${SOURCEDIR}/GlyphData.xml
 
 ${NAME}-%.ttf: ${BUILDDIR}/${NAME}.designspace
 	echo "    MAKE    $(@F)"
