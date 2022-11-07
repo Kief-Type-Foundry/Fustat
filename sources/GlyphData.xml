@@ -220,11 +220,11 @@
   <glyph name="tahThreedotsbelow-ar" unicode="088C" category="Letter" script="arabic" decompose="tah-ar, threedotsdownbelow-ar" sortName="arL0215" />
   <glyph name="ghain-ar" unicode="063A" category="Letter" script="arabic" decompose="ain-ar, dotabove-ar" sortName="arL0216" />
   <glyph name="ainThreedots-ar" unicode="06A0" category="Letter" script="arabic" decompose="ain-ar, threedotsupabove-ar" sortName="arL0217" />
-  <glyph name="ghainDotbelow-ar" unicode="06FC" category="Letter" script="arabic" decompose="ain-ar, dotabove-ar, dotcenter-ar" sortName="arL0218" />
+  <glyph name="ghainDotbelow-ar" unicode="06FC" category="Letter" script="arabic" decompose="ain-ar, dotabove-ar, dotbelow-ar" sortName="arL0218" />
   <glyph name="ainTwodotshorizontalabove-ar" unicode="075D" category="Letter" script="arabic" decompose="ain-ar, twodotshorizontalabove-ar" sortName="arL0219" />
   <glyph name="ainThreedotsdownabove-ar" unicode="075E" category="Letter" script="arabic" decompose="ain-ar, threedotsdownabove-ar" sortName="arL0220" />
   <glyph name="ainTwodotsverticalabove-ar" unicode="075F" category="Letter" script="arabic" decompose="ain-ar, twodotsverticalabove-ar" sortName="arL0221" />
-  <glyph name="ainThreedotsbelow-ar" unicode="08B3" category="Letter" script="arabic" decompose="ain-ar, threedotsdowncenter-ar" sortName="arL0222" />
+  <glyph name="ainThreedotsbelow-ar" unicode="08B3" category="Letter" script="arabic" decompose="ain-ar, threedotsdownbelow-ar" sortName="arL0222" />
   <glyph name="ghainThreedotsabove-ar" unicode="08C3" category="Letter" script="arabic" decompose="ain-ar, dotabove_threedotsupabove-ar" sortName="arL0223" />
   <glyph name="feh-ar" unicode="0641" category="Letter" script="arabic" decompose="fehDotless-ar, dotabove-ar" sortName="arL0224" />
   <glyph name="fehDotmovedbelow-ar" unicode="06A2" category="Letter" script="arabic" decompose="fehDotless-ar, dotbelow-ar" sortName="arL0225" />
@@ -272,7 +272,7 @@
   <glyph name="lamBar-ar" unicode="076A" category="Letter" script="arabic" decompose="lam-ar, stroke-ar" sortName="arL0267" />
   <glyph name="lamDoublebar-ar" unicode="08A6" category="Letter" script="arabic" decompose="lam-ar, doublestroke-ar" sortName="arL0268" />
   <glyph name="lamTahabove-ar" unicode="08C7" category="Letter" script="arabic" decompose="lam-ar, tahabove-ar" sortName="arL0269" />
-  <glyph name="meemThreedotsabove-ar" unicode="08A7" category="Letter" script="arabic" decompose="meem-ar, threedotsabove-ar" sortName="arL0270" />
+  <glyph name="meemThreedotsabove-ar" unicode="08A7" category="Letter" script="arabic" decompose="meem-ar, threedotsupabove-ar" sortName="arL0270" />
   <glyph name="meemDotabove-ar" unicode="0765" category="Letter" script="arabic" decompose="meem-ar, dotabove-ar" sortName="arL0271" />
   <glyph name="meemDotbelow-ar" unicode="0766" category="Letter" script="arabic" decompose="meem-ar, dotbelow-ar" sortName="arL0272" />
   <glyph name="noon-ar" unicode="0646" category="Letter" script="arabic" decompose="noonghunna-ar, dotabove-ar" sortName="arL0273" />
