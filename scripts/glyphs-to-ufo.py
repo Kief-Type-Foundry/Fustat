@@ -24,6 +24,11 @@ from glyphsLib.builder import to_designspace
 def glyphs2ufo(args):
     font = GSFont(args.input)
 
+    for glyph in font.glyphs:
+        if glyph.color == 0:
+            for layer in glyph.layers:
+                layer.components = []
+
     designspace = to_designspace(
         font,
         family_name=None,
