@@ -561,12 +561,7 @@ code = " sub alef-ar								by alef-ar.fina;
 name = fina;
 },
 {
-code = "lookup short_alef {
- lookupflag UseMarkFilteringSet @marktop;
- sub [alef-ar alef-ar.fina]' @marktop by [alef-ar.short alef-ar.short.fina];
-} short_alef;
-
-lookup isolated_heh {
+code = "lookup isolated_heh {
   lookupflag IgnoreMarks;
     ignore
     sub @ArabicLetters heh-ar';
@@ -604,7 +599,13 @@ lookup high_tooth {
 lookup lam_alef {
   sub lam-ar.init alef-ar.fina by lam_alef-ar;
   sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina;
-} lam_alef;";
+} lam_alef;
+
+lookup short_alef {
+ lookupflag UseMarkFilteringSet @marktop;
+ sub [alef-ar alef-ar.fina]' @marktop by [alef-ar.short alef-ar.short.fina];
+} short_alef;
+";
 name = rlig;
 },
 {
