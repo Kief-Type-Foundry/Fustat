@@ -27,6 +27,8 @@ beziers==0.5.0
     # via
     #   fontfeatures
     #   glyphtools
+blackrenderer==0.6.0
+    # via -r requirements.in
 booleanoperations==0.9.0
     # via ufo2ft
 brotli==1.0.9
@@ -79,6 +81,7 @@ fonttools[lxml,ufo,unicode]==4.38.0
     # via
     #   axisregistry
     #   babelfont
+    #   blackrenderer
     #   booleanoperations
     #   bumpfontversion
     #   cffsubr
@@ -229,7 +232,9 @@ ufolib2==0.14.0
     #   nanoemoji
     #   vttlib
 uharfbuzz==0.32.0
-    # via vharfbuzz
+    # via
+    #   blackrenderer
+    #   vharfbuzz
 unicodedata2==15.0.0
     # via
     #   fonttools

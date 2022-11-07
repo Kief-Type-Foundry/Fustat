@@ -10,6 +10,7 @@ GLYPHSFILE = ${SOURCEDIR}/${NAME}.glyphs
 SCRIPTDIR = scripts
 BUILDDIR = build
 FONTSDIR = fonts
+DOCDIR = documentation
 VARIABLEDIR = ${FONTSDIR}/variable
 STATICDIR = ${FONTSDIR}/static
 VENVDIR = venv
@@ -33,10 +34,13 @@ export SOURCE_DATE_EPOCH ?= $(shell stat -c "%Y" ${GLYPHSFILE})
 INSTANCES = ExtraLight Light Regular Medium SemiBold Bold ExtraBold
 STATIC = $(INSTANCES:%=${STATICDIR}/${NAME}-%.ttf)
 VARIABLE = ${VARIABLEDIR}/${NAME}[wght].ttf
+SVG = ${DOCDIR}/sample.svg
+SAMPLE = "خط فسطاط"
 
-all: ttf vf
+all: ttf vf doc
 vf: ${VARIABLE}
 ttf: ${STATIC}
+doc: ${SVG}
 
 define copyfont
 cp $(1) $(2);
@@ -70,6 +74,10 @@ ${VARIABLE}: ${BUILDDIR}/${NAME}.designspace
 	echo "    MAKE    $(@F)"
 	mkdir -p $(@D)
 	${PYTHON} -m fontmake ${FMOPTS} $< --output-path=$@ --flatten-components --output=variable
+
+${SVG}: ${VARIABLE}
+	echo "    SAMPLE  $(@F)"
+	${PYTHON} ${SCRIPTDIR}/mksample.py -t ${SAMPLE} -o $@ $<
 
 dist: ttf vf
 	echo "    DIST    ${DIST}"
