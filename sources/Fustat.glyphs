@@ -8213,7 +8213,6 @@ nodes = (
 width = 655;
 }
 );
-leftKerningGroup = "hah-join";
 leftMetricsKey = "=hah-ar";
 rightMetricsKey = "=-20";
 },
@@ -8293,9 +8292,7 @@ nodes = (
 width = 585;
 }
 );
-leftKerningGroup = "hah-join";
 leftMetricsKey = "=-20";
-rightKerningGroup = "hah-join";
 rightMetricsKey = "=-20";
 },
 {
@@ -10756,7 +10753,6 @@ width = 634;
 }
 );
 leftMetricsKey = "=-20";
-rightKerningGroup = "hah-join";
 rightMetricsKey = "=hah-ar";
 },
 {
@@ -41625,7 +41621,6 @@ nodes = (
 width = 779;
 }
 );
-leftKerningGroup = yeh;
 leftMetricsKey = "=alefMaksura-ar";
 rightMetricsKey = "=-20";
 },
@@ -43390,7 +43385,6 @@ nodes = (
 width = 760;
 }
 );
-leftKerningGroup = yeh2;
 leftMetricsKey = "=yehbarree-ar";
 rightMetricsKey = "=-20";
 },
@@ -46948,7 +46942,6 @@ layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 width = 618;
 }
 );
-rightKerningGroup = "hah-join";
 },
 {
 color = 0;
@@ -47069,7 +47062,6 @@ layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 width = 618;
 }
 );
-rightKerningGroup = "hah-join";
 },
 {
 color = 0;
@@ -47116,7 +47108,6 @@ layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 width = 618;
 }
 );
-rightKerningGroup = "hah-join";
 },
 {
 color = 0;
@@ -47405,7 +47396,6 @@ layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 width = 451;
 }
 );
-rightKerningGroup = feh;
 },
 {
 color = 0;
@@ -47452,7 +47442,6 @@ layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 width = 451;
 }
 );
-rightKerningGroup = feh;
 },
 {
 color = 0;
@@ -47499,7 +47488,6 @@ layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 width = 451;
 }
 );
-rightKerningGroup = feh;
 },
 {
 color = 0;
@@ -47546,7 +47534,6 @@ layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 width = 451;
 }
 );
-rightKerningGroup = feh;
 },
 {
 color = 0;
@@ -47593,7 +47580,6 @@ layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 width = 451;
 }
 );
-rightKerningGroup = feh;
 },
 {
 color = 0;
@@ -47640,7 +47626,6 @@ layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 width = 451;
 }
 );
-rightKerningGroup = feh;
 },
 {
 color = 0;
@@ -47687,7 +47672,6 @@ layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 width = 451;
 }
 );
-rightKerningGroup = feh;
 },
 {
 color = 0;
@@ -48744,8 +48728,6 @@ layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 width = 585;
 }
 );
-leftKerningGroup = "hah-join";
-rightKerningGroup = "hah-join";
 },
 {
 color = 0;
@@ -48792,8 +48774,6 @@ layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 width = 585;
 }
 );
-leftKerningGroup = "hah-join";
-rightKerningGroup = "hah-join";
 },
 {
 color = 0;
@@ -48840,8 +48820,6 @@ layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 width = 585;
 }
 );
-leftKerningGroup = "hah-join";
-rightKerningGroup = "hah-join";
 },
 {
 color = 0;
@@ -49130,7 +49108,6 @@ layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 width = 461;
 }
 );
-rightKerningGroup = feh;
 },
 {
 color = 0;
@@ -49177,7 +49154,6 @@ layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 width = 461;
 }
 );
-rightKerningGroup = feh;
 },
 {
 color = 0;
@@ -49224,7 +49200,6 @@ layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 width = 461;
 }
 );
-rightKerningGroup = feh;
 },
 {
 color = 0;
@@ -49271,7 +49246,6 @@ layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 width = 461;
 }
 );
-rightKerningGroup = feh;
 },
 {
 color = 0;
@@ -49364,7 +49338,6 @@ layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 width = 461;
 }
 );
-rightKerningGroup = feh;
 },
 {
 color = 0;
@@ -49411,7 +49384,6 @@ layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 width = 461;
 }
 );
-rightKerningGroup = feh;
 },
 {
 color = 0;
@@ -49998,7 +49970,6 @@ layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 width = 655;
 }
 );
-leftKerningGroup = "hah-join";
 },
 {
 color = 0;
@@ -50045,7 +50016,6 @@ layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 width = 655;
 }
 );
-leftKerningGroup = "hah-join";
 },
 {
 color = 0;
@@ -50092,7 +50062,6 @@ layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 width = 635;
 }
 );
-leftKerningGroup = "hah-join";
 leftMetricsKey = "=hah-ar";
 rightMetricsKey = "=-20";
 },
@@ -51429,7 +51398,6 @@ layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 width = 779;
 }
 );
-leftKerningGroup = yeh;
 },
 {
 color = 0;
@@ -51476,7 +51444,6 @@ layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 width = 779;
 }
 );
-leftKerningGroup = yeh;
 },
 {
 color = 0;
@@ -51511,7 +51478,6 @@ layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 width = 779;
 }
 );
-leftKerningGroup = yeh;
 },
 {
 color = 0;
@@ -51558,7 +51524,6 @@ layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 width = 760;
 }
 );
-leftKerningGroup = yeh2;
 },
 {
 glyphname = "lam_alef-ar";
@@ -58705,8 +58670,6 @@ layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 width = 600;
 }
 );
-leftKerningGroup = colon;
-rightKerningGroup = colon;
 unicode = 003B;
 },
 {
