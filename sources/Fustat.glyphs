@@ -181,8 +181,8 @@ name = Lookups;
 features = (
 {
 code = "script arab;
-#  language FAR;
-#  	sub zero-persian	by zero-persian.alt;
+  language FAR;
+  	sub zero-persian	by zero-persian.alt;
 
   language URD;
 	sub four-persian	by four-persian.alt;
@@ -82582,6 +82582,57 @@ paths = (
 {
 closed = 1;
 nodes = (
+"60 362 LINE",
+"143 279 LINE",
+"226 362 LINE",
+"143 446 LINE"
+);
+}
+);
+width = 286;
+},
+{
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+paths = (
+{
+closed = 1;
+nodes = (
+"55 362 LINE",
+"189 228 LINE",
+"323 362 LINE",
+"189 497 LINE"
+);
+}
+);
+width = 378;
+},
+{
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+paths = (
+{
+closed = 1;
+nodes = (
+"65 362 LINE",
+"107 321 LINE",
+"149 362 LINE",
+"107 404 LINE"
+);
+}
+);
+width = 214;
+}
+);
+unicode = 06F0;
+},
+{
+glyphname = "zero-persian.alt";
+layers = (
+{
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+paths = (
+{
+closed = 1;
+nodes = (
 "306 176 OFFCURVE",
 "384 260 OFFCURVE",
 "384 362 CURVE SMOOTH",
@@ -82697,7 +82748,6 @@ nodes = (
 width = 383;
 }
 );
-unicode = 06F0;
 },
 {
 glyphname = "one-persian";
