@@ -153,7 +153,7 @@ name = winDescent;
 value = 500;
 }
 );
-date = "2022-11-07 12:43:38 +0000";
+date = "2022-11-08 06:03:31 +0000";
 designer = "Mohamed Gaber, Khaled Hosny";
 designerURL = "https://gaber.design/";
 familyName = Fustat;
@@ -59145,7 +59145,9 @@ components = (
 name = "lam_alef-ar.fina";
 },
 {
+anchor = top_2;
 name = "hamzaabove-ar";
+transform = "{1, 0, 0, 1, 40, 243}";
 }
 );
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -59157,7 +59159,9 @@ components = (
 name = "lam_alef-ar.fina";
 },
 {
+anchor = top_2;
 name = "hamzaabove-ar";
+transform = "{1, 0, 0, 1, 80, 282}";
 }
 );
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -59169,7 +59173,9 @@ components = (
 name = "lam_alef-ar.fina";
 },
 {
+anchor = top_2;
 name = "hamzaabove-ar";
+transform = "{1, 0, 0, 1, 43, 242}";
 }
 );
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
