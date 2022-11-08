@@ -1,5 +1,8 @@
 {
 .appVersion = "1361";
+DisplayStrings = (
+Ma
+);
 classes = (
 {
 code = "dotcenter-ar
@@ -101481,13 +101484,6 @@ kerning = {
 "@MMK_R_u" = -12;
 "@MMK_R_v" = -8;
 };
-"@MMK_L_J" = {
-"@MMK_R_a" = -19;
-"@MMK_R_n" = -17;
-"@MMK_R_o" = -19;
-"@MMK_R_u" = -13;
-"@MMK_R_uaccent" = -12;
-};
 "@MMK_L_K" = {
 "@MMK_R_O" = -18;
 "@MMK_R_o" = -12;
@@ -101500,12 +101496,6 @@ kerning = {
 "@MMK_R_Y" = -72;
 "@MMK_R_quote" = -80;
 "@MMK_R_v" = -29;
-};
-"@MMK_L_M" = {
-"@MMK_R_a" = -9;
-"@MMK_R_n" = -5;
-"@MMK_R_o" = -10;
-"@MMK_R_u" = -5;
 };
 "@MMK_L_O" = {
 "@MMK_R_A" = -1;
@@ -101691,13 +101681,6 @@ quoteright = {
 "@MMK_R_u" = -4;
 "@MMK_R_v" = -3;
 };
-"@MMK_L_J" = {
-"@MMK_R_a" = -13;
-"@MMK_R_n" = -9;
-"@MMK_R_o" = -13;
-"@MMK_R_u" = -8;
-"@MMK_R_uaccent" = -4;
-};
 "@MMK_L_K" = {
 "@MMK_R_O" = -32;
 "@MMK_R_o" = -12;
@@ -101710,12 +101693,6 @@ quoteright = {
 "@MMK_R_Y" = -64;
 "@MMK_R_quote" = -80;
 "@MMK_R_v" = -24;
-};
-"@MMK_L_M" = {
-"@MMK_R_a" = -7;
-"@MMK_R_n" = -5;
-"@MMK_R_o" = -10;
-"@MMK_R_u" = -5;
 };
 "@MMK_L_O" = {
 "@MMK_R_A" = -4;
@@ -101900,12 +101877,6 @@ quoteright = {
 "@MMK_R_a" = -10;
 "@MMK_R_o" = -10;
 };
-"@MMK_L_J" = {
-"@MMK_R_a" = -11;
-"@MMK_R_n" = -5;
-"@MMK_R_o" = -11;
-"@MMK_R_u" = -5;
-};
 "@MMK_L_K" = {
 "@MMK_R_O" = -40;
 "@MMK_R_o" = -13;
@@ -101918,12 +101889,6 @@ quoteright = {
 "@MMK_R_Y" = -60;
 "@MMK_R_quote" = -80;
 "@MMK_R_v" = -21;
-};
-"@MMK_L_M" = {
-"@MMK_R_a" = -6;
-"@MMK_R_n" = -5;
-"@MMK_R_o" = -10;
-"@MMK_R_u" = -5;
 };
 "@MMK_L_O" = {
 "@MMK_R_A" = -5;
