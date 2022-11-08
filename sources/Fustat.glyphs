@@ -730,12 +730,14 @@ code = "lookup ss01 {
   sub meem-ar.fina by meem-ar.fina.alt;
 } ss01;";
 name = ss01;
+notes = "Name: Alternate meem";
 },
 {
 code = "lookup ss02 {
   sub lam_alef-ar.fina by lam_alef-ar.fina.alt;
 } ss02;";
 name = ss02;
+notes = "Name: Alternate lam-alef";
 },
 {
 code = "lookup ss01;
