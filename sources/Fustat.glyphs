@@ -49,6 +49,97 @@ name = marktop;
 code = "hamza-ar alef-ar alef-ar.fina behDotless-ar behDotless-ar.fina behDotless-ar.medi behDotless-ar.medi.high behDotless-ar.init behDotless-ar.init.high hah-ar hah-ar.fina hah-ar.medi hah-ar.init dal-ar dal-ar.fina reh-ar reh-ar.fina seen-ar seen-ar.fina seen-ar.medi seen-ar.init sad-ar sad-ar.fina sad-ar.medi sad-ar.init tah-ar tah-ar.fina tah-ar.medi tah-ar.init ain-ar ain-ar.fina ain-ar.medi ain-ar.init fehDotless-ar fehDotless-ar.fina fehDotless-ar.medi fehDotless-ar.init qafDotless-ar qafDotless-ar.fina kafDotless-ar kafDotless-ar.fina kaf-ar.medi kaf-ar.init keheh-ar keheh-ar.fina lam-ar lam-ar.fina lam-ar.medi lam-ar.init meem-ar meem-ar.alt meem-ar.fina meem-ar.fina.alt meem-ar.medi meem-ar.init noonghunna-ar noonghunna-ar.fina heh-ar heh-ar.fina heh-ar.medi heh-ar.init hehgoal-ar hehgoal-ar.fina hehgoal-ar.medi ae-ar hehDoachashmee-ar hehDoachashmee-ar.fina hehDoachashmee-ar.medi waw-ar waw-ar.fina alefMaksura-ar alefMaksura-ar.fina yehbarree-ar yehbarree-ar.fina kashida-ar alefMadda-ar alefHamzaabove-ar alefHamzabelow-ar beh-ar teh-ar theh-ar tteh-ar tehThreedotsdown-ar peh-ar jeem-ar khah-ar tcheh-ar thal-ar ddal-ar dalThreedotsdown-ar zain-ar rreh-ar jeh-ar sheen-ar sheenThreedotsbelow-ar dad-ar zah-ar ghain-ar ainThreedotsdownabove-ar feh-ar fehDotmovedbelow-ar veh-ar fehThreedotsbelow-ar qaf-ar qafDotabove-ar qafThreedotsabove-ar kaf-ar ng-ar gaf-ar kehehThreedotsabove-ar noon-ar tehMarbuta-ar hehHamzaabove-ar hehgoalHamzaabove-ar tehMarbutagoal-ar wawHamzaabove-ar yehHamzaabove-ar yeh-ar yeh-farsi yehbarreeHamzaabove-ar lam_alef-ar lam_alef-ar.fina lam_alef-ar.fina.alt lam_hah-ar lam_hah-ar.init behDotless_hah-ar behDotless_hah-ar.init
 ";
 name = ArabicLetters;
+},
+{
+automatic = 1;
+code = "A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Cdotaccent D Eth Dcaron Dcroat E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gbreve Gcommaaccent Gdotaccent H Hbar I IJ Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek J K Kcommaaccent L Lacute Lcaron Lcommaaccent Lslash M N Nacute Ncaron Ncommaaccent Eng Ntilde O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scommaaccent Germandbls T Tcaron Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent";
+name = Uppercase;
+},
+{
+code = "idotless
+iacute
+icircumflex
+idieresis
+igrave
+ij
+iogonek
+hbar
+kcommaaccent
+lacute
+lcaron
+lcommaaccent
+lslash
+abreve
+agrave
+egrave
+ograve
+ubreve
+ugrave
+ygrave
+adieresis
+odieresis
+udieresis
+ydieresis
+edieresis
+aring
+uring
+ecaron
+eth
+germandbls
+bracketright
+parenright
+braceright
+bracketleft
+parenleft
+braceleft
+bar
+quotedblleft
+quotedblright
+quoteleft
+quoteright
+asterisk
+backslash
+quotedbl
+quotesingle
+question
+exclam
+acute
+b
+h
+i
+j
+k
+l
+thorn
+T
+Tcaron
+Tcommaaccent
+V
+W
+Wacute
+Wcircumflex
+Wdieresis
+Wgrave
+X
+Y
+Yacute
+Ycircumflex
+Ydieresis
+Ygrave
+";
+name = Stumper;
+},
+{
+code = "T
+Tcaron 
+Tcommaaccent 
+";
+name = Tlike;
+},
+{
+code = "V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave
+";
+name = Vlike;
 }
 );
 copyright = "Copyright 2022 The Fustat Project Authors (https://github.com/Kief-Type-Foundry/Fustat)";
@@ -159,6 +250,7 @@ designerURL = "https://gaber.design/";
 familyName = Fustat;
 featurePrefixes = (
 {
+automatic = 1;
 code = "languagesystem DFLT dflt;
 
 languagesystem arab dflt;
@@ -167,6 +259,8 @@ languagesystem arab URD;
 languagesystem arab KSH;
 languagesystem arab RHG;
 languagesystem arab SND;
+
+languagesystem latn dflt;
 ";
 name = Languagesystems;
 },
@@ -617,6 +711,18 @@ sub behDotless-ar.init hah-ar.fina by behDotless_hah-ar;
 sub behDotless-ar.init hah-ar.medi by behDotless_hah-ar.init;
 ";
 name = liga;
+},
+{
+code = "script latn;
+
+lookup Stumper {
+	sub f' @Stumper by f.short;
+	sub f' @Uppercase by f.short;
+	sub f' space @Vlike by f.short;
+	sub f' space @Tlike by f.short;
+} Stumper;
+";
+name = calt;
 },
 {
 code = "lookup ss01 {
@@ -13090,6 +13196,152 @@ width = 378;
 leftKerningGroup = f;
 rightKerningGroup = f;
 unicode = 0066;
+},
+{
+color = 3;
+glyphname = f.short;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{161, 0}";
+},
+{
+name = top;
+position = "{225, 526}";
+}
+);
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+paths = (
+{
+closed = 1;
+nodes = (
+"162 0 LINE",
+"162 442 LINE SMOOTH",
+"162 590 OFFCURVE",
+"210 684 OFFCURVE",
+"321 684 CURVE SMOOTH",
+"343 684 OFFCURVE",
+"367 680 OFFCURVE",
+"391 669 CURVE",
+"406 695 LINE",
+"385 704 OFFCURVE",
+"357 711 OFFCURVE",
+"326 711 CURVE SMOOTH",
+"201 711 OFFCURVE",
+"127 615 OFFCURVE",
+"127 435 CURVE SMOOTH",
+"127 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"352 398 LINE",
+"38 396 LINE",
+"36 370 LINE",
+"350 370 LINE"
+);
+}
+);
+width = 367;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{161, 0}";
+},
+{
+name = top;
+position = "{256, 581}";
+}
+);
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+paths = (
+{
+closed = 1;
+nodes = (
+"194 0 LINE",
+"194 448 LINE SMOOTH",
+"194 560 OFFCURVE",
+"211 646 OFFCURVE",
+"311 646 CURVE SMOOTH",
+"331 646 OFFCURVE",
+"355 641 OFFCURVE",
+"378 627 CURVE",
+"406 694 LINE",
+"386 703 OFFCURVE",
+"358 711 OFFCURVE",
+"327 711 CURVE SMOOTH",
+"198 711 OFFCURVE",
+"106 614 OFFCURVE",
+"106 425 CURVE SMOOTH",
+"106 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"366 413 LINE",
+"31 407 LINE",
+"26 354 LINE",
+"361 353 LINE"
+);
+}
+);
+width = 370;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{161, 0}";
+},
+{
+name = top;
+position = "{328, 711}";
+}
+);
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+paths = (
+{
+closed = 1;
+nodes = (
+"239 0 LINE",
+"239 455 LINE SMOOTH",
+"239 541 OFFCURVE",
+"246 600 OFFCURVE",
+"316 600 CURVE SMOOTH",
+"341 600 OFFCURVE",
+"367 593 OFFCURVE",
+"394 577 CURVE",
+"427 690 LINE",
+"401 703 OFFCURVE",
+"371 711 OFFCURVE",
+"328 711 CURVE SMOOTH",
+"189 711 OFFCURVE",
+"85 602 OFFCURVE",
+"85 410 CURVE SMOOTH",
+"85 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"392 425 LINE",
+"23 415 LINE",
+"14 325 LINE",
+"382 320 LINE"
+);
+}
+);
+width = 395;
+}
+);
+leftMetricsKey = f;
+rightKerningGroup = f.short;
 },
 {
 color = 3;
