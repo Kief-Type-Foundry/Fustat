@@ -203,8 +203,8 @@ code = "script arab;
   language SND;
 	sub six-persian		by six-ar;
 	sub seven-persian	by seven-persian.alt;
-#	sub comma-ar		by commareversed;
-#	sub semicolon-ar	by semicolonreversed;
+ 	sub comma-ar		by commareversed;
+ 	sub semicolon-ar	by semicolonreversed;
 ";
 name = locl;
 },
@@ -85397,6 +85397,82 @@ width = 256;
 leftMetricsKey = "=comma-ar";
 rightMetricsKey = "=comma-ar";
 unicode = 061B;
+},
+{
+glyphname = commareversed;
+layers = (
+{
+components = (
+{
+name = comma;
+transform = "{-1, 0, 0, 1, 271, 0}";
+}
+);
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+width = 256;
+},
+{
+components = (
+{
+name = comma;
+transform = "{-1, 0, 0, 1, 278, 0}";
+}
+);
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+width = 278;
+},
+{
+components = (
+{
+name = comma;
+transform = "{-1, 0, 0, 1, 298, 0}";
+}
+);
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+width = 308;
+}
+);
+leftMetricsKey = "=comma-ar";
+rightMetricsKey = "=comma-ar";
+unicode = 2E41;
+},
+{
+glyphname = semicolonreversed;
+layers = (
+{
+components = (
+{
+name = semicolon;
+transform = "{-1, 0, 0, 1, 272, 0}";
+}
+);
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+width = 256;
+},
+{
+components = (
+{
+name = semicolon;
+transform = "{-1, 0, 0, 1, 282, 0}";
+}
+);
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+width = 278;
+},
+{
+components = (
+{
+name = semicolon;
+transform = "{-1, 0, 0, 1, 303, 0}";
+}
+);
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+width = 311;
+}
+);
+leftMetricsKey = "=semicolon-ar";
+rightMetricsKey = "=semicolon-ar";
+unicode = 204F;
 },
 {
 color = 3;
