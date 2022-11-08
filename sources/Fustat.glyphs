@@ -597,6 +597,7 @@ lookup high_tooth {
 } high_tooth;
 
 lookup lam_alef {
+ lookupflag IgnoreMarks;
   sub lam-ar.init alef-ar.fina by lam_alef-ar;
   sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina;
 } lam_alef;
@@ -609,8 +610,12 @@ lookup short_alef {
 name = rlig;
 },
 {
-code = "sub lam-ar.init hah-ar.fina by lam_hah-ar;
-sub lam-ar.init hah-ar.medi by lam_hah-ar.init;";
+code = "lookupflag IgnoreMarks;
+sub lam-ar.init hah-ar.fina by lam_hah-ar;
+sub lam-ar.init hah-ar.medi by lam_hah-ar.init;
+sub behDotless-ar.init hah-ar.fina by behDotless_hah-ar;
+sub behDotless-ar.init hah-ar.medi by behDotless_hah-ar.init;
+";
 name = liga;
 },
 {
