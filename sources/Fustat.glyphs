@@ -1,7 +1,8 @@
 {
 .appVersion = "1361";
 DisplayStrings = (
-"?/question-ar"
+"?/question-ar",
+"/dotabove-ar/threedotsdownabove-ar/threedotsdownbelow-ar/threedotsdowncenter-ar/tcheh-ar/space/tcheh-ar.fina/space/tcheh-ar.fina/space/dotcenter-ar/jeem-ar"
 );
 classes = (
 {
@@ -247,7 +248,7 @@ name = winDescent;
 value = 420;
 }
 );
-date = "2022-11-08 10:17:54 +0000";
+date = "2022-11-09 05:51:45 +0000";
 designer = "Mohamed Gaber, Khaled Hosny";
 designerURL = "https://gaber.design/";
 familyName = Fustat;
@@ -64960,7 +64961,7 @@ name = "hah-ar";
 },
 {
 name = "threedotsdowncenter-ar";
-transform = "{1, 0, 0, 1, 404, -96}";
+transform = "{1, 0, 0, 1, 404, -144}";
 }
 );
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -65075,7 +65076,7 @@ name = "hah-ar";
 },
 {
 name = "threedotsdowncenter-ar";
-transform = "{1, 0, 0, 1, 417, -86}";
+transform = "{1, 0, 0, 1, 417, -144}";
 }
 );
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -65283,7 +65284,7 @@ name = "hah-ar";
 },
 {
 name = "threedotsdowncenter-ar";
-transform = "{1, 0, 0, 1, 430, -96}";
+transform = "{1, 0, 0, 1, 430, -123}";
 }
 );
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -74638,7 +74639,7 @@ name = "hah-ar.fina";
 },
 {
 name = "threedotsdowncenter-ar";
-transform = "{1, 0, 0, 1, 404, -96}";
+transform = "{1, 0, 0, 1, 404, -144}";
 }
 );
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -74651,7 +74652,7 @@ name = "hah-ar.fina";
 },
 {
 name = "threedotsdowncenter-ar";
-transform = "{1, 0, 0, 1, 417, -86}";
+transform = "{1, 0, 0, 1, 417, -144}";
 }
 );
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -74664,7 +74665,7 @@ name = "hah-ar.fina";
 },
 {
 name = "threedotsdowncenter-ar";
-transform = "{1, 0, 0, 1, 430, -96}";
+transform = "{1, 0, 0, 1, 430, -123}";
 }
 );
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -98145,7 +98146,7 @@ layers = (
 anchors = (
 {
 name = _center;
-position = "{57, 0}";
+position = "{57, 27}";
 }
 );
 components = (
@@ -98161,7 +98162,7 @@ width = 114;
 anchors = (
 {
 name = _center;
-position = "{103, 0}";
+position = "{103, 48}";
 }
 );
 components = (
@@ -98177,7 +98178,7 @@ width = 206;
 anchors = (
 {
 name = _center;
-position = "{121, 0}";
+position = "{121, 58}";
 }
 );
 components = (
