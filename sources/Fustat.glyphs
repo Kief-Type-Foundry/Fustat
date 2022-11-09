@@ -707,12 +707,19 @@ lookup short_alef {
 name = rlig;
 },
 {
-code = "lookupflag IgnoreMarks;
-sub lam-ar.init hah-ar.fina by lam_hah-ar;
-sub lam-ar.init hah-ar.medi by lam_hah-ar.init;
-sub behDotless-ar.init hah-ar.fina by behDotless_hah-ar;
-sub behDotless-ar.init hah-ar.medi by behDotless_hah-ar.init;
-";
+code = "lookup hah {
+  lookupflag IgnoreMarks;
+    sub lam-ar.init hah-ar.fina by lam_hah-ar;
+    sub lam-ar.init hah-ar.medi by lam_hah-ar.init;
+    sub behDotless-ar.init hah-ar.fina by behDotless_hah-ar;
+    sub behDotless-ar.init hah-ar.medi by behDotless_hah-ar.init;
+} hah;
+
+lookup allah {
+  lookupflag 0;
+    sub alef-ar lam-ar.init lam-ar.medi shadda-ar alefabove-ar [heh-ar.fina hehgoal-ar.fina] by allah-ar;
+    sub lam-ar.init lam-ar.medi shadda-ar alefabove-ar [heh-ar.fina hehgoal-ar.fina] by lellah-ar;
+} allah;";
 name = liga;
 },
 {
