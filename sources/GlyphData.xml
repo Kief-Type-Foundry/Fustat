@@ -164,7 +164,7 @@
   <glyph name="hahFourbelow-ar" unicode="077C" category="Letter" script="arabic" decompose="hah-ar, fourcenter-ar" sortName="arL0159" />
   <glyph name="jeemTwodotsabove-ar" unicode="08A2" category="Letter" script="arabic" decompose="hah-ar, dotcenter-ar, twodotshorizontalabove-ar" sortName="arL0160" />
   <glyph name="tchehVabove-ar" unicode="08C1" category="Letter" script="arabic" decompose="hah-ar, threedotsdowncenter-ar, vabove-ar" sortName="arL0161" />
-  <glyph name="jeemThreedotsabove-ar" unicode="08C5" category="Letter" script="arabic" decompose="hah-ar, dotcenter-ar" sortName="arL0162" />
+  <glyph name="jeemThreedotsabove-ar" unicode="08C5" category="Letter" script="arabic" decompose="hah-ar, dotcenter-ar, threedotsupabove-ar" sortName="arL0162" />
   <glyph name="jeemThreedotsbelow-ar" unicode="08C6" category="Letter" script="arabic" decompose="hah-ar, dotcenter_threedotsdownbelow-ar" sortName="arL0163" />
   <glyph name="hahVinvertedbelow-ar" unicode="088A" category="Letter" script="arabic" decompose="hah-ar, vinvertedcenter-ar" sortName="arL0164" />
   <glyph name="thal-ar" unicode="0630" category="Letter" script="arabic" decompose="dal-ar, dotabove-ar" sortName="arL0165" />

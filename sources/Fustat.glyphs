@@ -1,7 +1,8 @@
 {
 .appVersion = "1361";
 DisplayStrings = (
-"/meem-ar/alef-ar/space/kaf-ar/alef-ar/noon-ar/space/alef-ar/lam-ar/alefHamzabelow-ar/qaf-ar/reh-ar/alef-ar/reh-ar/space/beh-ar/meem-ar/alef-ar/space/lam-ar/jeem-ar/meem-ar/yeh-ar/ain-ar/space/alefHamzaabove-ar/ain-ar/dad-ar/alef-ar/hamza-ar/space/alef-ar/lam-ar/alefHamzaabove-ar/seen-ar/reh-ar/tehMarbuta-ar/space/alef-ar/lam-ar/beh-ar/sheen-ar/reh-ar/yeh-ar/tehMarbuta-ar/space/meem-ar/noon-ar/space/kaf-ar/reh-ar/alef-ar/meem-ar/tehMarbuta-ar/space/alefHamzaabove-ar/sad-ar/yeh-ar/lam-ar/tehMarbuta-ar/space/feh-ar/yeh-ar/heh-ar/meem-ar/comma-ar/space/waw-ar/meem-ar/noon-ar/space/hah-ar/qaf-ar/waw-ar/qaf-ar/space/meem-ar/teh-ar/seen-ar/alef-ar/waw-ar/yeh-ar/tehMarbuta-ar/space/waw-ar/theh-ar/alef-ar/beh-ar/teh-ar/tehMarbuta-ar/comma-ar/space/yeh-ar/sheen-ar/kaf-ar/lam-ar/space/alefHamzaabove-ar/seen-ar/alef-ar/seen-ar/space/alef-ar/lam-ar/hah-ar/reh-ar/yeh-ar/tehMarbuta-ar/space/waw-ar/alef-ar/lam-ar/ain-ar/dal-ar/lam-ar/space/waw-ar/alef-ar/lam-ar/seen-ar/lam-ar/alef-ar/meem-ar/space/feh-ar/yeh-ar/space/alef-ar/lam-ar/ain-ar/alef-ar/lam-ar/meem-ar/comma-ar \012/waw-ar/lam-ar/meem-ar/alef-ar/space/kaf-ar/alef-ar/noon-ar/space/teh-ar/jeem-ar/alef-ar/heh-ar/lam-ar/space/hah-ar/qaf-ar/waw-ar/qaf-ar/space/alef-ar/lam-ar/alefHamzabelow-ar/noon-ar/seen-ar/alef-ar/noon-ar/space/waw-ar/alef-ar/zain-ar/dal-ar/reh-ar/alef-ar/wawHamzaabove-ar/heh-ar/alef-ar/space/qaf-ar/dal-ar/space/alefHamzaabove-ar/feh-ar/dad-ar/yeh-ar/alef-ar/space/alefHamzabelow-ar/lam-ar/alefMaksura-ar/space/alefHamzaabove-ar/ain-ar/meem-ar/alef-ar/lam-ar/space/alefHamzaabove-ar/theh-ar/alef-ar/reh-ar/teh-ar/space/beh-ar/reh-ar/beh-ar/reh-ar/yeh-ar/teh-ar/heh-ar/alef-ar/space/alef-ar/lam-ar/dad-ar/meem-ar/yeh-ar/reh-ar/space/alef-ar/lam-ar/alefHamzabelow-ar/noon-ar/seen-ar/alef-ar/noon-ar/yeh-ar/comma-ar/space/waw-ar/kaf-ar/alef-ar/noon-ar/space/alef-ar/lam-ar/beh-ar/sheen-ar/reh-ar/space/qaf-ar/dal-ar/space/noon-ar/alef-ar/dal-ar/waw-ar/alef-ar/space/beh-ar/beh-ar/zain-ar/waw-ar/ghain-ar/space/ain-ar/alef-ar/lam-ar/meem-ar/space/yeh-ar/teh-ar/meem-ar/teh-ar/ain-ar/waw-ar/noon-ar/space/feh-ar/yeh-ar/heh-ar/space/beh-ar/hah-ar/reh-ar/yeh-ar/tehMarbuta-ar/space/alef-ar/lam-ar/qaf-ar/waw-ar/lam-ar/space/waw-ar/alef-ar/lam-ar/ain-ar/qaf-ar/yeh-ar/dal-ar/tehMarbuta-ar/space/waw-ar/beh-ar/alef-ar/lam-ar/teh-ar/hah-ar/reh-ar/yeh-ar/reh-ar/space/meem-ar/noon-ar/space/alef-ar/lam-ar/khah-ar/waw-ar/feh-ar/space/waw-ar/alef-ar/lam-ar/feh-ar/alef-ar/qaf-ar/tehMarbuta-ar/comma-ar/space/kaf-ar/alefHamzaabove-ar/seen-ar/meem-ar/alefMaksura-ar/space/meem-ar/alef-ar/space/teh-ar/reh-ar/noon-ar/waw-ar/space/alefHamzabelow-ar/lam-ar/yeh-ar/heh-ar/space/noon-ar/feh-ar/waw-ar/seen-ar/heh-ar/meem-ar/comma-ar \012/waw-ar/lam-ar/meem-ar/alef-ar/space/kaf-ar/alef-ar/noon-ar/space/meem-ar/noon-ar/space/alef-ar/lam-ar/alefHamzaabove-ar/seen-ar/alef-ar/seen-ar/yeh-ar/space/alefHamzaabove-ar/noon-ar/space/teh-ar/teh-ar/meem-ar/teh-ar/ain-ar/space/hah-ar/qaf-ar/waw-ar/qaf-ar/space/alef-ar/lam-ar/alefHamzabelow-ar/noon-ar/seen-ar/alef-ar/noon-ar/space/beh-ar/hah-ar/meem-ar/alef-ar/yeh-ar/tehMarbuta-ar/space/alef-ar/lam-ar/noon-ar/zah-ar/alef-ar/meem-ar/space/alef-ar/lam-ar/qaf-ar/alef-ar/noon-ar/waw-ar/noon-ar/yeh-ar/space/alefHamzabelow-ar/thal-ar/alef-ar/space/alefHamzaabove-ar/reh-ar/yeh-ar/dal-ar/space/lam-ar/lam-ar/beh-ar/sheen-ar/reh-ar/space/alefHamzaabove-ar/lam-ar/alef-ar/space/yeh-ar/dad-ar/tah-ar/reh-ar/waw-ar/alef-ar/space/alefMadda-ar/khah-ar/reh-ar/space/alef-ar/lam-ar/alefHamzaabove-ar/meem-ar/reh-ar/space/alefHamzabelow-ar/lam-ar/alefMaksura-ar/space/alef-ar/lam-ar/lam-ar/yeh-ar/alef-ar/thal-ar/space/beh-ar/alef-ar/lam-ar/teh-ar/meem-ar/reh-ar/dal-ar/space/ain-ar/lam-ar/alefMaksura-ar/space/alef-ar/lam-ar/tah-ar/ghain-ar/yeh-ar/alef-ar/noon-ar/space/waw-ar/alef-ar/lam-ar/alef-ar/dad-ar/tah-ar/heh-ar/alef-ar/dal-ar/comma-ar \012/waw-ar/lam-ar/meem-ar/alef-ar/space/kaf-ar/alef-ar/noon-ar/space/meem-ar/noon-ar/space/alef-ar/lam-ar/jeem-ar/waw-ar/heh-ar/reh-ar/yeh-ar/space/alef-ar/lam-ar/ain-ar/meem-ar/lam-ar/space/ain-ar/lam-ar/alefMaksura-ar/space/teh-ar/noon-ar/meem-ar/yeh-ar/tehMarbuta-ar/space/ain-ar/lam-ar/alef-ar/qaf-ar/alef-ar/teh-ar/space/waw-ar/dal-ar/yeh-ar/tehMarbuta-ar/space/beh-ar/yeh-ar/noon-ar/space/alef-ar/lam-ar/alefHamzaabove-ar/meem-ar/meem-ar/comma-ar \012/waw-ar/lam-ar/meem-ar/alef-ar/space/kaf-ar/alef-ar/noon-ar/teh-ar/space/sheen-ar/ain-ar/waw-ar/beh-ar/space/alef-ar/lam-ar/alefHamzaabove-ar/meem-ar/meem-ar/space/alef-ar/lam-ar/meem-ar/teh-ar/hah-ar/dal-ar/tehMarbuta-ar/space/qaf-ar/dal-ar/space/alefHamzaabove-ar/ain-ar/alef-ar/dal-ar/teh-ar/space/feh-ar/yeh-ar/space/alef-ar/lam-ar/meem-ar/yeh-ar/theh-ar/alef-ar/qaf-ar/space/teh-ar/alefHamzaabove-ar/kaf-ar/yeh-ar/dal-ar/space/alefHamzabelow-ar/yeh-ar/meem-ar/alef-ar/noon-ar/heh-ar/alef-ar/space/beh-ar/hah-ar/qaf-ar/waw-ar/qaf-ar/space/alef-ar/lam-ar/alefHamzabelow-ar/noon-ar/seen-ar/alef-ar/noon-ar/space/alef-ar/lam-ar/alefHamzaabove-ar/seen-ar/alef-ar/seen-ar/yeh-ar/tehMarbuta-ar/comma-ar/space/waw-ar/beh-ar/kaf-ar/reh-ar/alef-ar/meem-ar/tehMarbuta-ar/space/alef-ar/lam-ar/alefHamzabelow-ar/noon-ar/seen-ar/alef-ar/noon-ar/space/waw-ar/qaf-ar/dal-ar/reh-ar/heh-ar/comma-ar/space/waw-ar/beh-ar/teh-ar/seen-ar/alef-ar/waw-ar/yeh-ar/space/alef-ar/lam-ar/reh-ar/jeem-ar/alef-ar/lam-ar/space/waw-ar/alef-ar/lam-ar/noon-ar/seen-ar/alef-ar/hamza-ar/space/feh-ar/yeh-ar/space/alef-ar/lam-ar/hah-ar/qaf-ar/waw-ar/qaf-ar/comma-ar/space/waw-ar/hah-ar/zain-ar/meem-ar/teh-ar/space/alefHamzaabove-ar/meem-ar/reh-ar/heh-ar/alef-ar/space/ain-ar/lam-ar/alefMaksura-ar/space/alef-ar/lam-ar/noon-ar/heh-ar/waw-ar/dad-ar/space/beh-ar/alef-ar/lam-ar/teh-ar/qaf-ar/dal-ar/meem-ar/space/alef-ar/lam-ar/alef-ar/jeem-ar/teh-ar/meem-ar/alef-ar/ain-ar/yeh-ar/space/waw-ar/beh-ar/teh-ar/hah-ar/seen-ar/yeh-ar/noon-ar/space/meem-ar/seen-ar/teh-ar/waw-ar/yeh-ar/alef-ar/teh-ar/space/alef-ar/lam-ar/hah-ar/yeh-ar/alef-ar/tehMarbuta-ar/space/feh-ar/yeh-ar/space/jeem-ar/waw-ar/space/meem-ar/noon-ar/space/alef-ar/lam-ar/hah-ar/reh-ar/yeh-ar/tehMarbuta-ar/space/alefHamzaabove-ar/feh-ar/seen-ar/hah-ar/comma-ar \012/waw-ar/lam-ar/meem-ar/alef-ar/space/kaf-ar/alef-ar/noon-ar/teh-ar/space/alef-ar/lam-ar/dal-ar/waw-ar/lam-ar/space/alef-ar/lam-ar/alefHamzaabove-ar/ain-ar/dad-ar/alef-ar/hamza-ar/space/qaf-ar/dal-ar/space/teh-ar/ain-ar/heh-ar/dal-ar/teh-ar/space/beh-ar/alef-ar/lam-ar/ain-ar/meem-ar/lam-ar/comma-ar/space/beh-ar/alef-ar/lam-ar/teh-ar/ain-ar/alef-ar/waw-ar/noon-ar/space/meem-ar/ain-ar/space/alef-ar/lam-ar/alefHamzaabove-ar/meem-ar/meem-ar/space/alef-ar/lam-ar/meem-ar/teh-ar/hah-ar/dal-ar/tehMarbuta-ar/space/ain-ar/lam-ar/alefMaksura-ar/space/dad-ar/meem-ar/alef-ar/noon-ar/space/teh-ar/ain-ar/zain-ar/yeh-ar/zain-ar/space/alef-ar/lam-ar/alef-ar/hah-ar/teh-ar/reh-ar/alef-ar/meem-ar/space/waw-ar/alef-ar/lam-ar/meem-ar/reh-ar/alef-ar/ain-ar/alef-ar/tehMarbuta-ar/space/alef-ar/lam-ar/ain-ar/alef-ar/lam-ar/meem-ar/yeh-ar/yeh-ar/noon-ar/space/lam-ar/hah-ar/qaf-ar/waw-ar/qaf-ar/space/alef-ar/lam-ar/alefHamzabelow-ar/noon-ar/seen-ar/alef-ar/noon-ar/space/waw-ar/hah-ar/reh-ar/reh-ar/yeh-ar/alef-ar/teh-ar/heh-ar/space/alef-ar/lam-ar/alefHamzaabove-ar/seen-ar/alef-ar/seen-ar/yeh-ar/tehMarbuta-ar/comma-ar \012/waw-ar/lam-ar/meem-ar/alef-ar/space/kaf-ar/alef-ar/noon-ar/space/alef-ar/lam-ar/teh-ar/qaf-ar/alef-ar/hamza-ar/space/alef-ar/lam-ar/jeem-ar/meem-ar/yeh-ar/ain-ar/space/ain-ar/lam-ar/alefMaksura-ar/space/feh-ar/heh-ar/meem-ar/space/meem-ar/sheen-ar/teh-ar/reh-ar/kaf-ar/space/lam-ar/heh-ar/thal-ar/heh-ar/space/alef-ar/lam-ar/hah-ar/qaf-ar/waw-ar/qaf-ar/space/waw-ar/alef-ar/lam-ar/hah-ar/reh-ar/yeh-ar/alef-ar/teh-ar/space/alefHamzaabove-ar/meem-ar/reh-ar/alef-ar/space/beh-ar/alef-ar/lam-ar/ghain-ar/space/alef-ar/lam-ar/dad-ar/reh-ar/waw-ar/reh-ar/tehMarbuta-ar/space/lam-ar/teh-ar/meem-ar/alef-ar/meem-ar/space/alef-ar/lam-ar/waw-ar/feh-ar/alef-ar/hamza-ar/space/beh-ar/heh-ar/thal-ar/alef-ar/space/alef-ar/lam-ar/teh-ar/ain-ar/heh-ar/dal-ar/comma-ar \012/feh-ar/alefHamzabelow-ar/noon-ar/space/alef-ar/lam-ar/jeem-ar/meem-ar/ain-ar/yeh-ar/tehMarbuta-ar/space/alef-ar/lam-ar/ain-ar/alef-ar/meem-ar/tehMarbuta-ar \012/teh-ar/noon-ar/sheen-ar/reh-ar/space/ain-ar/lam-ar/alefMaksura-ar/space/alef-ar/lam-ar/meem-ar/lam-ar/alefHamzaabove-ar/space/heh-ar/thal-ar/alef-ar/space/alef-ar/lam-ar/alefHamzabelow-ar/ain-ar/lam-ar/alef-ar/noon-ar/space/alef-ar/lam-ar/ain-ar/alef-ar/lam-ar/meem-ar/yeh-ar/space/lam-ar/hah-ar/qaf-ar/waw-ar/qaf-ar/space/alef-ar/lam-ar/alefHamzabelow-ar/noon-ar/seen-ar/alef-ar/noon-ar/space/beh-ar/waw-ar/sad-ar/feh-ar/heh-ar/space/alef-ar/lam-ar/meem-ar/theh-ar/lam-ar/space/alef-ar/lam-ar/alefHamzaabove-ar/ain-ar/lam-ar/alefMaksura-ar/space/alef-ar/lam-ar/meem-ar/sheen-ar/teh-ar/reh-ar/kaf-ar/space/alef-ar/lam-ar/thal-ar/yeh-ar/space/yeh-ar/noon-ar/beh-ar/ghain-ar/yeh-ar/space/alefHamzaabove-ar/noon-ar/space/teh-ar/beh-ar/lam-ar/ghain-ar/heh-ar/space/kaf-ar/alef-ar/feh-ar/tehMarbuta-ar/space/alef-ar/lam-ar/sheen-ar/ain-ar/waw-ar/beh-ar/space/waw-ar/kaf-ar/alef-ar/feh-ar/tehMarbuta-ar/space/alef-ar/lam-ar/alefHamzaabove-ar/meem-ar/meem-ar/comma-ar/space/kaf-ar/yeh-ar/meem-ar/alef-ar/space/yeh-ar/seen-ar/ain-ar/alefMaksura-ar/space/jeem-ar/meem-ar/yeh-ar/ain-ar/space/alefHamzaabove-ar/feh-ar/reh-ar/alef-ar/dal-ar/space/alef-ar/lam-ar/meem-ar/jeem-ar/teh-ar/meem-ar/ain-ar/space/waw-ar/heh-ar/yeh-ar/yehHamzaabove-ar/alef-ar/teh-ar/heh-ar/comma-ar/space/waw-ar/alef-ar/dad-ar/ain-ar/yeh-ar/noon-ar/space/heh-ar/thal-ar/alef-ar/space/alef-ar/lam-ar/alefHamzabelow-ar/ain-ar/lam-ar/alef-ar/noon-ar/space/noon-ar/sad-ar/beh-ar/space/alefHamzaabove-ar/ain-ar/yeh-ar/noon-ar/heh-ar/meem-ar/space/ain-ar/lam-ar/alefMaksura-ar/space/alef-ar/lam-ar/dal-ar/waw-ar/alef-ar/meem-ar/comma-ar/space/waw-ar/meem-ar/noon-ar/space/khah-ar/lam-ar/alef-ar/lam-ar/space/alef-ar/lam-ar/teh-ar/ain-ar/lam-ar/yeh-ar/meem-ar/space/waw-ar/alef-ar/lam-ar/teh-ar/reh-ar/beh-ar/yeh-ar/tehMarbuta-ar/comma-ar/space/alefHamzabelow-ar/lam-ar/alefMaksura-ar/space/teh-ar/waw-ar/tah-ar/yeh-ar/dal-ar/space/alef-ar/hah-ar/teh-ar/reh-ar/alef-ar/meem-ar/space/heh-ar/thal-ar/heh-ar/space/alef-ar/lam-ar/hah-ar/qaf-ar/waw-ar/qaf-ar/space/waw-ar/alef-ar/lam-ar/hah-ar/reh-ar/yeh-ar/alef-ar/teh-ar/comma-ar/space/waw-ar/kaf-ar/yeh-ar/meem-ar/alef-ar/space/yeh-ar/kaf-ar/feh-ar/lam-ar/waw-ar/alef-ar/comma-ar/space/beh-ar/alef-ar/lam-ar/teh-ar/dal-ar/alef-ar/beh-ar/yeh-ar/reh-ar/space/alef-ar/lam-ar/meem-ar/tah-ar/reh-ar/dal-ar/tehMarbuta-ar/space/alef-ar/lam-ar/waw-ar/tah-ar/noon-ar/yeh-ar/tehMarbuta-ar/space/waw-ar/alef-ar/lam-ar/dal-ar/waw-ar/lam-ar/yeh-ar/tehMarbuta-ar/comma-ar/space/alef-ar/lam-ar/alef-ar/ain-ar/teh-ar/reh-ar/alef-ar/feh-ar/space/alef-ar/lam-ar/ain-ar/alef-ar/lam-ar/meem-ar/yeh-ar/space/beh-ar/heh-ar/alef-ar/space/waw-ar/meem-ar/reh-ar/alef-ar/ain-ar/alef-ar/teh-ar/heh-ar/alef-ar/space/alef-ar/lam-ar/feh-ar/ain-ar/lam-ar/yeh-ar/tehMarbuta-ar/comma-ar/space/feh-ar/yeh-ar/meem-ar/alef-ar/space/beh-ar/yeh-ar/noon-ar/space/sheen-ar/ain-ar/waw-ar/beh-ar/space/alef-ar/lam-ar/dal-ar/waw-ar/lam-ar/space/alef-ar/lam-ar/alefHamzaabove-ar/ain-ar/dad-ar/alef-ar/hamza-ar/space/thal-ar/alef-ar/teh-ar/heh-ar/alef-ar/space/waw-ar/feh-ar/yeh-ar/meem-ar/alef-ar/space/beh-ar/yeh-ar/noon-ar/space/sheen-ar/ain-ar/waw-ar/beh-ar/space/alef-ar/lam-ar/alefHamzaabove-ar/qaf-ar/alef-ar/lam-ar/yeh-ar/meem-ar/space/alef-ar/lam-ar/meem-ar/waw-ar/dad-ar/waw-ar/ain-ar/tehMarbuta-ar/space/teh-ar/hah-ar/teh-ar/space/waw-ar/lam-ar/alef-ar/yeh-ar/teh-ar/heh-ar/alef-ar/space/ain-ar/lam-ar/alefMaksura-ar/space/alef-ar/lam-ar/seen-ar/waw-ar/alef-ar/hamza-ar"
+"/meem-ar/alef-ar/space/kaf-ar/alef-ar/noon-ar/space/alef-ar/lam-ar/alefHamzabelow-ar/qaf-ar/reh-ar/alef-ar/reh-ar/space/beh-ar/meem-ar/alef-ar/space/lam-ar/jeem-ar/meem-ar/yeh-ar/ain-ar/space/alefHamzaabove-ar/ain-ar/dad-ar/alef-ar/hamza-ar/space/alef-ar/lam-ar/alefHamzaabove-ar/seen-ar/reh-ar/tehMarbuta-ar/space/alef-ar/lam-ar/beh-ar/sheen-ar/reh-ar/yeh-ar/tehMarbuta-ar/space/meem-ar/noon-ar/space/kaf-ar/reh-ar/alef-ar/meem-ar/tehMarbuta-ar/space/alefHamzaabove-ar/sad-ar/yeh-ar/lam-ar/tehMarbuta-ar/space/feh-ar/yeh-ar/heh-ar/meem-ar/comma-ar/space/waw-ar/meem-ar/noon-ar/space/hah-ar/qaf-ar/waw-ar/qaf-ar/space/meem-ar/teh-ar/seen-ar/alef-ar/waw-ar/yeh-ar/tehMarbuta-ar/space/waw-ar/theh-ar/alef-ar/beh-ar/teh-ar/tehMarbuta-ar/comma-ar/space/yeh-ar/sheen-ar/kaf-ar/lam-ar/space/alefHamzaabove-ar/seen-ar/alef-ar/seen-ar/space/alef-ar/lam-ar/hah-ar/reh-ar/yeh-ar/tehMarbuta-ar/space/waw-ar/alef-ar/lam-ar/ain-ar/dal-ar/lam-ar/space/waw-ar/alef-ar/lam-ar/seen-ar/lam-ar/alef-ar/meem-ar/space/feh-ar/yeh-ar/space/alef-ar/lam-ar/ain-ar/alef-ar/lam-ar/meem-ar/comma-ar \012/waw-ar/lam-ar/meem-ar/alef-ar/space/kaf-ar/alef-ar/noon-ar/space/teh-ar/jeem-ar/alef-ar/heh-ar/lam-ar/space/hah-ar/qaf-ar/waw-ar/qaf-ar/space/alef-ar/lam-ar/alefHamzabelow-ar/noon-ar/seen-ar/alef-ar/noon-ar/space/waw-ar/alef-ar/zain-ar/dal-ar/reh-ar/alef-ar/wawHamzaabove-ar/heh-ar/alef-ar/space/qaf-ar/dal-ar/space/alefHamzaabove-ar/feh-ar/dad-ar/yeh-ar/alef-ar/space/alefHamzabelow-ar/lam-ar/alefMaksura-ar/space/alefHamzaabove-ar/ain-ar/meem-ar/alef-ar/lam-ar/space/alefHamzaabove-ar/theh-ar/alef-ar/reh-ar/teh-ar/space/beh-ar/reh-ar/beh-ar/reh-ar/yeh-ar/teh-ar/heh-ar/alef-ar/space/alef-ar/lam-ar/dad-ar/meem-ar/yeh-ar/reh-ar/space/alef-ar/lam-ar/alefHamzabelow-ar/noon-ar/seen-ar/alef-ar/noon-ar/yeh-ar/comma-ar/space/waw-ar/kaf-ar/alef-ar/noon-ar/space/alef-ar/lam-ar/beh-ar/sheen-ar/reh-ar/space/qaf-ar/dal-ar/space/noon-ar/alef-ar/dal-ar/waw-ar/alef-ar/space/beh-ar/beh-ar/zain-ar/waw-ar/ghain-ar/space/ain-ar/alef-ar/lam-ar/meem-ar/space/yeh-ar/teh-ar/meem-ar/teh-ar/ain-ar/waw-ar/noon-ar/space/feh-ar/yeh-ar/heh-ar/space/beh-ar/hah-ar/reh-ar/yeh-ar/tehMarbuta-ar/space/alef-ar/lam-ar/qaf-ar/waw-ar/lam-ar/space/waw-ar/alef-ar/lam-ar/ain-ar/qaf-ar/yeh-ar/dal-ar/tehMarbuta-ar/space/waw-ar/beh-ar/alef-ar/lam-ar/teh-ar/hah-ar/reh-ar/yeh-ar/reh-ar/space/meem-ar/noon-ar/space/alef-ar/lam-ar/khah-ar/waw-ar/feh-ar/space/waw-ar/alef-ar/lam-ar/feh-ar/alef-ar/qaf-ar/tehMarbuta-ar/comma-ar/space/kaf-ar/alefHamzaabove-ar/seen-ar/meem-ar/alefMaksura-ar/space/meem-ar/alef-ar/space/teh-ar/reh-ar/noon-ar/waw-ar/space/alefHamzabelow-ar/lam-ar/yeh-ar/heh-ar/space/noon-ar/feh-ar/waw-ar/seen-ar/heh-ar/meem-ar/comma-ar \012/waw-ar/lam-ar/meem-ar/alef-ar/space/kaf-ar/alef-ar/noon-ar/space/meem-ar/noon-ar/space/alef-ar/lam-ar/alefHamzaabove-ar/seen-ar/alef-ar/seen-ar/yeh-ar/space/alefHamzaabove-ar/noon-ar/space/teh-ar/teh-ar/meem-ar/teh-ar/ain-ar/space/hah-ar/qaf-ar/waw-ar/qaf-ar/space/alef-ar/lam-ar/alefHamzabelow-ar/noon-ar/seen-ar/alef-ar/noon-ar/space/beh-ar/hah-ar/meem-ar/alef-ar/yeh-ar/tehMarbuta-ar/space/alef-ar/lam-ar/noon-ar/zah-ar/alef-ar/meem-ar/space/alef-ar/lam-ar/qaf-ar/alef-ar/noon-ar/waw-ar/noon-ar/yeh-ar/space/alefHamzabelow-ar/thal-ar/alef-ar/space/alefHamzaabove-ar/reh-ar/yeh-ar/dal-ar/space/lam-ar/lam-ar/beh-ar/sheen-ar/reh-ar/space/alefHamzaabove-ar/lam-ar/alef-ar/space/yeh-ar/dad-ar/tah-ar/reh-ar/waw-ar/alef-ar/space/alefMadda-ar/khah-ar/reh-ar/space/alef-ar/lam-ar/alefHamzaabove-ar/meem-ar/reh-ar/space/alefHamzabelow-ar/lam-ar/alefMaksura-ar/space/alef-ar/lam-ar/lam-ar/yeh-ar/alef-ar/thal-ar/space/beh-ar/alef-ar/lam-ar/teh-ar/meem-ar/reh-ar/dal-ar/space/ain-ar/lam-ar/alefMaksura-ar/space/alef-ar/lam-ar/tah-ar/ghain-ar/yeh-ar/alef-ar/noon-ar/space/waw-ar/alef-ar/lam-ar/alef-ar/dad-ar/tah-ar/heh-ar/alef-ar/dal-ar/comma-ar \012/waw-ar/lam-ar/meem-ar/alef-ar/space/kaf-ar/alef-ar/noon-ar/space/meem-ar/noon-ar/space/alef-ar/lam-ar/jeem-ar/waw-ar/heh-ar/reh-ar/yeh-ar/space/alef-ar/lam-ar/ain-ar/meem-ar/lam-ar/space/ain-ar/lam-ar/alefMaksura-ar/space/teh-ar/noon-ar/meem-ar/yeh-ar/tehMarbuta-ar/space/ain-ar/lam-ar/alef-ar/qaf-ar/alef-ar/teh-ar/space/waw-ar/dal-ar/yeh-ar/tehMarbuta-ar/space/beh-ar/yeh-ar/noon-ar/space/alef-ar/lam-ar/alefHamzaabove-ar/meem-ar/meem-ar/comma-ar \012/waw-ar/lam-ar/meem-ar/alef-ar/space/kaf-ar/alef-ar/noon-ar/teh-ar/space/sheen-ar/ain-ar/waw-ar/beh-ar/space/alef-ar/lam-ar/alefHamzaabove-ar/meem-ar/meem-ar/space/alef-ar/lam-ar/meem-ar/teh-ar/hah-ar/dal-ar/tehMarbuta-ar/space/qaf-ar/dal-ar/space/alefHamzaabove-ar/ain-ar/alef-ar/dal-ar/teh-ar/space/feh-ar/yeh-ar/space/alef-ar/lam-ar/meem-ar/yeh-ar/theh-ar/alef-ar/qaf-ar/space/teh-ar/alefHamzaabove-ar/kaf-ar/yeh-ar/dal-ar/space/alefHamzabelow-ar/yeh-ar/meem-ar/alef-ar/noon-ar/heh-ar/alef-ar/space/beh-ar/hah-ar/qaf-ar/waw-ar/qaf-ar/space/alef-ar/lam-ar/alefHamzabelow-ar/noon-ar/seen-ar/alef-ar/noon-ar/space/alef-ar/lam-ar/alefHamzaabove-ar/seen-ar/alef-ar/seen-ar/yeh-ar/tehMarbuta-ar/comma-ar/space/waw-ar/beh-ar/kaf-ar/reh-ar/alef-ar/meem-ar/tehMarbuta-ar/space/alef-ar/lam-ar/alefHamzabelow-ar/noon-ar/seen-ar/alef-ar/noon-ar/space/waw-ar/qaf-ar/dal-ar/reh-ar/heh-ar/comma-ar/space/waw-ar/beh-ar/teh-ar/seen-ar/alef-ar/waw-ar/yeh-ar/space/alef-ar/lam-ar/reh-ar/jeem-ar/alef-ar/lam-ar/space/waw-ar/alef-ar/lam-ar/noon-ar/seen-ar/alef-ar/hamza-ar/space/feh-ar/yeh-ar/space/alef-ar/lam-ar/hah-ar/qaf-ar/waw-ar/qaf-ar/comma-ar/space/waw-ar/hah-ar/zain-ar/meem-ar/teh-ar/space/alefHamzaabove-ar/meem-ar/reh-ar/heh-ar/alef-ar/space/ain-ar/lam-ar/alefMaksura-ar/space/alef-ar/lam-ar/noon-ar/heh-ar/waw-ar/dad-ar/space/beh-ar/alef-ar/lam-ar/teh-ar/qaf-ar/dal-ar/meem-ar/space/alef-ar/lam-ar/alef-ar/jeem-ar/teh-ar/meem-ar/alef-ar/ain-ar/yeh-ar/space/waw-ar/beh-ar/teh-ar/hah-ar/seen-ar/yeh-ar/noon-ar/space/meem-ar/seen-ar/teh-ar/waw-ar/yeh-ar/alef-ar/teh-ar/space/alef-ar/lam-ar/hah-ar/yeh-ar/alef-ar/tehMarbuta-ar/space/feh-ar/yeh-ar/space/jeem-ar/waw-ar/space/meem-ar/noon-ar/space/alef-ar/lam-ar/hah-ar/reh-ar/yeh-ar/tehMarbuta-ar/space/alefHamzaabove-ar/feh-ar/seen-ar/hah-ar/comma-ar \012/waw-ar/lam-ar/meem-ar/alef-ar/space/kaf-ar/alef-ar/noon-ar/teh-ar/space/alef-ar/lam-ar/dal-ar/waw-ar/lam-ar/space/alef-ar/lam-ar/alefHamzaabove-ar/ain-ar/dad-ar/alef-ar/hamza-ar/space/qaf-ar/dal-ar/space/teh-ar/ain-ar/heh-ar/dal-ar/teh-ar/space/beh-ar/alef-ar/lam-ar/ain-ar/meem-ar/lam-ar/comma-ar/space/beh-ar/alef-ar/lam-ar/teh-ar/ain-ar/alef-ar/waw-ar/noon-ar/space/meem-ar/ain-ar/space/alef-ar/lam-ar/alefHamzaabove-ar/meem-ar/meem-ar/space/alef-ar/lam-ar/meem-ar/teh-ar/hah-ar/dal-ar/tehMarbuta-ar/space/ain-ar/lam-ar/alefMaksura-ar/space/dad-ar/meem-ar/alef-ar/noon-ar/space/teh-ar/ain-ar/zain-ar/yeh-ar/zain-ar/space/alef-ar/lam-ar/alef-ar/hah-ar/teh-ar/reh-ar/alef-ar/meem-ar/space/waw-ar/alef-ar/lam-ar/meem-ar/reh-ar/alef-ar/ain-ar/alef-ar/tehMarbuta-ar/space/alef-ar/lam-ar/ain-ar/alef-ar/lam-ar/meem-ar/yeh-ar/yeh-ar/noon-ar/space/lam-ar/hah-ar/qaf-ar/waw-ar/qaf-ar/space/alef-ar/lam-ar/alefHamzabelow-ar/noon-ar/seen-ar/alef-ar/noon-ar/space/waw-ar/hah-ar/reh-ar/reh-ar/yeh-ar/alef-ar/teh-ar/heh-ar/space/alef-ar/lam-ar/alefHamzaabove-ar/seen-ar/alef-ar/seen-ar/yeh-ar/tehMarbuta-ar/comma-ar \012/waw-ar/lam-ar/meem-ar/alef-ar/space/kaf-ar/alef-ar/noon-ar/space/alef-ar/lam-ar/teh-ar/qaf-ar/alef-ar/hamza-ar/space/alef-ar/lam-ar/jeem-ar/meem-ar/yeh-ar/ain-ar/space/ain-ar/lam-ar/alefMaksura-ar/space/feh-ar/heh-ar/meem-ar/space/meem-ar/sheen-ar/teh-ar/reh-ar/kaf-ar/space/lam-ar/heh-ar/thal-ar/heh-ar/space/alef-ar/lam-ar/hah-ar/qaf-ar/waw-ar/qaf-ar/space/waw-ar/alef-ar/lam-ar/hah-ar/reh-ar/yeh-ar/alef-ar/teh-ar/space/alefHamzaabove-ar/meem-ar/reh-ar/alef-ar/space/beh-ar/alef-ar/lam-ar/ghain-ar/space/alef-ar/lam-ar/dad-ar/reh-ar/waw-ar/reh-ar/tehMarbuta-ar/space/lam-ar/teh-ar/meem-ar/alef-ar/meem-ar/space/alef-ar/lam-ar/waw-ar/feh-ar/alef-ar/hamza-ar/space/beh-ar/heh-ar/thal-ar/alef-ar/space/alef-ar/lam-ar/teh-ar/ain-ar/heh-ar/dal-ar/comma-ar \012/feh-ar/alefHamzabelow-ar/noon-ar/space/alef-ar/lam-ar/jeem-ar/meem-ar/ain-ar/yeh-ar/tehMarbuta-ar/space/alef-ar/lam-ar/ain-ar/alef-ar/meem-ar/tehMarbuta-ar \012/teh-ar/noon-ar/sheen-ar/reh-ar/space/ain-ar/lam-ar/alefMaksura-ar/space/alef-ar/lam-ar/meem-ar/lam-ar/alefHamzaabove-ar/space/heh-ar/thal-ar/alef-ar/space/alef-ar/lam-ar/alefHamzabelow-ar/ain-ar/lam-ar/alef-ar/noon-ar/space/alef-ar/lam-ar/ain-ar/alef-ar/lam-ar/meem-ar/yeh-ar/space/lam-ar/hah-ar/qaf-ar/waw-ar/qaf-ar/space/alef-ar/lam-ar/alefHamzabelow-ar/noon-ar/seen-ar/alef-ar/noon-ar/space/beh-ar/waw-ar/sad-ar/feh-ar/heh-ar/space/alef-ar/lam-ar/meem-ar/theh-ar/lam-ar/space/alef-ar/lam-ar/alefHamzaabove-ar/ain-ar/lam-ar/alefMaksura-ar/space/alef-ar/lam-ar/meem-ar/sheen-ar/teh-ar/reh-ar/kaf-ar/space/alef-ar/lam-ar/thal-ar/yeh-ar/space/yeh-ar/noon-ar/beh-ar/ghain-ar/yeh-ar/space/alefHamzaabove-ar/noon-ar/space/teh-ar/beh-ar/lam-ar/ghain-ar/heh-ar/space/kaf-ar/alef-ar/feh-ar/tehMarbuta-ar/space/alef-ar/lam-ar/sheen-ar/ain-ar/waw-ar/beh-ar/space/waw-ar/kaf-ar/alef-ar/feh-ar/tehMarbuta-ar/space/alef-ar/lam-ar/alefHamzaabove-ar/meem-ar/meem-ar/comma-ar/space/kaf-ar/yeh-ar/meem-ar/alef-ar/space/yeh-ar/seen-ar/ain-ar/alefMaksura-ar/space/jeem-ar/meem-ar/yeh-ar/ain-ar/space/alefHamzaabove-ar/feh-ar/reh-ar/alef-ar/dal-ar/space/alef-ar/lam-ar/meem-ar/jeem-ar/teh-ar/meem-ar/ain-ar/space/waw-ar/heh-ar/yeh-ar/yehHamzaabove-ar/alef-ar/teh-ar/heh-ar/comma-ar/space/waw-ar/alef-ar/dad-ar/ain-ar/yeh-ar/noon-ar/space/heh-ar/thal-ar/alef-ar/space/alef-ar/lam-ar/alefHamzabelow-ar/ain-ar/lam-ar/alef-ar/noon-ar/space/noon-ar/sad-ar/beh-ar/space/alefHamzaabove-ar/ain-ar/yeh-ar/noon-ar/heh-ar/meem-ar/space/ain-ar/lam-ar/alefMaksura-ar/space/alef-ar/lam-ar/dal-ar/waw-ar/alef-ar/meem-ar/comma-ar/space/waw-ar/meem-ar/noon-ar/space/khah-ar/lam-ar/alef-ar/lam-ar/space/alef-ar/lam-ar/teh-ar/ain-ar/lam-ar/yeh-ar/meem-ar/space/waw-ar/alef-ar/lam-ar/teh-ar/reh-ar/beh-ar/yeh-ar/tehMarbuta-ar/comma-ar/space/alefHamzabelow-ar/lam-ar/alefMaksura-ar/space/teh-ar/waw-ar/tah-ar/yeh-ar/dal-ar/space/alef-ar/hah-ar/teh-ar/reh-ar/alef-ar/meem-ar/space/heh-ar/thal-ar/heh-ar/space/alef-ar/lam-ar/hah-ar/qaf-ar/waw-ar/qaf-ar/space/waw-ar/alef-ar/lam-ar/hah-ar/reh-ar/yeh-ar/alef-ar/teh-ar/comma-ar/space/waw-ar/kaf-ar/yeh-ar/meem-ar/alef-ar/space/yeh-ar/kaf-ar/feh-ar/lam-ar/waw-ar/alef-ar/comma-ar/space/beh-ar/alef-ar/lam-ar/teh-ar/dal-ar/alef-ar/beh-ar/yeh-ar/reh-ar/space/alef-ar/lam-ar/meem-ar/tah-ar/reh-ar/dal-ar/tehMarbuta-ar/space/alef-ar/lam-ar/waw-ar/tah-ar/noon-ar/yeh-ar/tehMarbuta-ar/space/waw-ar/alef-ar/lam-ar/dal-ar/waw-ar/lam-ar/yeh-ar/tehMarbuta-ar/comma-ar/space/alef-ar/lam-ar/alef-ar/ain-ar/teh-ar/reh-ar/alef-ar/feh-ar/space/alef-ar/lam-ar/ain-ar/alef-ar/lam-ar/meem-ar/yeh-ar/space/beh-ar/heh-ar/alef-ar/space/waw-ar/meem-ar/reh-ar/alef-ar/ain-ar/alef-ar/teh-ar/heh-ar/alef-ar/space/alef-ar/lam-ar/feh-ar/ain-ar/lam-ar/yeh-ar/tehMarbuta-ar/comma-ar/space/feh-ar/yeh-ar/meem-ar/alef-ar/space/beh-ar/yeh-ar/noon-ar/space/sheen-ar/ain-ar/waw-ar/beh-ar/space/alef-ar/lam-ar/dal-ar/waw-ar/lam-ar/space/alef-ar/lam-ar/alefHamzaabove-ar/ain-ar/dad-ar/alef-ar/hamza-ar/space/thal-ar/alef-ar/teh-ar/heh-ar/alef-ar/space/waw-ar/feh-ar/yeh-ar/meem-ar/alef-ar/space/beh-ar/yeh-ar/noon-ar/space/sheen-ar/ain-ar/waw-ar/beh-ar/space/alef-ar/lam-ar/alefHamzaabove-ar/qaf-ar/alef-ar/lam-ar/yeh-ar/meem-ar/space/alef-ar/lam-ar/meem-ar/waw-ar/dad-ar/waw-ar/ain-ar/tehMarbuta-ar/space/teh-ar/hah-ar/teh-ar/space/waw-ar/lam-ar/alef-ar/yeh-ar/teh-ar/heh-ar/alef-ar/space/ain-ar/lam-ar/alefMaksura-ar/space/alef-ar/lam-ar/seen-ar/waw-ar/alef-ar/hamza-ar",
+"/jeemThreedotsabove-ar"
 );
 classes = (
 {
@@ -374,18 +375,18 @@ code = "#lookup early {
  sub hahTwodotsverticalabove-ar				by hah-ar twodotsverticalabove-ar;
  sub hahTwodotshorizontalabove-ar			by hah-ar twodotshorizontalabove-ar;
  sub hahTahabove-ar							by hah-ar tahabove-ar;
-#sub tcheheh-ar								by hah-ar fourdotscenter-ar;
-#sub nyeh-ar								by hah-ar twodotshorizontalcenter-ar;
-#sub dyeh-ar								by hah-ar twodotsverticalcenter-ar;
-#sub hahThreedotsupbelow-ar					by hah-ar threedotsupcenter-ar;
+ sub tcheheh-ar								by hah-ar fourdotscenter-ar;
+ sub nyeh-ar								by hah-ar twodotshorizontalcenter-ar;
+ sub dyeh-ar								by hah-ar twodotsverticalcenter-ar;
+ sub hahThreedotsupbelow-ar					by hah-ar threedotsupcenter-ar;
 #sub hahTahbelow-ar							by hah-ar tahcenter-ar;
 #sub hahTahTwodotshorizontalbelow-ar		by hah-ar twodotshorizontalcenter_tahabove-ar;
 #sub hahFourbelow-ar						by hah-ar fourcenter-ar;
 #sub hahVinvertedbelow-ar					by hah-ar vinvertedcenter-ar;
 #sub jeemThreedotsbelow-ar					by hah-ar dotcenter_threedotsdownbelow-ar;
-#sub jeemTwodotsabove-ar					by hah-ar dotcenter-ar twodotshorizontalabove-ar;
-#sub jeemThreedotsabove-ar					by hah-ar dotcenter-ar threedotsupabove-ar;
-#sub tchehDotabove-ar						by hah-ar threedotsdowncenter-ar dotabove-ar;
+ sub jeemTwodotsabove-ar					by hah-ar dotcenter-ar twodotshorizontalabove-ar;
+ sub jeemThreedotsabove-ar					by hah-ar dotcenter-ar threedotsupabove-ar;
+ sub tchehDotabove-ar						by hah-ar threedotsdowncenter-ar dotabove-ar;
 #sub tchehVabove-ar							by hah-ar threedotsdowncenter-ar vabove-ar;
  sub thal-ar								by dal-ar dotabove-ar;
  sub ddal-ar								by dal-ar tahabove-ar;
@@ -511,7 +512,7 @@ code = "#lookup early {
 #sub kirghizoe-ar							by waw-ar stroke-ar;
 #sub oe-ar									by waw-ar vabove-ar;
 #sub u-ar									by waw-ar commaabove-ar;
-#sub yu-ar									by waw-ar alefabove-ar;
+ sub yu-ar									by waw-ar alefabove-ar;
 #sub kirghizyu-ar							by waw-ar vinvertedabove-ar;
  sub ve-ar									by waw-ar threedotsupabove-ar;
 #sub wawTwoabove-ar							by waw-ar twoabove-ar;
@@ -778,6 +779,9 @@ position = "{0, 1000}";
 {
 locked = 1;
 position = "{0, -420}";
+},
+{
+position = "{25, 25}";
 }
 );
 id = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -813,6 +817,9 @@ position = "{0, 1000}";
 {
 locked = 1;
 position = "{0, -420}";
+},
+{
+position = "{48, 48}";
 }
 );
 id = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -853,6 +860,9 @@ position = "{0, 1000}";
 {
 locked = 1;
 position = "{0, -420}";
+},
+{
+position = "{57, 57}";
 }
 );
 id = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -64903,6 +64913,98 @@ unicode = 0682;
 },
 {
 color = 0;
+glyphname = "nyeh-ar";
+layers = (
+{
+components = (
+{
+name = "hah-ar";
+},
+{
+name = "twodotshorizontalcenter-ar";
+transform = "{1, 0, 0, 1, 430, -96}";
+}
+);
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+width = 688;
+},
+{
+components = (
+{
+name = "hah-ar";
+},
+{
+name = "twodotshorizontalcenter-ar";
+transform = "{1, 0, 0, 1, 404, -96}";
+}
+);
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+width = 708;
+},
+{
+components = (
+{
+name = "hah-ar";
+},
+{
+name = "twodotshorizontalcenter-ar";
+transform = "{1, 0, 0, 1, 417, -86}";
+}
+);
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+width = 759;
+}
+);
+unicode = 0683;
+},
+{
+color = 0;
+glyphname = "dyeh-ar";
+layers = (
+{
+components = (
+{
+name = "hah-ar";
+},
+{
+name = "twodotsverticalcenter-ar";
+transform = "{1, 0, 0, 1, 461, -96}";
+}
+);
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+width = 688;
+},
+{
+components = (
+{
+name = "hah-ar";
+},
+{
+name = "twodotsverticalcenter-ar";
+transform = "{1, 0, 0, 1, 459, -96}";
+}
+);
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+width = 708;
+},
+{
+components = (
+{
+name = "hah-ar";
+},
+{
+name = "twodotsverticalcenter-ar";
+transform = "{1, 0, 0, 1, 481, -86}";
+}
+);
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+width = 759;
+}
+);
+unicode = 0684;
+},
+{
+color = 0;
 glyphname = "hahThreedotsabove-ar";
 layers = (
 {
@@ -64968,7 +65070,7 @@ name = "hah-ar";
 },
 {
 name = "threedotsdowncenter-ar";
-transform = "{1, 0, 0, 1, 404, -144}";
+transform = "{1, 0, 0, 1, 404, -96}";
 }
 );
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -65083,7 +65185,7 @@ name = "hah-ar";
 },
 {
 name = "threedotsdowncenter-ar";
-transform = "{1, 0, 0, 1, 417, -144}";
+transform = "{1, 0, 0, 1, 417, -86}";
 }
 );
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -65291,7 +65393,7 @@ name = "hah-ar";
 },
 {
 name = "threedotsdowncenter-ar";
-transform = "{1, 0, 0, 1, 430, -123}";
+transform = "{1, 0, 0, 1, 430, -96}";
 }
 );
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -65475,6 +65577,110 @@ unicode = 0686;
 },
 {
 color = 0;
+glyphname = "tcheheh-ar";
+layers = (
+{
+components = (
+{
+name = "hah-ar";
+},
+{
+name = "fourdotscenter-ar";
+transform = "{1, 0, 0, 1, 430, -96}";
+}
+);
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+width = 688;
+},
+{
+components = (
+{
+name = "hah-ar";
+},
+{
+name = "fourdotscenter-ar";
+transform = "{1, 0, 0, 1, 404, -96}";
+}
+);
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+width = 708;
+},
+{
+components = (
+{
+name = "hah-ar";
+},
+{
+name = "fourdotscenter-ar";
+transform = "{1, 0, 0, 1, 417, -86}";
+}
+);
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+width = 759;
+}
+);
+unicode = 0687;
+},
+{
+color = 0;
+glyphname = "tchehDotabove-ar";
+layers = (
+{
+components = (
+{
+name = "hah-ar";
+},
+{
+name = "threedotsdowncenter-ar";
+transform = "{1, 0, 0, 1, 430, -96}";
+},
+{
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 194, 37}";
+}
+);
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+width = 688;
+},
+{
+components = (
+{
+name = "hah-ar";
+},
+{
+name = "threedotsdowncenter-ar";
+transform = "{1, 0, 0, 1, 404, -96}";
+},
+{
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 182, 37}";
+}
+);
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+width = 708;
+},
+{
+components = (
+{
+name = "hah-ar";
+},
+{
+name = "threedotsdowncenter-ar";
+transform = "{1, 0, 0, 1, 417, -86}";
+},
+{
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 226, 81}";
+}
+);
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+width = 759;
+}
+);
+unicode = 06BF;
+},
+{
+color = 0;
 glyphname = "hahTwodotshorizontalabove-ar";
 layers = (
 {
@@ -65521,6 +65727,52 @@ unicode = 0757;
 },
 {
 color = 0;
+glyphname = "hahThreedotsupbelow-ar";
+layers = (
+{
+components = (
+{
+name = "hah-ar";
+},
+{
+name = "threedotsupcenter-ar";
+transform = "{1, 0, 0, 1, 430, -96}";
+}
+);
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+width = 688;
+},
+{
+components = (
+{
+name = "hah-ar";
+},
+{
+name = "threedotsupcenter-ar";
+transform = "{1, 0, 0, 1, 404, -96}";
+}
+);
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+width = 708;
+},
+{
+components = (
+{
+name = "hah-ar";
+},
+{
+name = "threedotsupcenter-ar";
+transform = "{1, 0, 0, 1, 417, -86}";
+}
+);
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+width = 759;
+}
+);
+unicode = 0758;
+},
+{
+color = 0;
 glyphname = "hahTahabove-ar";
 layers = (
 {
@@ -65564,6 +65816,122 @@ width = 759;
 }
 );
 unicode = 0772;
+},
+{
+color = 0;
+glyphname = "jeemTwodotsabove-ar";
+layers = (
+{
+components = (
+{
+name = "hah-ar";
+},
+{
+name = "dotcenter-ar";
+transform = "{1, 0, 0, 1, 462, -96}";
+},
+{
+name = "twodotshorizontalabove-ar";
+transform = "{1, 0, 0, 1, 162, 37}";
+}
+);
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+width = 688;
+},
+{
+components = (
+{
+name = "hah-ar";
+},
+{
+name = "dotcenter-ar";
+transform = "{1, 0, 0, 1, 459, -96}";
+},
+{
+name = "twodotshorizontalabove-ar";
+transform = "{1, 0, 0, 1, 127, 37}";
+}
+);
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+width = 708;
+},
+{
+components = (
+{
+name = "hah-ar";
+},
+{
+name = "dotcenter-ar";
+transform = "{1, 0, 0, 1, 481, -86}";
+},
+{
+name = "twodotshorizontalabove-ar";
+transform = "{1, 0, 0, 1, 162, 81}";
+}
+);
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+width = 759;
+}
+);
+unicode = 08A2;
+},
+{
+color = 0;
+glyphname = "jeemThreedotsabove-ar";
+layers = (
+{
+components = (
+{
+name = "hah-ar";
+},
+{
+name = "dotcenter-ar";
+transform = "{1, 0, 0, 1, 462, -96}";
+},
+{
+name = "threedotsupabove-ar";
+transform = "{1, 0, 0, 1, 162, 37}";
+}
+);
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+width = 688;
+},
+{
+components = (
+{
+name = "hah-ar";
+},
+{
+name = "dotcenter-ar";
+transform = "{1, 0, 0, 1, 459, -96}";
+},
+{
+name = "threedotsupabove-ar";
+transform = "{1, 0, 0, 1, 127, 37}";
+}
+);
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+width = 708;
+},
+{
+components = (
+{
+name = "hah-ar";
+},
+{
+name = "dotcenter-ar";
+transform = "{1, 0, 0, 1, 481, -86}";
+},
+{
+name = "threedotsupabove-ar";
+transform = "{1, 0, 0, 1, 162, 81}";
+}
+);
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+width = 759;
+}
+);
+unicode = 08C5;
 },
 {
 color = 0;
@@ -70142,6 +70510,52 @@ unicode = 0624;
 },
 {
 color = 0;
+glyphname = "yu-ar";
+layers = (
+{
+components = (
+{
+name = "waw-ar";
+},
+{
+name = "alefabove-ar";
+transform = "{1, 0, 0, 1, 203, 258}";
+}
+);
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+width = 463;
+},
+{
+components = (
+{
+name = "waw-ar";
+},
+{
+name = "alefabove-ar";
+transform = "{1, 0, 0, 1, 193, 258}";
+}
+);
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+width = 453;
+},
+{
+components = (
+{
+name = "waw-ar";
+},
+{
+name = "alefabove-ar";
+transform = "{1, 0, 0, 1, 183, 258}";
+}
+);
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+width = 471;
+}
+);
+unicode = 06C8;
+},
+{
+color = 0;
 glyphname = "wawTwodots-ar";
 layers = (
 {
@@ -74646,7 +75060,7 @@ name = "hah-ar.fina";
 },
 {
 name = "threedotsdowncenter-ar";
-transform = "{1, 0, 0, 1, 404, -144}";
+transform = "{1, 0, 0, 1, 404, -96}";
 }
 );
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -74659,7 +75073,7 @@ name = "hah-ar.fina";
 },
 {
 name = "threedotsdowncenter-ar";
-transform = "{1, 0, 0, 1, 417, -144}";
+transform = "{1, 0, 0, 1, 417, -86}";
 }
 );
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -74672,7 +75086,7 @@ name = "hah-ar.fina";
 },
 {
 name = "threedotsdowncenter-ar";
-transform = "{1, 0, 0, 1, 430, -123}";
+transform = "{1, 0, 0, 1, 430, -96}";
 }
 );
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -97510,7 +97924,7 @@ position = "{121, -226}";
 components = (
 {
 name = "twodotshorizontalabove-ar";
-transform = "{1, 0, 0, 1, 0, -526}";
+transform = "{1, 0, 0, 1, 0, -541}";
 }
 );
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -98358,19 +98772,413 @@ leftMetricsKey = "=0";
 rightMetricsKey = "=0";
 },
 {
-glyphname = "threedotsdowncenter-ar";
+glyphname = "twodotshorizontalcenter-ar";
 layers = (
 {
 anchors = (
 {
 name = _center;
-position = "{57, 27}";
+position = "{103, 0}";
 }
 );
 components = (
 {
-name = "threedotsdownbelow-ar";
-transform = "{1, 0, 0, 1, 0, 53}";
+name = "twodotshorizontalbelow-ar";
+transform = "{1, 0, 0, 1, 0, 48}";
+}
+);
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+width = 206;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{114, 0}";
+},
+{
+name = bottom;
+position = "{114, -298}";
+}
+);
+associatedMasterId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+components = (
+{
+name = "twodotshorizontalabove-ar";
+transform = "{1, 0, 0, 1, 0, -599}";
+}
+);
+layerId = "F7099BAA-8D6E-4DDA-A258-ADB4A298BF43";
+name = "Mar 14 20, 23:24";
+paths = (
+{
+closed = 1;
+nodes = (
+"141 -191 OFFCURVE",
+"162 -170 OFFCURVE",
+"162 -143 CURVE SMOOTH",
+"162 -116 OFFCURVE",
+"141 -95 OFFCURVE",
+"114 -95 CURVE SMOOTH",
+"87 -95 OFFCURVE",
+"66 -116 OFFCURVE",
+"66 -143 CURVE SMOOTH",
+"66 -170 OFFCURVE",
+"87 -191 OFFCURVE",
+"114 -191 CURVE SMOOTH"
+);
+},
+{
+closed = 0;
+nodes = (
+"169 -48 LINE",
+"59 -48 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"114 -143 LINE",
+"59 -48 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"178 -143 LINE",
+"8 -143 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"114 -42 LINE",
+"114 -212 LINE"
+);
+}
+);
+width = 228;
+},
+{
+anchors = (
+{
+name = _center;
+position = "{121, 0}";
+}
+);
+components = (
+{
+name = "twodotshorizontalbelow-ar";
+transform = "{1, 0, 0, 1, 0, 57}";
+}
+);
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+width = 242;
+},
+{
+associatedMasterId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+components = (
+{
+name = "twodotshorizontalabove-ar";
+transform = "{1, 0, 0, 1, -7, -541}";
+}
+);
+layerId = "946B604B-515F-41A9-BF0D-56C3434018F2";
+name = "Mar 24 20, 15:21";
+paths = (
+{
+closed = 0;
+nodes = (
+"209 -57 LINE",
+"19 -57 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"178 -143 LINE",
+"8 -143 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"114 -42 LINE",
+"114 -212 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"178 24 LINE",
+"178 -146 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"50 19 LINE",
+"50 -151 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"25 -32 LINE",
+"145 -152 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"146 -221 OFFCURVE",
+"171 -197 OFFCURVE",
+"171 -165 CURVE SMOOTH",
+"171 -133 OFFCURVE",
+"146 -108 OFFCURVE",
+"114 -108 CURVE SMOOTH",
+"82 -108 OFFCURVE",
+"57 -133 OFFCURVE",
+"57 -165 CURVE SMOOTH",
+"57 -197 OFFCURVE",
+"82 -221 OFFCURVE",
+"114 -221 CURVE SMOOTH"
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = _center;
+position = "{57, 0}";
+}
+);
+components = (
+{
+name = "twodotshorizontalbelow-ar";
+transform = "{1, 0, 0, 1, 0, 25}";
+}
+);
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+width = 114;
+}
+);
+leftMetricsKey = "=0";
+rightMetricsKey = "=0";
+},
+{
+glyphname = "twodotsverticalcenter-ar";
+layers = (
+{
+anchors = (
+{
+name = _center;
+position = "{48, 0}";
+}
+);
+components = (
+{
+name = "twodotsverticalbelow-ar";
+transform = "{1, 0, 0, 1, 0, 48}";
+}
+);
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+width = 96;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{114, 0}";
+},
+{
+name = bottom;
+position = "{114, -298}";
+}
+);
+associatedMasterId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+components = (
+{
+name = "twodotshorizontalabove-ar";
+transform = "{1, 0, 0, 1, 0, -599}";
+}
+);
+layerId = "F7099BAA-8D6E-4DDA-A258-ADB4A298BF43";
+name = "Mar 14 20, 23:24";
+paths = (
+{
+closed = 1;
+nodes = (
+"141 -191 OFFCURVE",
+"162 -170 OFFCURVE",
+"162 -143 CURVE SMOOTH",
+"162 -116 OFFCURVE",
+"141 -95 OFFCURVE",
+"114 -95 CURVE SMOOTH",
+"87 -95 OFFCURVE",
+"66 -116 OFFCURVE",
+"66 -143 CURVE SMOOTH",
+"66 -170 OFFCURVE",
+"87 -191 OFFCURVE",
+"114 -191 CURVE SMOOTH"
+);
+},
+{
+closed = 0;
+nodes = (
+"169 -48 LINE",
+"59 -48 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"114 -143 LINE",
+"59 -48 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"178 -143 LINE",
+"8 -143 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"114 -42 LINE",
+"114 -212 LINE"
+);
+}
+);
+width = 228;
+},
+{
+anchors = (
+{
+name = _center;
+position = "{57, 0}";
+}
+);
+components = (
+{
+name = "twodotsverticalbelow-ar";
+transform = "{1, 0, 0, 1, 0, 57}";
+}
+);
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+width = 113;
+},
+{
+associatedMasterId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+components = (
+{
+name = "twodotshorizontalabove-ar";
+transform = "{1, 0, 0, 1, -7, -541}";
+}
+);
+layerId = "946B604B-515F-41A9-BF0D-56C3434018F2";
+name = "Mar 24 20, 15:21";
+paths = (
+{
+closed = 0;
+nodes = (
+"209 -57 LINE",
+"19 -57 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"178 -143 LINE",
+"8 -143 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"114 -42 LINE",
+"114 -212 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"178 24 LINE",
+"178 -146 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"50 19 LINE",
+"50 -151 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"25 -32 LINE",
+"145 -152 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"146 -221 OFFCURVE",
+"171 -197 OFFCURVE",
+"171 -165 CURVE SMOOTH",
+"171 -133 OFFCURVE",
+"146 -108 OFFCURVE",
+"114 -108 CURVE SMOOTH",
+"82 -108 OFFCURVE",
+"57 -133 OFFCURVE",
+"57 -165 CURVE SMOOTH",
+"57 -197 OFFCURVE",
+"82 -221 OFFCURVE",
+"114 -221 CURVE SMOOTH"
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = _center;
+position = "{26, 0}";
+}
+);
+components = (
+{
+name = "twodotsverticalbelow-ar";
+transform = "{1, 0, 0, 1, 0, 25}";
+}
+);
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+width = 50;
+}
+);
+leftMetricsKey = "=0";
+rightMetricsKey = "=0";
+},
+{
+glyphname = "threedotsupcenter-ar";
+layers = (
+{
+anchors = (
+{
+name = _center;
+position = "{57, 0}";
+}
+);
+components = (
+{
+name = "threedotsupbelow-ar";
+transform = "{1, 0, 0, 1, 0, 25}";
 }
 );
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -98380,13 +99188,13 @@ width = 114;
 anchors = (
 {
 name = _center;
-position = "{103, 48}";
+position = "{103, 0}";
 }
 );
 components = (
 {
-name = "threedotsdownbelow-ar";
-transform = "{1, 0, 0, 1, 0, 96}";
+name = "threedotsupbelow-ar";
+transform = "{1, 0, 0, 1, 0, 48}";
 }
 );
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -98396,17 +99204,269 @@ width = 206;
 anchors = (
 {
 name = _center;
-position = "{121, 58}";
+position = "{121, 0}";
+}
+);
+components = (
+{
+name = "threedotsupbelow-ar";
+transform = "{1, 0, 0, 1, 0, 57}";
+}
+);
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+width = 242;
+}
+);
+leftMetricsKey = "=0";
+rightMetricsKey = "=0";
+},
+{
+glyphname = "threedotsdowncenter-ar";
+layers = (
+{
+anchors = (
+{
+name = _center;
+position = "{57, 0}";
 }
 );
 components = (
 {
 name = "threedotsdownbelow-ar";
-transform = "{1, 0, 0, 1, 0, 111}";
+transform = "{1, 0, 0, 1, 0, 25}";
+}
+);
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+width = 114;
+},
+{
+anchors = (
+{
+name = _center;
+position = "{103, 0}";
+}
+);
+components = (
+{
+name = "threedotsdownbelow-ar";
+transform = "{1, 0, 0, 1, 0, 48}";
+}
+);
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+width = 206;
+},
+{
+anchors = (
+{
+name = _center;
+position = "{121, 0}";
+}
+);
+components = (
+{
+name = "threedotsdownbelow-ar";
+transform = "{1, 0, 0, 1, 0, 57}";
 }
 );
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
 width = 242;
+}
+);
+leftMetricsKey = "=0";
+rightMetricsKey = "=0";
+},
+{
+glyphname = "fourdotscenter-ar";
+layers = (
+{
+anchors = (
+{
+name = _center;
+position = "{103, 0}";
+}
+);
+components = (
+{
+name = "fourdotsbelow-ar";
+transform = "{1, 0, 0, 1, 0, 48}";
+}
+);
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+width = 206;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{114, 0}";
+},
+{
+name = bottom;
+position = "{114, -298}";
+}
+);
+associatedMasterId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+components = (
+{
+name = "twodotshorizontalabove-ar";
+transform = "{1, 0, 0, 1, 0, -599}";
+}
+);
+layerId = "F7099BAA-8D6E-4DDA-A258-ADB4A298BF43";
+name = "Mar 14 20, 23:24";
+paths = (
+{
+closed = 1;
+nodes = (
+"141 -191 OFFCURVE",
+"162 -170 OFFCURVE",
+"162 -143 CURVE SMOOTH",
+"162 -116 OFFCURVE",
+"141 -95 OFFCURVE",
+"114 -95 CURVE SMOOTH",
+"87 -95 OFFCURVE",
+"66 -116 OFFCURVE",
+"66 -143 CURVE SMOOTH",
+"66 -170 OFFCURVE",
+"87 -191 OFFCURVE",
+"114 -191 CURVE SMOOTH"
+);
+},
+{
+closed = 0;
+nodes = (
+"169 -48 LINE",
+"59 -48 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"114 -143 LINE",
+"59 -48 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"178 -143 LINE",
+"8 -143 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"114 -42 LINE",
+"114 -212 LINE"
+);
+}
+);
+width = 228;
+},
+{
+anchors = (
+{
+name = _center;
+position = "{121, 0}";
+}
+);
+components = (
+{
+name = "fourdotsbelow-ar";
+transform = "{1, 0, 0, 1, 0, 58}";
+}
+);
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+width = 242;
+},
+{
+associatedMasterId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+components = (
+{
+name = "twodotshorizontalabove-ar";
+transform = "{1, 0, 0, 1, -7, -541}";
+}
+);
+layerId = "946B604B-515F-41A9-BF0D-56C3434018F2";
+name = "Mar 24 20, 15:21";
+paths = (
+{
+closed = 0;
+nodes = (
+"209 -57 LINE",
+"19 -57 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"178 -143 LINE",
+"8 -143 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"114 -42 LINE",
+"114 -212 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"178 24 LINE",
+"178 -146 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"50 19 LINE",
+"50 -151 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"25 -32 LINE",
+"145 -152 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"146 -221 OFFCURVE",
+"171 -197 OFFCURVE",
+"171 -165 CURVE SMOOTH",
+"171 -133 OFFCURVE",
+"146 -108 OFFCURVE",
+"114 -108 CURVE SMOOTH",
+"82 -108 OFFCURVE",
+"57 -133 OFFCURVE",
+"57 -165 CURVE SMOOTH",
+"57 -197 OFFCURVE",
+"82 -221 OFFCURVE",
+"114 -221 CURVE SMOOTH"
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = _center;
+position = "{57, 0}";
+}
+);
+components = (
+{
+name = "fourdotsbelow-ar";
+transform = "{1, 0, 0, 1, 0, 25}";
+}
+);
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+width = 114;
 }
 );
 leftMetricsKey = "=0";
