@@ -251,9 +251,9 @@
   <glyph name="kafDotbelow-ar" unicode="08B4" category="Letter" script="arabic" decompose="kaf-ar, dotbelow-ar" sortName="arL0246" accents="gafsarkashabove-ar, gafsarkashcenter-ar" />
   <glyph name="kehehTwodotshorizontalabove-ar" unicode="063B" category="Letter" script="arabic" decompose="keheh-ar, twodotshorizontalabove-ar" sortName="arL0247" accents="gafsarkashabove-ar, gafsarkashcenter-ar" />
   <glyph name="kehehThreedotsbelow-ar" unicode="063C" category="Letter" script="arabic" decompose="keheh-ar, threedotsdownbelow-ar" sortName="arL0248" accents="gafsarkashabove-ar, gafsarkashcenter-ar" />
-  <glyph name="kafRing-ar" unicode="06AB" category="Letter" script="arabic" decompose="keheh-ar, ringcenter-ar" sortName="arL0249" accents="gafsarkashabove-ar, gafsarkashcenter-ar" />
+  <glyph name="kafRing-ar" unicode="06AB" category="Letter" script="arabic" decompose="keheh-ar, ringbelow-ar" sortName="arL0249" accents="gafsarkashabove-ar, gafsarkashcenter-ar" />
   <glyph name="gaf-ar" unicode="06AF" category="Letter" script="arabic" decompose="keheh-ar, gafsarkashabove-ar" sortName="arL0250" accents="gafsarkashabove-ar, gafsarkashcenter-ar" />
-  <glyph name="gafRing-ar" unicode="06B0" category="Letter" script="arabic" decompose="keheh-ar, gafsarkashabove-ar, ringcenter-ar" sortName="arL0251" accents="gafsarkashabove-ar, gafsarkashcenter-ar" />
+  <glyph name="gafRing-ar" unicode="06B0" category="Letter" script="arabic" decompose="keheh-ar, gafsarkashabove-ar, ringbelow-ar" sortName="arL0251" accents="gafsarkashabove-ar, gafsarkashcenter-ar" />
   <glyph name="ngoeh-ar" unicode="06B1" category="Letter" script="arabic" decompose="keheh-ar, gafsarkashabove-ar, twodotshorizontalabove-ar" sortName="arL0252" />
   <glyph name="gafTwodotsbelow-ar" unicode="06B2" category="Letter" script="arabic" decompose="keheh-ar, gafsarkashabove-ar, twodotshorizontalbelow-ar" sortName="arL0253" accents="gafsarkashabove-ar, gafsarkashcenter-ar" />
   <glyph name="gueh-ar" unicode="06B3" category="Letter" script="arabic" decompose="keheh-ar, gafsarkashabove-ar, twodotsverticalbelow-ar" sortName="arL0254" />
@@ -291,7 +291,7 @@
   <glyph name="tehMarbutagoal-ar" unicode="06C3" category="Letter" script="arabic" decompose="hehgoal-ar, twodotshorizontalabove-ar" sortName="arL0286" />
   <glyph name="hehVinvertedabove-ar" unicode="06FF" category="Letter" script="arabic" decompose="hehDoachashmee-ar, vinvertedabove-ar" sortName="arL0287" />
   <glyph name="wawHamzaabove-ar" unicode="0624" category="Letter" script="arabic" decompose="waw-ar, hamzaabove-ar" sortName="arL0288" />
-  <glyph name="wawring-ar" unicode="06C4" category="Letter" script="arabic" decompose="waw-ar, ringcenter-ar" sortName="arL0289" />
+  <glyph name="wawring-ar" unicode="06C4" category="Letter" script="arabic" decompose="waw-ar, ringbelow-ar" sortName="arL0289" />
   <glyph name="kirghizoe-ar" unicode="06C5" category="Letter" script="arabic" decompose="waw-ar, stroke-ar" sortName="arL0290" />
   <glyph name="oe-ar" unicode="06C6" category="Letter" script="arabic" decompose="waw-ar, vabove-ar" sortName="arL0291" />
   <glyph name="u-ar" unicode="06C7" category="Letter" script="arabic" decompose="waw-ar, commaabove-ar" sortName="arL0292" />
