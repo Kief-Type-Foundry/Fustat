@@ -8,6 +8,3 @@
 #
 # Names should be added to this file as:
 # Name <email address>
-
-Mohamed Gaber <gaber@kieftype.com>
-Khaled Hosny <khaled@aliftype.com>
