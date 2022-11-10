@@ -94342,6 +94342,20 @@ unicode = 25CC;
 glyphname = "allah-ar";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{867, 0}";
+},
+{
+name = caret_2;
+position = "{667, 0}";
+},
+{
+name = caret_3;
+position = "{470, 0}";
+}
+);
 components = (
 {
 name = "alef-ar";
@@ -94356,6 +94370,20 @@ layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 width = 1070;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{967, 0}";
+},
+{
+name = caret_2;
+position = "{745, 0}";
+},
+{
+name = caret_3;
+position = "{495, 0}";
+}
+);
 components = (
 {
 name = "alef-ar";
@@ -94370,6 +94398,20 @@ layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
 width = 1200;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{1106, 0}";
+},
+{
+name = caret_2;
+position = "{826, 0}";
+},
+{
+name = caret_3;
+position = "{536, 0}";
+}
+);
 components = (
 {
 name = "alef-ar";
@@ -94390,6 +94432,16 @@ unicode = FDF2;
 glyphname = "lellah-ar";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{667, 0}";
+},
+{
+name = caret_2;
+position = "{470, 0}";
+}
+);
 components = (
 {
 name = "heh-ar.fina";
@@ -94440,6 +94492,16 @@ nodes = (
 width = 865;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{745, 0}";
+},
+{
+name = caret_2;
+position = "{495, 0}";
+}
+);
 components = (
 {
 name = "heh-ar.fina";
@@ -94490,6 +94552,16 @@ nodes = (
 width = 970;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{826, 0}";
+},
+{
+name = caret_2;
+position = "{536, 0}";
+}
+);
 components = (
 {
 name = "heh-ar.fina";
