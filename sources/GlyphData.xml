@@ -1044,8 +1044,8 @@
   <glyph name="ray-ar" unicode="0608" category="Symbol" script="arabic" sortName="arS1037" />
   <glyph name="afghani-ar" unicode="060B" category="Symbol" script="arabic" sortName="arS1038" />
   <glyph name="misraComma-ar" unicode="060F" category="Symbol" script="arabic" sortName="arS1039" />
-  <glyph name="sindhipostpositionmen-ar" unicode="06FE" category="Symbol" script="arabic" sortName="arS1040" />
-  <glyph name="sindhiampersand-ar" unicode="06FD" category="Symbol" script="arabic" sortName="arS1041" />
+  <glyph name="sindhipostpositionmen-ar" unicode="06FE" category="Symbol" script="arabic" decompose="meem-ar, doubleverticalbarbelow-ar" sortName="arS1040" />
+  <glyph name="sindhiampersand-ar" unicode="06FD" category="Symbol" script="arabic" decompose="hamza-ar, doubleverticalbarbelow-ar" sortName="arS1041" />
   <glyph name="numbermark-ar" unicode="0605" category="Symbol" script="arabic" sortName="arS1042" />
 
   <glyph name="dotaboveSymbol-ar" unicode="FBB2" category="Symbol" script="arabic" decompose="dotabove-ar" sortName="arS1043" />
