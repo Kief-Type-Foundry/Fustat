@@ -33,12 +33,13 @@ export SOURCE_DATE_EPOCH ?= $(shell stat -c "%Y" ${GLYPHSFILE})
 
 INSTANCES = ExtraLight Light Regular Medium SemiBold Bold ExtraBold
 STATIC = $(INSTANCES:%=${STATICDIR}/${NAME}-%.ttf)
-VARIABLE = ${VARIABLEDIR}/${NAME}[wght].ttf
+DISTSTATIC = $(INSTANCES:%=${DIST}/${STATICDIR}/${NAME}-%.ttf)
+VARIABLE = ${NAME}[wght].ttf
 SVG = ${DOCDIR}/sample.svg
 SAMPLE = "خط فسطاط"
 
 all: ttf vf doc
-vf: ${VARIABLE}
+vf: ${VARIABLEDIR}/${VARIABLE}
 ttf: ${STATIC}
 doc: ${SVG}
 
@@ -63,21 +64,27 @@ ${NAME}-%.ttf: ${BUILDDIR}/${NAME}.designspace
 	mkdir -p $(@D)
 	${PYTHON} -m fontmake ${FMOPTS} $< --output-path=$@ --output=ttf --interpolate=".* $(*F)"
 
-${VARIABLE}: ${BUILDDIR}/${NAME}.designspace
+${VARIABLEDIR}/${VARIABLE}: ${BUILDDIR}/${NAME}.designspace
 	echo "    MAKE    $(@F)"
 	mkdir -p $(@D)
 	${PYTHON} -m fontmake ${FMOPTS} $< --output-path=$@ --output=variable
 
-${SVG}: ${VARIABLE}
+${SVG}: ${VARIABLEDIR}/${VARIABLE}
 	echo "    SAMPLE  $(@F)"
 	${PYTHON} ${SCRIPTDIR}/mksample.py -t ${SAMPLE} -o $@ $<
 
-dist: ttf vf
+${DIST}/${STATICDIR}/${NAME}-%.ttf: ${STATICDIR}/${NAME}-%.ttf
+	echo "    DIST    $(@F)"
+	mkdir -p $(@D)
+	${PYTHON} ${SCRIPTDIR}/dist.py $< $@ ${VERSION} ${VERBOSE}
+
+${DIST}/${VARIABLEDIR}/${VARIABLE}: ${VARIABLEDIR}/${VARIABLE}
+	echo "    DIST    $(@F)"
+	mkdir -p $(@D)
+	${PYTHON} ${SCRIPTDIR}/dist.py $< $@ ${VERSION} ${VERBOSE}
+
+dist: ${DIST}/${VARIABLEDIR}/${VARIABLE} ${DISTSTATIC}
 	echo "    DIST    ${DIST}"
-	rm -rf ${DIST}{,.zip}
-	mkdir -p ${DIST}/${STATICDIR}
-	mkdir -p ${DIST}/${VARIABLEDIR}
-	$(call copyfont,${STATIC},${DIST}/${STATICDIR})
-	$(call copyfont,${VARIABLE},${DIST}/${VARIABLEDIR})
+	cp OFL.txt AUTHORS.txt CONTRIBUTORS.txt README.md ${DIST}
 	echo "    ZIP     ${DIST}.zip"
 	zip -rq ${DIST}.zip ${DIST}

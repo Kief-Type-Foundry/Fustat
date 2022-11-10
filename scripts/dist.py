@@ -27,6 +27,7 @@ from gftools.stat import gen_stat_tables
 def main():
     parser = ArgumentParser(description="Post process font for distribution.")
     parser.add_argument("input", metavar="INPUT", help="Input font to process")
+    parser.add_argument("output", metavar="OUTPUT", help="Output path to save")
     parser.add_argument("version", metavar="VERSION", help="Font version")
     parser.add_argument("--verbose", action="store_true", help="Be verbose.")
 
@@ -75,7 +76,7 @@ def main():
     subsetter.populate(unicodes=unicodes)
     subsetter.subset(font)
 
-    font.save(args.input)
+    font.save(args.output)
 
 
 if __name__ == "__main__":
