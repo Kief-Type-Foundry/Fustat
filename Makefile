@@ -15,7 +15,7 @@ VARIABLEDIR = ${FONTSDIR}/variable
 STATICDIR = ${FONTSDIR}/static
 VENVDIR = venv
 
-FMOPTS =
+FMOPTS = --filter DecomposeTransformedComponentsFilter --flatten-components
 
 ifneq (,$(findstring s,$(MAKEFLAGS)))
   FMOPTS += --verbose=WARNING
@@ -61,12 +61,12 @@ ${BUILDDIR}/${NAME}.designspace: ${GLYPHSFILE}
 ${NAME}-%.ttf: ${BUILDDIR}/${NAME}.designspace
 	echo "    MAKE    $(@F)"
 	mkdir -p $(@D)
-	${PYTHON} -m fontmake ${FMOPTS} $< --output-path=$@ --flatten-components --output=ttf --interpolate=".* $(*F)"
+	${PYTHON} -m fontmake ${FMOPTS} $< --output-path=$@ --output=ttf --interpolate=".* $(*F)"
 
 ${VARIABLE}: ${BUILDDIR}/${NAME}.designspace
 	echo "    MAKE    $(@F)"
 	mkdir -p $(@D)
-	${PYTHON} -m fontmake ${FMOPTS} $< --output-path=$@ --flatten-components --output=variable
+	${PYTHON} -m fontmake ${FMOPTS} $< --output-path=$@ --output=variable
 
 ${SVG}: ${VARIABLE}
 	echo "    SAMPLE  $(@F)"
