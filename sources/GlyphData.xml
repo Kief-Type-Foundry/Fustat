@@ -91,7 +91,7 @@
   <glyph name="aleflow-ar" unicode="08AD" category="Letter" subCategory="Modifier" script="arabic" direction="RTL" sortName="arL0087" />
   <glyph name="wawSmall-ar" unicode="06E5" category="Letter" subCategory="Modifier" script="arabic" direction="RTL" sortName="arL0088" />
   <glyph name="yehSmall-ar" unicode="06E6" category="Letter" subCategory="Modifier" script="arabic" direction="RTL" sortName="arL0089" />
-  <glyph name="yehSmall-farsi" unicode="08C9" category="Letter" subCategory="Modifier" script="arabic" direction="RTL" sortName="arL0090" />
+  <glyph name="yehSmallFarsi-ar" unicode="08C9" category="Letter" subCategory="Modifier" script="arabic" direction="RTL" sortName="arL0090" />
 
   <glyph name="alefMadda-ar" unicode="0622" category="Letter" script="arabic" direction="RTL" decompose="alef-ar.short, madda-ar" sortName="arL0091" />
   <glyph name="alefHamzaabove-ar" unicode="0623" category="Letter" script="arabic" direction="RTL" decompose="alef-ar.short, hamzaabove-ar" sortName="arL0092" />
@@ -305,18 +305,18 @@
   <glyph name="wawDotcenter-ar" unicode="08AB" category="Letter" script="arabic" direction="RTL" decompose="waw-ar, dotcenter-ar.alt" sortName="arL0300" />
   <glyph name="yehKashmiri-ar" unicode="0620" category="Letter" script="arabic" direction="RTL" decompose="alefMaksura-ar, ring-ar" sortName="arL0301" />
   <glyph name="yehHamzaabove-ar" unicode="0626" category="Letter" script="arabic" direction="RTL" decompose="alefMaksura-ar, hamzaabove-ar" sortName="arL0302" />
-  <glyph name="yehVinverted-farsi" unicode="063D" category="Letter" script="arabic" direction="RTL" decompose="alefMaksura-ar, vinvertedabove-ar" sortName="arL0303" />
-  <glyph name="yehTwodotsabove-farsi" unicode="063E" category="Letter" script="arabic" direction="RTL" decompose="yeh-farsi, twodotshorizontalabove-ar" sortName="arL0304" />
-  <glyph name="yehThreedotsabove-farsi" unicode="063F" category="Letter" script="arabic" direction="RTL" decompose="yeh-farsi, threedotsupabove-ar" sortName="arL0305" />
+  <glyph name="yehVinvertedFarsi-ar" unicode="063D" category="Letter" script="arabic" direction="RTL" decompose="alefMaksura-ar, vinvertedabove-ar" sortName="arL0303" />
+  <glyph name="yehTwodotsaboveFarsi-ar" unicode="063E" category="Letter" script="arabic" direction="RTL" decompose="yehFarsi-ar, twodotshorizontalabove-ar" sortName="arL0304" />
+  <glyph name="yehThreedotsaboveFarsi-ar" unicode="063F" category="Letter" script="arabic" direction="RTL" decompose="yehFarsi-ar, threedotsupabove-ar" sortName="arL0305" />
   <glyph name="yeh-ar" unicode="064A" category="Letter" script="arabic" direction="RTL" decompose="alefMaksura-ar, twodotshorizontalbelow-ar" sortName="arL0306" />
-  <glyph name="yeh-farsi" unicode="06CC" category="Letter" script="arabic" direction="RTL" decompose="alefMaksura-ar" sortName="arL0307" />
+  <glyph name="yehFarsi-ar" unicode="06CC" category="Letter" script="arabic" direction="RTL" decompose="alefMaksura-ar" sortName="arL0307" />
   <glyph name="yehTail-ar" unicode="06CD" category="Letter" script="arabic" direction="RTL" decompose="alefMaksura-ar, tail-ar" sortName="arL0308" />
   <glyph name="yehVabove-ar" unicode="06CE" category="Letter" script="arabic" direction="RTL" decompose="alefMaksura-ar, vabove-ar" sortName="arL0309" />
   <glyph name="e-ar" unicode="06D0" category="Letter" script="arabic" direction="RTL" decompose="alefMaksura-ar, twodotsverticalbelow-ar" sortName="arL0310" />
   <glyph name="yehThreedotsbelow-ar" unicode="06D1" category="Letter" script="arabic" direction="RTL" decompose="alefMaksura-ar, threedotsdownbelow-ar" sortName="arL0311" />
-  <glyph name="yehTwoabove-farsi" unicode="0775" category="Letter" script="arabic" direction="RTL" decompose="yeh-farsi, twoabove-ar" sortName="arL0312" />
-  <glyph name="yehThreeabove-farsi" unicode="0776" category="Letter" script="arabic" direction="RTL" decompose="yeh-farsi, threeabove-ar" sortName="arL0313" />
-  <glyph name="yehFourbelow-farsi" unicode="0777" category="Letter" script="arabic" direction="RTL" decompose="yeh-farsi, fourbelow-ar" sortName="arL0314" />
+  <glyph name="yehTwoaboveFarsi-ar" unicode="0775" category="Letter" script="arabic" direction="RTL" decompose="yehFarsi-ar, twoabove-ar" sortName="arL0312" />
+  <glyph name="yehThreeaboveFarsi-ar" unicode="0776" category="Letter" script="arabic" direction="RTL" decompose="yehFarsi-ar, threeabove-ar" sortName="arL0313" />
+  <glyph name="yehFourbelowFarsi-ar" unicode="0777" category="Letter" script="arabic" direction="RTL" decompose="yehFarsi-ar, fourbelow-ar" sortName="arL0314" />
   <glyph name="yehTwodotsbelowHamzaabove-ar" unicode="08A8" category="Letter" script="arabic" direction="RTL" decompose="yeh-ar, hamzaabove-ar" sortName="arL0315" />
   <glyph name="yehTwodotsbelowDotabove-ar" unicode="08A9" category="Letter" script="arabic" direction="RTL" decompose="yeh-ar, dotabove-ar" sortName="arL0316" />
   <glyph name="yehTwodotsbelowNoonabove-ar" unicode="08BA" category="Letter" script="arabic" direction="RTL" decompose="yeh-ar, noonabove-ar" sortName="arL0317" />
@@ -337,19 +337,19 @@
   <glyph name="behMeemabove-ar.init" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.init, dotbelow-ar, meemabove-ar" sortName="arL0330" />
   <glyph name="noonDotbelow-ar.init" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.init, dotabove-ar, dotbelow-ar" sortName="arL0331" />
   <glyph name="yeh-ar.init" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.init, twodotshorizontalbelow-ar" sortName="arL0332" />
-  <glyph name="yeh-farsi.init" category="Letter" script="arabic" direction="RTL" decompose="yeh-ar.init" sortName="arL0333" />
+  <glyph name="yehFarsi-ar.init" category="Letter" script="arabic" direction="RTL" decompose="yeh-ar.init" sortName="arL0333" />
   <glyph name="yehTwodotsbelowHamzaabove-ar.init" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.init, twodotshorizontalbelow-ar, hamzaabove-ar" sortName="arL0334" />
   <glyph name="behTwodotsbelowDotabove-ar.init" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.init, dotabove-ar, twodotshorizontalbelow-ar" sortName="arL0335" />
   <glyph name="yehTwodotsbelowDotabove-ar.init" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.init, twodotshorizontalbelow-ar, dotabove-ar" sortName="arL0336" />
   <glyph name="yehTwodotsbelowNoonabove-ar.init" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.init, twodotshorizontalbelow-ar, noonabove-ar" sortName="arL0337" />
   <glyph name="yehbarreeTwoabove-ar.init" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.init, twodotshorizontalbelow-ar, twoabove-ar" sortName="arL0338" />
   <glyph name="yehbarreeThreeabove-ar.init" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.init, twodotshorizontalbelow-ar, threeabove-ar" sortName="arL0339" />
-  <glyph name="yehTwoabove-farsi.init" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.init, twodotshorizontalbelow-ar, twoabove-ar" sortName="arL0340" />
-  <glyph name="yehThreeabove-farsi.init" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.init, twodotshorizontalbelow-ar, threeabove-ar" sortName="arL0341" />
+  <glyph name="yehTwoaboveFarsi-ar.init" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.init, twodotshorizontalbelow-ar, twoabove-ar" sortName="arL0340" />
+  <glyph name="yehThreeaboveFarsi-ar.init" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.init, twodotshorizontalbelow-ar, threeabove-ar" sortName="arL0341" />
   <glyph name="noonTwodotsbelow-ar.init" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.init, dotabove-ar, twodotshorizontalbelow-ar" sortName="arL0342" />
-  <glyph name="yehVinverted-farsi.init" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.init, twodotshorizontalbelow-ar, vinvertedabove-ar" sortName="arL0343" />
-  <glyph name="yehTwodotsabove-farsi.init" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.init, twodotshorizontalbelow-ar, twodotshorizontalabove-ar" sortName="arL0344" />
-  <glyph name="yehThreedotsabove-farsi.init" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.init, twodotshorizontalbelow-ar, threedotsupabove-ar" sortName="arL0345" />
+  <glyph name="yehVinvertedFarsi-ar.init" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.init, twodotshorizontalbelow-ar, vinvertedabove-ar" sortName="arL0343" />
+  <glyph name="yehTwodotsaboveFarsi-ar.init" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.init, twodotshorizontalbelow-ar, twodotshorizontalabove-ar" sortName="arL0344" />
+  <glyph name="yehThreedotsaboveFarsi-ar.init" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.init, twodotshorizontalbelow-ar, threedotsupabove-ar" sortName="arL0345" />
   <glyph name="yehVabove-ar.init" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.init, twodotshorizontalbelow-ar, vabove-ar" sortName="arL0346" />
   <glyph name="peh-ar.init" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.init, threedotsdownbelow-ar" sortName="arL0347" />
   <glyph name="pehMeemabove-ar.init" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.init, threedotsdownbelow-ar, meemabove-ar" sortName="arL0348" />
@@ -363,7 +363,7 @@
   <glyph name="noonRing-ar.init" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.init, dotabove-ar, ringbelow-ar" sortName="arL0356" />
   <glyph name="beheh-ar.init" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.init, fourdotsbelow-ar" sortName="arL0357" />
   <glyph name="behThreedotshorizontalbelow-ar.init" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.init, threedotshorizontalbelow-ar" sortName="arL0358" />
-  <glyph name="yehFourbelow-farsi.init" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.init, fourbelow-ar" sortName="arL0359" />
+  <glyph name="yehFourbelowFarsi-ar.init" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.init, fourbelow-ar" sortName="arL0359" />
   <glyph name="behVinvertedbelow-ar.init" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.init, vinvertedbelow-ar" sortName="arL0360" />
   <glyph name="behVbelow-ar.init" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.init, vbelow-ar" sortName="arL0361" />
   <glyph name="yehKashmiri-ar.init" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.init, ring-ar" sortName="arL0362" />
@@ -512,17 +512,17 @@
   <glyph name="noonVabove-ar.medi" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.medi, dotabove_vabove-ar" sortName="arL0505" />
   <glyph name="yehKashmiri-ar.medi" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.medi, ring-ar" sortName="arL0506" />
   <glyph name="yehHamzaabove-ar.medi" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.medi, hamzaabove-ar" sortName="arL0507" />
-  <glyph name="yehVinverted-farsi.medi" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.medi, twodotshorizontalbelow-ar, vinvertedabove-ar" sortName="arL0508" />
-  <glyph name="yehTwodotsabove-farsi.medi" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.medi, twodotshorizontalabove-ar" sortName="arL0509" />
-  <glyph name="yehThreedotsabove-farsi.medi" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.medi, threedotsupabove-ar" sortName="arL0510" />
+  <glyph name="yehVinvertedFarsi-ar.medi" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.medi, twodotshorizontalbelow-ar, vinvertedabove-ar" sortName="arL0508" />
+  <glyph name="yehTwodotsaboveFarsi-ar.medi" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.medi, twodotshorizontalabove-ar" sortName="arL0509" />
+  <glyph name="yehThreedotsaboveFarsi-ar.medi" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.medi, threedotsupabove-ar" sortName="arL0510" />
   <glyph name="yeh-ar.medi" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.medi, twodotshorizontalbelow-ar" sortName="arL0511" />
-  <glyph name="yeh-farsi.medi" category="Letter" script="arabic" direction="RTL" decompose="yeh-ar.medi" sortName="arL0512" />
+  <glyph name="yehFarsi-ar.medi" category="Letter" script="arabic" direction="RTL" decompose="yeh-ar.medi" sortName="arL0512" />
   <glyph name="yehVabove-ar.medi" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.medi, vabove-ar" sortName="arL0513" />
   <glyph name="e-ar.medi" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.medi, twodotsverticalbelow-ar" sortName="arL0514" />
   <glyph name="yehThreedotsbelow-ar.medi" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.medi, threedotsdownbelow-ar" sortName="arL0515" />
-  <glyph name="yehTwoabove-farsi.medi" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.medi, twoabove-ar" sortName="arL0516" />
-  <glyph name="yehThreeabove-farsi.medi" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.medi, threeabove-ar" sortName="arL0517" />
-  <glyph name="yehFourbelow-farsi.medi" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.medi, fourbelow-ar" sortName="arL0518" />
+  <glyph name="yehTwoaboveFarsi-ar.medi" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.medi, twoabove-ar" sortName="arL0516" />
+  <glyph name="yehThreeaboveFarsi-ar.medi" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.medi, threeabove-ar" sortName="arL0517" />
+  <glyph name="yehFourbelowFarsi-ar.medi" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.medi, fourbelow-ar" sortName="arL0518" />
   <glyph name="yehTwodotsbelowHamzaabove-ar.medi" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.medi, twodotshorizontalbelow-ar, hamzaabove-ar" sortName="arL0519" />
   <glyph name="yehTwodotsbelowDotabove-ar.medi" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.medi, twodotshorizontalbelow-ar, dotabove-ar" sortName="arL0520" />
   <glyph name="yehTwodotsbelowNoonabove-ar.medi" category="Letter" script="arabic" direction="RTL" decompose="behDotless-ar.medi, twodotshorizontalbelow-ar, noonabove-ar" sortName="arL0521" />
@@ -802,18 +802,18 @@
   <glyph name="wawDotcenter-ar.fina" category="Letter" script="arabic" direction="RTL" decompose="waw-ar.fina, dotcenter-ar" sortName="arL0795" />
   <glyph name="yehKashmiri-ar.fina" category="Letter" script="arabic" direction="RTL" decompose="alefMaksura-ar.fina, ring-ar" sortName="arL0796" />
   <glyph name="yehHamzaabove-ar.fina" category="Letter" script="arabic" direction="RTL" decompose="alefMaksura-ar.fina, hamzaabove-ar" sortName="arL0797" />
-  <glyph name="yehVinverted-farsi.fina" category="Letter" script="arabic" direction="RTL" decompose="yeh-farsi.fina, vinvertedabove-ar" sortName="arL0798" />
-  <glyph name="yehTwodotsabove-farsi.fina" category="Letter" script="arabic" direction="RTL" decompose="yeh-farsi.fina, twodotshorizontalabove-ar" sortName="arL0799" />
-  <glyph name="yehThreedotsabove-farsi.fina" category="Letter" script="arabic" direction="RTL" decompose="yeh-farsi.fina, threedotsupabove-ar" sortName="arL0800" />
+  <glyph name="yehVinvertedFarsi-ar.fina" category="Letter" script="arabic" direction="RTL" decompose="yehFarsi-ar.fina, vinvertedabove-ar" sortName="arL0798" />
+  <glyph name="yehTwodotsaboveFarsi-ar.fina" category="Letter" script="arabic" direction="RTL" decompose="yehFarsi-ar.fina, twodotshorizontalabove-ar" sortName="arL0799" />
+  <glyph name="yehThreedotsaboveFarsi-ar.fina" category="Letter" script="arabic" direction="RTL" decompose="yehFarsi-ar.fina, threedotsupabove-ar" sortName="arL0800" />
   <glyph name="yeh-ar.fina" category="Letter" script="arabic" direction="RTL" decompose="alefMaksura-ar.fina, twodotshorizontalbelow-ar" sortName="arL0801" />
-  <glyph name="yeh-farsi.fina" category="Letter" script="arabic" direction="RTL" decompose="alefMaksura-ar.fina" sortName="arL0802" />
+  <glyph name="yehFarsi-ar.fina" category="Letter" script="arabic" direction="RTL" decompose="alefMaksura-ar.fina" sortName="arL0802" />
   <glyph name="yehTail-ar.fina" category="Letter" script="arabic" direction="RTL" decompose="alefMaksura-ar.fina, tail-ar" sortName="arL0803" />
-  <glyph name="yehVabove-ar.fina" category="Letter" script="arabic" direction="RTL" decompose="yeh-farsi.fina, vabove-ar" sortName="arL0804" />
+  <glyph name="yehVabove-ar.fina" category="Letter" script="arabic" direction="RTL" decompose="yehFarsi-ar.fina, vabove-ar" sortName="arL0804" />
   <glyph name="e-ar.fina" category="Letter" script="arabic" direction="RTL" decompose="alefMaksura-ar.fina, twodotsverticalbelow-ar" sortName="arL0805" />
   <glyph name="yehThreedotsbelow-ar.fina" category="Letter" script="arabic" direction="RTL" decompose="alefMaksura-ar.fina, threedotsdownbelow-ar" sortName="arL0806" />
-  <glyph name="yehTwoabove-farsi.fina" category="Letter" script="arabic" direction="RTL" decompose="yeh-farsi.fina, twoabove-ar" sortName="arL0807" />
-  <glyph name="yehThreeabove-farsi.fina" category="Letter" script="arabic" direction="RTL" decompose="yeh-farsi.fina, threeabove-ar" sortName="arL0808" />
-  <glyph name="yehFourbelow-farsi.fina" category="Letter" script="arabic" direction="RTL" decompose="alefMaksura-ar.fina, fourbelow-ar" sortName="arL0809" />
+  <glyph name="yehTwoaboveFarsi-ar.fina" category="Letter" script="arabic" direction="RTL" decompose="yehFarsi-ar.fina, twoabove-ar" sortName="arL0807" />
+  <glyph name="yehThreeaboveFarsi-ar.fina" category="Letter" script="arabic" direction="RTL" decompose="yehFarsi-ar.fina, threeabove-ar" sortName="arL0808" />
+  <glyph name="yehFourbelowFarsi-ar.fina" category="Letter" script="arabic" direction="RTL" decompose="alefMaksura-ar.fina, fourbelow-ar" sortName="arL0809" />
   <glyph name="yehTwodotsbelowHamzaabove-ar.fina" category="Letter" script="arabic" direction="RTL" decompose="alefMaksura-ar.fina, twodotshorizontalbelow-ar, hamzaabove-ar" sortName="arL0810" />
   <glyph name="yehTwodotsbelowDotabove-ar.fina" category="Letter" script="arabic" direction="RTL" decompose="alefMaksura-ar.fina, twodotshorizontalbelow-ar, dotabove-ar" sortName="arL0811" />
   <glyph name="yehTwodotsbelowNoonabove-ar.fina" category="Letter" script="arabic" direction="RTL" decompose="alefMaksura-ar.fina, twodotshorizontalbelow-ar, noonabove-ar" sortName="arL0812" />
@@ -1150,7 +1150,7 @@
   <glyph name="zahabove-ar" unicode="08CD" category="Mark" subCategory="Nonspacing" script="arabic" anchors="_top, top" sortName="arM1177" accents="alefabove-ar, damma-ar, dammatan-ar, fatha-ar, fathatan-ar, hamzaabove-ar, madda-ar, shadda-ar, sukun-ar" />
   <glyph name="meemabove-ar" unicode="06E2" category="Mark" subCategory="Nonspacing" script="arabic" anchors="_top, top" sortName="arM1178" accents="alefabove-ar, damma-ar, dammatan-ar, fatha-ar, fathatan-ar, hamzaabove-ar, madda-ar, shadda-ar, sukun-ar" />
   <glyph name="wawabove-ar" unicode="08F3" category="Mark" subCategory="Nonspacing" script="arabic" sortName="arM1179" />
-  <glyph name="yehabove-farsi" unicode="08CA" category="Mark" subCategory="Nonspacing" script="arabic" anchors="_top, top" sortName="arM1180" accents="alefabove-ar, damma-ar, dammatan-ar, fatha-ar, fathatan-ar, hamzaabove-ar, madda-ar, shadda-ar, sukun-ar" />
+  <glyph name="yehaboveFarsi-ar" unicode="08CA" category="Mark" subCategory="Nonspacing" script="arabic" anchors="_top, top" sortName="arM1180" accents="alefabove-ar, damma-ar, dammatan-ar, fatha-ar, fathatan-ar, hamzaabove-ar, madda-ar, shadda-ar, sukun-ar" />
   <glyph name="yehabove-ar" unicode="06E7" category="Mark" subCategory="Nonspacing" script="arabic" anchors="_top, top" sortName="arM1181" accents="alefabove-ar, damma-ar, dammatan-ar, fatha-ar, fathatan-ar, hamzaabove-ar, madda-ar, shadda-ar, sukun-ar" />
   <glyph name="barreyehabove-ar" unicode="08CB" category="Mark" subCategory="Nonspacing" script="arabic" anchors="_top, top" sortName="arM1182" accents="alefabove-ar, damma-ar, dammatan-ar, fatha-ar, fathatan-ar, hamzaabove-ar, madda-ar, shadda-ar, sukun-ar" />
   <glyph name="noonKasraabove-ar" unicode="08D8" category="Mark" subCategory="Nonspacing" script="arabic" anchors="_top, top" sortName="arM1183" accents="alefabove-ar, damma-ar, dammatan-ar, fatha-ar, fathatan-ar, hamzaabove-ar, madda-ar, shadda-ar, sukun-ar" />
