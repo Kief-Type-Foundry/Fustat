@@ -55,6 +55,28 @@ name = marktop;
 },
 {
 code = "dotbelow-ar
+dotbelow_threedotsdownbelow-ar
+twodotshorizontalbelow-ar
+twodotshorizontalbelow_tahabove-ar
+twodotsverticalbelow-ar
+threedotsupbelow-ar
+threedotsdownbelow-ar
+fourdotsbelow-ar
+hamzabelow-ar
+vbelow-ar
+vinvertedbelow-ar
+ring-ar
+doubleverticalbarbelow-ar
+tahbelow-ar
+ringbelow-ar
+kasra-ar
+kasratan-ar
+alefbelow-ar
+";
+name = markbottom;
+},
+{
+code = "dotbelow-ar
 twodotshorizontalbelow-ar
 twodotsverticalbelow-ar
 threedotsupbelow-ar
@@ -280,6 +302,8 @@ name = Languagesystems;
 code = "lookup center_marks {
 	sub @dotcenter				by @dotbelow;
 } center_marks;
+
+valueRecordDef <$dotshift 0 0 0> DOTSHIFT;
 ";
 name = Lookups;
 }
@@ -781,14 +805,25 @@ tag = salt;
 {
 code = "# Automatic Code
 
-lookup beh_dots {
+lookup beh_dots_1 {
+  lookupflag UseMarkFilteringSet [@behdotbelow @markbottom];
+    ignore
+    pos behDotless-ar.init @behdotbelow' [alef-ar.fina lam-ar.medi] @markbottom;
+    pos behDotless-ar.init @behdotbelow' <DOTSHIFT> [alef-ar.fina lam-ar.medi];
+
+    ignore
+    pos behDotless-ar.init @behdotbelow' @markbottom [alef-ar.fina lam-ar.medi] @markbottom;
+    pos behDotless-ar.init @behdotbelow' <DOTSHIFT> @markbottom [alef-ar.fina lam-ar.medi];
+} beh_dots_1;
+
+lookup beh_dots_2 {
   lookupflag UseMarkFilteringSet @behdotbelow;
     pos  behDotless-ar.init
-         @behdotbelow' <$dotshift 0 0 0>
-        [alef-ar.fina lam-ar.medi kafDotless-ar.fina lam_alef-ar.fina lam_alef-ar.fina.alt
+         @behdotbelow' <DOTSHIFT>
+        [kafDotless-ar.fina lam_alef-ar.fina lam_alef-ar.fina.alt
          dal-ar.fina kaf-ar.medi keheh-ar.fina kafswash-ar.medi kafswash-ar.fina
          sad-ar.medi sad-ar.fina tah-ar.medi tah-ar.fina];
-} beh_dots;
+} beh_dots_2;
 ";
 tag = mark;
 }
