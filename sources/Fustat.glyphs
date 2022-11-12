@@ -1,5 +1,5 @@
 {
-.appVersion = "3144";
+.appVersion = "3145";
 .formatVersion = 3;
 axes = (
 {
@@ -777,6 +777,20 @@ tag = ss02;
 code = "lookup ss01;
 lookup ss02;";
 tag = salt;
+},
+{
+code = "# Automatic Code
+
+lookup beh_dots {
+  lookupflag UseMarkFilteringSet @behdotbelow;
+    pos  behDotless-ar.init
+         @behdotbelow' <$dotshift 0 0 0>
+        [alef-ar.fina lam-ar.medi kafDotless-ar.fina lam_alef-ar.fina lam_alef-ar.fina.alt
+         dal-ar.fina kaf-ar.medi keheh-ar.fina kafswash-ar.medi kafswash-ar.fina
+         sad-ar.medi sad-ar.fina tah-ar.medi tah-ar.fina];
+} beh_dots;
+";
+tag = mark;
 }
 );
 fontMaster = (
@@ -825,6 +839,9 @@ pos = -420;
 }
 );
 name = Light;
+numberValues = (
+-87
+);
 userData = {
 GSOffsetHorizontal = 15;
 GSOffsetKeepCompatible = 1;
@@ -877,6 +894,9 @@ pos = -420;
 }
 );
 name = Regular;
+numberValues = (
+-106
+);
 userData = {
 GSOffsetHorizontal = 37.5;
 GSOffsetKeepCompatible = 1;
@@ -923,6 +943,9 @@ pos = -420;
 }
 );
 name = Bold;
+numberValues = (
+-62
+);
 userData = {
 GSOffsetHorizontal = 67.5;
 GSOffsetKeepCompatible = 1;
@@ -108429,7 +108452,8 @@ value = "14EEE41F-D714-4243-A717-73445EE7DABA";
 }
 );
 instanceInterpolations = {
-"3114FB65-9464-41A5-B67E-A8F9F43C0EF1" = 1;
+"090CB6A0-BE7C-4D17-A551-206C7456A8A3" = -0.28571;
+"3114FB65-9464-41A5-B67E-A8F9F43C0EF1" = 1.28571;
 };
 name = Regular;
 type = variable;
@@ -109056,6 +109080,11 @@ type = descender;
 },
 {
 type = "italic angle";
+}
+);
+numbers = (
+{
+name = dotshift;
 }
 );
 properties = (
