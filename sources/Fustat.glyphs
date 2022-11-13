@@ -930,7 +930,7 @@ pos = -420;
 );
 name = Regular;
 numberValues = (
--106
+-76
 );
 userData = {
 GSOffsetHorizontal = 37.5;
@@ -24784,7 +24784,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (119,-96);
+pos = (89,-96);
 },
 {
 name = ring;
@@ -48055,7 +48055,7 @@ width = 281;
 anchors = (
 {
 name = bottom;
-pos = (101,-48);
+pos = (101,-96);
 },
 {
 name = top;
@@ -71485,7 +71485,7 @@ shapes = (
 ref = "meem-ar";
 },
 {
-pos = (429,62);
+pos = (463,62);
 ref = "dotabove-ar";
 }
 );
@@ -71531,7 +71531,7 @@ shapes = (
 ref = "meem-ar";
 },
 {
-pos = (408,-96);
+pos = (442,-96);
 ref = "dotbelow-ar";
 }
 );
@@ -73312,7 +73312,7 @@ shapes = (
 ref = "behDotless-ar.init";
 },
 {
-pos = (71,-96);
+pos = (41,-96);
 ref = "dotbelow-ar";
 }
 );
@@ -73358,7 +73358,7 @@ shapes = (
 ref = "behDotless-ar.init.high";
 },
 {
-pos = (71,-96);
+pos = (41,-96);
 ref = "dotbelow-ar";
 }
 );
@@ -73404,7 +73404,7 @@ shapes = (
 ref = "behDotless-ar.init";
 },
 {
-pos = (16,-96);
+pos = (-14,-96);
 ref = "twodotshorizontalbelow-ar";
 }
 );
@@ -73419,7 +73419,7 @@ shapes = (
 ref = "behDotless-ar.init.high";
 },
 {
-pos = (16,-96);
+pos = (-14,-96);
 ref = "twodotshorizontalbelow-ar";
 }
 );
@@ -73465,7 +73465,7 @@ shapes = (
 ref = "behDotless-ar.init.high";
 },
 {
-pos = (16,-96);
+pos = (-14,-96);
 ref = "twodotshorizontalbelow-ar";
 }
 );
@@ -73480,7 +73480,7 @@ shapes = (
 ref = "behDotless-ar.init.high";
 },
 {
-pos = (16,-96);
+pos = (-14,-96);
 ref = "twodotshorizontalbelow-ar";
 }
 );
@@ -73611,7 +73611,7 @@ shapes = (
 ref = "behDotless-ar.init";
 },
 {
-pos = (16,-96);
+pos = (-14,-96);
 ref = "twodotshorizontalbelow-ar";
 },
 {
@@ -73652,7 +73652,7 @@ shapes = (
 ref = "behDotless-ar.init";
 },
 {
-pos = (16,-96);
+pos = (-14,-96);
 ref = "threedotsdownbelow-ar";
 }
 );
@@ -73698,7 +73698,7 @@ shapes = (
 ref = "behDotless-ar.init.high";
 },
 {
-pos = (16,-96);
+pos = (-14,-96);
 ref = "threedotsdownbelow-ar";
 }
 );
@@ -75227,7 +75227,7 @@ shapes = (
 ref = "behDotless-ar.medi";
 },
 {
-pos = (71,-96);
+pos = (41,-96);
 ref = "dotbelow-ar";
 }
 );
@@ -75273,7 +75273,7 @@ shapes = (
 ref = "behDotless-ar.medi.high";
 },
 {
-pos = (71,-96);
+pos = (41,-96);
 ref = "dotbelow-ar";
 }
 );
@@ -75595,7 +75595,7 @@ shapes = (
 ref = "behDotless-ar.medi";
 },
 {
-pos = (16,-96);
+pos = (-14,-96);
 ref = "threedotsdownbelow-ar";
 }
 );
@@ -75641,7 +75641,7 @@ shapes = (
 ref = "behDotless-ar.medi.high";
 },
 {
-pos = (16,-96);
+pos = (-14,-96);
 ref = "threedotsdownbelow-ar";
 }
 );
@@ -75871,7 +75871,7 @@ shapes = (
 ref = "behDotless-ar.medi";
 },
 {
-pos = (16,-96);
+pos = (-14,-96);
 ref = "twodotshorizontalbelow-ar";
 }
 );
@@ -75917,7 +75917,7 @@ shapes = (
 ref = "behDotless-ar.medi.high";
 },
 {
-pos = (16,-96);
+pos = (-14,-96);
 ref = "twodotshorizontalbelow-ar";
 }
 );
@@ -76474,7 +76474,7 @@ pos = (196,89);
 ref = "dotabove-ar";
 }
 );
-width = 513;
+width = 542;
 },
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -76520,7 +76520,7 @@ pos = (196,-96);
 ref = "dotbelow-ar";
 }
 );
-width = 513;
+width = 542;
 },
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -76704,7 +76704,7 @@ pos = (196,89);
 ref = "dotabove-ar";
 }
 );
-width = 513;
+width = 542;
 },
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -76788,7 +76788,7 @@ shapes = (
 ref = "kaf-ar.medi";
 }
 );
-width = 729;
+width = 747;
 },
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -76876,7 +76876,7 @@ pos = (-49,-18);
 ref = "gafsarkashabove-ar";
 }
 );
-width = 729;
+width = 747;
 },
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -76922,7 +76922,7 @@ pos = (-71,201);
 ref = "threedotsupabove-ar";
 }
 );
-width = 729;
+width = 747;
 },
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -77522,7 +77522,7 @@ pos = (242,8);
 ref = "dotabove-ar";
 }
 );
-width = 623;
+width = 641;
 },
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -77568,7 +77568,7 @@ pos = (186,8);
 ref = "tahabove-ar";
 }
 );
-width = 623;
+width = 641;
 },
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -77614,7 +77614,7 @@ pos = (136,30);
 ref = "dotabove-ar";
 }
 );
-width = 323;
+width = 346;
 },
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -77660,7 +77660,7 @@ pos = (80,30);
 ref = "tahabove-ar";
 }
 );
-width = 323;
+width = 346;
 },
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -78040,7 +78040,7 @@ pos = (657,-96);
 ref = "dotbelow-ar";
 }
 );
-width = 974;
+width = 1003;
 },
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -78500,7 +78500,7 @@ pos = (217,-127);
 ref = "dotabove-ar";
 }
 );
-width = 598;
+width = 621;
 },
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -78764,7 +78764,7 @@ pos = (106,49);
 ref = "hamzaabove-ar";
 }
 );
-width = 479;
+width = 507;
 },
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -78823,7 +78823,7 @@ pos = (120,49);
 ref = "vabove-ar";
 }
 );
-width = 479;
+width = 507;
 }
 );
 },
@@ -92383,7 +92383,7 @@ shapes = (
 ref = "meem-ar";
 },
 {
-pos = (374,-96);
+pos = (408,-96);
 ref = "doubleverticalbarbelow-ar";
 }
 );
