@@ -47906,8 +47906,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(244,0,l),
-(244,75,l),
+(247,0,l),
+(247,75,l),
 (131,75,l),
 (131,0,l)
 );
@@ -47916,11 +47916,11 @@ nodes = (
 ref = "lam-ar.init";
 },
 {
-pos = (194,0);
+pos = (197,0);
 ref = _connection.r;
 }
 );
-width = 244;
+width = 247;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -47928,8 +47928,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(284,0,l),
-(284,119,l),
+(307,0,l),
+(307,119,l),
 (191,119,l),
 (191,0,l)
 );
@@ -47938,11 +47938,11 @@ nodes = (
 ref = "lam-ar.init";
 },
 {
-pos = (234,0);
+pos = (257,0);
 ref = _connection.r;
 }
 );
-width = 284;
+width = 307;
 },
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -47950,8 +47950,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(199,0,l),
-(199,30,l),
+(202,0,l),
+(202,30,l),
 (96,30,l),
 (96,0,l)
 );
@@ -47960,11 +47960,11 @@ nodes = (
 ref = "lam-ar.init";
 },
 {
-pos = (149,0);
+pos = (152,0);
 ref = _connection.r;
 }
 );
-width = 199;
+width = 202;
 }
 );
 metricLeft = "=-20";
@@ -109548,6 +109548,145 @@ quoteright = {
 };
 x = {
 "@MMK_R_o" = -4;
+};
+};
+};
+kerningRTL = {
+"3114FB65-9464-41A5-B67E-A8F9F43C0EF1" = {
+"eight-ar" = {
+"seven-ar" = -110;
+};
+"eight-persian" = {
+"zero-persian.alt" = -20;
+};
+"four-ar" = {
+"eight-ar" = -20;
+};
+"four-persian.alt" = {
+"seven-persian.alt" = -90;
+};
+"nine-ar" = {
+"eight-persian" = -60;
+};
+"nine-persian" = {
+"eight-ar" = -60;
+};
+"seven-ar" = {
+"eight-ar" = -110;
+"four-ar" = -30;
+};
+"seven-persian.alt" = {
+"eight-persian" = -60;
+"four-persian.alt" = -110;
+"seven-persian" = -40;
+};
+"six-ar" = {
+"eight-ar" = -110;
+"five-ar" = -70;
+"four-ar" = -50;
+};
+"three-ar" = {
+"four-ar" = -30;
+};
+"two-ar" = {
+"four-ar" = -40;
+};
+"zero-persian.alt" = {
+"eight-persian" = -20;
+"four-persian.alt" = -80;
+"seven-persian.alt" = -50;
+"two-persian" = -70;
+};
+};
+"14EEE41F-D714-4243-A717-73445EE7DABA" = {
+"eight-ar" = {
+"seven-ar" = -100;
+};
+"eight-persian" = {
+"zero-persian.alt" = -20;
+};
+"four-ar" = {
+"eight-ar" = -20;
+};
+"four-persian.alt" = {
+"seven-persian.alt" = -80;
+};
+"nine-ar" = {
+"eight-persian" = -50;
+};
+"nine-persian" = {
+"eight-ar" = -50;
+};
+"seven-ar" = {
+"eight-ar" = -100;
+"four-ar" = -30;
+};
+"seven-persian.alt" = {
+"eight-persian" = -50;
+"four-persian.alt" = -80;
+"seven-persian" = -40;
+};
+"six-ar" = {
+"eight-ar" = -100;
+"five-ar" = -80;
+"four-ar" = -30;
+};
+"three-ar" = {
+"four-ar" = -30;
+};
+"two-ar" = {
+"four-ar" = -40;
+};
+"zero-persian.alt" = {
+"eight-persian" = -20;
+"four-persian.alt" = -70;
+"seven-persian.alt" = -60;
+"two-persian" = -50;
+};
+};
+"090CB6A0-BE7C-4D17-A551-206C7456A8A3" = {
+"eight-ar" = {
+"seven-ar" = -90;
+};
+"eight-persian" = {
+"zero-persian.alt" = -10;
+};
+"four-ar" = {
+"eight-ar" = -20;
+};
+"four-persian.alt" = {
+"seven-persian.alt" = -70;
+};
+"nine-ar" = {
+"eight-persian" = -40;
+};
+"nine-persian" = {
+"eight-ar" = -40;
+};
+"seven-ar" = {
+"eight-ar" = -90;
+"four-ar" = -30;
+};
+"seven-persian.alt" = {
+"eight-persian" = -40;
+"four-persian.alt" = -70;
+"seven-persian" = -40;
+};
+"six-ar" = {
+"eight-ar" = -90;
+"four-ar" = -30;
+};
+"three-ar" = {
+"four-ar" = -10;
+};
+"two-ar" = {
+"four-ar" = -40;
+};
+"zero-persian.alt" = {
+"eight-persian" = -10;
+"four-persian.alt" = -70;
+"seven-persian.alt" = -60;
+"two-persian" = -60;
 };
 };
 };
