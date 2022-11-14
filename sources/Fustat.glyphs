@@ -66450,16 +66450,6 @@ color = 0;
 glyphname = "tcheh-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (300,-296);
-},
-{
-name = top;
-pos = (230,465);
-}
-);
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
 shapes = (
 {
@@ -66563,16 +66553,6 @@ ref = "threedotsdownbelow-ar";
 width = 596;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (283,-313);
-},
-{
-name = top;
-pos = (283,509);
-}
-);
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
 shapes = (
 {
@@ -66767,16 +66747,6 @@ visible = 1;
 width = 636;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (300,-296);
-},
-{
-name = top;
-pos = (219,465);
-}
-);
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 shapes = (
 {
