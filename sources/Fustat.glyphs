@@ -1,5 +1,5 @@
 {
-.appVersion = "3145";
+.appVersion = "3146";
 .formatVersion = 3;
 axes = (
 {
@@ -71456,7 +71456,7 @@ shapes = (
 ref = "keheh-ar";
 },
 {
-pos = (188,-18);
+pos = (288,-18);
 ref = "gafsarkashabove-ar";
 }
 );
@@ -71506,7 +71506,7 @@ shapes = (
 ref = "keheh-ar";
 },
 {
-pos = (143,-96);
+pos = (248,-96);
 ref = "gafsarkashabove-ar";
 },
 {
@@ -71523,7 +71523,7 @@ shapes = (
 ref = "keheh-ar";
 },
 {
-pos = (188,-18);
+pos = (288,-18);
 ref = "gafsarkashabove-ar";
 },
 {
@@ -71680,7 +71680,7 @@ shapes = (
 ref = "keheh-ar";
 },
 {
-pos = (143,-96);
+pos = (248,-96);
 ref = "gafsarkashabove-ar";
 },
 {
@@ -71697,7 +71697,7 @@ shapes = (
 ref = "keheh-ar";
 },
 {
-pos = (188,-18);
+pos = (288,-18);
 ref = "gafsarkashabove-ar";
 },
 {
@@ -73196,11 +73196,11 @@ shapes = (
 ref = "waw-ar";
 },
 {
-pos = (93,-12);
+pos = (123,-12);
 ref = "ringbelow-ar";
 }
 );
-width = 453;
+width = 483;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -73209,11 +73209,11 @@ shapes = (
 ref = "waw-ar";
 },
 {
-pos = (-16,19);
+pos = (14,19);
 ref = "ringbelow-ar";
 }
 );
-width = 471;
+width = 501;
 }
 );
 unicode = 1732;
@@ -73242,11 +73242,11 @@ shapes = (
 ref = "waw-ar";
 },
 {
-pos = (141,49);
+pos = (171,49);
 ref = "vabove-ar";
 }
 );
-width = 453;
+width = 483;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -73288,11 +73288,11 @@ shapes = (
 ref = "waw-ar";
 },
 {
-pos = (159,49);
+pos = (189,49);
 ref = "commaabove-ar";
 }
 );
-width = 453;
+width = 483;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -73301,11 +73301,11 @@ shapes = (
 ref = "waw-ar";
 },
 {
-pos = (135,49);
+pos = (165,49);
 ref = "commaabove-ar";
 }
 );
-width = 471;
+width = 501;
 }
 );
 unicode = 1735;
@@ -73334,11 +73334,11 @@ shapes = (
 ref = "waw-ar";
 },
 {
-pos = (193,49);
+pos = (223,49);
 ref = "alefabove-ar";
 }
 );
-width = 453;
+width = 483;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -73347,11 +73347,11 @@ shapes = (
 ref = "waw-ar";
 },
 {
-pos = (183,49);
+pos = (213,49);
 ref = "alefabove-ar";
 }
 );
-width = 471;
+width = 501;
 }
 );
 unicode = 1736;
@@ -73380,11 +73380,11 @@ shapes = (
 ref = "waw-ar";
 },
 {
-pos = (141,49);
+pos = (171,49);
 ref = "vinvertedabove-ar";
 }
 );
-width = 453;
+width = 483;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -73393,11 +73393,11 @@ shapes = (
 ref = "waw-ar";
 },
 {
-pos = (120,49);
+pos = (150,49);
 ref = "vinvertedabove-ar";
 }
 );
-width = 471;
+width = 501;
 }
 );
 unicode = 1737;
@@ -73518,11 +73518,11 @@ shapes = (
 ref = "waw-ar";
 },
 {
-pos = (171,49);
+pos = (201,49);
 ref = "dotabove-ar";
 }
 );
-width = 453;
+width = 483;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -73531,11 +73531,11 @@ shapes = (
 ref = "waw-ar";
 },
 {
-pos = (158,49);
+pos = (188,49);
 ref = "dotabove-ar";
 }
 );
-width = 471;
+width = 501;
 }
 );
 unicode = 1743;
@@ -73564,11 +73564,11 @@ shapes = (
 ref = "waw-ar";
 },
 {
-pos = (132,-59);
+pos = (162,-59);
 ref = "dotcenter-ar";
 }
 );
-width = 453;
+width = 483;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -78866,7 +78866,7 @@ pos = (657,90);
 ref = "dotabove-ar";
 }
 );
-width = 974;
+width = 1003;
 },
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -79678,11 +79678,11 @@ shapes = (
 ref = "waw-ar.fina";
 },
 {
-pos = (141,49);
+pos = (171,49);
 ref = "vabove-ar";
 }
 );
-width = 485;
+width = 515;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
