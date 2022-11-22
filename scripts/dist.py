@@ -35,13 +35,11 @@ def main():
     if args.verbose:
         logging.basicConfig(level=logging.INFO)
 
-    font = TTFont(args.input)
-    logging.info("Dropping glyph names")
-    font["post"].formatType = 3
-
     version = args.version.split("-")[0]
     if args.version[0] == "v":
         version = version[1:]
+
+    font = TTFont(args.input)
 
     logging.info("Setting head.fontRevision to %s", version)
     font["head"].fontRevision = float(version)
