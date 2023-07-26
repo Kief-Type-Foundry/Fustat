@@ -24,14 +24,17 @@ from glyphsLib.builder import to_designspace
 def glyphs2ufo(args):
     font = GSFont(args.input)
 
-    glyphOrder = [g.name for g in font.glyphs if g.color != 0]
-
     for glyph in font.glyphs:
         if glyph.color == 0:
-            glyphOrder.append(glyph.name)
             for layer in glyph.layers:
                 layer.components = []
                 layer.width = 1000
+
+    # TODO: move the .glyphs files after updating to 3.2
+    font.customParameters["meta Table"] = [
+        {"tag": "dlng", "data": "Arab"},
+        {"tag": "slng", "data": "Arab,Latn"},
+    ]
 
     designspace = to_designspace(
         font,

@@ -69,6 +69,7 @@ def main():
         glyph_names=False,
         recalc_average_width=True,
         drop_tables=[],
+        passthrough_tables=["meta"],
     )
     subsetter = subset.Subsetter(options=options)
     subsetter.populate(unicodes=unicodes)
