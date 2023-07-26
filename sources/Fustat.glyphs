@@ -1,5 +1,5 @@
 {
-.appVersion = "3146";
+.appVersion = "3207";
 .formatVersion = 3;
 axes = (
 {
@@ -278,6 +278,19 @@ value = 1100;
 {
 name = winDescent;
 value = 420;
+},
+{
+name = "meta Table";
+value = (
+{
+data = Arab;
+tag = dlng;
+},
+{
+data = "Arab,Latn";
+tag = slng;
+}
+);
 }
 );
 date = "2022-11-10 19:08:13 +0000";
@@ -109800,19 +109813,12 @@ name = ExtraBold;
 weightClass = 800;
 },
 {
-axesValues = (
-0
-);
 customParameters = (
 {
 name = "Variable Font Origin";
 value = "14EEE41F-D714-4243-A717-73445EE7DABA";
 }
 );
-instanceInterpolations = {
-"090CB6A0-BE7C-4D17-A551-206C7456A8A3" = -0.28571;
-"3114FB65-9464-41A5-B67E-A8F9F43C0EF1" = 1.28571;
-};
 name = Regular;
 type = variable;
 }

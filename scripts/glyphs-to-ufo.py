@@ -30,12 +30,6 @@ def glyphs2ufo(args):
                 layer.components = []
                 layer.width = 1000
 
-    # TODO: move the .glyphs files after updating to 3.2
-    font.customParameters["meta Table"] = [
-        {"tag": "dlng", "data": "Arab"},
-        {"tag": "slng", "data": "Arab,Latn"},
-    ]
-
     designspace = to_designspace(
         font,
         family_name=None,
