@@ -7,4 +7,3 @@
 
 Mohamed Gaber <gaber@kieftype.com>
 Khaled Hosny <khaled@aliftype.com>
-Christian Thalmann <christian.d.thalmann@gmail.com>
