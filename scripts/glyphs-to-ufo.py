@@ -24,11 +24,8 @@ from glyphsLib.builder import to_designspace
 def glyphs2ufo(args):
     font = GSFont(args.input)
 
-    glyphOrder = [g.name for g in font.glyphs if g.color != 0]
-
     for glyph in font.glyphs:
         if glyph.color == 0:
-            glyphOrder.append(glyph.name)
             for layer in glyph.layers:
                 layer.components = []
                 layer.width = 1000
