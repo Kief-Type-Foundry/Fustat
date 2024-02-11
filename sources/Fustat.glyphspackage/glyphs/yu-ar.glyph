@@ -9,7 +9,7 @@ shapes = (
 ref = "waw-ar";
 },
 {
-pos = (233,49);
+pos = (213,49);
 ref = "alefabove-ar";
 }
 );
@@ -22,7 +22,7 @@ shapes = (
 ref = "waw-ar";
 },
 {
-pos = (223,49);
+pos = (203,49);
 ref = "alefabove-ar";
 }
 );

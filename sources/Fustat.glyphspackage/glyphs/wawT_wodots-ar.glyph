@@ -9,7 +9,7 @@ shapes = (
 ref = "waw-ar";
 },
 {
-pos = (192,49);
+pos = (172,49);
 ref = "twodotshorizontalabove-ar";
 }
 );
@@ -22,7 +22,7 @@ shapes = (
 ref = "waw-ar";
 },
 {
-pos = (146,49);
+pos = (126,49);
 ref = "twodotshorizontalabove-ar";
 }
 );

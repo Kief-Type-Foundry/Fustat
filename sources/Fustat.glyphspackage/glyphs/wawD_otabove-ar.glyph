@@ -9,7 +9,7 @@ shapes = (
 ref = "waw-ar";
 },
 {
-pos = (224,49);
+pos = (204,49);
 ref = "dotabove-ar";
 }
 );
@@ -22,7 +22,7 @@ shapes = (
 ref = "waw-ar";
 },
 {
-pos = (201,49);
+pos = (181,49);
 ref = "dotabove-ar";
 }
 );

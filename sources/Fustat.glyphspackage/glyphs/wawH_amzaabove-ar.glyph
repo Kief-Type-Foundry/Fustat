@@ -9,7 +9,7 @@ shapes = (
 ref = "waw-ar";
 },
 {
-pos = (165,49);
+pos = (145,49);
 ref = "hamzaabove-ar";
 }
 );
@@ -35,7 +35,7 @@ shapes = (
 ref = "waw-ar";
 },
 {
-pos = (173,49);
+pos = (153,49);
 ref = "hamzaabove-ar";
 }
 );

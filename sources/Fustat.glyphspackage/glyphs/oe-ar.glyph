@@ -9,7 +9,7 @@ shapes = (
 ref = "waw-ar";
 },
 {
-pos = (186,49);
+pos = (166,49);
 ref = "vabove-ar";
 }
 );
@@ -22,7 +22,7 @@ shapes = (
 ref = "waw-ar";
 },
 {
-pos = (171,49);
+pos = (151,49);
 ref = "vabove-ar";
 }
 );
