@@ -227,27 +227,27 @@ features = (
 {
 code = "script arab;
   language FAR;
-  	sub zero-persian	by zero-persian.alt;
+	sub zero-persian	by zero-persian.locl;
 
   language URD;
-	sub four-persian	by four-persian.alt;
+	sub four-persian	by four-persian.locl;
 	sub six-persian		by six-ar;
-	sub seven-persian	by seven-persian.alt;
-#	sub dammainverted-ar by dammainverted-ar.alt;
+	sub seven-persian	by seven-persian.locl;
+#	sub dammainverted-ar by dammainverted-ar.locl;
 
   language KSH;
-	sub four-persian	by four-persian.alt;
+	sub four-persian	by four-persian.locl;
 	sub six-persian		by six-ar;
-	sub seven-persian	by seven-persian.alt;
+	sub seven-persian	by seven-persian.locl;
 
   language RHG;
 	sub four-persian	by four-ar;
 	sub six-persian		by six-ar;
-	sub seven-persian	by seven-persian.alt;
+	sub seven-persian	by seven-persian.locl;
 
   language SND;
 	sub six-persian		by six-ar;
-	sub seven-persian	by seven-persian.alt;
+	sub seven-persian	by seven-persian.locl;
  	sub comma-ar		by commareversed;
  	sub semicolon-ar	by semicolonreversed;
 ";
@@ -2099,13 +2099,13 @@ kerningRTL = {
 "seven-ar" = -110;
 };
 "eight-persian" = {
-"zero-persian.alt" = -20;
+"zero-persian.locl" = -20;
 };
 "four-ar" = {
 "eight-ar" = -20;
 };
-"four-persian.alt" = {
-"seven-persian.alt" = -90;
+"four-persian.locl" = {
+"seven-persian.locl" = -90;
 };
 "nine-ar" = {
 "eight-persian" = -60;
@@ -2117,9 +2117,9 @@ kerningRTL = {
 "eight-ar" = -110;
 "four-ar" = -30;
 };
-"seven-persian.alt" = {
+"seven-persian.locl" = {
 "eight-persian" = -60;
-"four-persian.alt" = -110;
+"four-persian.locl" = -110;
 "seven-persian" = -40;
 };
 "six-ar" = {
@@ -2133,10 +2133,10 @@ kerningRTL = {
 "two-ar" = {
 "four-ar" = -40;
 };
-"zero-persian.alt" = {
+"zero-persian.locl" = {
 "eight-persian" = -20;
-"four-persian.alt" = -80;
-"seven-persian.alt" = -50;
+"four-persian.locl" = -80;
+"seven-persian.locl" = -50;
 "two-persian" = -70;
 };
 };
@@ -2152,13 +2152,13 @@ kerningRTL = {
 "seven-ar" = -100;
 };
 "eight-persian" = {
-"zero-persian.alt" = -20;
+"zero-persian.locl" = -20;
 };
 "four-ar" = {
 "eight-ar" = -20;
 };
-"four-persian.alt" = {
-"seven-persian.alt" = -80;
+"four-persian.locl" = {
+"seven-persian.locl" = -80;
 };
 "nine-ar" = {
 "eight-persian" = -50;
@@ -2170,9 +2170,9 @@ kerningRTL = {
 "eight-ar" = -100;
 "four-ar" = -30;
 };
-"seven-persian.alt" = {
+"seven-persian.locl" = {
 "eight-persian" = -50;
-"four-persian.alt" = -80;
+"four-persian.locl" = -80;
 "seven-persian" = -40;
 };
 "six-ar" = {
@@ -2186,10 +2186,10 @@ kerningRTL = {
 "two-ar" = {
 "four-ar" = -40;
 };
-"zero-persian.alt" = {
+"zero-persian.locl" = {
 "eight-persian" = -20;
-"four-persian.alt" = -70;
-"seven-persian.alt" = -60;
+"four-persian.locl" = -70;
+"seven-persian.locl" = -60;
 "two-persian" = -50;
 };
 };
@@ -2206,13 +2206,13 @@ kerningRTL = {
 "seven-ar" = -90;
 };
 "eight-persian" = {
-"zero-persian.alt" = -10;
+"zero-persian.locl" = -10;
 };
 "four-ar" = {
 "eight-ar" = -20;
 };
-"four-persian.alt" = {
-"seven-persian.alt" = -70;
+"four-persian.locl" = {
+"seven-persian.locl" = -70;
 };
 "nine-ar" = {
 "eight-persian" = -40;
@@ -2224,9 +2224,9 @@ kerningRTL = {
 "eight-ar" = -90;
 "four-ar" = -30;
 };
-"seven-persian.alt" = {
+"seven-persian.locl" = {
 "eight-persian" = -40;
-"four-persian.alt" = -70;
+"four-persian.locl" = -70;
 "seven-persian" = -40;
 };
 "six-ar" = {
@@ -2239,10 +2239,10 @@ kerningRTL = {
 "two-ar" = {
 "four-ar" = -40;
 };
-"zero-persian.alt" = {
+"zero-persian.locl" = {
 "eight-persian" = -10;
-"four-persian.alt" = -70;
-"seven-persian.alt" = -60;
+"four-persian.locl" = -70;
+"seven-persian.locl" = -60;
 "two-persian" = -60;
 };
 };
