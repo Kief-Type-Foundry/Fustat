@@ -2125,9 +2125,6 @@ kerningRTL = {
 "nine-ar" = {
 "eight-persian" = -60;
 };
-"nine-persian" = {
-"eight-ar" = -60;
-};
 "seven-ar" = {
 "eight-ar" = -110;
 "four-ar" = -30;
@@ -2177,9 +2174,6 @@ kerningRTL = {
 };
 "nine-ar" = {
 "eight-persian" = -50;
-};
-"nine-persian" = {
-"eight-ar" = -50;
 };
 "seven-ar" = {
 "eight-ar" = -100;
@@ -2231,9 +2225,6 @@ kerningRTL = {
 };
 "nine-ar" = {
 "eight-persian" = -40;
-};
-"nine-persian" = {
-"eight-ar" = -40;
 };
 "seven-ar" = {
 "eight-ar" = -90;
