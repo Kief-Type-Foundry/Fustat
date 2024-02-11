@@ -5,34 +5,43 @@ layers = (
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
 shapes = (
 {
-angle = 180;
-pos = (278,389);
-ref = semicolon;
+ref = "comma-ar";
+},
+{
+pos = (39,-130);
+ref = period;
+scale = (0.7,0.7);
 }
 );
-width = 278;
+width = 206;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
 shapes = (
 {
-angle = 180;
-pos = (298,412);
-ref = semicolon;
+ref = "comma-ar";
+},
+{
+pos = (43,-174);
+ref = period;
+scale = (0.7,0.7);
 }
 );
-width = 308;
+width = 230;
 },
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 shapes = (
 {
-angle = 180;
-pos = (271,347);
-ref = semicolon;
+ref = "comma-ar";
+},
+{
+pos = (20,-100);
+ref = period;
+scale = (0.7,0.7);
 }
 );
-width = 256;
+width = 122;
 }
 );
 metricLeft = "=comma-ar";
