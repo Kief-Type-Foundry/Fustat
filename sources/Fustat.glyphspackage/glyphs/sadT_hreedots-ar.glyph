@@ -1,0 +1,46 @@
+{
+color = 0;
+glyphname = "sadThreedots-ar";
+layers = (
+{
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+shapes = (
+{
+ref = "sad-ar";
+},
+{
+pos = (701,-66);
+ref = "threedotsupabove-ar";
+}
+);
+width = 1178;
+},
+{
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+shapes = (
+{
+ref = "sad-ar";
+},
+{
+pos = (665,-66);
+ref = "threedotsupabove-ar";
+}
+);
+width = 1205;
+},
+{
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+shapes = (
+{
+ref = "sad-ar";
+},
+{
+pos = (647,8);
+ref = "threedotsupabove-ar";
+}
+);
+width = 1279;
+}
+);
+unicode = 1694;
+}

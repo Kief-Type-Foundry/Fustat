@@ -1,0 +1,73 @@
+{
+glyphname = "kafswash-ar.medi";
+layers = (
+{
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(882,0,l),
+(882,30,l),
+(779,30,l),
+(779,0,l)
+);
+},
+{
+ref = "kafswash-ar.init";
+},
+{
+pos = (832,0);
+ref = _connection.r;
+}
+);
+width = 882;
+},
+{
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(922,0,l),
+(922,75,l),
+(805,75,l),
+(805,0,l)
+);
+},
+{
+ref = "kafswash-ar.init";
+},
+{
+pos = (872,0);
+ref = _connection.r;
+}
+);
+width = 922;
+},
+{
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(995,0,l),
+(995,119,l),
+(880,119,l),
+(880,0,l)
+);
+},
+{
+ref = "kafswash-ar.init";
+},
+{
+pos = (945,0);
+ref = _connection.r;
+}
+);
+width = 995;
+}
+);
+metricLeft = "=-20";
+metricRight = "=-20";
+}

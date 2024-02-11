@@ -6,7 +6,7 @@ MAKEFLAGS := -sr
 PYTHON := python3
 
 SOURCEDIR = sources
-GLYPHSFILE = ${SOURCEDIR}/${NAME}.glyphs
+GLYPHSFILE = ${SOURCEDIR}/${NAME}.glyphspackage
 SCRIPTDIR = scripts
 BUILDDIR = build
 FONTSDIR = fonts

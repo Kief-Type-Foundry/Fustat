@@ -1,0 +1,73 @@
+{
+glyphname = "fehDotless-ar.medi";
+layers = (
+{
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(509,0,l),
+(509,75,l),
+(383,75,l),
+(383,0,l)
+);
+},
+{
+ref = "fehDotless-ar.init";
+},
+{
+pos = (459,0);
+ref = _connection.r;
+}
+);
+width = 509;
+},
+{
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(542,0,l),
+(542,119,l),
+(409,119,l),
+(409,0,l)
+);
+},
+{
+ref = "fehDotless-ar.init";
+},
+{
+pos = (492,0);
+ref = _connection.r;
+}
+);
+width = 542;
+},
+{
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(476,0,l),
+(476,30,l),
+(363,30,l),
+(363,0,l)
+);
+},
+{
+ref = "fehDotless-ar.init";
+},
+{
+pos = (426,0);
+ref = _connection.r;
+}
+);
+width = 476;
+}
+);
+metricLeft = "=-20";
+metricRight = "=-20";
+}

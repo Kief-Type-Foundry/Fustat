@@ -1,0 +1,59 @@
+{
+color = 3;
+glyphname = dollar;
+kernLeft = S;
+layers = (
+{
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+width = 516;
+},
+{
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+width = 523;
+},
+{
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+width = 544;
+},
+{
+associatedMasterId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+attr = {
+axisRules = (
+{
+min = 110;
+}
+);
+};
+layerId = "DC3B1084-0C47-446C-889D-E824DE26B50B";
+name = "[110]";
+width = 516;
+},
+{
+associatedMasterId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+attr = {
+axisRules = (
+{
+min = 110;
+}
+);
+};
+layerId = "D979BE25-1348-468B-94A2-5890A75B4271";
+name = "[110]";
+width = 523;
+},
+{
+associatedMasterId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+attr = {
+axisRules = (
+{
+min = 110;
+}
+);
+};
+layerId = "AA1FA697-1F81-4E40-8B18-B1CB664107B1";
+name = "[110]";
+width = 544;
+}
+);
+unicode = 36;
+}

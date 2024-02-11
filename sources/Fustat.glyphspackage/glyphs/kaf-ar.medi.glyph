@@ -1,0 +1,73 @@
+{
+glyphname = "kaf-ar.medi";
+layers = (
+{
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(749,0,l),
+(749,75,l),
+(632,75,l),
+(632,0,l)
+);
+},
+{
+ref = "kaf-ar.init";
+},
+{
+pos = (699,0);
+ref = _connection.r;
+}
+);
+width = 749;
+},
+{
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(747,0,l),
+(747,119,l),
+(632,119,l),
+(632,0,l)
+);
+},
+{
+ref = "kaf-ar.init";
+},
+{
+pos = (697,0);
+ref = _connection.r;
+}
+);
+width = 747;
+},
+{
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(707,0,l),
+(707,30,l),
+(602,30,l),
+(602,0,l)
+);
+},
+{
+ref = "kaf-ar.init";
+},
+{
+pos = (657,0);
+ref = _connection.r;
+}
+);
+width = 707;
+}
+);
+metricLeft = "=-20";
+metricRight = "=-20";
+}

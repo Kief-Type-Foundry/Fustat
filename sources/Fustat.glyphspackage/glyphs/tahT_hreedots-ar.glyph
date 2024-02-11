@@ -1,0 +1,46 @@
+{
+color = 0;
+glyphname = "tahThreedots-ar";
+layers = (
+{
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+shapes = (
+{
+ref = "tah-ar";
+},
+{
+pos = (343,-66);
+ref = "threedotsupabove-ar";
+}
+);
+width = 810;
+},
+{
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+shapes = (
+{
+ref = "tah-ar";
+},
+{
+pos = (352,-66);
+ref = "threedotsupabove-ar";
+}
+);
+width = 872;
+},
+{
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+shapes = (
+{
+ref = "tah-ar";
+},
+{
+pos = (404,8);
+ref = "threedotsupabove-ar";
+}
+);
+width = 1006;
+}
+);
+unicode = 1695;
+}

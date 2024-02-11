@@ -1,0 +1,58 @@
+{
+color = 0;
+glyphname = "rehDotbelowdotabove-ar";
+layers = (
+{
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+shapes = (
+{
+ref = "reh-ar";
+},
+{
+pos = (42,9);
+ref = "dotcenter-ar";
+},
+{
+pos = (74,-296);
+ref = "dotbelow-ar";
+}
+);
+width = 252;
+},
+{
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+shapes = (
+{
+ref = "reh-ar";
+},
+{
+pos = (-31,69);
+ref = "dotcenter-ar";
+},
+{
+pos = (51,-296);
+ref = "dotbelow-ar";
+}
+);
+width = 247;
+},
+{
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+shapes = (
+{
+ref = "reh-ar";
+},
+{
+pos = (-40,99);
+ref = "dotcenter-ar";
+},
+{
+pos = (42,-313);
+ref = "dotbelow-ar";
+}
+);
+width = 310;
+}
+);
+unicode = 1686;
+}

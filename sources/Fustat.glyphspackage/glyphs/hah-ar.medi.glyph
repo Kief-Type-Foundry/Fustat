@@ -1,0 +1,73 @@
+{
+glyphname = "hah-ar.medi";
+layers = (
+{
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(625,0,l),
+(625,75,l),
+(539,75,l),
+(539,0,l)
+);
+},
+{
+ref = "hah-ar.init";
+},
+{
+pos = (575,0);
+ref = _connection.r;
+}
+);
+width = 625;
+},
+{
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(668,0,l),
+(668,119,l),
+(582,119,l),
+(582,0,l)
+);
+},
+{
+ref = "hah-ar.init";
+},
+{
+pos = (618,0);
+ref = _connection.r;
+}
+);
+width = 668;
+},
+{
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(585,0,l),
+(585,30,l),
+(499,30,l),
+(499,0,l)
+);
+},
+{
+ref = "hah-ar.init";
+},
+{
+pos = (535,0);
+ref = _connection.r;
+}
+);
+width = 585;
+}
+);
+metricLeft = "=-20";
+metricRight = "=-20";
+}

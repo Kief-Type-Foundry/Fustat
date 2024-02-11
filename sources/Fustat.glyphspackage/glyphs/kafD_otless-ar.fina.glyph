@@ -1,0 +1,73 @@
+{
+glyphname = "kafDotless-ar.fina";
+layers = (
+{
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(846,0,l),
+(846,75,l),
+(720,75,l),
+(720,0,l)
+);
+},
+{
+ref = "kafDotless-ar";
+},
+{
+pos = (796,0);
+ref = _connection.r;
+}
+);
+width = 846;
+},
+{
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(880,0,l),
+(880,119,l),
+(718,119,l),
+(718,0,l)
+);
+},
+{
+ref = "kafDotless-ar";
+},
+{
+pos = (830,0);
+ref = _connection.r;
+}
+);
+width = 880;
+},
+{
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(855,0,l),
+(855,30,l),
+(715,30,l),
+(715,0,l)
+);
+},
+{
+ref = "kafDotless-ar";
+},
+{
+pos = (805,0);
+ref = _connection.r;
+}
+);
+width = 855;
+}
+);
+metricLeft = "=behDotless-ar";
+metricRight = "=-20";
+}

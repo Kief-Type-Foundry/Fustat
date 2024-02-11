@@ -1,0 +1,58 @@
+{
+color = 0;
+export = 0;
+glyphname = "sheenThreedotsbelow-ar.medi";
+layers = (
+{
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+shapes = (
+{
+ref = "seen-ar.medi";
+},
+{
+pos = (232,-17);
+ref = "threedotsupabove-ar";
+},
+{
+pos = (252,-96);
+ref = "threedotsdownbelow-ar";
+}
+);
+width = 675;
+},
+{
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+shapes = (
+{
+ref = "seen-ar.medi";
+},
+{
+pos = (267,0);
+ref = "threedotsupabove-ar";
+},
+{
+pos = (287,-96);
+ref = "threedotsdownbelow-ar";
+}
+);
+width = 775;
+},
+{
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+shapes = (
+{
+ref = "seen-ar.medi";
+},
+{
+pos = (208,-17);
+ref = "threedotsupabove-ar";
+},
+{
+pos = (228,-96);
+ref = "threedotsdownbelow-ar";
+}
+);
+width = 530;
+}
+);
+}

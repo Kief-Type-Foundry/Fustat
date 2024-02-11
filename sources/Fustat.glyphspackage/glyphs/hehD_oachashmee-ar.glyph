@@ -1,0 +1,68 @@
+{
+glyphname = "hehDoachashmee-ar";
+layers = (
+{
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(40,6,l),
+(43,0,l),
+(153,0,l),
+(153,75,l),
+(77,75,l)
+);
+},
+{
+pos = (100,0);
+ref = "heh-ar.init";
+}
+);
+width = 608;
+},
+{
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(203,0,l),
+(203,119,l),
+(40,119,l),
+(35,110,l),
+(93,0,l)
+);
+},
+{
+pos = (132,0);
+ref = "heh-ar.init";
+}
+);
+width = 649;
+},
+{
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(160,0,l),
+(160,30,l),
+(48,30,l),
+(45,24,l),
+(58,0,l)
+);
+},
+{
+pos = (80,0);
+ref = "heh-ar.init";
+}
+);
+width = 593;
+}
+);
+metricLeft = "=tah-ar";
+metricRight = "=beh-ar";
+unicode = 1726;
+}

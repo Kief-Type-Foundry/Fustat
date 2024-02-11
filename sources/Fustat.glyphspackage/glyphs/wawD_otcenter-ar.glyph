@@ -1,0 +1,46 @@
+{
+color = 0;
+glyphname = "wawDotcenter-ar";
+layers = (
+{
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+shapes = (
+{
+ref = "waw-ar";
+},
+{
+pos = (205,-75);
+ref = "dotcenter-ar";
+}
+);
+width = 493;
+},
+{
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+shapes = (
+{
+ref = "waw-ar";
+},
+{
+pos = (162,-59);
+ref = "dotcenter-ar";
+}
+);
+width = 483;
+},
+{
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+shapes = (
+{
+ref = "waw-ar";
+},
+{
+pos = (22,-5);
+ref = "dotcenter-ar";
+}
+);
+width = 501;
+}
+);
+unicode = 2219;
+}

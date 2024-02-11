@@ -1,0 +1,59 @@
+{
+glyphname = "one-ar";
+layers = (
+{
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (270,755);
+ref = "alef-ar";
+}
+);
+width = 310;
+},
+{
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (315,761);
+ref = "alef-ar";
+}
+);
+width = 360;
+},
+{
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (240,751);
+ref = "alef-ar";
+}
+);
+width = 275;
+},
+{
+associatedMasterId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+layerId = "909340F3-1724-440D-81BD-99131C05B1FD";
+name = "Oct 28 22, 11:40";
+shapes = (
+{
+closed = 1;
+nodes = (
+(195,670,l),
+(110,670,l),
+(110,-6,l),
+(195,4,l)
+);
+}
+);
+width = 305;
+}
+);
+unicode = 1633;
+}

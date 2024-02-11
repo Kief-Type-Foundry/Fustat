@@ -1,0 +1,46 @@
+{
+color = 0;
+export = 0;
+glyphname = "alefWasla-ar.fina";
+layers = (
+{
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+shapes = (
+{
+ref = "alef-ar.short.fina";
+},
+{
+pos = (-4,289);
+ref = "wasla-ar";
+}
+);
+width = 196;
+},
+{
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+shapes = (
+{
+ref = "alef-ar.short.fina";
+},
+{
+pos = (-5,288);
+ref = "wasla-ar";
+}
+);
+width = 231;
+},
+{
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+shapes = (
+{
+ref = "alef-ar.short.fina";
+},
+{
+pos = (40,286);
+ref = "wasla-ar";
+}
+);
+width = 306;
+}
+);
+}

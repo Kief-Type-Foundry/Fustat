@@ -1,0 +1,73 @@
+{
+glyphname = "sad-ar.medi";
+layers = (
+{
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(861,0,l),
+(861,75,l),
+(706,75,l),
+(706,0,l)
+);
+},
+{
+ref = "sad-ar.init";
+},
+{
+pos = (811,0);
+ref = _connection.r;
+}
+);
+width = 861;
+},
+{
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(990,0,l),
+(990,119,l),
+(786,119,l),
+(786,0,l)
+);
+},
+{
+ref = "sad-ar.init";
+},
+{
+pos = (940,0);
+ref = _connection.r;
+}
+);
+width = 990;
+},
+{
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(811,0,l),
+(811,30,l),
+(705,30,l),
+(705,0,l)
+);
+},
+{
+ref = "sad-ar.init";
+},
+{
+pos = (761,0);
+ref = _connection.r;
+}
+);
+width = 811;
+}
+);
+metricLeft = "=-20";
+metricRight = "=-20";
+}

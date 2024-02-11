@@ -1,0 +1,46 @@
+{
+color = 0;
+export = 0;
+glyphname = "wawHamzaabove-ar.fina";
+layers = (
+{
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+shapes = (
+{
+ref = "waw-ar.fina";
+},
+{
+pos = (165,49);
+ref = "hamzaabove-ar";
+}
+);
+width = 515;
+},
+{
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+shapes = (
+{
+ref = "waw-ar.fina";
+},
+{
+pos = (136,49);
+ref = "hamzaabove-ar";
+}
+);
+width = 537;
+},
+{
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+shapes = (
+{
+ref = "waw-ar.fina";
+},
+{
+pos = (173,49);
+ref = "hamzaabove-ar";
+}
+);
+width = 519;
+}
+);
+}

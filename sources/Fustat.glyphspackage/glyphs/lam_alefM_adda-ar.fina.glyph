@@ -1,0 +1,50 @@
+{
+color = 0;
+export = 0;
+glyphname = "lam_alefMadda-ar.fina";
+layers = (
+{
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+shapes = (
+{
+ref = "lam_alef-ar.fina";
+},
+{
+anchor = top_2;
+pos = (36,243);
+ref = "madda-ar";
+}
+);
+width = 602;
+},
+{
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+shapes = (
+{
+ref = "lam_alef-ar.fina";
+},
+{
+anchor = top_2;
+pos = (80,282);
+ref = "madda-ar";
+}
+);
+width = 658;
+},
+{
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+shapes = (
+{
+ref = "lam_alef-ar.fina";
+},
+{
+anchor = top_2;
+pos = (43,242);
+ref = "madda-ar";
+}
+);
+width = 603;
+}
+);
+unicode = 65270;
+}

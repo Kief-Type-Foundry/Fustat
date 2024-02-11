@@ -1,0 +1,73 @@
+{
+glyphname = "tah-ar.init";
+layers = (
+{
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(82,0,l),
+(82,75,l),
+(0,75,l),
+(0,0,l)
+);
+},
+{
+pos = (-34,0);
+ref = "tah-ar";
+},
+{
+ref = _connection.l;
+}
+);
+width = 838;
+},
+{
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(97,0,l),
+(97,119,l),
+(0,119,l),
+(0,0,l)
+);
+},
+{
+pos = (-41,0);
+ref = "tah-ar";
+},
+{
+ref = _connection.l;
+}
+);
+width = 965;
+},
+{
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(85,0,l),
+(85,30,l),
+(0,30,l),
+(0,0,l)
+);
+},
+{
+pos = (-17,0);
+ref = "tah-ar";
+},
+{
+ref = _connection.l;
+}
+);
+width = 793;
+}
+);
+metricLeft = "=-20";
+metricRight = "=tah-ar";
+}

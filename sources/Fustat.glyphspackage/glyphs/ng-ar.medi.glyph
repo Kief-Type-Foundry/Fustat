@@ -1,0 +1,46 @@
+{
+color = 0;
+export = 0;
+glyphname = "ng-ar.medi";
+layers = (
+{
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+shapes = (
+{
+ref = "kaf-ar.medi";
+},
+{
+pos = (-19,156);
+ref = "threedotsupabove-ar";
+}
+);
+width = 749;
+},
+{
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+shapes = (
+{
+ref = "kaf-ar.medi";
+},
+{
+pos = (-71,201);
+ref = "threedotsupabove-ar";
+}
+);
+width = 747;
+},
+{
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+shapes = (
+{
+ref = "kaf-ar.medi";
+},
+{
+pos = (42,156);
+ref = "threedotsupabove-ar";
+}
+);
+width = 707;
+}
+);
+}

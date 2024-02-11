@@ -1,0 +1,73 @@
+{
+glyphname = "dal-ar.fina";
+layers = (
+{
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(565,0,l),
+(565,75,l),
+(446,75,l),
+(446,0,l)
+);
+},
+{
+ref = "dal-ar";
+},
+{
+pos = (515,0);
+ref = _connection.r;
+}
+);
+width = 565;
+},
+{
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(641,0,l),
+(641,119,l),
+(521,119,l),
+(521,0,l)
+);
+},
+{
+ref = "dal-ar";
+},
+{
+pos = (591,0);
+ref = _connection.r;
+}
+);
+width = 641;
+},
+{
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(504,0,l),
+(504,30,l),
+(400,30,l),
+(400,0,l)
+);
+},
+{
+ref = "dal-ar";
+},
+{
+pos = (454,0);
+ref = _connection.r;
+}
+);
+width = 504;
+}
+);
+metricLeft = "=dal-ar";
+metricRight = "=-20";
+}

@@ -1,0 +1,73 @@
+{
+glyphname = "sad-ar.fina";
+layers = (
+{
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1228,0,l),
+(1228,75,l),
+(1073,75,l),
+(1073,0,l)
+);
+},
+{
+pos = (1178,0);
+ref = _connection.r;
+},
+{
+ref = "sad-ar";
+}
+);
+width = 1228;
+},
+{
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1304,0,l),
+(1304,119,l),
+(1110,119,l),
+(1110,0,l)
+);
+},
+{
+pos = (1254,0);
+ref = _connection.r;
+},
+{
+ref = "sad-ar";
+}
+);
+width = 1304;
+},
+{
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1196,0,l),
+(1196,30,l),
+(1090,30,l),
+(1090,0,l)
+);
+},
+{
+pos = (1146,0);
+ref = _connection.r;
+},
+{
+ref = "sad-ar";
+}
+);
+width = 1196;
+}
+);
+metricLeft = "=noonghunna-ar";
+metricRight = "=-20";
+}

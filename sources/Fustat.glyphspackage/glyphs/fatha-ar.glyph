@@ -1,0 +1,83 @@
+{
+glyphname = "fatha-ar";
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (101,428);
+},
+{
+name = top;
+pos = (101,515);
+}
+);
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(201,442,l),
+(201,489,l),
+(0,475,l),
+(0,428,l)
+);
+}
+);
+width = 201;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (101,428);
+},
+{
+name = top;
+pos = (101,520);
+}
+);
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(201,442,l),
+(201,502,l),
+(0,488,l),
+(0,428,l)
+);
+}
+);
+width = 201;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (101,428);
+},
+{
+name = top;
+pos = (101,485);
+}
+);
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(201,442,l),
+(201,470,l),
+(0,456,l),
+(0,428,l)
+);
+}
+);
+width = 201;
+}
+);
+metricLeft = "=0";
+metricRight = "=0";
+unicode = 1614;
+}

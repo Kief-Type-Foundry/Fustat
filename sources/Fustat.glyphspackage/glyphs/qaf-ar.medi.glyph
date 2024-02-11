@@ -1,0 +1,46 @@
+{
+color = 0;
+export = 0;
+glyphname = "qaf-ar.medi";
+layers = (
+{
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+shapes = (
+{
+ref = "fehDotless-ar.medi";
+},
+{
+pos = (131,49);
+ref = "twodotshorizontalabove-ar";
+}
+);
+width = 509;
+},
+{
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+shapes = (
+{
+ref = "fehDotless-ar.medi";
+},
+{
+pos = (132,89);
+ref = "twodotshorizontalabove-ar";
+}
+);
+width = 542;
+},
+{
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+shapes = (
+{
+ref = "fehDotless-ar.medi";
+},
+{
+pos = (156,49);
+ref = "twodotshorizontalabove-ar";
+}
+);
+width = 476;
+}
+);
+}
