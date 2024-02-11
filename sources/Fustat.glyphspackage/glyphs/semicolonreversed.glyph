@@ -77,12 +77,12 @@ width = 278;
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
 shapes = (
 {
-pos = (273,286);
+pos = (298,286);
 ref = period;
 scale = (-1,1);
 },
 {
-pos = (273,0);
+pos = (298,0);
 ref = comma;
 scale = (-1,1);
 }
