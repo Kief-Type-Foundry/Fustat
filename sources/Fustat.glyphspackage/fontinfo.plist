@@ -965,11 +965,6 @@ value = "Alt numbers";
 tag = ss05;
 },
 {
-code = "lookup ss01;
-lookup ss02;";
-tag = salt;
-},
-{
 code = "# Automatic Code
 
 lookup beh_dots_1 {
