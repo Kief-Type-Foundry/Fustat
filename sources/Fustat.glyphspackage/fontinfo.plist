@@ -726,17 +726,17 @@ lookup narrow_yehbarree {
        hah-ar.init hah-ar.medi meem-ar.init meem-ar.medi]
        yehbarree-ar.fina'
    by  yehbarree-ar.fina.alt;
-} narrow_yehbarree; 
+} narrow_yehbarree;
+
+lookup hah_dots {
+  lookupflag UseMarkFilteringSet @behdotbelow;
+    sub behDotless-ar.init @behdotbelow' [hah-ar.medi hah-ar.fina] by @behdotbelow.alt;;
+} hah_dots;
 ";
 tag = rlig;
 },
 {
-code = "lookup hah_dots {
-  lookupflag UseMarkFilteringSet @behdotbelow;
-    sub behDotless-ar.init @behdotbelow' [hah-ar.medi hah-ar.fina] by @behdotbelow.alt;;
-} hah_dots;
-
-lookup hah {
+code = "lookup hah {
   lookupflag IgnoreMarks;
     sub lam-ar.init hah-ar.fina by lam_hah-ar;
     sub lam-ar.init hah-ar.medi by lam_hah-ar.init;
@@ -748,7 +748,8 @@ lookup allah {
   lookupflag 0;
     sub alef-ar lam-ar.init lam-ar.medi shadda-ar alefabove-ar [heh-ar.fina hehgoal-ar.fina] by allah-ar;
     sub lam-ar.init lam-ar.medi shadda-ar alefabove-ar [heh-ar.fina hehgoal-ar.fina] by lellah-ar;
-} allah;";
+} allah;
+";
 tag = liga;
 },
 {
