@@ -1,18 +1,79 @@
 {
-color = 3;
+color = 5;
 glyphname = dieresiscomb.narrow;
 layers = (
 {
+anchors = (
+{
+name = _top;
+pos = (120,492);
+},
+{
+name = top;
+pos = (120,663);
+}
+);
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
-width = 282;
+shapes = (
+{
+pos = (118,0);
+ref = dotaccentcomb;
 },
 {
+alignment = -1;
+ref = dotaccentcomb;
+}
+);
+width = 240;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (158,500);
+},
+{
+name = top;
+pos = (158,682);
+}
+);
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
-width = 322;
+shapes = (
+{
+pos = (146,0);
+ref = dotaccentcomb;
 },
 {
+alignment = -1;
+ref = dotaccentcomb;
+}
+);
+width = 316;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (204,508);
+},
+{
+name = top;
+pos = (204,725);
+}
+);
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
-width = 378;
+shapes = (
+{
+pos = (192,0);
+ref = dotaccentcomb;
+},
+{
+alignment = -1;
+pos = (8,0);
+ref = dotaccentcomb;
+}
+);
+width = 407;
 }
 );
 }

@@ -1,20 +1,47 @@
 {
-color = 3;
+color = 5;
 glyphname = wcircumflex;
 kernLeft = v;
 kernRight = v;
 layers = (
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
-width = 726;
+shapes = (
+{
+ref = w;
+},
+{
+pos = (207,0);
+ref = circumflexcomb;
+}
+);
+width = 706;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
-width = 727;
+shapes = (
+{
+ref = w;
+},
+{
+pos = (192,0);
+ref = circumflexcomb;
+}
+);
+width = 752;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
-width = 749;
+shapes = (
+{
+ref = w;
+},
+{
+pos = (204,0);
+ref = circumflexcomb;
+}
+);
+width = 814;
 }
 );
 unicode = 373;

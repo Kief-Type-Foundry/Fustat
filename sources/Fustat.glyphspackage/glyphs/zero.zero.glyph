@@ -1,0 +1,49 @@
+{
+color = 5;
+glyphname = zero.zero;
+kernLeft = zero;
+kernRight = zero;
+layers = (
+{
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+shapes = (
+{
+ref = zero;
+},
+{
+pos = (243,318);
+ref = period;
+}
+);
+width = 608;
+},
+{
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+shapes = (
+{
+ref = zero;
+},
+{
+pos = (201,300);
+ref = period;
+}
+);
+width = 608;
+},
+{
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+shapes = (
+{
+ref = zero;
+},
+{
+pos = (170,276);
+ref = period;
+}
+);
+width = 568;
+}
+);
+metricLeft = zero;
+metricRight = zero;
+}

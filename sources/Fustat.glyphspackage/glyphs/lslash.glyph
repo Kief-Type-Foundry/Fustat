@@ -1,29 +1,64 @@
 {
-color = 3;
+color = 5;
 glyphname = lslash;
 kernLeft = l;
 kernRight = l;
 layers = (
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
-metricLeft = "=+20po";
-metricRight = "=+20";
-width = 260;
+shapes = (
+{
+closed = 1;
+nodes = (
+(190,401,l),
+(190,436,l),
+(-20,299,l),
+(-20,264,l)
+);
+},
+{
+ref = l;
+}
+);
+width = 170;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
-metricLeft = "=+20po";
-metricRight = "=+20";
-width = 287;
+shapes = (
+{
+closed = 1;
+nodes = (
+(208,376,l),
+(208,462,l),
+(-13,324,l),
+(-13,238,l)
+);
+},
+{
+ref = l;
+}
+);
+width = 195;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
-metricLeft = "=+20po";
-metricRight = "=+20";
-width = 326;
+shapes = (
+{
+closed = 1;
+nodes = (
+(255,367,l),
+(255,504,l),
+(-20,333,l),
+(-20,196,l)
+);
+},
+{
+ref = l;
 }
 );
-metricLeft = "=+20";
-metricRight = "=+20";
+width = 235;
+}
+);
+metricWidth = l;
 unicode = 322;
 }

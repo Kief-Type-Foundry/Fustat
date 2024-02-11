@@ -1,0 +1,53 @@
+{
+color = 5;
+glyphname = bar.case;
+layers = (
+{
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,700,l),
+(70,700,l),
+(70,0,l),
+(100,0,l)
+);
+}
+);
+width = 170;
+},
+{
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(140,700,l),
+(65,700,l),
+(65,0,l),
+(140,0,l)
+);
+}
+);
+width = 205;
+},
+{
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(185,700,l),
+(50,700,l),
+(50,0,l),
+(185,0,l)
+);
+}
+);
+width = 235;
+}
+);
+metricLeft = H;
+metricRight = H;
+}

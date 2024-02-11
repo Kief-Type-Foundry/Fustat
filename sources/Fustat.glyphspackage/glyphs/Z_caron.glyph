@@ -1,18 +1,45 @@
 {
-color = 3;
+color = 5;
 glyphname = Zcaron;
 layers = (
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
-width = 615;
+shapes = (
+{
+ref = Z;
+},
+{
+pos = (130,0);
+ref = caroncomb.case;
+}
+);
+width = 552;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
-width = 613;
+shapes = (
+{
+ref = Z;
+},
+{
+pos = (95,0);
+ref = caroncomb.case;
+}
+);
+width = 562;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
-width = 631;
+shapes = (
+{
+ref = Z;
+},
+{
+pos = (78,0);
+ref = caroncomb.case;
+}
+);
+width = 562;
 }
 );
 unicode = 381;

@@ -1,0 +1,81 @@
+{
+color = 5;
+glyphname = Ldot;
+layers = (
+{
+guides = (
+{
+pos = (26,350);
+showMeasurement = 1;
+},
+{
+pos = (26,350);
+showMeasurement = 1;
+}
+);
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+shapes = (
+{
+alignment = -1;
+ref = L;
+},
+{
+alignment = -1;
+pos = (282,0);
+ref = periodcentered;
+}
+);
+width = 516;
+},
+{
+guides = (
+{
+pos = (393,350);
+showMeasurement = 1;
+},
+{
+pos = (26,350);
+showMeasurement = 1;
+},
+{
+pos = (26,350);
+showMeasurement = 1;
+}
+);
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+shapes = (
+{
+ref = L;
+},
+{
+alignment = -1;
+pos = (280,0);
+ref = periodcentered;
+}
+);
+width = 526;
+},
+{
+guides = (
+{
+pos = (26,350);
+showMeasurement = 1;
+}
+);
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+shapes = (
+{
+alignment = -1;
+ref = L;
+},
+{
+alignment = -1;
+pos = (273,0);
+ref = periodcentered;
+}
+);
+width = 534;
+}
+);
+unicode = 319;
+}

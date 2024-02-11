@@ -1,0 +1,55 @@
+{
+color = 5;
+glyphname = one.circled;
+kernLeft = O;
+kernRight = O;
+layers = (
+{
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+shapes = (
+{
+ref = _circled;
+},
+{
+pos = (71,0);
+ref = oneCircledComp;
+}
+);
+width = 796;
+},
+{
+background = {
+shapes = (
+{
+ref = two.circled;
+}
+);
+};
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+shapes = (
+{
+ref = _circled;
+},
+{
+pos = (77,0);
+ref = oneCircledComp;
+}
+);
+width = 804;
+},
+{
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+shapes = (
+{
+ref = _circled;
+},
+{
+pos = (86,0);
+ref = oneCircledComp;
+}
+);
+width = 812;
+}
+);
+unicode = 9312;
+}

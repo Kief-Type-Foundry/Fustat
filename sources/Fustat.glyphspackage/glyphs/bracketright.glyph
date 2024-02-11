@@ -1,19 +1,40 @@
 {
-color = 3;
+color = 5;
 glyphname = bracketright;
 kernLeft = parenright;
 layers = (
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
-width = 331;
+shapes = (
+{
+pos = (290,0);
+ref = bracketleft;
+scale = (-1,1);
+}
+);
+width = 290;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
-width = 363;
+shapes = (
+{
+pos = (295,0);
+ref = bracketleft;
+scale = (-1,1);
+}
+);
+width = 295;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
-width = 392;
+shapes = (
+{
+pos = (285,0);
+ref = bracketleft;
+scale = (-1,1);
+}
+);
+width = 285;
 }
 );
 metricLeft = "=|bracketleft";

@@ -1,18 +1,66 @@
 {
-color = 3;
+color = 5;
 glyphname = hungarumlautcomb.case;
 layers = (
 {
+anchors = (
+{
+name = _top;
+pos = (137,700);
+},
+{
+name = top;
+pos = (137,882);
+}
+);
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
-width = 385;
+shapes = (
+{
+pos = (0,190);
+ref = hungarumlautcomb;
+}
+);
+width = 275;
 },
 {
+anchors = (
+{
+name = _top;
+pos = (140,700);
+},
+{
+name = top;
+pos = (140,890);
+}
+);
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
-width = 407;
+shapes = (
+{
+pos = (0,190);
+ref = hungarumlautcomb;
+}
+);
+width = 356;
 },
 {
+anchors = (
+{
+name = _top;
+pos = (170,700);
+},
+{
+name = top;
+pos = (170,890);
+}
+);
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
-width = 501;
+shapes = (
+{
+pos = (0,190);
+ref = hungarumlautcomb;
+}
+);
+width = 431;
 }
 );
 }

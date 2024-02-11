@@ -1,20 +1,47 @@
 {
-color = 3;
+color = 5;
 glyphname = Cdotaccent;
 kernLeft = O;
 kernRight = C;
 layers = (
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
-width = 653;
+shapes = (
+{
+ref = C;
+},
+{
+pos = (312,0);
+ref = dotaccentcomb.case;
+}
+);
+width = 718;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
-width = 652;
+shapes = (
+{
+ref = C;
+},
+{
+pos = (286,0);
+ref = dotaccentcomb.case;
+}
+);
+width = 719;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
-width = 656;
+shapes = (
+{
+ref = C;
+},
+{
+pos = (253,0);
+ref = dotaccentcomb.case;
+}
+);
+width = 690;
 }
 );
 unicode = 266;

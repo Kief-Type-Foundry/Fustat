@@ -1,20 +1,47 @@
 {
-color = 3;
+color = 5;
 glyphname = adieresis;
 kernLeft = aaccent;
 kernRight = aaccent;
 layers = (
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
-width = 440;
+shapes = (
+{
+ref = a;
+},
+{
+pos = (102,0);
+ref = dieresiscomb;
+}
+);
+width = 498;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
-width = 454;
+shapes = (
+{
+ref = a;
+},
+{
+pos = (91,0);
+ref = dieresiscomb;
+}
+);
+width = 517;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
-width = 493;
+shapes = (
+{
+ref = a;
+},
+{
+pos = (51,0);
+ref = dieresiscomb;
+}
+);
+width = 538;
 }
 );
 unicode = 228;

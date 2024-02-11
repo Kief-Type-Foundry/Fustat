@@ -1,19 +1,67 @@
 {
-color = 3;
+color = 5;
 glyphname = Hbar;
 kernRight = H;
 layers = (
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
-width = 766;
+shapes = (
+{
+ref = H;
+},
+{
+pos = (-49,-12);
+ref = strokelongcomb.case;
+}
+);
+width = 630;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
-width = 763;
+shapes = (
+{
+ref = H;
+},
+{
+pos = (-45,-2);
+ref = strokelongcomb.case;
+}
+);
+width = 654;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
-width = 775;
+shapes = (
+{
+ref = H;
+},
+{
+pos = (-46,0);
+ref = strokelongcomb.case;
+}
+);
+width = 684;
+},
+{
+associatedMasterId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+layerId = "26AC3D61-BAB1-45AD-A9E7-C1BA1B9CFB55";
+name = "29 Jan 24, 16:33";
+shapes = (
+{
+pos = (25,0);
+ref = H;
+},
+{
+closed = 1;
+nodes = (
+(694,575,l),
+(10,575,l),
+(10,506,l),
+(694,506,l)
+);
+}
+);
+width = 704;
 }
 );
 unicode = 294;

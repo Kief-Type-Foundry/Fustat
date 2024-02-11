@@ -1,22 +1,52 @@
 {
-color = 3;
+color = 5;
 glyphname = OE;
 kernLeft = O;
 layers = (
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
-width = 932;
+shapes = (
+{
+ref = O;
+},
+{
+alignment = -1;
+pos = (614,0);
+ref = E;
+}
+);
+width = 1150;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
-width = 934;
+shapes = (
+{
+ref = O;
+},
+{
+alignment = -1;
+pos = (579,0);
+ref = E;
+}
+);
+width = 1120;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
-width = 947;
+shapes = (
+{
+ref = O;
+},
+{
+alignment = -1;
+pos = (525,0);
+ref = E;
 }
 );
-metricLeft = "=O-10";
-metricRight = "=E-10";
+width = 1064;
+}
+);
+metricLeft = O;
+metricRight = E;
 unicode = 338;
 }

@@ -1,18 +1,201 @@
 {
-color = 3;
+color = 5;
 glyphname = E;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (273,0);
+},
+{
+name = ogonek;
+pos = (496,0);
+},
+{
+name = top;
+pos = (273,700);
+},
+{
+name = topleft;
+pos = (20,700);
+}
+);
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
-width = 579;
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,0,l),
+(100,700,l),
+(70,700,l),
+(70,0,l)
+);
 },
 {
+closed = 1;
+nodes = (
+(496,0,l),
+(496,28,l),
+(87,28,l),
+(87,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(476,341,l),
+(476,369,l),
+(87,369,l),
+(87,341,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(496,672,l),
+(496,700,l),
+(87,700,l),
+(87,672,l)
+);
+}
+);
+width = 536;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (273,0);
+},
+{
+name = ogonek;
+pos = (506,0);
+},
+{
+name = top;
+pos = (273,700);
+},
+{
+name = topleft;
+pos = (20,700);
+}
+);
+background = {
+shapes = (
+{
+pos = (5,0);
+ref = H;
+}
+);
+};
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
-width = 579;
+shapes = (
+{
+closed = 1;
+nodes = (
+(140,0,l),
+(140,700,l),
+(65,700,l),
+(65,0,l)
+);
 },
 {
+closed = 1;
+nodes = (
+(506,0,l),
+(506,73,l),
+(104,73,l),
+(104,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(486,318,l),
+(486,391,l),
+(104,391,l),
+(104,318,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(506,627,l),
+(506,700,l),
+(104,700,l),
+(104,627,l)
+);
+}
+);
+width = 541;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (277,0);
+},
+{
+name = ogonek;
+pos = (524,0);
+},
+{
+name = top;
+pos = (277,700);
+},
+{
+name = topleft;
+pos = (20,700);
+}
+);
+background = {
+shapes = (
+{
+ref = H;
+}
+);
+};
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
-width = 587;
+shapes = (
+{
+closed = 1;
+nodes = (
+(185,0,l),
+(185,700,l),
+(50,700,l),
+(50,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(524,0,l),
+(524,128,l),
+(119,128,l),
+(119,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(494,291,l),
+(494,419,l),
+(119,419,l),
+(119,291,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(524,572,l),
+(524,700,l),
+(119,700,l),
+(119,572,l)
+);
+}
+);
+width = 539;
 }
 );
 metricLeft = H;

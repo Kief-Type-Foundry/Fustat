@@ -1,20 +1,95 @@
 {
-color = 3;
+color = 5;
 glyphname = u;
 kernLeft = u;
 kernRight = u;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (260,0);
+},
+{
+name = ogonek;
+pos = (449,0);
+},
+{
+name = top;
+pos = (260,492);
+},
+{
+name = topright;
+pos = (499,492);
+}
+);
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
-width = 514;
+shapes = (
+{
+angle = 180;
+pos = (519,492);
+ref = n;
+}
+);
+width = 519;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (283,0);
+},
+{
+name = ogonek;
+pos = (496,0);
+},
+{
+name = top;
+pos = (283,500);
+},
+{
+name = topright;
+pos = (546,500);
+}
+);
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
-width = 526;
+shapes = (
+{
+angle = 180;
+pos = (566,500);
+ref = n;
+}
+);
+width = 566;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (292,0);
+},
+{
+name = ogonek;
+pos = (533,0);
+},
+{
+name = top;
+pos = (292,508);
+},
+{
+name = topright;
+pos = (563,508);
+}
+);
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
-width = 547;
+shapes = (
+{
+angle = 180;
+pos = (583,508);
+ref = n;
+}
+);
+width = 583;
 }
 );
 metricLeft = "=|n";

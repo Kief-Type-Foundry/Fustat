@@ -1,20 +1,38 @@
 {
-color = 3;
+color = 5;
 glyphname = quotedblbase;
 kernLeft = comma;
 kernRight = comma;
 layers = (
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
-width = 404;
+shapes = (
+{
+pos = (0,-637);
+ref = quotedblright;
+}
+);
+width = 295;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
-width = 444;
+shapes = (
+{
+pos = (0,-598);
+ref = quotedblright;
+}
+);
+width = 361;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
-width = 496;
+shapes = (
+{
+pos = (0,-559);
+ref = quotedblright;
+}
+);
+width = 470;
 }
 );
 metricLeft = quoteright;

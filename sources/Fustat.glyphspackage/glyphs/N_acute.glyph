@@ -1,19 +1,46 @@
 {
-color = 3;
+color = 5;
 glyphname = Nacute;
 kernRight = H;
 layers = (
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
-width = 767;
+shapes = (
+{
+ref = N;
+},
+{
+pos = (278,0);
+ref = acutecomb.case;
+}
+);
+width = 640;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
-width = 773;
+shapes = (
+{
+ref = N;
+},
+{
+pos = (284,0);
+ref = acutecomb.case;
+}
+);
+width = 664;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
-width = 774;
+shapes = (
+{
+ref = N;
+},
+{
+pos = (257,0);
+ref = acutecomb.case;
+}
+);
+width = 694;
 }
 );
 unicode = 323;

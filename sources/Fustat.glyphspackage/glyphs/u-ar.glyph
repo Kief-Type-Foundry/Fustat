@@ -9,7 +9,7 @@ shapes = (
 ref = "waw-ar";
 },
 {
-pos = (210,49);
+pos = (143,49);
 ref = "commaabove-ar";
 }
 );
@@ -22,7 +22,7 @@ shapes = (
 ref = "waw-ar";
 },
 {
-pos = (189,49);
+pos = (148,49);
 ref = "commaabove-ar";
 }
 );
@@ -35,7 +35,7 @@ shapes = (
 ref = "waw-ar";
 },
 {
-pos = (165,49);
+pos = (127,49);
 ref = "commaabove-ar";
 }
 );

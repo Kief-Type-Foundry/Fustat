@@ -1,18 +1,34 @@
 {
-color = 3;
+color = 5;
 glyphname = circumflex;
 layers = (
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
-width = 285;
+shapes = (
+{
+ref = circumflexcomb;
+}
+);
+width = 291;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
-width = 326;
+shapes = (
+{
+ref = circumflexcomb;
+}
+);
+width = 371;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
-width = 350;
+shapes = (
+{
+pos = (-12,0);
+ref = circumflexcomb;
+}
+);
+width = 381;
 }
 );
 unicode = 710;

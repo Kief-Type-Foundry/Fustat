@@ -1,18 +1,57 @@
 {
-color = 3;
+color = 5;
 glyphname = percent;
 layers = (
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
-width = 672;
+shapes = (
+{
+ref = zero.numr;
+},
+{
+pos = (310,0);
+ref = fraction;
+},
+{
+pos = (371,0);
+ref = zero.dnom;
+}
+);
+width = 721;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
-width = 672;
+shapes = (
+{
+ref = zero.numr;
+},
+{
+pos = (300,0);
+ref = fraction;
+},
+{
+pos = (395,0);
+ref = zero.dnom;
+}
+);
+width = 745;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
-width = 696;
+shapes = (
+{
+ref = zero.numr;
+},
+{
+pos = (290,0);
+ref = fraction;
+},
+{
+pos = (415,0);
+ref = zero.dnom;
+}
+);
+width = 765;
 }
 );
 unicode = 37;

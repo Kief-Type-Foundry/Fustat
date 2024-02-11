@@ -1,20 +1,53 @@
 {
-color = 3;
+color = 5;
 glyphname = slash;
 kernLeft = A;
 kernRight = V;
 layers = (
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
-width = 384;
+shapes = (
+{
+closed = 1;
+nodes = (
+(397,764,l),
+(366,764,l),
+(25,-95,l),
+(56,-95,l)
+);
+}
+);
+width = 422;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
-width = 388;
+shapes = (
+{
+closed = 1;
+nodes = (
+(442,764,l),
+(361,764,l),
+(20,-95,l),
+(101,-95,l)
+);
+}
+);
+width = 462;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
-width = 392;
+shapes = (
+{
+closed = 1;
+nodes = (
+(488,764,l),
+(346,764,l),
+(5,-95,l),
+(147,-95,l)
+);
+}
+);
+width = 493;
 }
 );
 unicode = 47;

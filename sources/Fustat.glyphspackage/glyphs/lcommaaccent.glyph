@@ -1,20 +1,47 @@
 {
-color = 3;
+color = 5;
 glyphname = lcommaaccent;
 kernLeft = l;
 kernRight = l;
 layers = (
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
-width = 230;
+shapes = (
+{
+ref = l;
+},
+{
+pos = (14,0);
+ref = commaaccentcomb;
+}
+);
+width = 170;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
-width = 251;
+shapes = (
+{
+ref = l;
+},
+{
+pos = (12,0);
+ref = commaaccentcomb;
+}
+);
+width = 195;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
-width = 279;
+shapes = (
+{
+ref = l;
+},
+{
+pos = (33,0);
+ref = commaaccentcomb;
+}
+);
+width = 235;
 }
 );
 unicode = 316;

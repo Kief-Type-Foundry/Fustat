@@ -1,0 +1,48 @@
+{
+color = 5;
+glyphname = five.circled;
+kernLeft = O;
+kernRight = O;
+layers = (
+{
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+shapes = (
+{
+ref = _circled;
+},
+{
+pos = (98,0);
+ref = fiveCircledComp;
+}
+);
+width = 796;
+},
+{
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+shapes = (
+{
+ref = _circled;
+},
+{
+pos = (103,0);
+ref = fiveCircledComp;
+}
+);
+width = 804;
+},
+{
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+shapes = (
+{
+ref = _circled;
+},
+{
+pos = (108,0);
+ref = fiveCircledComp;
+}
+);
+width = 812;
+}
+);
+unicode = 9316;
+}

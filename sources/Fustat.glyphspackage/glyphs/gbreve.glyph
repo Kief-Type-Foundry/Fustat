@@ -1,20 +1,47 @@
 {
-color = 3;
+color = 5;
 glyphname = gbreve;
 kernLeft = g;
 kernRight = g;
 layers = (
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
-width = 473;
+shapes = (
+{
+ref = g;
+},
+{
+pos = (103,0);
+ref = brevecomb;
+}
+);
+width = 493;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
-width = 488;
+shapes = (
+{
+ref = g;
+},
+{
+pos = (87,0);
+ref = brevecomb;
+}
+);
+width = 504;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
-width = 507;
+shapes = (
+{
+ref = g;
+},
+{
+pos = (82,0);
+ref = brevecomb;
+}
+);
+width = 521;
 }
 );
 unicode = 287;

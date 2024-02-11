@@ -1,19 +1,46 @@
 {
-color = 3;
+color = 5;
 glyphname = udieresis;
 kernLeft = uaccent;
 layers = (
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
-width = 514;
+shapes = (
+{
+ref = u;
+},
+{
+pos = (113,0);
+ref = dieresiscomb;
+}
+);
+width = 519;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
-width = 526;
+shapes = (
+{
+ref = u;
+},
+{
+pos = (107,0);
+ref = dieresiscomb;
+}
+);
+width = 566;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
-width = 547;
+shapes = (
+{
+ref = u;
+},
+{
+pos = (74,0);
+ref = dieresiscomb;
+}
+);
+width = 583;
 }
 );
 unicode = 252;
