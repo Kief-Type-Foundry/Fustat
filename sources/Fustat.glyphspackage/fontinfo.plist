@@ -1126,7 +1126,6 @@ GSOffsetMakeStroke = 1;
 GSOffsetPosition = 1;
 GSOffsetVertical = 15;
 };
-visible = 1;
 },
 {
 axesValues = (
@@ -1210,7 +1209,6 @@ GSOffsetMakeStroke = 1;
 GSOffsetPosition = 0.7;
 GSOffsetVertical = 37.5;
 };
-visible = 1;
 },
 {
 axesValues = (
@@ -1284,7 +1282,6 @@ GSOffsetMakeStroke = 1;
 GSOffsetPosition = 0.75;
 GSOffsetVertical = 59.5;
 };
-visible = 1;
 }
 );
 instances = (
