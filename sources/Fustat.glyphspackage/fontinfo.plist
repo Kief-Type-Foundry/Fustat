@@ -128,13 +128,6 @@ value = (
 );
 },
 {
-name = unicodeRanges;
-value = (
-0,
-13
-);
-},
-{
 name = "Use Typo Metrics";
 value = 1;
 },
