@@ -22,30 +22,28 @@ layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
 shapes = (
 {
 alignment = -1;
-pos = (604,-170);
+pos = (599,-170);
 ref = zeroCircledComp;
 },
 {
-pos = (5,0);
 ref = percent;
 }
 );
-width = 1084;
+width = 1074;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
 shapes = (
 {
 alignment = -1;
-pos = (630,-170);
+pos = (620,-170);
 ref = zeroCircledComp;
 },
 {
-pos = (10,0);
 ref = percent;
 }
 );
-width = 1115;
+width = 1095;
 }
 );
 metricLeft = percent;
