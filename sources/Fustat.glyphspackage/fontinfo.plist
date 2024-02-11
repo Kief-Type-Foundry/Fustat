@@ -906,7 +906,7 @@ sub gdotaccent by gdotaccent.ss03;
 ";
 labels = (
 {
-language = dflt;
+language = ENG;
 value = "Geometric a g";
 }
 );
@@ -942,7 +942,7 @@ sub ygrave by ygrave.ss04;
 ";
 labels = (
 {
-language = dflt;
+language = ENG;
 value = "Tailed a g l y";
 }
 );
@@ -958,7 +958,7 @@ sub nine.tf by nine.tf.ss05;
 ";
 labels = (
 {
-language = dflt;
+language = ENG;
 value = "Alt numbers";
 }
 );
