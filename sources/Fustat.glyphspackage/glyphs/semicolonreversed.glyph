@@ -10,7 +10,7 @@ ref = "semicolon-ar";
 scale = (1,-1);
 }
 );
-width = 122;
+width = 224;
 },
 {
 background = {
@@ -61,7 +61,7 @@ ref = "semicolon-ar";
 scale = (1,-1);
 }
 );
-width = 206;
+width = 236;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -72,7 +72,7 @@ ref = "semicolon-ar";
 scale = (1,-1);
 }
 );
-width = 230;
+width = 270;
 },
 {
 associatedMasterId = "14EEE41F-D714-4243-A717-73445EE7DABA";

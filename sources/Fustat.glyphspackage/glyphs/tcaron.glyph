@@ -1,6 +1,8 @@
 {
 color = 5;
 glyphname = tcaron;
+kernLeft = t;
+kernRight = t;
 layers = (
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -9,11 +11,11 @@ shapes = (
 ref = t;
 },
 {
-pos = (163,0);
+pos = (178,0);
 ref = caroncomb.alt;
 }
 );
-width = 311;
+width = 346;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -26,7 +28,7 @@ pos = (194,0);
 ref = caroncomb.alt;
 }
 );
-width = 363;
+width = 378;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -35,11 +37,11 @@ shapes = (
 ref = t;
 },
 {
-pos = (211,8);
+pos = (226,8);
 ref = caroncomb.alt;
 }
 );
-width = 374;
+width = 414;
 }
 );
 unicode = 357;

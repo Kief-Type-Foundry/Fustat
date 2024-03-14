@@ -1,40 +1,41 @@
 {
 color = 5;
 glyphname = nine;
-kernRight = nine.lf;
+kernLeft = zero;
+kernRight = zero;
 layers = (
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 shapes = (
 {
 angle = 180;
-pos = (575,700);
+pos = (605,700);
 ref = six;
 }
 );
-width = 575;
+width = 605;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
 shapes = (
 {
 angle = 180;
-pos = (581,700);
+pos = (611,700);
 ref = six;
 }
 );
-width = 581;
+width = 611;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
 shapes = (
 {
 angle = 180;
-pos = (555,700);
+pos = (605,700);
 ref = six;
 }
 );
-width = 555;
+width = 605;
 }
 );
 metricLeft = "=|six";

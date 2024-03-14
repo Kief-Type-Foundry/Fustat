@@ -37,11 +37,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (105,0);
+pos = (110,0);
 ref = gravecomb;
 }
 );
-width = 590;
+width = 600;
 }
 );
 unicode = 242;

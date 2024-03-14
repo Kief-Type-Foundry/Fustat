@@ -12,7 +12,7 @@ pos = (0,-637);
 ref = quotedblright;
 }
 );
-width = 295;
+width = 342;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -22,7 +22,7 @@ pos = (0,-598);
 ref = quotedblright;
 }
 );
-width = 361;
+width = 388;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -32,7 +32,7 @@ pos = (0,-559);
 ref = quotedblright;
 }
 );
-width = 470;
+width = 457;
 }
 );
 metricLeft = quoteright;

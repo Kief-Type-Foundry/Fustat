@@ -11,11 +11,11 @@ shapes = (
 ref = zero;
 },
 {
-pos = (243,318);
+pos = (207,318);
 ref = period;
 }
 );
-width = 608;
+width = 638;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -28,7 +28,7 @@ pos = (201,300);
 ref = period;
 }
 );
-width = 608;
+width = 638;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -37,11 +37,11 @@ shapes = (
 ref = zero;
 },
 {
-pos = (170,276);
+pos = (174,276);
 ref = period;
 }
 );
-width = 568;
+width = 618;
 }
 );
 metricLeft = zero;

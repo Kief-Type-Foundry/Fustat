@@ -1,6 +1,8 @@
 {
 color = 5;
 glyphname = asciicircum;
+kernLeft = ordmasculine;
+kernRight = ordmasculine;
 layers = (
 {
 guides = (

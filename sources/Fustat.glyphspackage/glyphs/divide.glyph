@@ -1,6 +1,8 @@
 {
 color = 5;
 glyphname = divide;
+kernLeft = plus;
+kernRight = plus;
 layers = (
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -9,11 +11,11 @@ shapes = (
 ref = minus;
 },
 {
-pos = (213,164);
+pos = (162,164);
 ref = period;
 },
 {
-pos = (213,472);
+pos = (162,472);
 ref = period;
 }
 );
@@ -26,11 +28,11 @@ shapes = (
 ref = minus;
 },
 {
-pos = (171,145);
+pos = (156,145);
 ref = period;
 },
 {
-pos = (171,454);
+pos = (156,454);
 ref = period;
 }
 );
@@ -43,11 +45,11 @@ shapes = (
 ref = minus;
 },
 {
-pos = (169,96);
+pos = (149,96);
 ref = period;
 },
 {
-pos = (169,455);
+pos = (149,455);
 ref = period;
 }
 );

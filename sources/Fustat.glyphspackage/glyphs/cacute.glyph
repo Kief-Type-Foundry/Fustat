@@ -1,8 +1,8 @@
 {
 color = 5;
 glyphname = cacute;
-kernLeft = oaccent;
-kernRight = caccent;
+kernLeft = o;
+kernRight = o;
 layers = (
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -15,7 +15,7 @@ pos = (230,0);
 ref = acutecomb;
 }
 );
-width = 547;
+width = 542;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -28,7 +28,7 @@ pos = (187,0);
 ref = acutecomb;
 }
 );
-width = 560;
+width = 555;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -37,11 +37,11 @@ shapes = (
 ref = c;
 },
 {
-pos = (196,0);
+pos = (201,0);
 ref = acutecomb;
 }
 );
-width = 578;
+width = 583;
 }
 );
 unicode = 263;

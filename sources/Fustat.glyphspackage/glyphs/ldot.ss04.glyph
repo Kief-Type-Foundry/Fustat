@@ -1,6 +1,8 @@
 {
 color = 5;
 glyphname = ldot.ss04;
+kernLeft = l;
+kernRight = ldot;
 layers = (
 {
 guides = (
@@ -17,7 +19,7 @@ ref = l.ss04;
 },
 {
 alignment = -1;
-pos = (130,0);
+pos = (155,0);
 ref = periodcentered;
 }
 );
@@ -38,7 +40,7 @@ ref = l.ss04;
 },
 {
 alignment = -1;
-pos = (150,0);
+pos = (165,0);
 ref = periodcentered;
 }
 );
@@ -59,7 +61,7 @@ ref = l.ss04;
 },
 {
 alignment = -1;
-pos = (185,0);
+pos = (200,0);
 ref = periodcentered;
 }
 );

@@ -15,7 +15,7 @@ ref = quoteright;
 ref = quoteright;
 }
 );
-width = 295;
+width = 342;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -28,7 +28,7 @@ ref = quoteright;
 ref = quoteright;
 }
 );
-width = 361;
+width = 388;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -41,7 +41,7 @@ ref = quoteright;
 ref = quoteright;
 }
 );
-width = 470;
+width = 457;
 }
 );
 metricLeft = quoteright;

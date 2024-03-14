@@ -11,11 +11,11 @@ shapes = (
 ref = _blackCircled;
 },
 {
-pos = (94,0);
+pos = (114,0);
 ref = sixCircledComp;
 }
 );
-width = 796;
+width = 836;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -24,11 +24,11 @@ shapes = (
 ref = _blackCircled;
 },
 {
-pos = (98,0);
+pos = (108,0);
 ref = sixCircledComp;
 }
 );
-width = 804;
+width = 824;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";

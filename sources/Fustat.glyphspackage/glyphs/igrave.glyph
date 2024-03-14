@@ -1,6 +1,8 @@
 {
 color = 5;
 glyphname = igrave;
+kernLeft = i;
+kernRight = i;
 layers = (
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -9,11 +11,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-26,0);
+pos = (-12,0);
 ref = gravecomb;
 }
 );
-width = 182;
+width = 210;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -27,7 +29,7 @@ pos = (-70,0);
 ref = gravecomb;
 }
 );
-width = 207;
+width = 215;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -36,11 +38,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-72,0);
+pos = (-62,0);
 ref = gravecomb;
 }
 );
-width = 235;
+width = 255;
 }
 );
 unicode = 236;

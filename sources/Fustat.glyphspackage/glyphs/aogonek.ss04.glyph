@@ -1,8 +1,8 @@
 {
 color = 5;
 glyphname = aogonek.ss04;
-kernLeft = a;
-kernRight = a;
+kernLeft = o;
+kernRight = u;
 layers = (
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -15,7 +15,7 @@ pos = (414,0);
 ref = ogonekcomb;
 }
 );
-width = 586;
+width = 606;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -28,7 +28,7 @@ pos = (410,0);
 ref = ogonekcomb;
 }
 );
-width = 586;
+width = 596;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -37,11 +37,11 @@ shapes = (
 ref = a.ss04;
 },
 {
-pos = (423,0);
+pos = (428,0);
 ref = ogonekcomb;
 }
 );
-width = 616;
+width = 631;
 }
 );
 }

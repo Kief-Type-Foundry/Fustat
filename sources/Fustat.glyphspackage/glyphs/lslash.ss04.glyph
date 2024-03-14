@@ -8,56 +8,62 @@ layers = (
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 shapes = (
 {
+locked = 1;
+pos = (15,0);
 ref = l.ss04;
 },
 {
 closed = 1;
 nodes = (
-(190,401,l),
-(190,436,l),
-(-20,299,l),
-(-20,264,l)
+(230,401,l),
+(230,436,l),
+(20,299,l),
+(20,264,l)
 );
 }
 );
-width = 170;
+width = 250;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
 shapes = (
 {
+locked = 1;
+pos = (15,0);
 ref = l.ss04;
 },
 {
 closed = 1;
 nodes = (
-(208,376,l),
-(208,462,l),
-(-13,324,l),
-(-13,238,l)
+(238,376,l),
+(238,462,l),
+(17,324,l),
+(17,238,l)
 );
 }
 );
-width = 195;
+width = 255;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
 shapes = (
 {
+locked = 1;
+pos = (15,0);
 ref = l.ss04;
 },
 {
 closed = 1;
 nodes = (
-(255,367,l),
-(255,504,l),
-(-20,333,l),
-(-20,196,l)
+(285,367,l),
+(285,504,l),
+(10,333,l),
+(10,196,l)
 );
 }
 );
-width = 235;
+width = 295;
 }
 );
-metricWidth = l;
+metricWidth = lslash;
 }

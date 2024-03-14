@@ -2,6 +2,7 @@
 color = 5;
 glyphname = Gbreve;
 kernLeft = O;
+kernRight = H;
 layers = (
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -10,11 +11,11 @@ shapes = (
 ref = G;
 },
 {
-pos = (241,0);
+pos = (236,0);
 ref = brevecomb.case;
 }
 );
-width = 777;
+width = 763;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -27,7 +28,7 @@ pos = (200,0);
 ref = brevecomb.case;
 }
 );
-width = 743;
+width = 763;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -36,11 +37,11 @@ shapes = (
 ref = G;
 },
 {
-pos = (185,0);
+pos = (195,0);
 ref = brevecomb.case;
 }
 );
-width = 740;
+width = 750;
 }
 );
 unicode = 286;

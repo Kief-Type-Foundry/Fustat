@@ -15,7 +15,7 @@ pos = (284,236);
 ref = strokeshortcomb;
 }
 );
-width = 586;
+width = 611;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -28,7 +28,7 @@ pos = (275,254);
 ref = strokeshortcomb;
 }
 );
-width = 586;
+width = 601;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -37,11 +37,11 @@ shapes = (
 ref = d;
 },
 {
-pos = (266,255);
+pos = (271,255);
 ref = strokeshortcomb;
 }
 );
-width = 616;
+width = 636;
 },
 {
 associatedMasterId = "14EEE41F-D714-4243-A717-73445EE7DABA";

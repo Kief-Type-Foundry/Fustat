@@ -11,11 +11,11 @@ shapes = (
 ref = h;
 },
 {
-pos = (-67,236);
+pos = (-42,236);
 ref = strokeshortcomb;
 }
 );
-width = 519;
+width = 569;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -24,11 +24,11 @@ shapes = (
 ref = h;
 },
 {
-pos = (-42,254);
+pos = (-27,254);
 ref = strokeshortcomb;
 }
 );
-width = 556;
+width = 576;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -37,11 +37,11 @@ shapes = (
 ref = h;
 },
 {
-pos = (-32,255);
+pos = (-17,255);
 ref = strokeshortcomb;
 }
 );
-width = 583;
+width = 613;
 },
 {
 associatedMasterId = "14EEE41F-D714-4243-A717-73445EE7DABA";

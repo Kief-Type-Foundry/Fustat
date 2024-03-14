@@ -1,6 +1,7 @@
 {
 color = 5;
 glyphname = Hbar;
+kernLeft = H;
 kernRight = H;
 layers = (
 {
@@ -10,11 +11,11 @@ shapes = (
 ref = H;
 },
 {
-pos = (-49,-12);
+pos = (-19,-12);
 ref = strokelongcomb.case;
 }
 );
-width = 630;
+width = 690;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -23,11 +24,11 @@ shapes = (
 ref = H;
 },
 {
-pos = (-45,-2);
+pos = (-30,-2);
 ref = strokelongcomb.case;
 }
 );
-width = 654;
+width = 684;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -36,11 +37,11 @@ shapes = (
 ref = H;
 },
 {
-pos = (-46,0);
+pos = (-26,0);
 ref = strokelongcomb.case;
 }
 );
-width = 684;
+width = 724;
 },
 {
 associatedMasterId = "14EEE41F-D714-4243-A717-73445EE7DABA";

@@ -21,7 +21,7 @@ nodes = (
 ref = O;
 }
 );
-width = 764;
+width = 754;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -59,7 +59,7 @@ nodes = (
 ref = O;
 }
 );
-width = 740;
+width = 760;
 },
 {
 associatedMasterId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -103,5 +103,7 @@ nodes = (
 width = 760;
 }
 );
+metricLeft = O;
+metricWidth = O;
 unicode = 81;
 }

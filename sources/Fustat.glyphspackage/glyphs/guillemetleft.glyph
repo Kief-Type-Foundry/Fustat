@@ -15,7 +15,7 @@ ref = guilsinglleft;
 ref = guilsinglleft;
 }
 );
-width = 351;
+width = 405;
 },
 {
 background = {
@@ -54,7 +54,7 @@ ref = guilsinglleft;
 ref = guilsinglleft;
 }
 );
-width = 402;
+width = 436;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -67,7 +67,7 @@ ref = guilsinglleft;
 ref = guilsinglleft;
 }
 );
-width = 472;
+width = 476;
 }
 );
 metricLeft = "=guilsinglleft";

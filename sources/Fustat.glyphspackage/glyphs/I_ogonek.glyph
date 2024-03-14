@@ -1,6 +1,7 @@
 {
 color = 5;
 glyphname = Iogonek;
+kernLeft = H;
 kernRight = H;
 layers = (
 {
@@ -10,11 +11,11 @@ shapes = (
 ref = I;
 },
 {
-pos = (-70,0);
+pos = (-50,0);
 ref = ogonekcomb;
 }
 );
-width = 190;
+width = 230;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -23,11 +24,11 @@ shapes = (
 ref = I;
 },
 {
-pos = (-30,0);
+pos = (-25,0);
 ref = ogonekcomb;
 }
 );
-width = 225;
+width = 235;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -36,11 +37,11 @@ shapes = (
 ref = I;
 },
 {
-pos = (-2,0);
+pos = (8,0);
 ref = ogonekcomb;
 }
 );
-width = 255;
+width = 275;
 }
 );
 unicode = 302;

@@ -2,7 +2,7 @@
 color = 5;
 glyphname = Oslash;
 kernLeft = O;
-kernRight = U;
+kernRight = O;
 layers = (
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -11,11 +11,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (65,0);
+pos = (60,0);
 ref = slashlongcomb;
 }
 );
-width = 764;
+width = 754;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -37,11 +37,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (28,-2);
+pos = (38,-2);
 ref = slashlongcomb;
 }
 );
-width = 740;
+width = 760;
 }
 );
 unicode = 216;

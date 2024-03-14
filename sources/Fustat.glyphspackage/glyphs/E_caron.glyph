@@ -1,6 +1,8 @@
 {
 color = 5;
 glyphname = Ecaron;
+kernLeft = H;
+kernRight = E;
 layers = (
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -9,11 +11,11 @@ shapes = (
 ref = E;
 },
 {
-pos = (127,0);
+pos = (157,0);
 ref = caroncomb.case;
 }
 );
-width = 536;
+width = 596;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -22,11 +24,11 @@ shapes = (
 ref = E;
 },
 {
-pos = (87,0);
+pos = (102,0);
 ref = caroncomb.case;
 }
 );
-width = 541;
+width = 571;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -35,11 +37,11 @@ shapes = (
 ref = E;
 },
 {
-pos = (74,0);
+pos = (94,0);
 ref = caroncomb.case;
 }
 );
-width = 539;
+width = 584;
 }
 );
 unicode = 282;

@@ -2,6 +2,7 @@
 color = 5;
 glyphname = Sacute;
 kernLeft = S;
+kernRight = S;
 layers = (
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -10,11 +11,11 @@ shapes = (
 ref = S;
 },
 {
-pos = (255,0);
+pos = (270,0);
 ref = acutecomb.case;
 }
 );
-width = 594;
+width = 629;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -23,11 +24,11 @@ shapes = (
 ref = S;
 },
 {
-pos = (241,0);
+pos = (251,0);
 ref = acutecomb.case;
 }
 );
-width = 588;
+width = 613;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -40,7 +41,7 @@ pos = (216,0);
 ref = acutecomb.case;
 }
 );
-width = 611;
+width = 621;
 }
 );
 unicode = 346;

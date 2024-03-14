@@ -25,7 +25,7 @@ pos = (450,0);
 ref = period;
 }
 );
-width = 572;
+width = 674;
 },
 {
 guides = (
@@ -48,7 +48,7 @@ pos = (450,0);
 ref = period;
 }
 );
-width = 656;
+width = 686;
 },
 {
 guides = (
@@ -71,7 +71,7 @@ pos = (490,0);
 ref = period;
 }
 );
-width = 720;
+width = 760;
 }
 );
 metricLeft = period;

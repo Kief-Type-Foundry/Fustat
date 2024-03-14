@@ -1,6 +1,7 @@
 {
 color = 5;
 glyphname = Idotaccent;
+kernLeft = H;
 kernRight = H;
 layers = (
 {
@@ -10,11 +11,11 @@ shapes = (
 ref = I;
 },
 {
-pos = (34,0);
+pos = (54,0);
 ref = dotaccentcomb.case;
 }
 );
-width = 190;
+width = 230;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -23,11 +24,11 @@ shapes = (
 ref = I;
 },
 {
-pos = (28,0);
+pos = (33,0);
 ref = dotaccentcomb.case;
 }
 );
-width = 225;
+width = 235;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -36,11 +37,11 @@ shapes = (
 ref = I;
 },
 {
-pos = (24,0);
+pos = (34,0);
 ref = dotaccentcomb.case;
 }
 );
-width = 255;
+width = 275;
 }
 );
 unicode = 304;

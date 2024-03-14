@@ -11,11 +11,11 @@ shapes = (
 ref = _circled;
 },
 {
-pos = (71,0);
+pos = (91,0);
 ref = oneCircledComp;
 }
 );
-width = 796;
+width = 836;
 },
 {
 background = {
@@ -31,11 +31,11 @@ shapes = (
 ref = _circled;
 },
 {
-pos = (77,0);
+pos = (87,0);
 ref = oneCircledComp;
 }
 );
-width = 804;
+width = 824;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";

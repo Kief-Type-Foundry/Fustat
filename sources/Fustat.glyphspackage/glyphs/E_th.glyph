@@ -1,6 +1,7 @@
 {
 color = 5;
 glyphname = Eth;
+kernLeft = H;
 kernRight = O;
 layers = (
 {
@@ -10,11 +11,11 @@ shapes = (
 ref = D;
 },
 {
-pos = (-45,0);
+pos = (-15,0);
 ref = strokeshortcomb.case;
 }
 );
-width = 666;
+width = 691;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -23,11 +24,11 @@ shapes = (
 ref = D;
 },
 {
-pos = (-45,0);
+pos = (-30,0);
 ref = strokeshortcomb.case;
 }
 );
-width = 667;
+width = 682;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -36,11 +37,11 @@ shapes = (
 ref = D;
 },
 {
-pos = (-38,0);
+pos = (-18,0);
 ref = strokeshortcomb.case;
 }
 );
-width = 668;
+width = 698;
 },
 {
 associatedMasterId = "14EEE41F-D714-4243-A717-73445EE7DABA";

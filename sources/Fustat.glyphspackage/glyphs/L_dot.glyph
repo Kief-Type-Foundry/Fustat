@@ -1,6 +1,8 @@
 {
 color = 5;
 glyphname = Ldot;
+kernLeft = H;
+kernRight = L;
 layers = (
 {
 guides = (
@@ -16,16 +18,15 @@ showMeasurement = 1;
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 shapes = (
 {
-alignment = -1;
 ref = L;
 },
 {
 alignment = -1;
-pos = (282,0);
+pos = (322,0);
 ref = periodcentered;
 }
 );
-width = 516;
+width = 536;
 },
 {
 guides = (
@@ -49,11 +50,11 @@ ref = L;
 },
 {
 alignment = -1;
-pos = (280,0);
+pos = (298,0);
 ref = periodcentered;
 }
 );
-width = 526;
+width = 531;
 },
 {
 guides = (
@@ -65,16 +66,15 @@ showMeasurement = 1;
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
 shapes = (
 {
-alignment = -1;
 ref = L;
 },
 {
 alignment = -1;
-pos = (273,0);
+pos = (301,0);
 ref = periodcentered;
 }
 );
-width = 534;
+width = 549;
 }
 );
 unicode = 319;

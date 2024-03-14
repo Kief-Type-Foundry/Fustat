@@ -1,6 +1,8 @@
 {
 color = 5;
 glyphname = fl;
+kernLeft = f;
+kernRight = l;
 layers = (
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -9,11 +11,11 @@ shapes = (
 ref = f;
 },
 {
-pos = (296,0);
+pos = (301,0);
 ref = l;
 }
 );
-width = 466;
+width = 521;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -22,11 +24,11 @@ shapes = (
 ref = f;
 },
 {
-pos = (313,0);
+pos = (328,0);
 ref = l;
 }
 );
-width = 508;
+width = 553;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -35,11 +37,11 @@ shapes = (
 ref = f;
 },
 {
-pos = (349,0);
+pos = (364,0);
 ref = l;
 }
 );
-width = 584;
+width = 629;
 },
 {
 associatedMasterId = "14EEE41F-D714-4243-A717-73445EE7DABA";

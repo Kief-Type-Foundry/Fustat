@@ -1,6 +1,7 @@
 {
 color = 5;
 glyphname = Idieresis;
+kernLeft = H;
 kernRight = H;
 layers = (
 {
@@ -10,11 +11,11 @@ shapes = (
 ref = I;
 },
 {
-pos = (-42,0);
+pos = (-22,0);
 ref = dieresiscomb.case;
 }
 );
-width = 190;
+width = 230;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -23,11 +24,11 @@ shapes = (
 ref = I;
 },
 {
-pos = (-57,0);
+pos = (-52,0);
 ref = dieresiscomb.case;
 }
 );
-width = 225;
+width = 235;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -36,11 +37,11 @@ shapes = (
 ref = I;
 },
 {
-pos = (-88,0);
+pos = (-78,0);
 ref = dieresiscomb.case;
 }
 );
-width = 255;
+width = 275;
 }
 );
 unicode = 207;

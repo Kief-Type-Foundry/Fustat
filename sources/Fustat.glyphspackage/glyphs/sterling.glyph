@@ -1,6 +1,8 @@
 {
 color = 5;
 glyphname = sterling;
+kernLeft = S;
+kernRight = S;
 layers = (
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -56,7 +58,7 @@ nodes = (
 );
 }
 );
-width = 554;
+width = 584;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -112,7 +114,7 @@ nodes = (
 );
 }
 );
-width = 551;
+width = 566;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -168,7 +170,7 @@ nodes = (
 );
 }
 );
-width = 613;
+width = 638;
 }
 );
 metricRight = E;

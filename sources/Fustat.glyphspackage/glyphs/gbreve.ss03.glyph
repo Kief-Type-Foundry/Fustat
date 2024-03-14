@@ -15,7 +15,7 @@ pos = (137,0);
 ref = brevecomb;
 }
 );
-width = 586;
+width = 606;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -28,7 +28,7 @@ pos = (117,0);
 ref = brevecomb;
 }
 );
-width = 586;
+width = 596;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -37,11 +37,11 @@ shapes = (
 ref = g.ss03;
 },
 {
-pos = (123,0);
+pos = (128,0);
 ref = brevecomb;
 }
 );
-width = 616;
+width = 631;
 }
 );
 }

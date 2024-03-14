@@ -56,8 +56,10 @@ nodes = (
 ref = o;
 }
 );
-width = 590;
+width = 600;
 }
 );
+metricLeft = o;
+metricRight = o;
 unicode = 248;
 }

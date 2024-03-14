@@ -11,11 +11,11 @@ shapes = (
 ref = y.ss04;
 },
 {
-pos = (213,0);
+pos = (238,0);
 ref = acutecomb;
 }
 );
-width = 519;
+width = 564;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -24,11 +24,11 @@ shapes = (
 ref = y.ss04;
 },
 {
-pos = (185,0);
+pos = (200,0);
 ref = acutecomb;
 }
 );
-width = 546;
+width = 571;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -37,11 +37,11 @@ shapes = (
 ref = y.ss04;
 },
 {
-pos = (199,0);
+pos = (214,0);
 ref = acutecomb;
 }
 );
-width = 583;
+width = 608;
 }
 );
 }

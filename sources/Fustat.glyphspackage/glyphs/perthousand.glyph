@@ -2,48 +2,49 @@
 color = 5;
 glyphname = perthousand;
 kernLeft = percent;
+kernRight = percent;
 layers = (
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 shapes = (
 {
 alignment = -1;
-pos = (571,-170);
+pos = (648,-170);
 ref = zeroCircledComp;
 },
 {
 ref = percent;
 }
 );
-width = 1046;
+width = 1123;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
 shapes = (
 {
 alignment = -1;
-pos = (599,-170);
+pos = (649,-170);
 ref = zeroCircledComp;
 },
 {
 ref = percent;
 }
 );
-width = 1074;
+width = 1124;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
 shapes = (
 {
 alignment = -1;
-pos = (620,-170);
+pos = (671,-170);
 ref = zeroCircledComp;
 },
 {
 ref = percent;
 }
 );
-width = 1095;
+width = 1146;
 }
 );
 metricLeft = percent;

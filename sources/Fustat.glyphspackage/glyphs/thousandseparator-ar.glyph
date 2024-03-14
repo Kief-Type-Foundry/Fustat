@@ -7,7 +7,7 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (29,578);
+pos = (131,578);
 ref = "decimalseparator-ar";
 }
 );
@@ -19,7 +19,7 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (152,565);
+pos = (182,565);
 ref = "decimalseparator-ar";
 }
 );
@@ -31,7 +31,7 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (209,541);
+pos = (249,541);
 ref = "decimalseparator-ar";
 }
 );

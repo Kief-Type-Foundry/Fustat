@@ -14,7 +14,7 @@ pos = (113,0);
 ref = dieresiscomb;
 }
 );
-width = 519;
+width = 564;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -27,7 +27,7 @@ pos = (107,0);
 ref = dieresiscomb;
 }
 );
-width = 566;
+width = 571;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -40,7 +40,7 @@ pos = (74,0);
 ref = dieresiscomb;
 }
 );
-width = 583;
+width = 608;
 }
 );
 unicode = 252;

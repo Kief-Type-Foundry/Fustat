@@ -1,7 +1,8 @@
 {
 color = 5;
 glyphname = nine.ss05;
-kernRight = nine.lf;
+kernLeft = ninegeom;
+kernRight = ninegeom;
 layers = (
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -30,11 +31,11 @@ layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
 shapes = (
 {
 angle = 180;
-pos = (528,700);
+pos = (558,700);
 ref = six.ss05;
 }
 );
-width = 528;
+width = 558;
 }
 );
 metricLeft = "=|six";

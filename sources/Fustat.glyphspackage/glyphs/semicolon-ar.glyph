@@ -13,7 +13,7 @@ ref = period;
 scale = (0.7,0.7);
 }
 );
-width = 206;
+width = 236;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -27,7 +27,7 @@ ref = period;
 scale = (0.7,0.7);
 }
 );
-width = 230;
+width = 270;
 },
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -41,7 +41,7 @@ ref = period;
 scale = (0.7,0.7);
 }
 );
-width = 122;
+width = 224;
 }
 );
 metricLeft = "=comma-ar";
