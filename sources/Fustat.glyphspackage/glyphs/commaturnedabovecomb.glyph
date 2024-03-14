@@ -10,7 +10,7 @@ pos = (71,492);
 },
 {
 name = top;
-pos = (71,714);
+pos = (71,744);
 }
 );
 background = {
@@ -26,7 +26,7 @@ layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 shapes = (
 {
 angle = 180;
-pos = (142,512);
+pos = (142,542);
 ref = commaaccentcomb;
 }
 );
@@ -40,14 +40,14 @@ pos = (101,508);
 },
 {
 name = top;
-pos = (101,789);
+pos = (101,799);
 }
 );
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
 shapes = (
 {
 angle = 180;
-pos = (186,513);
+pos = (186,523);
 ref = commaaccentcomb;
 }
 );
@@ -93,7 +93,7 @@ pos = (85,500);
 },
 {
 name = top;
-pos = (85,736);
+pos = (85,762);
 }
 );
 background = {
@@ -110,7 +110,7 @@ name = Regular;
 shapes = (
 {
 angle = 180;
-pos = (171,513);
+pos = (171,539);
 ref = commaaccentcomb;
 }
 );

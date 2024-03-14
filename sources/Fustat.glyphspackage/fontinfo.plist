@@ -1131,11 +1131,11 @@ pos = (-10,350);
 },
 {
 name = "Diacritics top lc";
-pos = (-25,692);
+pos = (-25,722);
 },
 {
 name = "Diacritics bott lc";
-pos = (-25,557);
+pos = (-25,587);
 },
 {
 name = "Diacritics top UC";
@@ -1182,6 +1182,7 @@ GSOffsetMakeStroke = 1;
 GSOffsetPosition = 1;
 GSOffsetVertical = 15;
 };
+visible = 1;
 },
 {
 axesValues = (
@@ -1212,11 +1213,11 @@ pos = (-10,350);
 },
 {
 name = "Diacritics top lc";
-pos = (-25,700);
+pos = (-25,726);
 },
 {
 name = "Diacritics bott lc";
-pos = (-25,555);
+pos = (-25,581);
 },
 {
 name = "Diacritics top UC";
@@ -1284,11 +1285,11 @@ pos = (0,428);
 },
 {
 name = "Diacritics top lc";
-pos = (-25,707);
+pos = (-25,717);
 },
 {
 name = "Diacritics bott lc";
-pos = (-25,562);
+pos = (-25,572);
 },
 {
 name = "Diacritics top UC";
