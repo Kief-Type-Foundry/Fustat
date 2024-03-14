@@ -1,8 +1,8 @@
 {
 color = 5;
 glyphname = ydieresis.ss04;
-kernLeft = vaccent;
-kernRight = vaccent;
+kernLeft = u;
+kernRight = q;
 layers = (
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";

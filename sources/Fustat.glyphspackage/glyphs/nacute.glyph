@@ -1,6 +1,7 @@
 {
 color = 5;
 glyphname = nacute;
+kernLeft = n;
 kernRight = n;
 layers = (
 {

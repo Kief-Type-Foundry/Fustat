@@ -1,6 +1,7 @@
 {
 color = 5;
 glyphname = parenleft;
+kernLeft = O;
 kernRight = parenleft;
 layers = (
 {

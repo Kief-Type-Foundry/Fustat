@@ -1,8 +1,8 @@
 {
 color = 5;
 glyphname = cent;
-kernLeft = oaccent;
-kernRight = caccent;
+kernLeft = o;
+kernRight = o;
 layers = (
 {
 background = {

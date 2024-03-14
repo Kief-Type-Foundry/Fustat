@@ -1,6 +1,8 @@
 {
 color = 5;
 glyphname = threeeighths;
+kernLeft = zero.numr;
+kernRight = zero.dnom;
 layers = (
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";

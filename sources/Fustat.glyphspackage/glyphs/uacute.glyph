@@ -1,7 +1,8 @@
 {
 color = 5;
 glyphname = uacute;
-kernLeft = uaccent;
+kernLeft = u;
+kernRight = u;
 layers = (
 {
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -10,7 +11,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (213,0);
+pos = (233,0);
 ref = acutecomb;
 }
 );
@@ -36,7 +37,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (199,0);
+pos = (209,0);
 ref = acutecomb;
 }
 );

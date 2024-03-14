@@ -1,6 +1,7 @@
 {
 color = 5;
 glyphname = braceleft.case;
+kernLeft = H;
 kernRight = parenleft;
 layers = (
 {

@@ -12,7 +12,7 @@ ref = l.ss04;
 },
 {
 alignment = -1;
-pos = (42,190);
+pos = (67,190);
 ref = acutecomb;
 }
 );
@@ -26,7 +26,7 @@ ref = l.ss04;
 },
 {
 alignment = -1;
-pos = (31,190);
+pos = (46,190);
 ref = acutecomb;
 }
 );
@@ -40,7 +40,7 @@ ref = l.ss04;
 },
 {
 alignment = -1;
-pos = (24,190);
+pos = (36,190);
 ref = acutecomb;
 }
 );
