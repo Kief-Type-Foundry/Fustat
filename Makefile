@@ -1,90 +1,59 @@
-NAME = Fustat
+SOURCES=$(shell python3 scripts/read-config.py --sources )
+FAMILY=$(shell python3 scripts/read-config.py --family )
+DRAWBOT_SCRIPTS=$(shell ls documentation/*.py)
+DRAWBOT_OUTPUT=$(shell ls documentation/*.py | sed 's/\.py/.png/g')
 
-.SECONDARY:
-SHELL = bash
-MAKEFLAGS := -sr
-PYTHON := python3
+help:
+	@echo "###"
+	@echo "# Build targets for $(FAMILY)"
+	@echo "###"
+	@echo
+	@echo "  make build:  Builds the fonts and places them in the fonts/ directory"
+	@echo "  make test:   Tests the fonts with fontbakery"
+	@echo "  make proof:  Creates HTML proof documents in the proof/ directory"
+	@echo "  make images: Creates PNG specimen images in the documentation/ directory"
+	@echo
 
-SOURCEDIR = sources
-GLYPHSFILE = ${SOURCEDIR}/${NAME}.glyphspackage
-SCRIPTDIR = scripts
-BUILDDIR = build
-FONTSDIR = fonts
-DOCDIR = documentation
-VARIABLEDIR = ${FONTSDIR}/variable
-STATICDIR = ${FONTSDIR}/static
-VENVDIR = venv
+build: build.stamp
 
-FMOPTS = --filter DecomposeTransformedComponentsFilter --flatten-components
+venv: venv/touchfile
 
-ifneq (,$(findstring s,$(MAKEFLAGS)))
-  FMOPTS += --verbose=WARNING
-  QUITE = -q
-  VERBOSE =
-else
-  QUITE =
-  VERBOSE = --verbose
-endif
+venv-test: venv-test/touchfile
 
-VERSION=$(shell git describe --tags --abbrev=0)
-DIST=$(NAME)-$(VERSION)
+customize: venv
+	. venv/bin/activate; python3 scripts/customize.py
 
-export SOURCE_DATE_EPOCH ?= $(shell stat -c "%Y" ${GLYPHSFILE})
+build.stamp: venv sources/config.yaml $(SOURCES)
+	rm -rf fonts
+	(for config in sources/config*.yaml; do . venv/bin/activate; gftools builder $$config; done)  && touch build.stamp
 
-INSTANCES = ExtraLight Light Regular Medium SemiBold Bold ExtraBold
-STATIC = $(INSTANCES:%=${STATICDIR}/${NAME}-%.ttf)
-DISTSTATIC = $(INSTANCES:%=${DIST}/${STATICDIR}/${NAME}-%.ttf)
-VARIABLE = ${NAME}[wght].ttf
-SVG = ${DOCDIR}/sample.svg
-SAMPLE = "خط فسطاط"
+venv/touchfile: requirements.txt
+	test -d venv || python3 -m venv venv
+	. venv/bin/activate; pip install -Ur requirements.txt
+	touch venv/touchfile
 
-all: ttf vf doc
-vf: ${VARIABLEDIR}/${VARIABLE}
-ttf: ${STATIC}
-doc: ${SVG}
+venv-test/touchfile: requirements-test.txt
+	test -d venv-test || python3 -m venv venv-test
+	. venv-test/bin/activate; pip install -Ur requirements-test.txt
+	touch venv-test/touchfile
 
-define copyfont
-cp $(1) $(2);
-$(foreach font,$(1),${PYTHON} ${SCRIPTDIR}/dist.py $(2)/$(notdir ${font}) ${VERSION} ${VERBOSE};)
-endef
+test: venv-test build.stamp
+	. venv-test/bin/activate; mkdir -p out/ out/fontbakery; fontbakery check-googlefonts -l WARN --full-lists --succinct --badges out/badges --html out/fontbakery/fontbakery-report.html --ghmarkdown out/fontbakery/fontbakery-report.md $(shell find fonts/ttf -type f)  || echo '::warning file=sources/config.yaml,title=Fontbakery failures::The fontbakery QA check reported errors in your font. Please check the generated report.'
 
-setup: requirements.txt
-	echo "    Setting up Python virtual environment"
-	${PYTHON} -m venv ${VENVDIR}
-	${VENVDIR}/bin/pip install ${QUITE} -U pip
-	${VENVDIR}/bin/pip install ${QUITE} -U wheel
-	${VENVDIR}/bin/pip install ${QUITE} --no-deps -r $<
+proof: venv build.stamp
+	. venv/bin/activate; mkdir -p out/ out/proof; diffenator2 proof $(shell find fonts/ttf -type f) -o out/proof
 
-${BUILDDIR}/${NAME}.designspace: ${GLYPHSFILE}
-	echo "    GEN     $(@F)"
-	${PYTHON} ${SCRIPTDIR}/glyphs-to-ufo.py $< $(@D) ${SOURCEDIR}/GlyphData.xml
+images: venv $(DRAWBOT_OUTPUT)
 
-${NAME}-%.ttf: ${BUILDDIR}/${NAME}.designspace
-	echo "    MAKE    $(@F)"
-	mkdir -p $(@D)
-	${PYTHON} -m fontmake ${FMOPTS} $< --output-path=$@ --output=ttf --interpolate=".* $(*F)"
+%.png: %.py build.stamp
+	. venv/bin/activate; python3 $< --output $@
 
-${VARIABLEDIR}/${VARIABLE}: ${BUILDDIR}/${NAME}.designspace
-	echo "    MAKE    $(@F)"
-	mkdir -p $(@D)
-	${PYTHON} -m fontmake ${FMOPTS} $< --output-path=$@ --output=variable
+clean:
+	rm -rf venv
+	find . -name "*.pyc" -delete
 
-${SVG}: ${VARIABLEDIR}/${VARIABLE}
-	echo "    SAMPLE  $(@F)"
-	${PYTHON} ${SCRIPTDIR}/mksample.py -t ${SAMPLE} -o $@ $<
+update-project-template:
+	npx update-template https://github.com/googlefonts/googlefonts-project-template/
 
-${DIST}/${STATICDIR}/${NAME}-%.ttf: ${STATICDIR}/${NAME}-%.ttf
-	echo "    DIST    $(@F)"
-	mkdir -p $(@D)
-	${PYTHON} ${SCRIPTDIR}/dist.py $< $@ ${VERSION} ${VERBOSE}
-
-${DIST}/${VARIABLEDIR}/${VARIABLE}: ${VARIABLEDIR}/${VARIABLE}
-	echo "    DIST    $(@F)"
-	mkdir -p $(@D)
-	${PYTHON} ${SCRIPTDIR}/dist.py $< $@ ${VERSION} ${VERBOSE}
-
-dist: ${DIST}/${VARIABLEDIR}/${VARIABLE} ${DISTSTATIC}
-	echo "    DIST    ${DIST}"
-	cp OFL.txt AUTHORS.txt CONTRIBUTORS.txt README.md ${DIST}
-	echo "    ZIP     ${DIST}.zip"
-	zip -rq ${DIST}.zip ${DIST}
+update:
+	pip install --upgrade $(dependency); pip freeze > requirements.txt
