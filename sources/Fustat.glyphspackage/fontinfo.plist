@@ -1303,6 +1303,7 @@ GSOffsetMakeStroke = 1;
 GSOffsetPosition = 0.75;
 GSOffsetVertical = 59.5;
 };
+visible = 1;
 }
 );
 instances = (

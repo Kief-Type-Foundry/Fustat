@@ -38,7 +38,7 @@ nodes = (
 );
 }
 );
-width = 618;
+width = 623;
 },
 {
 associatedMasterId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -211,7 +211,7 @@ nodes = (
 );
 }
 );
-width = 628;
+width = 623;
 },
 {
 associatedMasterId = "14EEE41F-D714-4243-A717-73445EE7DABA";
