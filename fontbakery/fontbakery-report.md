@@ -55,12 +55,12 @@ fontbakery version: 0.11.2
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee
  * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, old-permic, tai-le, coptic, malayalam, syriac, canadian-aboriginal, math
+ * U+0307 COMBINING DOT ABOVE: try adding one of: math, tai-le, malayalam, coptic, tifinagh, old-permic, canadian-aboriginal, syriac
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
- * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -68,10 +68,10 @@ fontbakery version: 0.11.2
  * U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition
  * U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition
  * U+0338 COMBINING LONG SOLIDUS OVERLAY: not included in any glyphset definition
- * U+060C ARABIC COMMA: try adding one of: thaana, hanifi-rohingya, yezidi, syriac, nko, arabic
+ * U+060C ARABIC COMMA: try adding one of: hanifi-rohingya, yezidi, nko, syriac, arabic, thaana
  * U+0615 ARABIC SMALL HIGH TAH: try adding arabic
- * U+061B ARABIC SEMICOLON: try adding one of: thaana, hanifi-rohingya, yezidi, syriac, nko, arabic
- * U+061F ARABIC QUESTION MARK: try adding one of: thaana, hanifi-rohingya, yezidi, syriac, nko, adlam, arabic
+ * U+061B ARABIC SEMICOLON: try adding one of: hanifi-rohingya, yezidi, nko, syriac, arabic, thaana
+ * U+061F ARABIC QUESTION MARK: try adding one of: hanifi-rohingya, yezidi, nko, adlam, syriac, arabic, thaana
  * U+0620 ARABIC LETTER KASHMIRI YEH: try adding arabic
  * U+0621 ARABIC LETTER HAMZA: try adding one of: syriac, arabic
  * U+0622 ARABIC LETTER ALEF WITH MADDA ABOVE: try adding arabic
@@ -104,7 +104,7 @@ fontbakery version: 0.11.2
  * U+063D ARABIC LETTER FARSI YEH WITH INVERTED V: try adding arabic
  * U+063E ARABIC LETTER FARSI YEH WITH TWO DOTS ABOVE: try adding arabic
  * U+063F ARABIC LETTER FARSI YEH WITH THREE DOTS ABOVE: try adding arabic
- * U+0640 ARABIC TATWEEL: try adding one of: hanifi-rohingya, manichaean, sogdian, syriac, psalter-pahlavi, mandaic, old-uyghur, adlam, arabic
+ * U+0640 ARABIC TATWEEL: try adding one of: manichaean, hanifi-rohingya, psalter-pahlavi, mandaic, adlam, sogdian, arabic, syriac, old-uyghur
  * U+0641 ARABIC LETTER FEH: try adding arabic
  * U+0642 ARABIC LETTER QAF: try adding arabic
  * U+0643 ARABIC LETTER KAF: try adding arabic
@@ -127,19 +127,19 @@ fontbakery version: 0.11.2
  * U+0654 ARABIC HAMZA ABOVE: try adding one of: syriac, arabic
  * U+0655 ARABIC HAMZA BELOW: try adding one of: syriac, arabic
  * U+0656 ARABIC SUBSCRIPT ALEF: try adding arabic
- * U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: thaana, hanifi-rohingya, indic-siyaq-numbers, yezidi, syriac, arabic
- * U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: thaana, indic-siyaq-numbers, yezidi, syriac, arabic
- * U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: thaana, indic-siyaq-numbers, yezidi, syriac, arabic
- * U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: thaana, indic-siyaq-numbers, yezidi, syriac, arabic
- * U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: thaana, indic-siyaq-numbers, yezidi, syriac, arabic
- * U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: thaana, indic-siyaq-numbers, yezidi, syriac, arabic
- * U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: thaana, indic-siyaq-numbers, yezidi, syriac, arabic
- * U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: thaana, indic-siyaq-numbers, yezidi, syriac, arabic
- * U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: thaana, indic-siyaq-numbers, yezidi, syriac, arabic
- * U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: thaana, indic-siyaq-numbers, yezidi, syriac, arabic
- * U+066A ARABIC PERCENT SIGN: try adding one of: thaana, syriac, arabic, nko
- * U+066B ARABIC DECIMAL SEPARATOR: try adding one of: thaana, syriac, arabic
- * U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: thaana, syriac, arabic
+ * U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: hanifi-rohingya, yezidi, indic-siyaq-numbers, syriac, arabic, thaana
+ * U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: yezidi, indic-siyaq-numbers, syriac, arabic, thaana
+ * U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: yezidi, indic-siyaq-numbers, syriac, arabic, thaana
+ * U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: yezidi, indic-siyaq-numbers, syriac, arabic, thaana
+ * U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: yezidi, indic-siyaq-numbers, syriac, arabic, thaana
+ * U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: yezidi, indic-siyaq-numbers, syriac, arabic, thaana
+ * U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: yezidi, indic-siyaq-numbers, syriac, arabic, thaana
+ * U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: yezidi, indic-siyaq-numbers, syriac, arabic, thaana
+ * U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: yezidi, indic-siyaq-numbers, syriac, arabic, thaana
+ * U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: yezidi, indic-siyaq-numbers, syriac, arabic, thaana
+ * U+066A ARABIC PERCENT SIGN: try adding one of: syriac, thaana, nko, arabic
+ * U+066B ARABIC DECIMAL SEPARATOR: try adding one of: syriac, thaana, arabic
+ * U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: syriac, thaana, arabic
  * U+066D ARABIC FIVE POINTED STAR: try adding arabic
  * U+066E ARABIC LETTER DOTLESS BEH: try adding arabic
  * U+066F ARABIC LETTER DOTLESS QAF: try adding arabic
@@ -234,7 +234,7 @@ fontbakery version: 0.11.2
  * U+06D0 ARABIC LETTER E: try adding arabic
  * U+06D2 ARABIC LETTER YEH BARREE: try adding arabic
  * U+06D3 ARABIC LETTER YEH BARREE WITH HAMZA ABOVE: try adding arabic
- * U+06D4 ARABIC FULL STOP: try adding one of: hanifi-rohingya, arabic, yezidi
+ * U+06D4 ARABIC FULL STOP: try adding one of: hanifi-rohingya, yezidi, arabic
  * U+06D5 ARABIC LETTER AE: try adding arabic
  * U+06EE ARABIC LETTER DAL WITH INVERTED V: try adding arabic
  * U+06EF ARABIC LETTER REH WITH INVERTED V: try adding arabic
@@ -343,18 +343,18 @@ fontbakery version: 0.11.2
  * U+2260 NOT EQUAL TO: try adding math
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
- * U+2460 CIRCLED DIGIT ONE: try adding one of: mongolian, yi, symbols
- * U+2461 CIRCLED DIGIT TWO: try adding one of: mongolian, yi, symbols
- * U+2462 CIRCLED DIGIT THREE: try adding one of: mongolian, yi, symbols
- * U+2463 CIRCLED DIGIT FOUR: try adding one of: mongolian, yi, symbols
- * U+2464 CIRCLED DIGIT FIVE: try adding one of: mongolian, yi, symbols
- * U+2465 CIRCLED DIGIT SIX: try adding one of: mongolian, yi, symbols
- * U+2466 CIRCLED DIGIT SEVEN: try adding one of: mongolian, yi, symbols
- * U+2467 CIRCLED DIGIT EIGHT: try adding one of: mongolian, yi, symbols
- * U+2468 CIRCLED DIGIT NINE: try adding one of: mongolian, yi, symbols
+ * U+2460 CIRCLED DIGIT ONE: try adding one of: yi, symbols, mongolian
+ * U+2461 CIRCLED DIGIT TWO: try adding one of: yi, symbols, mongolian
+ * U+2462 CIRCLED DIGIT THREE: try adding one of: yi, symbols, mongolian
+ * U+2463 CIRCLED DIGIT FOUR: try adding one of: yi, symbols, mongolian
+ * U+2464 CIRCLED DIGIT FIVE: try adding one of: yi, symbols, mongolian
+ * U+2465 CIRCLED DIGIT SIX: try adding one of: yi, symbols, mongolian
+ * U+2466 CIRCLED DIGIT SEVEN: try adding one of: yi, symbols, mongolian
+ * U+2467 CIRCLED DIGIT EIGHT: try adding one of: yi, symbols, mongolian
+ * U+2468 CIRCLED DIGIT NINE: try adding one of: yi, symbols, mongolian
  * U+24EA CIRCLED DIGIT ZERO: try adding symbols
  * U+24FF NEGATIVE CIRCLED DIGIT ZERO: try adding symbols
- * U+25CC DOTTED CIRCLE: try adding one of: hebrew, dogra, canadian-aboriginal, adlam, kannada, myanmar, math, devanagari, masaram-gondi, manichaean, lao, tagalog, javanese, mahajani, oriya, coptic, marchen, syriac, psalter-pahlavi, phags-pa, meetei-mayek, yi, symbols, zanabazar-square, hanunoo, pahawh-hmong, lepcha, bhaiksuki, batak, siddham, gurmukhi, sinhala, elbasan, tamil, sharada, mongolian, kayah-li, buhid, nko, music, tirhuta, khojki, wancho, sogdian, tibetan, osage, takri, sundanese, tai-tham, khmer, khudawadi, bengali, armenian, modi, telugu, gunjala-gondi, warang-citi, tagbanwa, kaithi, caucasian-albanian, buginese, old-permic, brahmi, bassa-vah, rejang, newa, soyombo, limbu, syloti-nagri, balinese, tai-viet, kharoshthi, chakma, thai, new-tai-lue, mende-kikakui, cham, duployan, miao, ahom, thaana, tifinagh, grantha, hanifi-rohingya, tai-le, malayalam, mandaic, saurashtra, gujarati
+ * U+25CC DOTTED CIRCLE: try adding one of: tibetan, kayah-li, rejang, khmer, kharoshthi, music, hanunoo, buginese, armenian, masaram-gondi, modi, batak, thaana, mahajani, pahawh-hmong, gujarati, lepcha, syloti-nagri, syriac, oriya, symbols, mongolian, hebrew, nko, myanmar, warang-citi, soyombo, bengali, bhaiksuki, buhid, caucasian-albanian, lao, coptic, devanagari, canadian-aboriginal, tifinagh, sinhala, miao, hanifi-rohingya, mende-kikakui, tirhuta, tai-le, kannada, meetei-mayek, saurashtra, mandaic, tamil, gurmukhi, marchen, new-tai-lue, brahmi, math, sundanese, wancho, malayalam, limbu, adlam, old-permic, osage, telugu, dogra, gunjala-gondi, tagalog, khudawadi, tai-viet, sogdian, thai, elbasan, psalter-pahlavi, sharada, bassa-vah, chakma, zanabazar-square, siddham, tai-tham, newa, duployan, takri, cham, phags-pa, tagbanwa, balinese, yi, grantha, kaithi, manichaean, ahom, javanese, khojki
  * U+26AA MEDIUM WHITE CIRCLE: try adding symbols
  * U+26AB MEDIUM BLACK CIRCLE: try adding symbols
  * U+2776 DINGBAT NEGATIVE CIRCLED DIGIT ONE: try adding symbols
@@ -414,13 +414,13 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** Interpolation issues were found in the font:
 
-	- Contour 0 start point differs in glyph 'hehDoachashmee-ar' between location wght=400 and location wght=200
+	- Contour 0 start point differs in glyph 'hehVinvertedabove-ar' between location wght=400 and location wght=200
 
-	- Contour 2 start point differs in glyph 'uring' between location wght=200 and location wght=800
+	- Contour 0 start point differs in glyph 'hehDoachashmee-ar' between location wght=400 and location wght=200
 
 	- Contour 1 start point differs in glyph 'ringcomb' between location wght=200 and location wght=800
 
-	- Contour 0 start point differs in glyph 'hehVinvertedabove-ar' between location wght=400 and location wght=200 [code: interpolation-issues]
+	- Contour 2 start point differs in glyph 'uring' between location wght=200 and location wght=800 [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
@@ -524,7 +524,7 @@ The dot of soft dotted characters _should_ disappear in other cases, for example
 
 Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Avokaya (Latn, 100,000 speakers), Cicipu (Latn, 44,000 speakers), South Central Banda (Latn, 244,000 speakers), Navajo (Latn, 166,319 speakers), Ma’di (Latn, 584,000 speakers), Makaa (Latn, 221,000 speakers), Kom (Latn, 360,685 speakers), Belarusian (Cyrl, 10,064,517 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Dan (Latn, 1,099,244 speakers), Ebira (Latn, 2,200,000 speakers), Gulay (Latn, 250,478 speakers), Lugbara (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Southern Kisi (Latn, 360,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Mundani (Latn, 34,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Ejagham (Latn, 120,000 speakers), Bafut (Latn, 158,146 speakers), Dii (Latn, 71,000 speakers), Ekpeye (Latn, 226,000 speakers), Fur (Latn, 1,230,163 speakers), Mfumte (Latn, 79,000 speakers), Igbo (Latn, 27,823,640 speakers), Yala (Latn, 200,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Sar (Latn, 500,000 speakers), Nateni (Latn, 100,000 speakers), Dutch (Latn, 31,709,104 speakers), Koonzime (Latn, 40,000 speakers), Zapotec (Latn, 490,000 speakers), Aghem (Latn, 38,843 speakers), Bete-Bendi (Latn, 100,000 speakers), Nzakara (Latn, 50,000 speakers), Mango (Latn, 77,000 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Mfumte (Latn, 79,000 speakers), Mango (Latn, 77,000 speakers), Dii (Latn, 71,000 speakers), Igbo (Latn, 27,823,640 speakers), Sar (Latn, 500,000 speakers), Basaa (Latn, 332,940 speakers), Nzakara (Latn, 50,000 speakers), Aghem (Latn, 38,843 speakers), Nateni (Latn, 100,000 speakers), South Central Banda (Latn, 244,000 speakers), Lugbara (Latn, 2,200,000 speakers), Zapotec (Latn, 490,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Southern Kisi (Latn, 360,000 speakers), Cicipu (Latn, 44,000 speakers), Ekpeye (Latn, 226,000 speakers), Ebira (Latn, 2,200,000 speakers), Makaa (Latn, 221,000 speakers), Ma’di (Latn, 584,000 speakers), Kom (Latn, 360,685 speakers), Koonzime (Latn, 40,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Fur (Latn, 1,230,163 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Gulay (Latn, 250,478 speakers), Dutch (Latn, 31,709,104 speakers), Dan (Latn, 1,099,244 speakers), Yala (Latn, 200,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Navajo (Latn, 166,319 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Bafut (Latn, 158,146 speakers), Bete-Bendi (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Avokaya (Latn, 100,000 speakers), Mundani (Latn, 34,000 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
