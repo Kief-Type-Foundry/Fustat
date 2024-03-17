@@ -233,33 +233,6 @@ name = Lookups;
 );
 features = (
 {
-automatic = 1;
-code = "feature locl;
-feature locl;
-feature isol;
-feature init;
-feature medi;
-feature fina;
-feature subs;
-feature sinf;
-feature sups;
-feature numr;
-feature dnom;
-feature frac;
-feature ordn;
-feature pnum;
-feature tnum;
-feature case;
-feature zero;
-feature ss01;
-feature ss02;
-feature ss03;
-feature ss04;
-feature ss05;
-";
-tag = aalt;
-},
-{
 code = "script arab;
   language FAR;
 	sub zero-persian	by zero-persian.locl;
@@ -285,6 +258,32 @@ code = "script arab;
 	sub seven-persian	by seven-persian.locl;
  	sub comma-ar		by commareversed;
  	sub semicolon-ar	by semicolonreversed;
+";
+tag = locl;
+},
+{
+automatic = 1;
+code = "script latn;
+language ROM;
+lookup locl_latn_0 {
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+} locl_latn_0;
+language MOL;
+lookup locl_latn_0;
+
+script latn;
+language CAT;
+lookup locl_latn_1 {
+	sub  l' periodcentered' l by ldot;
+	sub  L' periodcentered' L by Ldot;
+} locl_latn_1;
+
+script arab;
+language URD;
+lookup locl_arab_0 {
+	sub six-persian by six-ar;
+} locl_arab_0;
 ";
 tag = locl;
 },
@@ -319,32 +318,6 @@ script latn;
 lookup ccmp_latn_1;
 ";
 tag = ccmp;
-},
-{
-automatic = 1;
-code = "script latn;
-language ROM;
-lookup locl_latn_0 {
-	sub Scedilla by Scommaaccent;
-	sub scedilla by scommaaccent;
-} locl_latn_0;
-language MOL;
-lookup locl_latn_0;
-
-script latn;
-language CAT;
-lookup locl_latn_1 {
-	sub  l' periodcentered' l by ldot;
-	sub  L' periodcentered' L by Ldot;
-} locl_latn_1;
-
-script arab;
-language URD;
-lookup locl_arab_0 {
-	sub six-persian by six-ar;
-} locl_arab_0;
-";
-tag = locl;
 },
 {
 code = "#lookup early {
@@ -954,18 +927,6 @@ sub cedillacomb by cedillacomb.case;
 sub strokeshortcomb by strokeshortcomb.case;
 ";
 tag = case;
-},
-{
-automatic = 1;
-code = "lookup dlig_RTL {
-lookupflag IgnoreMarks;
-	sub behDotless-ar.init hah-ar.fina by behDotless_hah-ar;
-	sub behDotless-ar.init hah-ar.medi by behDotless_hah-ar.init;
-	sub lam-ar.init hah-ar.fina by lam_hah-ar;
-	sub lam-ar.init hah-ar.medi by lam_hah-ar.init;
-} dlig_RTL;
-";
-tag = dlig;
 },
 {
 automatic = 1;
