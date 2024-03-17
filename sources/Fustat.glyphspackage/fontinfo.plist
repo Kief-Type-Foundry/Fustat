@@ -190,7 +190,7 @@ value = 420;
 name = "meta Table";
 value = (
 {
-data = Arab;
+data = "Arab,Latn";
 tag = dlng;
 },
 {
