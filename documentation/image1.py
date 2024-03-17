@@ -21,10 +21,10 @@ FONT_LICENSE = "OFL v1.1"
 AUXILIARY_FONT = "Helvetica"
 AUXILIARY_FONT_SIZE = 48
 
-BIG_TEXT = "AaBb"
-BIG_TEXT_FONT_SIZE = 730
-BIG_TEXT_SIDE_MARGIN = MARGIN * 1
-BIG_TEXT_BOTTOM_MARGIN = MARGIN * 2
+BIG_TEXT = "أبجد هوز"
+BIG_TEXT_FONT_SIZE = 500
+BIG_TEXT_SIDE_MARGIN = MARGIN * 2.2
+BIG_TEXT_BOTTOM_MARGIN = MARGIN * 2.7
 
 GRID_VIEW = False  # Toggle this for a grid overlay
 
@@ -42,7 +42,7 @@ ttFont = TTFont(FONT_PATH)
 # Constants that are worked out dynamically
 MY_URL = subprocess.check_output("git remote get-url origin", shell=True).decode()
 MY_HASH = subprocess.check_output("git rev-parse --short HEAD", shell=True).decode()
-FONT_NAME = ttFont["name"].getDebugName(4)
+FONT_NAME = ttFont["name"].getDebugName(1)
 FONT_VERSION = "v%s" % floatToFixedToStr(ttFont["head"].fontRevision, 16)
 
 
@@ -94,7 +94,7 @@ def draw_main_text():
     # TODO: This should be done automatically when drawbot-skia
     # has support for textBox() and FormattedString
     # text(BIG_TEXT, ((WIDTH / 2) - MARGIN * 4.75, (HEIGHT / 2) - MARGIN * 2.5))
-    text(BIG_TEXT, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN))
+    text(BIG_TEXT, (WIDTH - BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN))
 
 
 # Divider lines
