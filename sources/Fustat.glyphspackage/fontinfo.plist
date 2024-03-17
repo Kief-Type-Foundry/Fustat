@@ -235,27 +235,27 @@ features = (
 {
 code = "script arab;
   language FAR;
-	sub zero-persian	by zero-persian.locl;
+	sub zeroFarsi-ar	by zeroFarsi-ar.locl;
 
   language URD;
-	sub four-persian	by four-persian.locl;
-	sub six-persian		by six-ar;
-	sub seven-persian	by seven-persian.locl;
+	sub fourFarsi-ar	by fourFarsi-ar.locl;
+	sub sixFarsi-ar		by six-ar;
+	sub sevenFarsi-ar	by sevenFarsi-ar.locl;
 #	sub dammainverted-ar by dammainverted-ar.locl;
 
   language KSH;
-	sub four-persian	by four-persian.locl;
-	sub six-persian		by six-ar;
-	sub seven-persian	by seven-persian.locl;
+	sub fourFarsi-ar	by fourFarsi-ar.locl;
+	sub sixFarsi-ar		by six-ar;
+	sub sevenFarsi-ar	by sevenFarsi-ar.locl;
 
   language RHG;
-	sub four-persian	by four-ar;
-	sub six-persian		by six-ar;
-	sub seven-persian	by seven-persian.locl;
+	sub fourFarsi-ar	by four-ar;
+	sub sixFarsi-ar		by six-ar;
+	sub sevenFarsi-ar	by sevenFarsi-ar.locl;
 
   language SND;
-	sub six-persian		by six-ar;
-	sub seven-persian	by seven-persian.locl;
+	sub sixFarsi-ar		by six-ar;
+	sub sevenFarsi-ar	by sevenFarsi-ar.locl;
  	sub comma-ar		by commareversed;
  	sub semicolon-ar	by semicolonreversed;
 ";
@@ -278,12 +278,6 @@ lookup locl_latn_1 {
 	sub  l' periodcentered' l by ldot;
 	sub  L' periodcentered' L by Ldot;
 } locl_latn_1;
-
-script arab;
-language URD;
-lookup locl_arab_0 {
-	sub six-persian by six-ar;
-} locl_arab_0;
 ";
 tag = locl;
 },
@@ -854,10 +848,14 @@ tag = ordn;
 automatic = 1;
 code = "sub decimalseparator-ar.tf by decimalseparator-ar;
 sub thousandseparator-ar.tf by thousandseparator-ar;
-sub zero-persian.locl.tf by zero-persian.locl;
-sub zero-persian.tf by zero-persian;
-sub four-persian.locl.tf by four-persian.locl;
-sub seven-persian.locl.tf by seven-persian.locl;
+sub zeroFarsi-ar.tf by zeroFarsi-ar;
+sub zeroFarsi-ar.locl.tf by zeroFarsi-ar.locl;
+sub fourFarsi-ar.tf by fourFarsi-ar;
+sub fourFarsi-ar.locl.tf by fourFarsi-ar.locl;
+sub fiveFarsi-ar.tf by fiveFarsi-ar;
+sub sixFarsi-ar.tf by sixFarsi-ar;
+sub sevenFarsi-ar.tf by sevenFarsi-ar;
+sub sevenFarsi-ar.locl.tf by sevenFarsi-ar.locl;
 sub zero.tf by zero;
 sub one.tf by one;
 sub two.tf by two;
@@ -878,11 +876,6 @@ sub six-ar.tf by six-ar;
 sub seven-ar.tf by seven-ar;
 sub eight-ar.tf by eight-ar;
 sub nine-ar.tf by nine-ar;
-sub two-persian.tf by two-persian;
-sub four-persian.tf by four-persian;
-sub five-persian.tf by five-persian;
-sub six-persian.tf by six-persian;
-sub seven-persian.tf by seven-persian;
 sub space.tf by space;
 sub period.tf by period;
 sub comma.tf by comma;
@@ -895,10 +888,14 @@ tag = pnum;
 automatic = 1;
 code = "sub decimalseparator-ar by decimalseparator-ar.tf;
 sub thousandseparator-ar by thousandseparator-ar.tf;
-sub zero-persian.locl by zero-persian.locl.tf;
-sub zero-persian by zero-persian.tf;
-sub four-persian.locl by four-persian.locl.tf;
-sub seven-persian.locl by seven-persian.locl.tf;
+sub zeroFarsi-ar by zeroFarsi-ar.tf;
+sub zeroFarsi-ar.locl by zeroFarsi-ar.locl.tf;
+sub fourFarsi-ar by fourFarsi-ar.tf;
+sub fourFarsi-ar.locl by fourFarsi-ar.locl.tf;
+sub fiveFarsi-ar by fiveFarsi-ar.tf;
+sub sixFarsi-ar by sixFarsi-ar.tf;
+sub sevenFarsi-ar by sevenFarsi-ar.tf;
+sub sevenFarsi-ar.locl by sevenFarsi-ar.locl.tf;
 sub zero by zero.tf;
 sub one by one.tf;
 sub two by two.tf;
@@ -919,11 +916,6 @@ sub six-ar by six-ar.tf;
 sub seven-ar by seven-ar.tf;
 sub eight-ar by eight-ar.tf;
 sub nine-ar by nine-ar.tf;
-sub two-persian by two-persian.tf;
-sub four-persian by four-persian.tf;
-sub five-persian by five-persian.tf;
-sub six-persian by six-persian.tf;
-sub seven-persian by seven-persian.tf;
 sub space by space.tf;
 sub period by period.tf;
 sub comma by comma.tf;
@@ -1988,9 +1980,9 @@ Germandbls = {
 "three-ar" = -30;
 "two-ar" = -40;
 };
-"four-persian.locl" = {
-"seven-persian.locl" = -110;
-"zero-persian.locl" = -80;
+"fourFarsi-ar.locl" = {
+"sevenFarsi-ar.locl" = -110;
+"zeroFarsi-ar.locl" = -80;
 };
 one.numr = {
 "@MMK_R_fraction" = -50;
@@ -2001,18 +1993,18 @@ quoteright = {
 "seven-ar" = {
 "eight-ar" = -110;
 };
-"seven-persian" = {
-"seven-persian.locl" = -40;
-};
-"seven-persian.locl" = {
-"four-persian.locl" = -90;
-"zero-persian.locl" = -50;
-};
 seven.numr = {
 "@MMK_R_fraction" = -90;
 };
-"two-persian" = {
-"zero-persian.locl" = -70;
+"sevenFarsi-ar" = {
+"sevenFarsi-ar.locl" = -40;
+};
+"sevenFarsi-ar.locl" = {
+"fourFarsi-ar.locl" = -90;
+"zeroFarsi-ar.locl" = -50;
+};
+"twoFarsi-ar" = {
+"zeroFarsi-ar.locl" = -70;
 };
 };
 "14EEE41F-D714-4243-A717-73445EE7DABA" = {
@@ -2483,9 +2475,9 @@ Germandbls = {
 "three-ar" = -30;
 "two-ar" = -40;
 };
-"four-persian.locl" = {
-"seven-persian.locl" = -80;
-"zero-persian.locl" = -70;
+"fourFarsi-ar.locl" = {
+"sevenFarsi-ar.locl" = -80;
+"zeroFarsi-ar.locl" = -70;
 };
 one.numr = {
 "@MMK_R_fraction" = -50;
@@ -2496,18 +2488,18 @@ quoteright = {
 "seven-ar" = {
 "eight-ar" = -100;
 };
-"seven-persian" = {
-"seven-persian.locl" = -40;
-};
-"seven-persian.locl" = {
-"four-persian.locl" = -80;
-"zero-persian.locl" = -60;
-};
 seven.numr = {
 "@MMK_R_fraction" = -90;
 };
-"two-persian" = {
-"zero-persian.locl" = -50;
+"sevenFarsi-ar" = {
+"sevenFarsi-ar.locl" = -40;
+};
+"sevenFarsi-ar.locl" = {
+"fourFarsi-ar.locl" = -80;
+"zeroFarsi-ar.locl" = -60;
+};
+"twoFarsi-ar" = {
+"zeroFarsi-ar.locl" = -50;
 };
 };
 "090CB6A0-BE7C-4D17-A551-206C7456A8A3" = {
@@ -2975,9 +2967,9 @@ Germandbls = {
 "three-ar" = -10;
 "two-ar" = -40;
 };
-"four-persian.locl" = {
-"seven-persian.locl" = -70;
-"zero-persian.locl" = -70;
+"fourFarsi-ar.locl" = {
+"sevenFarsi-ar.locl" = -70;
+"zeroFarsi-ar.locl" = -70;
 };
 one.numr = {
 "@MMK_R_fraction" = -50;
@@ -2988,18 +2980,18 @@ quoteright = {
 "seven-ar" = {
 "eight-ar" = -90;
 };
-"seven-persian" = {
-"seven-persian.locl" = -40;
-};
-"seven-persian.locl" = {
-"four-persian.locl" = -70;
-"zero-persian.locl" = -60;
-};
 seven.numr = {
 "@MMK_R_fraction" = -90;
 };
-"two-persian" = {
-"zero-persian.locl" = -60;
+"sevenFarsi-ar" = {
+"sevenFarsi-ar.locl" = -40;
+};
+"sevenFarsi-ar.locl" = {
+"fourFarsi-ar.locl" = -70;
+"zeroFarsi-ar.locl" = -60;
+};
+"twoFarsi-ar" = {
+"zeroFarsi-ar.locl" = -60;
 };
 };
 };
