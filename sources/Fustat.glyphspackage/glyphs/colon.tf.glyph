@@ -47,5 +47,5 @@ ref = period;
 width = 600;
 }
 );
-metricWidth = "=600";
+metricWidth = "=zero.tf";
 }

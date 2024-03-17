@@ -14,5 +14,5 @@ layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
 width = 600;
 }
 );
-metricWidth = "=600";
+metricWidth = "=zero.tf";
 }

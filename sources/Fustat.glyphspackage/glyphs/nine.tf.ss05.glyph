@@ -36,5 +36,5 @@ ref = nine.ss05;
 width = 600;
 }
 );
-metricWidth = "=600";
+metricWidth = "=zero.tf";
 }
