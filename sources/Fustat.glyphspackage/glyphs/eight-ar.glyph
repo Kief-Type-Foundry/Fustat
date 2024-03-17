@@ -37,5 +37,5 @@ width = 526;
 );
 metricLeft = "=seven-ar";
 metricRight = "=seven-ar";
-unicode = 1640;
+unicode = (1640,1784);
 }

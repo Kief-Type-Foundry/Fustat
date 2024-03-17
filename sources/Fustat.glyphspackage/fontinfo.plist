@@ -883,7 +883,6 @@ sub four-persian.tf by four-persian;
 sub five-persian.tf by five-persian;
 sub six-persian.tf by six-persian;
 sub seven-persian.tf by seven-persian;
-sub eight-persian.tf by eight-persian;
 sub space.tf by space;
 sub period.tf by period;
 sub comma.tf by comma;
@@ -925,7 +924,6 @@ sub four-persian by four-persian.tf;
 sub five-persian by five-persian.tf;
 sub six-persian by six-persian.tf;
 sub seven-persian by seven-persian.tf;
-sub eight-persian by eight-persian.tf;
 sub space by space.tf;
 sub period by period.tf;
 sub comma by comma.tf;
@@ -1981,11 +1979,6 @@ Germandbls = {
 "seven-ar" = -110;
 "six-ar" = -110;
 };
-"eight-persian" = {
-"nine-ar" = -60;
-"seven-persian.locl" = -60;
-"zero-persian.locl" = -20;
-};
 "five-ar" = {
 "six-ar" = -70;
 };
@@ -2020,9 +2013,6 @@ seven.numr = {
 };
 "two-persian" = {
 "zero-persian.locl" = -70;
-};
-"zero-persian.locl" = {
-"eight-persian" = -20;
 };
 };
 "14EEE41F-D714-4243-A717-73445EE7DABA" = {
@@ -2484,11 +2474,6 @@ Germandbls = {
 "seven-ar" = -100;
 "six-ar" = -100;
 };
-"eight-persian" = {
-"nine-ar" = -50;
-"seven-persian.locl" = -50;
-"zero-persian.locl" = -20;
-};
 "five-ar" = {
 "six-ar" = -80;
 };
@@ -2523,9 +2508,6 @@ seven.numr = {
 };
 "two-persian" = {
 "zero-persian.locl" = -50;
-};
-"zero-persian.locl" = {
-"eight-persian" = -20;
 };
 };
 "090CB6A0-BE7C-4D17-A551-206C7456A8A3" = {
@@ -2987,11 +2969,6 @@ Germandbls = {
 "seven-ar" = -90;
 "six-ar" = -90;
 };
-"eight-persian" = {
-"nine-ar" = -40;
-"seven-persian.locl" = -40;
-"zero-persian.locl" = -10;
-};
 "four-ar" = {
 "seven-ar" = -30;
 "six-ar" = -30;
@@ -3023,9 +3000,6 @@ seven.numr = {
 };
 "two-persian" = {
 "zero-persian.locl" = -60;
-};
-"zero-persian.locl" = {
-"eight-persian" = -10;
 };
 };
 };
