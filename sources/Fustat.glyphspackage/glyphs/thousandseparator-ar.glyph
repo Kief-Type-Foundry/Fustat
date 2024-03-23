@@ -7,11 +7,11 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (131,578);
+pos = (165,578);
 ref = "decimalseparator-ar";
 }
 );
-width = 189;
+width = 218;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -19,11 +19,11 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (182,565);
+pos = (223,565);
 ref = "decimalseparator-ar";
 }
 );
-width = 221;
+width = 276;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -31,11 +31,11 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (249,541);
+pos = (255,541);
 ref = "decimalseparator-ar";
 }
 );
-width = 300;
+width = 317;
 }
 );
 metricLeft = "=decimalseparator-ar";
