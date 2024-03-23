@@ -1,5 +1,5 @@
 {
-.appVersion = "3246";
+.appVersion = "3244";
 .formatVersion = 3;
 axes = (
 {
@@ -200,7 +200,7 @@ tag = slng;
 );
 }
 );
-date = "2022-11-10 19:08:13 +0000";
+date = "2024-03-23 22:08:27 +0000";
 familyName = Fustat;
 featurePrefixes = (
 {
@@ -233,6 +233,33 @@ name = Lookups;
 );
 features = (
 {
+automatic = 1;
+code = "feature locl;
+feature locl;
+feature isol;
+feature init;
+feature medi;
+feature fina;
+feature subs;
+feature sinf;
+feature sups;
+feature numr;
+feature dnom;
+feature frac;
+feature ordn;
+feature pnum;
+feature tnum;
+feature case;
+feature zero;
+feature ss01;
+feature ss02;
+feature ss03;
+feature ss04;
+feature ss05;
+";
+tag = aalt;
+},
+{
 code = "script arab;
   language FAR;
 	sub zeroFarsi-ar	by zeroFarsi-ar.locl;
@@ -260,6 +287,38 @@ code = "script arab;
  	sub semicolon-ar	by semicolonreversed;
 ";
 tag = locl;
+},
+{
+automatic = 1;
+code = "lookup ccmp_Other_1 {
+	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	lookupflag UseMarkFilteringSet @CombiningTopAccents;
+	sub i' @CombiningTopAccents by idotless;
+	sub j' @CombiningTopAccents by jdotless;
+} ccmp_Other_1;
+
+lookup ccmp_Other_2 {
+	lookupflag 0;
+	@Markscomb = [dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb caroncomb.alt circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb cedillacomb strokeshortcomb];
+	@MarkscombCase = [dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case caroncomb.alt.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case macroncomb.case cedillacomb.case strokeshortcomb.case];
+	sub @Uppercase @Markscomb' by @MarkscombCase;
+} ccmp_Other_2;
+
+lookup ccmp_Other_3 {
+	lookupflag 0;
+	sub @MarkscombCase @Markscomb' by @MarkscombCase;
+} ccmp_Other_3;
+
+lookup ccmp_latn_1 {
+	lookupflag 0;
+	sub fi by f i;
+	sub fl by f l;
+} ccmp_latn_1;
+
+script latn;
+lookup ccmp_latn_1;
+";
+tag = ccmp;
 },
 {
 automatic = 1;
@@ -512,38 +571,6 @@ code = "#lookup early {
  sub yehTwodotsbelowHamzaabove-ar			by alefMaksura-ar twodotshorizontalbelow-ar hamzaabove-ar;
  sub yehTwodotsbelowDotabove-ar				by alefMaksura-ar twodotshorizontalbelow-ar dotabove-ar;
 #sub kashidaTwodotsbelow-ar					by kashida-ar twodotshorizontalbelow-ar;
-";
-tag = ccmp;
-},
-{
-automatic = 1;
-code = "lookup ccmp_Other_1 {
-	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-	lookupflag UseMarkFilteringSet @CombiningTopAccents;
-	sub i' @CombiningTopAccents by idotless;
-	sub j' @CombiningTopAccents by jdotless;
-} ccmp_Other_1;
-
-lookup ccmp_Other_2 {
-	lookupflag 0;
-	@Markscomb = [dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb caroncomb.alt circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb cedillacomb strokeshortcomb];
-	@MarkscombCase = [dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case caroncomb.alt.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case macroncomb.case cedillacomb.case strokeshortcomb.case];
-	sub @Uppercase @Markscomb' by @MarkscombCase;
-} ccmp_Other_2;
-
-lookup ccmp_Other_3 {
-	lookupflag 0;
-	sub @MarkscombCase @Markscomb' by @MarkscombCase;
-} ccmp_Other_3;
-
-lookup ccmp_latn_1 {
-	lookupflag 0;
-	sub fi by f i;
-	sub fl by f l;
-} ccmp_latn_1;
-
-script latn;
-lookup ccmp_latn_1;
 ";
 tag = ccmp;
 },
@@ -848,14 +875,6 @@ tag = ordn;
 automatic = 1;
 code = "sub decimalseparator-ar.tf by decimalseparator-ar;
 sub thousandseparator-ar.tf by thousandseparator-ar;
-sub zeroFarsi-ar.tf by zeroFarsi-ar;
-sub zeroFarsi-ar.locl.tf by zeroFarsi-ar.locl;
-sub fourFarsi-ar.tf by fourFarsi-ar;
-sub fourFarsi-ar.locl.tf by fourFarsi-ar.locl;
-sub fiveFarsi-ar.tf by fiveFarsi-ar;
-sub sixFarsi-ar.tf by sixFarsi-ar;
-sub sevenFarsi-ar.tf by sevenFarsi-ar;
-sub sevenFarsi-ar.locl.tf by sevenFarsi-ar.locl;
 sub zero.tf by zero;
 sub one.tf by one;
 sub two.tf by two;
@@ -876,6 +895,15 @@ sub six-ar.tf by six-ar;
 sub seven-ar.tf by seven-ar;
 sub eight-ar.tf by eight-ar;
 sub nine-ar.tf by nine-ar;
+sub zeroFarsi-ar.tf by zeroFarsi-ar;
+sub zeroFarsi-ar.locl.tf by zeroFarsi-ar.locl;
+sub twoFarsi-ar.tf by twoFarsi-ar;
+sub fourFarsi-ar.tf by fourFarsi-ar;
+sub fourFarsi-ar.locl.tf by fourFarsi-ar.locl;
+sub fiveFarsi-ar.tf by fiveFarsi-ar;
+sub sixFarsi-ar.tf by sixFarsi-ar;
+sub sevenFarsi-ar.tf by sevenFarsi-ar;
+sub sevenFarsi-ar.locl.tf by sevenFarsi-ar.locl;
 sub space.tf by space;
 sub period.tf by period;
 sub comma.tf by comma;
@@ -888,14 +916,6 @@ tag = pnum;
 automatic = 1;
 code = "sub decimalseparator-ar by decimalseparator-ar.tf;
 sub thousandseparator-ar by thousandseparator-ar.tf;
-sub zeroFarsi-ar by zeroFarsi-ar.tf;
-sub zeroFarsi-ar.locl by zeroFarsi-ar.locl.tf;
-sub fourFarsi-ar by fourFarsi-ar.tf;
-sub fourFarsi-ar.locl by fourFarsi-ar.locl.tf;
-sub fiveFarsi-ar by fiveFarsi-ar.tf;
-sub sixFarsi-ar by sixFarsi-ar.tf;
-sub sevenFarsi-ar by sevenFarsi-ar.tf;
-sub sevenFarsi-ar.locl by sevenFarsi-ar.locl.tf;
 sub zero by zero.tf;
 sub one by one.tf;
 sub two by two.tf;
@@ -916,6 +936,15 @@ sub six-ar by six-ar.tf;
 sub seven-ar by seven-ar.tf;
 sub eight-ar by eight-ar.tf;
 sub nine-ar by nine-ar.tf;
+sub zeroFarsi-ar by zeroFarsi-ar.tf;
+sub zeroFarsi-ar.locl by zeroFarsi-ar.locl.tf;
+sub twoFarsi-ar by twoFarsi-ar.tf;
+sub fourFarsi-ar by fourFarsi-ar.tf;
+sub fourFarsi-ar.locl by fourFarsi-ar.locl.tf;
+sub fiveFarsi-ar by fiveFarsi-ar.tf;
+sub sixFarsi-ar by sixFarsi-ar.tf;
+sub sevenFarsi-ar by sevenFarsi-ar.tf;
+sub sevenFarsi-ar.locl by sevenFarsi-ar.locl.tf;
 sub space by space.tf;
 sub period by period.tf;
 sub comma by comma.tf;
@@ -961,6 +990,18 @@ sub cedillacomb by cedillacomb.case;
 sub strokeshortcomb by strokeshortcomb.case;
 ";
 tag = case;
+},
+{
+automatic = 1;
+code = "lookup dlig_RTL {
+lookupflag IgnoreMarks;
+	sub behDotless-ar.init hah-ar.fina by behDotless_hah-ar;
+	sub behDotless-ar.init hah-ar.medi by behDotless_hah-ar.init;
+	sub lam-ar.init hah-ar.fina by lam_hah-ar;
+	sub lam-ar.init hah-ar.medi by lam_hah-ar.init;
+} dlig_RTL;
+";
+tag = dlig;
 },
 {
 automatic = 1;
