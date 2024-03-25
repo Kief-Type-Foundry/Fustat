@@ -829,78 +829,32 @@
   <glyph name="lam_hah-ar" category="Letter" subCategory="Ligature" script="arabic" direction="RTL" anchors="top_1, top_2, bottom_1, bottom_2" sortName="arL0056_arL0015" sortNameKeep="arL0056_arL0015" accents="alefabove-ar, alefbelow-ar, damma-ar, dammatan-ar, dotbelow-ar, fatha-ar, fathatan-ar, hamzaabove-ar, hamzabelow-ar, kasra-ar, kasratan-ar, madda-ar, shadda-ar, sukun-ar, twodotshorizontalbelow-ar" />
   <glyph name="lam_hah-ar.init" category="Letter" subCategory="Ligature" script="arabic" direction="RTL" anchors="top_1, top_2, bottom_1, bottom_2" sortName="arL0056_arL0016" sortNameKeep="arL0056_arL0016" accents="alefabove-ar, alefbelow-ar, damma-ar, dammatan-ar, dotbelow-ar, fatha-ar, fathatan-ar, hamzaabove-ar, hamzabelow-ar, kasra-ar, kasratan-ar, madda-ar, shadda-ar, sukun-ar, twodotshorizontalbelow-ar" />
 
+  <glyph name="zero.zero" category="Number" subCategory="Decimal Digit" sortName="Nu01" />
+  <glyph name="six.ss05" category="Number" subCategory="Decimal Digit" sortName="Nu61" />
+  <glyph name="nine.ss05" category="Number" subCategory="Decimal Digit" sortName="Nu91" />
+  <glyph name="zero.tf.zero" category="Number" subCategory="Decimal Digit" case="upper" sortName="tf.Nu01" />
+  <glyph name="six.tf.ss05" category="Number" subCategory="Decimal Digit" case="upper" sortName="tf.Nu61" />
+  <glyph name="nine.tf.ss05" category="Number" subCategory="Decimal Digit" case="upper" sortName="tf.Nu91" />
 
-  <glyph name="zero" unicode="0030" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" sortName="arN0880" />
-  <glyph name="one" unicode="0031" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" sortName="arN0881" />
-  <glyph name="two" unicode="0032" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" sortName="arN0882" />
-  <glyph name="three" unicode="0033" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" sortName="arN0883" />
-  <glyph name="four" unicode="0034" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" sortName="arN0884" />
-  <glyph name="five" unicode="0035" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" sortName="arN0885" />
-  <glyph name="six" unicode="0036" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" sortName="arN0886" />
-  <glyph name="seven" unicode="0037" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" sortName="arN0887" />
-  <glyph name="eight" unicode="0038" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" sortName="arN0888" />
-  <glyph name="nine" unicode="0039" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" sortName="arN0889" />
-  
-  <glyph name="zero-ar" unicode="0660" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" sortName="arN0890" />
-  <glyph name="one-ar" unicode="0661" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" sortName="arN0891" />
-  <glyph name="two-ar" unicode="0662" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" sortName="arN0892" />
-  <glyph name="three-ar" unicode="0663" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" sortName="arN0893" />
-  <glyph name="four-ar" unicode="0664" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" sortName="arN0894" />
-  <glyph name="five-ar" unicode="0665" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" sortName="arN0895" />
-  <glyph name="six-ar" unicode="0666" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" sortName="arN0896" />
-  <glyph name="seven-ar" unicode="0667" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" sortName="arN0897" />
-  <glyph name="eight-ar" unicode="0668" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" sortName="arN0898" />
-  <glyph name="nine-ar" unicode="0669" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" sortName="arN0899" />
-  
-  <glyph name="zeroFarsi-ar" unicode="06F0" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" sortName="arN0900" />
-  <glyph name="zeroFarsi-ar.locl" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" sortName="arN0901" />
-  <glyph name="oneFarsi-ar" unicode="06F1" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" sortName="arN0902" />
-  <glyph name="twoFarsi-ar" unicode="06F2" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" sortName="arN0903" />
-  <glyph name="threeFarsi-ar" unicode="06F3" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" sortName="arN0904" />
-  <glyph name="fourFarsi-ar" unicode="06F4" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" sortName="arN0905" />
-  <glyph name="fourFarsi-ar.locl" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" sortName="arN0906" />
-  <glyph name="fiveFarsi-ar" unicode="06F5" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" sortName="arN0907" />
-  <glyph name="sixFarsi-ar" unicode="06F6" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" sortName="arN0908" />
-  <glyph name="sevenFarsi-ar" unicode="06F7" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" sortName="arN0909" />
-  <glyph name="sevenFarsi-ar.locl" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" sortName="arN0910" />
-  <glyph name="eightFarsi-ar" unicode="06F8" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" sortName="arN0911" />
-  <glyph name="nineFarsi-ar" unicode="06F9" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" sortName="arN0912" />
-
-  <glyph name="zero.tf" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" anchors="_digits, digits" sortName="arN0913" />
-  <glyph name="one.tf" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" anchors="_digits, digits" sortName="arN0914" />
-  <glyph name="two.tf" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" anchors="_digits, digits" sortName="arN0915" />
-  <glyph name="three.tf" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" anchors="_digits, digits" sortName="arN0916" />
-  <glyph name="four.tf" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" anchors="_digits, digits" sortName="arN0917" />
-  <glyph name="five.tf" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" anchors="_digits, digits" sortName="arN0918" />
-  <glyph name="six.tf" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" anchors="_digits, digits" sortName="arN0919" />
-  <glyph name="seven.tf" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" anchors="_digits, digits" sortName="arN0920" />
-  <glyph name="eight.tf" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" anchors="_digits, digits" sortName="arN0921" />
-  <glyph name="nine.tf" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" anchors="_digits, digits" sortName="arN0922" />
-
-  <glyph name="zero-ar.tf" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" anchors="_digits, digits" sortName="arN0923" />
-  <glyph name="one-ar.tf" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" anchors="_digits, digits" sortName="arN0924" />
-  <glyph name="two-ar.tf" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" anchors="_digits, digits" sortName="arN0925" />
-  <glyph name="three-ar.tf" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" anchors="_digits, digits" sortName="arN0926" />
-  <glyph name="four-ar.tf" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" anchors="_digits, digits" sortName="arN0927" />
-  <glyph name="five-ar.tf" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" anchors="_digits, digits" sortName="arN0928" />
-  <glyph name="six-ar.tf" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" anchors="_digits, digits" sortName="arN0929" />
-  <glyph name="seven-ar.tf" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" anchors="_digits, digits" sortName="arN0930" />
-  <glyph name="eight-ar.tf" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" anchors="_digits, digits" sortName="arN0931" />
-  <glyph name="nine-ar.tf" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" anchors="_digits, digits" sortName="arN0932" />
-
-  <glyph name="zeroFarsi-ar.tf" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" anchors="_digits, digits" sortName="arN0933" />
-  <glyph name="zeroFarsi-ar.locl.tf" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" anchors="_digits, digits" sortName="arN0933a" />
-  <glyph name="oneFarsi-ar.tf" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" anchors="_digits, digits" sortName="arN0934" />
-  <glyph name="twoFarsi-ar.tf" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" anchors="_digits, digits" sortName="arN0935" />
-  <glyph name="threeFarsi-ar.tf" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" anchors="_digits, digits" sortName="arN0936" />
-  <glyph name="fourFarsi-ar.tf" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" anchors="_digits, digits" sortName="arN0937" />
-  <glyph name="fourFarsi-ar.locl.tf" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" anchors="_digits, digits" sortName="arN0938" />
-  <glyph name="fiveFarsi-ar.tf" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" anchors="_digits, digits" sortName="arN0939" />
-  <glyph name="sixFarsi-ar.tf" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" anchors="_digits, digits" sortName="arN0940" />
-  <glyph name="sevenFarsi-ar.tf" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" anchors="_digits, digits" sortName="arN0941" />
-  <glyph name="sevenFarsi-ar.locl.tf" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" anchors="_digits, digits" sortName="arN0942" />
-  <glyph name="eightFarsi-ar.tf" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" anchors="_digits, digits" sortName="arN0943" />
-  <glyph name="nineFarsi-ar.tf" category="Number" subCategory="Decimal Digit" script="arabic" direction="LTR" anchors="_digits, digits" sortName="arN0944" />
+  <glyph name="zero-ar" unicode="0660" script="arabic" category="Number" subCategory="Decimal Digit" sortName="Nua0" />
+  <glyph name="zeroFarsi-ar" unicode="06F0" script="arabic" category="Number" subCategory="Decimal Digit" sortName="Nua0" />
+  <glyph name="one-ar" unicode="0661" script="arabic" category="Number" subCategory="Decimal Digit" sortName="Nua1" />
+  <glyph name="two-ar" unicode="0662" script="arabic" category="Number" subCategory="Decimal Digit" sortName="Nua2" />
+  <glyph name="twoFarsi-ar" unicode="06F2" script="arabic" category="Number" subCategory="Decimal Digit" sortName="Nua2" />
+  <glyph name="three-ar" unicode="0663" script="arabic" category="Number" subCategory="Decimal Digit" sortName="Nua3" />
+  <glyph name="four-ar" unicode="0664" script="arabic" category="Number" subCategory="Decimal Digit" sortName="Nua4" />
+  <glyph name="fourFarsi-ar" unicode="06F4" script="arabic" category="Number" subCategory="Decimal Digit" sortName="Nua4" />
+  <glyph name="five-ar" unicode="0665" script="arabic" category="Number" subCategory="Decimal Digit" sortName="Nua5" />
+  <glyph name="fiveFarsi-ar" unicode="06F5" script="arabic" category="Number" subCategory="Decimal Digit" sortName="Nua5" />
+  <glyph name="six-ar" unicode="0666" script="arabic" category="Number" subCategory="Decimal Digit" sortName="Nua6" />
+  <glyph name="sixFarsi-ar" unicode="06F6" script="arabic" category="Number" subCategory="Decimal Digit" sortName="Nua6" />
+  <glyph name="seven-ar" unicode="0667" script="arabic" category="Number" subCategory="Decimal Digit" sortName="Nua7" />
+  <glyph name="sevenFarsi-ar" unicode="06F7" script="arabic" category="Number" subCategory="Decimal Digit" sortName="Nua7" />
+  <glyph name="eight-ar" unicode="0668" script="arabic" category="Number" subCategory="Decimal Digit" sortName="Nua8" />
+  <glyph name="nine-ar" unicode="0669" script="arabic" category="Number" subCategory="Decimal Digit" sortName="Nua9" />
+  <glyph name="zeroFarsi-ar.locl" script="arabic" category="Number" subCategory="Decimal Digit" sortName="Nua01" />
+  <glyph name="fourFarsi-ar.locl" script="arabic" category="Number" subCategory="Decimal Digit" sortName="Nua41" />
+  <glyph name="sevenFarsi-ar.locl" script="arabic" category="Number" subCategory="Decimal Digit" sortName="Nua71" />
 
   <glyph name="period" unicode="002E" category="Punctuation" script="arabic" sortName="arP0945" />
   <glyph name="comma" unicode="002C" category="Punctuation" script="arabic" sortName="arP0946" />

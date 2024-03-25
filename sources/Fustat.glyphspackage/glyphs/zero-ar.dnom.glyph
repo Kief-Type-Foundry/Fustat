@@ -1,0 +1,51 @@
+{
+glyphname = "zero-ar.dnom";
+layers = (
+{
+layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(102,191,l),
+(175,118,l),
+(248,191,l),
+(175,265,l)
+);
+}
+);
+width = 350;
+},
+{
+layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(88,191,l),
+(175,104,l),
+(262,191,l),
+(175,279,l)
+);
+}
+);
+width = 350;
+},
+{
+layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(139,191,l),
+(175,155,l),
+(211,191,l),
+(175,227,l)
+);
+}
+);
+width = 350;
+}
+);
+metricWidth = "=zero.dnom";
+}
