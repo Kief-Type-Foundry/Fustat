@@ -1,6 +1,6 @@
 {
-color = 5;
-glyphname = guillemetright.case;
+color = 4;
+glyphname = guilsinglright.locl;
 kernLeft = dash;
 kernRight = dash;
 layers = (
@@ -8,36 +8,36 @@ layers = (
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 shapes = (
 {
-pos = (405,55);
-ref = guillemetleft;
+pos = (247,0);
+ref = guilsinglleft.locl;
 scale = (-1,1);
 }
 );
-width = 405;
+width = 247;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
 shapes = (
 {
-pos = (436,55);
-ref = guillemetleft;
+pos = (278,0);
+ref = guilsinglleft.locl;
 scale = (-1,1);
 }
 );
-width = 436;
+width = 278;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
 shapes = (
 {
-pos = (476,55);
-ref = guillemetleft;
+pos = (288,0);
+ref = guilsinglleft.locl;
 scale = (-1,1);
 }
 );
-width = 476;
+width = 288;
 }
 );
-metricLeft = guilsinglright;
-metricRight = guilsinglright;
+metricLeft = "=|guilsinglleft.locl";
+metricRight = "=|guilsinglleft.locl";
 }

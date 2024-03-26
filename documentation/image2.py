@@ -4,12 +4,12 @@
 # $ cd my-font
 # $ python3 documentation/image1.py --output documentation/image1.png
 
-# Import moduels from external python packages: https://pypi.org/
+# Import modules from external python packages: https://pypi.org/
 from drawbot_skia.drawbot import *
 from fontTools.ttLib import TTFont
 from fontTools.misc.fixedTools import floatToFixedToStr
 
-# Import moduels from the Python Standard Library: https://docs.python.org/3/library/
+# Import modules from the Python Standard Library: https://docs.python.org/3/library/
 import subprocess
 import sys
 import argparse
@@ -21,9 +21,9 @@ FONT_LICENSE = "OFL v1.1"
 AUXILIARY_FONT = "Helvetica"
 AUXILIARY_FONT_SIZE = 48
 
-LINE_1 = "ا‍ا‌ٮ‌ٮٮٮ‌ح‌حح‌س‌سس‌ص‌صص‌"
-LINE_2 = "ط‌طط‌ع‌ععع‌ڡ‌ڡڡ‌ك‌كك‌ل‌لل"
-LINE_3 = "م‌ممم‌ه‌ههه‌ٯ‌‍ٯ‌ں‌‍ں‌د‍د‌ر‍ر‌و‍و‌ى‌‍ى"
+LINE_1 = "’ا‍ا‌ٮ‌ٮٮٮ‌ح‌حح‌س‌سس‌ص‌صص‌‘"
+LINE_2 = "‹ط‌طط‌ع‌ععع‌ڡ‌ڡڡ‌ك‌كك‌ل‌لل›"
+LINE_3 = "«م‌ممم‌ه‌هه‌ٯ‌‍ٯ‌ں‌‍ں‌د‍د‌ر‍ر‌و‍و‌ى‌‍ى»"
 LINE_4 = "◌ّ◌ْ◌ٌ◌ُ◌ِ◌َ٠١٢٣٤٥٦٧٨٩٪،؛؟"
 LINE_5 = "‘ABCDEFGHIJKLMNOPQ’"
 LINE_6 = "“RSTUVWXYZ123456789”"
