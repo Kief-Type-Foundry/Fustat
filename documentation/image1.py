@@ -23,8 +23,6 @@ AUXILIARY_FONT_SIZE = 48
 
 BIG_TEXT = "أبجد هوز"
 BIG_TEXT_FONT_SIZE = 500
-BIG_TEXT_SIDE_MARGIN = MARGIN * 2.2
-BIG_TEXT_BOTTOM_MARGIN = MARGIN * 2.7
 
 GRID_VIEW = False  # Toggle this for a grid overlay
 
@@ -90,11 +88,9 @@ def draw_main_text():
     stroke(None)
     font(FONT_PATH)
     fontSize(BIG_TEXT_FONT_SIZE)
-    # Adjust this line to center main text manually.
-    # TODO: This should be done automatically when drawbot-skia
-    # has support for textBox() and FormattedString
-    # text(BIG_TEXT, ((WIDTH / 2) - MARGIN * 4.75, (HEIGHT / 2) - MARGIN * 2.5))
-    text(BIG_TEXT, (WIDTH - BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN))
+    _, h = textSize(BIG_TEXT)
+    y = HEIGHT - MARGIN - (h * 0.78)
+    text(BIG_TEXT, (WIDTH / 2, y), "center")
 
 
 # Divider lines
