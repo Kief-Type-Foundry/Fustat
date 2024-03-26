@@ -1,5 +1,4 @@
 {
-color = 5;
 glyphname = divide;
 kernLeft = plus;
 kernRight = plus;

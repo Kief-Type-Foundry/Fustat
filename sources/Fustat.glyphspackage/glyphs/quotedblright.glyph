@@ -1,5 +1,4 @@
 {
-color = 5;
 glyphname = quotedblright;
 kernLeft = quote;
 kernRight = quote;

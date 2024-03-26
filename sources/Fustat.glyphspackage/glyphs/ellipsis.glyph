@@ -1,5 +1,4 @@
 {
-color = 5;
 glyphname = ellipsis;
 kernLeft = comma;
 kernRight = comma;

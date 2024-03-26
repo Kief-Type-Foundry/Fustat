@@ -1,5 +1,5 @@
 {
-color = 5;
+color = 4;
 glyphname = abreve.ss04;
 kernLeft = o;
 kernRight = u;

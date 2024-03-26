@@ -1,5 +1,5 @@
 {
-color = 5;
+color = 4;
 glyphname = six.ss05;
 kernLeft = sixgeom;
 kernRight = sixgeom;

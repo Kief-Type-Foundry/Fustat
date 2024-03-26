@@ -1,5 +1,5 @@
 {
-color = 5;
+color = 4;
 glyphname = ydieresis.ss04;
 kernLeft = u;
 kernRight = q;

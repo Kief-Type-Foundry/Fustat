@@ -1,5 +1,4 @@
 {
-color = 5;
 glyphname = bullet;
 kernLeft = dash;
 kernRight = dash;

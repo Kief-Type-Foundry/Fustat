@@ -1,5 +1,4 @@
 {
-color = 5;
 glyphname = seveneighths;
 kernLeft = zero.numr;
 kernRight = zero.dnom;

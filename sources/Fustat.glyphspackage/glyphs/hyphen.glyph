@@ -1,5 +1,4 @@
 {
-color = 5;
 glyphname = hyphen;
 kernLeft = dash;
 kernRight = dash;

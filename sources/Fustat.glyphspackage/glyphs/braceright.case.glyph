@@ -1,5 +1,4 @@
 {
-color = 5;
 glyphname = braceright.case;
 kernLeft = parenright;
 kernRight = H;

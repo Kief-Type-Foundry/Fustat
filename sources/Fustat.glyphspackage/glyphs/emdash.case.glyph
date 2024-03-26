@@ -1,5 +1,4 @@
 {
-color = 5;
 glyphname = emdash.case;
 kernLeft = dash;
 kernRight = dash;

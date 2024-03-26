@@ -1,5 +1,4 @@
 {
-color = 5;
 glyphname = exclamdown.case;
 kernLeft = exclamcase;
 kernRight = exclamcase;

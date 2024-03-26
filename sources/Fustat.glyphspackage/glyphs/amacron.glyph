@@ -1,5 +1,4 @@
 {
-color = 5;
 glyphname = amacron;
 kernLeft = a;
 kernRight = n;

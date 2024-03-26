@@ -1,5 +1,4 @@
 {
-color = 5;
 glyphname = period.tf;
 kernLeft = comma;
 kernRight = comma;

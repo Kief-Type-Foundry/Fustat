@@ -1,5 +1,4 @@
 {
-color = 5;
 glyphname = omacron;
 kernLeft = o;
 kernRight = o;
