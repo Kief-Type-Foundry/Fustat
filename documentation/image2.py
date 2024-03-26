@@ -101,6 +101,7 @@ def draw_main_text():
     # TODO: This should be done automatically when drawbot-skia
     # has support for textBox() and FormattedString
     LEADING = 1.55
+    openTypeFeatures(kern=False)
     text(LINE_1, (WIDTH - BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN))
     text(
         LINE_2,
