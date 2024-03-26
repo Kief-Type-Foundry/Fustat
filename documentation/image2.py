@@ -15,7 +15,7 @@ import sys
 import argparse
 
 # Constants, these are the main "settings" for the image
-WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 2048, 128, 1
+WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 2208, 128, 1
 FONT_PATH = "fonts/variable/Fustat[wght].ttf"
 FONT_LICENSE = "OFL v1.1"
 AUXILIARY_FONT = "Helvetica"
@@ -30,8 +30,6 @@ LINE_6 = "“RSTUVWXYZ123456789”"
 LINE_7 = "«abcdefghijklmnopqrstu»"
 LINE_8 = "vwxyz,.;:!?@#$%^&*(){}[]"
 BIG_TEXT_FONT_SIZE = 160
-BIG_TEXT_SIDE_MARGIN = MARGIN * 1
-BIG_TEXT_BOTTOM_MARGIN = MARGIN * 13
 
 GRID_VIEW = False  # Toggle this for a grid overlay
 
@@ -97,46 +95,14 @@ def draw_main_text():
     stroke(None)
     font(FONT_PATH)
     fontSize(BIG_TEXT_FONT_SIZE)
-    # Adjust this line to center main text manually.
-    # TODO: This should be done automatically when drawbot-skia
-    # has support for textBox() and FormattedString
-    LEADING = 1.55
     openTypeFeatures(kern=False)
-    text(LINE_1, (WIDTH - BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN))
-    text(
-        LINE_2,
-        (WIDTH - BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - (MARGIN * LEADING)),
-    )
-    text(
-        LINE_3,
-        (
-            WIDTH - BIG_TEXT_SIDE_MARGIN,
-            BIG_TEXT_BOTTOM_MARGIN - (MARGIN * (LEADING * 2)),
-        ),
-    )
-    text(
-        LINE_4,
-        (
-            WIDTH - BIG_TEXT_SIDE_MARGIN,
-            BIG_TEXT_BOTTOM_MARGIN - (MARGIN * (LEADING * 3)),
-        ),
-    )
-    text(
-        LINE_5,
-        (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - (MARGIN * (LEADING * 4))),
-    )
-    text(
-        LINE_6,
-        (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - (MARGIN * (LEADING * 5))),
-    )
-    text(
-        LINE_7,
-        (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - (MARGIN * (LEADING * 6))),
-    )
-    text(
-        LINE_8,
-        (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - (MARGIN * (LEADING * 7))),
-    )
+
+    y = HEIGHT - MARGIN
+    for line in [LINE_1, LINE_2, LINE_3, LINE_4, LINE_5, LINE_6, LINE_7, LINE_8]:
+        _, h = textSize(line)
+        y -= h
+
+        text(line, (WIDTH / 2, y), "center")
 
 
 # Divider lines
