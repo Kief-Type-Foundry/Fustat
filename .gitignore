@@ -4,6 +4,7 @@ venv-test
 build.stamp
 proof
 fonts
+out
 node_modules
 package-lock.json
 package.json
@@ -19,6 +20,8 @@ instance_ufo
 .Trashes
 ehthumbs.db
 Thumbs.db
+.ninja_log
+build.ninja
 
 # Autosaved by application when editing
 ######################
