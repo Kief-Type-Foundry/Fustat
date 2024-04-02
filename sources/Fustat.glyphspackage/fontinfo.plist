@@ -1,5 +1,5 @@
 {
-.appVersion = "3249";
+.appVersion = "3251";
 .formatVersion = 3;
 axes = (
 {
@@ -312,11 +312,13 @@ lookup ccmp_Other_2 {
 	lookupflag 0;
 	@Markscomb = [dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb caroncomb.alt circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb cedillacomb strokeshortcomb];
 	@MarkscombCase = [dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case caroncomb.alt.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case macroncomb.case cedillacomb.case strokeshortcomb.case];
+	sub @Markscomb @Markscomb' by @MarkscombCase;
 	sub @Uppercase @Markscomb' by @MarkscombCase;
 } ccmp_Other_2;
 
 lookup ccmp_Other_3 {
 	lookupflag 0;
+	sub @Markscomb' @MarkscombCase by @MarkscombCase;
 	sub @MarkscombCase @Markscomb' by @MarkscombCase;
 } ccmp_Other_3;
 
@@ -960,11 +962,11 @@ code = "lookup FRAC {
 	sub slash by fraction;
 } FRAC;
 lookup UP {
-	sub [zero one two three four five six seven eight nine] by [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];
+	sub [zero-ar zeroFarsi-ar zeroFarsi-ar.locl one-ar two-ar twoFarsi-ar three-ar four-ar fourFarsi-ar fourFarsi-ar.locl five-ar fiveFarsi-ar six-ar sixFarsi-ar seven-ar sevenFarsi-ar sevenFarsi-ar.locl eight-ar nine-ar zero one two three four five six seven eight nine] by [zero-ar.numr zeroFarsi-ar.numr zeroFarsi-ar.locl.numr one-ar.numr two-ar.numr twoFarsi-ar.numr three-ar.numr four-ar.numr fourFarsi-ar.numr fourFarsi-ar.locl.numr five-ar.numr fiveFarsi-ar.numr six-ar.numr sixFarsi-ar.numr seven-ar.numr sevenFarsi-ar.numr sevenFarsi-ar.locl.numr eight-ar.numr nine-ar.numr zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];
 } UP;
 lookup DOWN {
-	sub fraction [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
-	sub [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom] [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+	sub fraction [zero-ar.numr zeroFarsi-ar.numr zeroFarsi-ar.locl.numr one-ar.numr two-ar.numr twoFarsi-ar.numr three-ar.numr four-ar.numr fourFarsi-ar.numr fourFarsi-ar.locl.numr five-ar.numr fiveFarsi-ar.numr six-ar.numr sixFarsi-ar.numr seven-ar.numr sevenFarsi-ar.numr sevenFarsi-ar.locl.numr eight-ar.numr nine-ar.numr zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero-ar.dnom zeroFarsi-ar.dnom zeroFarsi-ar.locl.dnom one-ar.dnom two-ar.dnom twoFarsi-ar.dnom three-ar.dnom four-ar.dnom fourFarsi-ar.dnom fourFarsi-ar.locl.dnom five-ar.dnom fiveFarsi-ar.dnom six-ar.dnom sixFarsi-ar.dnom seven-ar.dnom sevenFarsi-ar.dnom sevenFarsi-ar.locl.dnom eight-ar.dnom nine-ar.dnom zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+	sub [zero-ar.dnom zeroFarsi-ar.dnom zeroFarsi-ar.locl.dnom one-ar.dnom two-ar.dnom twoFarsi-ar.dnom three-ar.dnom four-ar.dnom fourFarsi-ar.dnom fourFarsi-ar.locl.dnom five-ar.dnom fiveFarsi-ar.dnom six-ar.dnom sixFarsi-ar.dnom seven-ar.dnom sevenFarsi-ar.dnom sevenFarsi-ar.locl.dnom eight-ar.dnom nine-ar.dnom zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom] [zero-ar.numr zeroFarsi-ar.numr zeroFarsi-ar.locl.numr one-ar.numr two-ar.numr twoFarsi-ar.numr three-ar.numr four-ar.numr fourFarsi-ar.numr fourFarsi-ar.locl.numr five-ar.numr fiveFarsi-ar.numr six-ar.numr sixFarsi-ar.numr seven-ar.numr sevenFarsi-ar.numr sevenFarsi-ar.locl.numr eight-ar.numr nine-ar.numr zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero-ar.dnom zeroFarsi-ar.dnom zeroFarsi-ar.locl.dnom one-ar.dnom two-ar.dnom twoFarsi-ar.dnom three-ar.dnom four-ar.dnom fourFarsi-ar.dnom fourFarsi-ar.locl.dnom five-ar.dnom fiveFarsi-ar.dnom six-ar.dnom sixFarsi-ar.dnom seven-ar.dnom sevenFarsi-ar.dnom sevenFarsi-ar.locl.dnom eight-ar.dnom nine-ar.dnom zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
 } DOWN;
 ";
 tag = frac;
