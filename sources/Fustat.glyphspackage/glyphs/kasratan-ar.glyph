@@ -5,11 +5,11 @@ layers = (
 anchors = (
 {
 name = _bottom;
-pos = (101,42);
+pos = (113,42);
 },
 {
 name = bottom;
-pos = (101,-156);
+pos = (113,-156);
 }
 );
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -19,17 +19,17 @@ pos = (0,-534);
 ref = "fathatan-ar";
 }
 );
-width = 201;
+width = 225;
 },
 {
 anchors = (
 {
 name = _bottom;
-pos = (101,60);
+pos = (116,60);
 },
 {
 name = bottom;
-pos = (101,-156);
+pos = (116,-156);
 }
 );
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -39,17 +39,17 @@ pos = (0,-534);
 ref = "fathatan-ar";
 }
 );
-width = 201;
+width = 231;
 },
 {
 anchors = (
 {
 name = _bottom;
-pos = (101,-7);
+pos = (93,-7);
 },
 {
 name = bottom;
-pos = (101,-156);
+pos = (93,-156);
 }
 );
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
@@ -59,7 +59,7 @@ pos = (0,-534);
 ref = "fathatan-ar";
 }
 );
-width = 201;
+width = 185;
 }
 );
 metricLeft = "=0";
