@@ -97,11 +97,11 @@ diffenator2==0.3.8
     # via gftools
 docopt==0.6.2
     # via num2words
-filelock==3.13.4
+filelock==3.14.0
     # via youseedee
 font-v==2.1.0
     # via gftools
-fontbakery[beautifulsoup4,googlefonts,googlefontsalwayslatest,shaperglot,shaping,ufo,ufo2ft]==0.12.3
+fontbakery[beautifulsoup4,googlefonts,googlefontsalwayslatest,shaperglot,shaping,ufo,ufo2ft]==0.12.4
     # via
     #   -r requirements-test.in
     #   gftools
@@ -183,12 +183,12 @@ gitdb==4.0.11
     # via gitpython
 gitpython==3.1.43
     # via font-v
-glyphsets==0.6.19
+glyphsets==0.6.20
     # via
     #   diffenator2
     #   fontbakery
     #   gftools
-glyphslib==6.7.0
+glyphslib==6.7.1
     # via
     #   babelfont
     #   bumpfontversion
@@ -255,7 +255,7 @@ opentype-sanitizer==9.1.0
     #   gftools
 opentypespec==1.9.1
     # via fontbakery
-orjson==3.10.1
+orjson==3.10.2
     # via
     #   babelfont
     #   ufolib2
@@ -321,7 +321,7 @@ pyyaml==6.0.1
     #   glyphsets
     #   hyperglot
     #   shaperglot
-regex==2024.4.16
+regex==2024.4.28
     # via nanoemoji
 requests==2.31.0
     # via
@@ -338,7 +338,7 @@ rich==13.7.1
     #   gftools
 rstr==3.2.2
     # via stringbrewer
-selenium==4.19.0
+selenium==4.20.0
     # via diffenator2
 shaperglot==0.5.0
     # via fontbakery
@@ -352,7 +352,7 @@ skia-pathops==0.8.0.post1
     #   collidoscope
     #   gftools
     #   picosvg
-skia-python==121.0b6
+skia-python==124.0b7
     # via blackrenderer
 smmap==5.0.1
     # via gitdb
