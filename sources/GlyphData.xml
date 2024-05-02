@@ -827,6 +827,8 @@
   <glyph name="lam_alef-ar.fina" production="uni06440627.fina" category="Letter" subCategory="Ligature" script="arabic" direction="RTL" anchors="top_1, top_2, bottom_1, bottom_2" sortName="arL0055_arL0005" sortNameKeep="arL0055_arL0005" accents="alefabove-ar, alefbelow-ar, damma-ar, dammatan-ar, dotbelow-ar, fatha-ar, fathatan-ar, hamzaabove-ar, hamzabelow-ar, hamzafloating-ar, kasra-ar, kasratan-ar, madda-ar, shadda-ar, sukun-ar, twodotshorizontalbelow-ar" />
   <glyph name="lam_hah-ar" category="Letter" subCategory="Ligature" script="arabic" direction="RTL" anchors="top_1, top_2, bottom_1, bottom_2" sortName="arL0056_arL0015" sortNameKeep="arL0056_arL0015" accents="alefabove-ar, alefbelow-ar, damma-ar, dammatan-ar, dotbelow-ar, fatha-ar, fathatan-ar, hamzaabove-ar, hamzabelow-ar, kasra-ar, kasratan-ar, madda-ar, shadda-ar, sukun-ar, twodotshorizontalbelow-ar" />
   <glyph name="lam_hah-ar.init" category="Letter" subCategory="Ligature" script="arabic" direction="RTL" anchors="top_1, top_2, bottom_1, bottom_2" sortName="arL0056_arL0016" sortNameKeep="arL0056_arL0016" accents="alefabove-ar, alefbelow-ar, damma-ar, dammatan-ar, dotbelow-ar, fatha-ar, fathatan-ar, hamzaabove-ar, hamzabelow-ar, kasra-ar, kasratan-ar, madda-ar, shadda-ar, sukun-ar, twodotshorizontalbelow-ar" />
+  <glyph name="lam_lam_shadda_alefabove_heh-ar" category="Letter" subCategory="Ligature" script="arabic" sortName="arL1031" />
+
 
   <glyph name="zero.zero" category="Number" subCategory="Decimal Digit" sortName="Nu01" />
   <glyph name="six.ss05" category="Number" subCategory="Decimal Digit" sortName="Nu61" />
@@ -949,7 +951,6 @@
   <glyph name="dottedCircle" unicode="25CC" category="Symbol" script="arabic" sortName="arS1029" production="uni25CC" />
 
   <glyph name="allah-ar" unicode="FDF2" category="Symbol" script="arabic" sortName="arS1030" production="uniFDF2" />
-  <glyph name="lellah-ar" category="Symbol" script="arabic" sortName="arS1031" />
   <glyph name="mohammad-ar" unicode="FDF4" category="Symbol" script="arabic" sortName="arS1032" production="uniFDF4" />
   <glyph name="sallaallah-ar" unicode="FDFA" category="Symbol" script="arabic" sortName="arS1033" production="uniFDFA" />
   <glyph name="jallajalalouhou-ar" unicode="FDFB" category="Symbol" script="arabic" sortName="arS1034" production="uniFDFB" />

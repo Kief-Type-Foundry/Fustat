@@ -1,5 +1,5 @@
 {
-.appVersion = "3301";
+.appVersion = "3303";
 .formatVersion = 3;
 axes = (
 {
@@ -780,8 +780,7 @@ code = "lookup hah {
 
 lookup allah {
   lookupflag 0;
-    sub alef-ar lam-ar.init lam-ar.medi shadda-ar alefabove-ar [heh-ar.fina hehgoal-ar.fina] by allah-ar;
-    sub lam-ar.init lam-ar.medi shadda-ar alefabove-ar [heh-ar.fina hehgoal-ar.fina] by lellah-ar;
+    sub lam-ar.init lam-ar.medi shadda-ar alefabove-ar [heh-ar.fina hehgoal-ar.fina] by lam_lam_shadda_alefabove_heh-ar;
 } allah;
 ";
 tag = liga;

@@ -2,20 +2,6 @@
 glyphname = "allah-ar";
 layers = (
 {
-anchors = (
-{
-name = caret_1;
-pos = (867,0);
-},
-{
-name = caret_2;
-pos = (667,0);
-},
-{
-name = caret_3;
-pos = (470,0);
-}
-);
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 shapes = (
 {
@@ -25,26 +11,12 @@ ref = "alef-ar";
 },
 {
 alignment = -1;
-ref = "lellah-ar";
+ref = "lam_lam_shadda_alefabove_heh-ar";
 }
 );
 width = 1070;
 },
 {
-anchors = (
-{
-name = caret_1;
-pos = (967,0);
-},
-{
-name = caret_2;
-pos = (745,0);
-},
-{
-name = caret_3;
-pos = (495,0);
-}
-);
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
 shapes = (
 {
@@ -54,26 +26,12 @@ ref = "alef-ar";
 },
 {
 alignment = -1;
-ref = "lellah-ar";
+ref = "lam_lam_shadda_alefabove_heh-ar";
 }
 );
 width = 1200;
 },
 {
-anchors = (
-{
-name = caret_1;
-pos = (1106,0);
-},
-{
-name = caret_2;
-pos = (826,0);
-},
-{
-name = caret_3;
-pos = (536,0);
-}
-);
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
 shapes = (
 {
@@ -83,7 +41,7 @@ ref = "alef-ar";
 },
 {
 alignment = -1;
-ref = "lellah-ar";
+ref = "lam_lam_shadda_alefabove_heh-ar";
 }
 );
 width = 1371;
