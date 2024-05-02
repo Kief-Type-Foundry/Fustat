@@ -1,4 +1,6 @@
 familyName: Fustat
 sources:
   - Fustat.glyphspackage
+glyphData:
+  - GlyphData.xml
 buildStatic: false
