@@ -14,11 +14,11 @@ nodes = (
 );
 },
 {
-pos = (625,0);
-ref = _connection.r;
+ref = "seen-ar.init";
 },
 {
-ref = "seen-ar.init";
+pos = (625,0);
+ref = _connection.r;
 }
 );
 width = 675;
@@ -163,11 +163,11 @@ nodes = (
 );
 },
 {
-pos = (725,0);
-ref = _connection.r;
+ref = "seen-ar.init";
 },
 {
-ref = "seen-ar.init";
+pos = (725,0);
+ref = _connection.r;
 }
 );
 width = 775;
@@ -185,11 +185,11 @@ nodes = (
 );
 },
 {
-pos = (480,0);
-ref = _connection.r;
+ref = "seen-ar.init";
 },
 {
-ref = "seen-ar.init";
+pos = (480,0);
+ref = _connection.r;
 }
 );
 width = 530;

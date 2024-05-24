@@ -26,6 +26,9 @@ nodes = (
 );
 },
 {
+ref = "heh-ar.fina";
+},
+{
 closed = 1;
 nodes = (
 (763,0,l),
@@ -44,9 +47,6 @@ nodes = (
 (556,537,l),
 (556,0,l)
 );
-},
-{
-ref = "heh-ar.fina";
 },
 {
 pos = (474,202);
@@ -84,6 +84,9 @@ nodes = (
 );
 },
 {
+ref = "heh-ar.fina";
+},
+{
 closed = 1;
 nodes = (
 (859,0,l),
@@ -102,9 +105,6 @@ nodes = (
 (581,540,l),
 (581,0,l)
 );
-},
-{
-ref = "heh-ar.fina";
 },
 {
 pos = (503,202);
@@ -142,6 +142,9 @@ nodes = (
 );
 },
 {
+ref = "heh-ar.fina";
+},
+{
 closed = 1;
 nodes = (
 (1004,0,l),
@@ -160,9 +163,6 @@ nodes = (
 (622,542,l),
 (622,0,l)
 );
-},
-{
-ref = "heh-ar.fina";
 },
 {
 pos = (563,212);

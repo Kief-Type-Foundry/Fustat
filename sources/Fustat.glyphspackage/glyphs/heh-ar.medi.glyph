@@ -14,11 +14,11 @@ nodes = (
 );
 },
 {
-pos = (471,0);
-ref = _connection.r;
+ref = "heh-ar.init";
 },
 {
-ref = "heh-ar.init";
+pos = (471,0);
+ref = _connection.r;
 }
 );
 width = 521;
@@ -765,11 +765,11 @@ nodes = (
 );
 },
 {
-pos = (485,0);
-ref = _connection.r;
+ref = "heh-ar.init";
 },
 {
-ref = "heh-ar.init";
+pos = (485,0);
+ref = _connection.r;
 }
 );
 width = 535;
@@ -787,11 +787,11 @@ nodes = (
 );
 },
 {
-pos = (471,0);
-ref = _connection.r;
+ref = "heh-ar.init";
 },
 {
-ref = "heh-ar.init";
+pos = (471,0);
+ref = _connection.r;
 }
 );
 width = 521;

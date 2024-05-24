@@ -31,6 +31,10 @@ nodes = (
 );
 },
 {
+pos = (590,0);
+ref = "behDotless-ar.init";
+},
+{
 closed = 1;
 nodes = (
 (751,305,l),
@@ -39,10 +43,6 @@ nodes = (
 (676,746,l),
 (676,305,l)
 );
-},
-{
-pos = (590,0);
-ref = "behDotless-ar.init";
 }
 );
 width = 821;
@@ -77,6 +77,10 @@ nodes = (
 );
 },
 {
+pos = (568,0);
+ref = "behDotless-ar.init";
+},
+{
 closed = 1;
 nodes = (
 (789,292,l),
@@ -85,10 +89,6 @@ nodes = (
 (654,745,l),
 (654,292,l)
 );
-},
-{
-pos = (568,0);
-ref = "behDotless-ar.init";
 }
 );
 width = 854;
@@ -123,6 +123,10 @@ nodes = (
 );
 },
 {
+pos = (640,0);
+ref = "behDotless-ar.init";
+},
+{
 closed = 1;
 nodes = (
 (756,321,l),
@@ -131,10 +135,6 @@ nodes = (
 (726,747,l),
 (726,321,l)
 );
-},
-{
-pos = (640,0);
-ref = "behDotless-ar.init";
 }
 );
 width = 831;
