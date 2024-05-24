@@ -59,11 +59,11 @@ nodes = (
 );
 },
 {
-pos = (474,0);
-ref = _connection.r;
+ref = _connection.l;
 },
 {
-ref = _connection.l;
+pos = (474,0);
+ref = _connection.r;
 }
 );
 width = 524;
@@ -931,11 +931,11 @@ nodes = (
 );
 },
 {
-pos = (472,0);
-ref = _connection.r;
+ref = _connection.l;
 },
 {
-ref = _connection.l;
+pos = (472,0);
+ref = _connection.r;
 }
 );
 width = 522;
@@ -998,11 +998,11 @@ nodes = (
 );
 },
 {
-pos = (474,0);
-ref = _connection.r;
+ref = _connection.l;
 },
 {
-ref = _connection.l;
+pos = (474,0);
+ref = _connection.r;
 }
 );
 width = 524;

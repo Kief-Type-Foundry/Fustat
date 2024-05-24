@@ -14,11 +14,11 @@ nodes = (
 );
 },
 {
-pos = (992,0);
-ref = _connection.r;
+ref = "seen-ar";
 },
 {
-ref = "seen-ar";
+pos = (992,0);
+ref = _connection.r;
 }
 );
 width = 1042;
@@ -526,11 +526,11 @@ nodes = (
 );
 },
 {
-pos = (1039,0);
-ref = _connection.r;
+ref = "seen-ar";
 },
 {
-ref = "seen-ar";
+pos = (1039,0);
+ref = _connection.r;
 }
 );
 width = 1089;
@@ -548,11 +548,11 @@ nodes = (
 );
 },
 {
-pos = (834,0);
-ref = _connection.r;
+ref = "seen-ar";
 },
 {
-ref = "seen-ar";
+pos = (834,0);
+ref = _connection.r;
 }
 );
 width = 884;

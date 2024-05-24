@@ -14,11 +14,11 @@ nodes = (
 );
 },
 {
-pos = (-34,0);
-ref = "tah-ar";
+ref = _connection.l;
 },
 {
-ref = _connection.l;
+pos = (-34,0);
+ref = "tah-ar";
 }
 );
 width = 838;
@@ -36,11 +36,11 @@ nodes = (
 );
 },
 {
-pos = (-41,0);
-ref = "tah-ar";
+ref = _connection.l;
 },
 {
-ref = _connection.l;
+pos = (-41,0);
+ref = "tah-ar";
 }
 );
 width = 965;
@@ -58,11 +58,11 @@ nodes = (
 );
 },
 {
-pos = (-17,0);
-ref = "tah-ar";
+ref = _connection.l;
 },
 {
-ref = _connection.l;
+pos = (-17,0);
+ref = "tah-ar";
 }
 );
 width = 793;

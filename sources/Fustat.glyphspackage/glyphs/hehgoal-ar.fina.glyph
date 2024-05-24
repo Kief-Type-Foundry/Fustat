@@ -24,6 +24,10 @@ nodes = (
 );
 },
 {
+pos = (449,0);
+ref = _connection.r;
+},
+{
 closed = 1;
 nodes = (
 (499,75,l),
@@ -35,10 +39,6 @@ nodes = (
 (425,0,o),
 (499,0,c)
 );
-},
-{
-pos = (449,0);
-ref = _connection.r;
 }
 );
 width = 499;
@@ -212,6 +212,10 @@ nodes = (
 );
 },
 {
+pos = (497,0);
+ref = _connection.r;
+},
+{
 closed = 1;
 nodes = (
 (547,119,l),
@@ -223,10 +227,6 @@ nodes = (
 (410,0,o),
 (547,0,c)
 );
-},
-{
-pos = (497,0);
-ref = _connection.r;
 }
 );
 width = 547;
@@ -254,6 +254,10 @@ nodes = (
 );
 },
 {
+pos = (426,0);
+ref = _connection.r;
+},
+{
 closed = 1;
 nodes = (
 (476,30,l),
@@ -265,10 +269,6 @@ nodes = (
 (360,0,o),
 (476,0,c)
 );
-},
-{
-pos = (426,0);
-ref = _connection.r;
 }
 );
 width = 476;

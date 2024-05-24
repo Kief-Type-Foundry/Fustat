@@ -14,11 +14,11 @@ nodes = (
 );
 },
 {
-pos = (882,0);
-ref = _connection.r;
+ref = "behDotless-ar";
 },
 {
-ref = "behDotless-ar";
+pos = (882,0);
+ref = _connection.r;
 }
 );
 width = 932;
@@ -350,11 +350,11 @@ nodes = (
 );
 },
 {
-pos = (907,0);
-ref = _connection.r;
+ref = "behDotless-ar";
 },
 {
-ref = "behDotless-ar";
+pos = (907,0);
+ref = _connection.r;
 }
 );
 width = 957;
@@ -607,11 +607,11 @@ nodes = (
 );
 },
 {
-pos = (842,0);
-ref = _connection.r;
+ref = "behDotless-ar";
 },
 {
-ref = "behDotless-ar";
+pos = (842,0);
+ref = _connection.r;
 }
 );
 width = 892;

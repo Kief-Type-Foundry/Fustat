@@ -85,11 +85,11 @@ nodes = (
 );
 },
 {
-pos = (608,0);
-ref = _connection.r;
+ref = "lam_alef-ar";
 },
 {
-ref = "lam_alef-ar";
+pos = (608,0);
+ref = _connection.r;
 }
 );
 width = 658;
@@ -107,12 +107,12 @@ nodes = (
 );
 },
 {
+ref = "lam_alef-ar";
+},
+{
 alignment = -1;
 pos = (553,0);
 ref = _connection.r;
-},
-{
-ref = "lam_alef-ar";
 }
 );
 width = 603;
@@ -233,12 +233,12 @@ nodes = (
 );
 },
 {
+ref = "lam_alef-ar";
+},
+{
 alignment = -1;
 pos = (552,0);
 ref = _connection.r;
-},
-{
-ref = "lam_alef-ar";
 }
 );
 width = 602;

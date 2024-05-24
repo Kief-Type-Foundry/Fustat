@@ -46,6 +46,9 @@ nodes = (
 );
 },
 {
+ref = _connection.l;
+},
+{
 closed = 1;
 nodes = (
 (169,0,l),
@@ -81,9 +84,6 @@ nodes = (
 (357,75,l),
 (357,0,l)
 );
-},
-{
-ref = _connection.l;
 },
 {
 pos = (476,0);
@@ -137,6 +137,9 @@ nodes = (
 );
 },
 {
+ref = _connection.l;
+},
+{
 closed = 1;
 nodes = (
 (196,0,l),
@@ -172,9 +175,6 @@ nodes = (
 (413,119,l),
 (412,0,l)
 );
-},
-{
-ref = _connection.l;
 },
 {
 pos = (544,0);
@@ -228,6 +228,9 @@ nodes = (
 );
 },
 {
+ref = _connection.l;
+},
+{
 closed = 1;
 nodes = (
 (139,0,l),
@@ -263,9 +266,6 @@ nodes = (
 (383,30,l),
 (383,0,l)
 );
-},
-{
-ref = _connection.l;
 },
 {
 pos = (476,0);

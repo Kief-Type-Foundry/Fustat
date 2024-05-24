@@ -14,11 +14,11 @@ nodes = (
 );
 },
 {
-ref = "lam-ar.init";
-},
-{
 pos = (197,0);
 ref = _connection.r;
+},
+{
+ref = "lam-ar.init";
 }
 );
 width = 247;
@@ -36,11 +36,11 @@ nodes = (
 );
 },
 {
-ref = "lam-ar.init";
-},
-{
 pos = (257,0);
 ref = _connection.r;
+},
+{
+ref = "lam-ar.init";
 }
 );
 width = 307;
@@ -58,11 +58,11 @@ nodes = (
 );
 },
 {
-ref = "lam-ar.init";
-},
-{
 pos = (152,0);
 ref = _connection.r;
+},
+{
+ref = "lam-ar.init";
 }
 );
 width = 202;
