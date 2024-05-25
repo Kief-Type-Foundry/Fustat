@@ -11,8 +11,13 @@
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkief-type-foundry%2FFustat%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkief-type-foundry%2FFustat%2Fgh-pages%2Fbadges%2FUniversal.json
 
+Fustat Arabic designed by [Mohamed](https://gaber.design/) [Gaber](https://www.instagram.com/gue3bara/) and engineered by [Khaled Hosny](https://aliftype.com/), draws its inspiration from the traditional manuscript Kufi style. The typeface uniquely balances modernization with the authentic elements of Arabic script. It offers comprehensive support for all languages under the Arabic script umbrella, including all Quranic ligatures and complete Arabic script Unicode support. Additionally, Fustat includes seven distinct weights: ExtraLight, Light, Regular, Medium, SemiBold, Bold, and ExtraBold, and features a variable font, providing dynamic flexibility for various design applications.
 
-Fustat is a modern typeface inspired by manuscript Kufic style of Arabic.
+Fustat Latin designed by [Laura Garcia Mut](https://hardtype.xyz/), was developed to match the Arabic script, implementing features and subtle details from the Arabic strokes and flows. With a mix of simple grotesque structure and other geometric forms, it is a very low-contrast sans serif family with a neutral and kind texture. With a high x-height, it works in many sizes and purposes, allowing compact consistency. It supports a Latin Extended glyph set, and includes many OpenType features and Stylistic Sets with alternate geometric forms and tailed ends, looking for a more connected feeling.
+
+Fustat is optimized for web usage, offering an authentic yet contemporary presence online. It is ideal for titles due to its distinct style, yet it also performs well in body text, ensuring readability. This makes it perfect for creating a strong, authentic brand identity with a modern twist. The typeface supports both Arabic and Latin scripts, making it versatile for bilingual design projects. Its extensive character set and the manuscript-inspired modern approach to Kufi style ensure that it meets diverse design needs.
+
+Published under the Open Font License (OFL), Fustat promotes free and open use while ensuring quality and consistency. Embrace the rich heritage of the Kufi manuscript style with the modern versatility of Fustat, the go-to typeface for authentic and contemporary Arabic design.
 
 ![Sample Image](documentation/image1.png)
 ![Sample Image](documentation/image2.png)
