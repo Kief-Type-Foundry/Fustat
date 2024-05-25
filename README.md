@@ -1,15 +1,7 @@
 # Fustat
 
-[![][Fontbakery]](https://kief-type-foundry.github.io/Fustat/fontbakery/fontbakery-report.html)
-[![][Universal]](https://kief-type-foundry.github.io/Fustat/fontbakery/fontbakery-report.html)
-[![][GF Profile]](https://kief-type-foundry.github.io/Fustat/fontbakery/fontbakery-report.html)
-[![][Shaping]](https://kief-type-foundry.github.io/Fustat/fontbakery/fontbakery-report.html)
-
-[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkief-type-foundry%2FFustat%2Fgh-pages%2Fbadges%2Foverall.json
-[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkief-type-foundry%2FFustat%2Fgh-pages%2Fbadges%2FGoogleFonts.json
-[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkief-type-foundry%2FFustat%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
-[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkief-type-foundry%2FFustat%2Fgh-pages%2Fbadges%2FShapingChecks.json
-[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkief-type-foundry%2FFustat%2Fgh-pages%2Fbadges%2FUniversal.json
+[![Build](https://github.com/Kief-Type-Foundry/Fustat/actions/workflows/build.yaml/badge.svg)](https://github.com/Kief-Type-Foundry/Fustat/actions/workflows/build.yaml)
+[![FontBakery](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkief-type-foundry%2FFustat%2Fgh-pages%2Fbadges%2Foverall.json)](https://kief-type-foundry.github.io/Fustat/fontbakery/fontbakery-report.html)
 
 Fustat Arabic designed by [Mohamed](https://gaber.design/) [Gaber](https://www.instagram.com/gue3bara/) and engineered by [Khaled Hosny](https://aliftype.com/), draws its inspiration from the traditional manuscript Kufi style. The typeface uniquely balances modernization with the authentic elements of Arabic script. It offers comprehensive support for all languages under the Arabic script umbrella, including all Quranic ligatures and complete Arabic script Unicode support. Additionally, Fustat includes seven distinct weights: ExtraLight, Light, Regular, Medium, SemiBold, Bold, and ExtraBold, and features a variable font, providing dynamic flexibility for various design applications.
 
