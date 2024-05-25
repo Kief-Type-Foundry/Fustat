@@ -1,5 +1,5 @@
 {
-.appVersion = "3303";
+.appVersion = "3306";
 .formatVersion = 3;
 axes = (
 {
@@ -3273,5 +3273,5 @@ arBar = "80";
 };
 };
 versionMajor = 1;
-versionMinor = 6;
+versionMinor = 7;
 }
