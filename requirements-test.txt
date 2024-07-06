@@ -20,7 +20,7 @@ attrs==23.2.0
     #   statmake
     #   trio
     #   ufolib2
-axisregistry==0.4.9
+axisregistry==0.4.10
     # via
     #   fontbakery
     #   gftools
@@ -53,7 +53,7 @@ cattrs==23.2.3
     # via
     #   statmake
     #   ufolib2
-certifi==2024.6.2
+certifi==2024.7.4
     # via
     #   requests
     #   selenium
@@ -98,7 +98,7 @@ filelock==3.15.4
     # via youseedee
 font-v==2.1.0
     # via gftools
-fontbakery[beautifulsoup4,googlefonts,googlefontsalwayslatest,shaperglot,shaping,ufo,ufo2ft]==0.12.7
+fontbakery[beautifulsoup4,googlefonts,googlefontsalwayslatest,shaperglot,shaping,ufo,ufo2ft]==0.12.8
     # via
     #   -r requirements-test.in
     #   gftools
@@ -120,7 +120,7 @@ fontparts==0.12.1
     # via ufoprocessor
 fontpens==0.2.4
     # via defcon
-fonttools[lxml,ufo,unicode,woff]==4.53.0
+fonttools[lxml,ufo,unicode,woff]==4.53.1
     # via
     #   afdko
     #   axisregistry
@@ -249,7 +249,7 @@ opentype-sanitizer==9.1.0
     #   gftools
 opentypespec==1.9.1
     # via fontbakery
-orjson==3.10.5
+orjson==3.10.6
     # via
     #   babelfont
     #   ufolib2
@@ -261,7 +261,7 @@ packaging==24.1
     #   gftools
 picosvg==0.22.1
     # via nanoemoji
-pillow==10.3.0
+pillow==10.4.0
     # via
     #   diffenator2
     #   gftools
@@ -280,7 +280,7 @@ protobuf==3.20.3
     #   shaperglot
 pyahocorasick==2.1.0
     # via diffenator2
-pybind11==2.12.0
+pybind11==2.13.1
     # via skia-python
 pycairo==1.26.1
     # via gftools
@@ -382,7 +382,7 @@ tqdm==4.66.4
     #   afdko
     #   collidoscope
     #   diffenator2
-trio==0.25.1
+trio==0.26.0
     # via
     #   selenium
     #   trio-websocket
@@ -418,7 +418,7 @@ ufonormalizer==0.6.1
     #   vfblib
 ufoprocessor==1.9.0
     # via afdko
-uharfbuzz==0.39.1
+uharfbuzz==0.39.3
     # via
     #   blackrenderer
     #   collidoscope
