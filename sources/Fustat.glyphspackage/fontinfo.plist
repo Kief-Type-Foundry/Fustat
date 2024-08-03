@@ -706,7 +706,15 @@ code = " sub alef-ar								by alef-ar.fina;
 tag = fina;
 },
 {
-code = "lookup isolated_heh {
+code = "# Adobe’s pre-HarfBuzz composers don’t apply the center_marks lookup
+# in init and medi features, help it by applying it contextually here.
+lookup adobe_center_marks {
+    sub [hah-ar.init hah-ar.medi]
+		 @dotcenter' lookup center_marks
+	;
+} adobe_center_marks;
+
+lookup isolated_heh {
   lookupflag IgnoreMarks;
     ignore
     sub @ArabicLetters heh-ar';
