@@ -272,20 +272,20 @@ you're checking.</p>
     <tr>
         <td>0</td>
         <td>0</td>
-        <td>2</td>
+        <td>0</td>
         <td>7</td>
         <td>95</td>
         <td>9</td>
-        <td>138</td>
+        <td>140</td>
     </tr>
     <tr>
         <td>0%</td>
         <td>0%</td>
-        <td>1%</td>
+        <td>0%</td>
         <td>3%</td>
         <td>38%</td>
         <td>4%</td>
-        <td>55%</td>
+        <td>56%</td>
     </tr>
 </table>
         
@@ -310,7 +310,7 @@ immediately.
 <p>(but other kinds of bug reports and/or feature requests
     are also always welcome, of course!)</p>
 
-<p>FontBakery version: 0.12.8</p>
+<p>FontBakery version: 0.12.10</p>
         
             
         
@@ -319,7 +319,7 @@ immediately.
             
                 <h2>Universal Profile Checks</h2>
 <span class='section__emoji'>
-    🔥🔥⚠️⚠️⏩⏩⏩⏩⏩ℹ️
+    ⚠️⚠️⏩⏩⏩⏩⏩⏩ℹ️
 </span>
 
     <h3>
@@ -500,33 +500,6 @@ immediately.
 
 
     
-        <details>
-            <summary>
-                🔥
-                Fustat[wght].ttf
-                
-            </summary>
-            <div>
-                <ul>
-                
-                        <li class='details_item'>
-                            <span class='details_indicator'>
-                            🔥 FAIL
-                            </span>
-
-                            <span class='details_text'>
-                            <p>Current FontBakery version is 0.12.8, while a newer 0.12.9 is already available. Please upgrade it with 'pip install -U fontbakery'</p>
-
-                            
-                             [code: outdated-fontbakery]
-                            
-                            </span>
-                        </li>
-                
-                </ul>
-            </div>
-        </details>
-    
 
 
     <h3>
@@ -582,33 +555,6 @@ immediately.
 </div>
 
 
-    
-        <details>
-            <summary>
-                🔥
-                Fustat[wght].ttf
-                
-            </summary>
-            <div>
-                <ul>
-                
-                        <li class='details_item'>
-                            <span class='details_indicator'>
-                            🔥 FAIL
-                            </span>
-
-                            <span class='details_text'>
-                            <p>'smcp' or 'liga' lookups not found in GSUB table.</p>
-
-                            
-                             [code: missing-lookups]
-                            
-                            </span>
-                        </li>
-                
-                </ul>
-            </div>
-        </details>
     
 
 
@@ -922,6 +868,26 @@ immediately.
 
     <h3>
     
+    <div style='color:#88c'>EXPERIMENTAL CHECK - Since 2024/Jul/17</div>
+    
+    Checking that the typoAscender exceeds the yMax of the /Agrave.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.arrowtype.fonts/check/typoascender_exceeds_Agrave&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
     Font contains unique glyph names?
 </h3>
 <div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unique_glyphnames&gt;</div>
@@ -1128,301 +1094,12 @@ twodotshorizontalabove_tahabovear, twodotshorizontalbelow_tahabovear and twodots
             
         
             
-                <h2>Outline Checks</h2>
-<span class='section__emoji'>
-    ⚠️⏩⏩⏩⏩
-</span>
-
-    <h3>
-    
-    Are there any misaligned on-curve points?
-</h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_alignment_miss&gt;</div>
-
-
-
-<div style="background-color:#ee8">
-
-    
-
-</div>
-
-
-    
-        <details>
-            <summary>
-                ⚠️
-                Fustat[wght].ttf
-                
-            </summary>
-            <div>
-                <ul>
-                
-                        <li class='details_item'>
-                            <span class='details_indicator'>
-                            ⚠️ WARN
-                            </span>
-
-                            <span class='details_text'>
-                            <p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
-<pre><code>* g (U+0067): X=404.5,Y=-2.0 (should be at baseline 0?)
-
-* g (U+0067): X=419.5,Y=501.5 (should be at x-height 500?)
-
-* gbreve (U+011F): X=404.5,Y=-2.0 (should be at baseline 0?)
-
-* uni0123 (U+0123): X=404.5,Y=-2.0 (should be at baseline 0?)
-
-* gdotaccent (U+0121): X=404.5,Y=-2.0 (should be at baseline 0?)
-
-* uni0627.fina: X=70.0,Y=1.0 (should be at baseline 0?)
-
-* uni0627.short.fina: X=70.0,Y=1.0 (should be at baseline 0?)
-
-* uni08C0 (U+08C0): X=382.0,Y=701.0 (should be at cap-height 700?)
-
-* uni08C0 (U+08C0): X=428.0,Y=701.0 (should be at cap-height 700?)
-
-* uni08C0 (U+08C0): X=489.0,Y=701.0 (should be at cap-height 700?)
-
-* uni08C0 (U+08C0): X=534.0,Y=701.0 (should be at cap-height 700?)
-
-* uni06B4 (U+06B4): X=190.0,Y=699.0 (should be at cap-height 700?)
-
-* uni06B4 (U+06B4): X=190.0,Y=699.0 (should be at cap-height 700?)
-
-* uni06B8 (U+06B8): X=287.0,Y=-422.0 (should be at descender -420?)
-
-* uni06440644065106700647: X=593.0,Y=1001.0 (should be at ascender 1000?)
-
-* uni066C (U+066C): X=208.0,Y=699.0 (should be at cap-height 700?)
-
-* uni066C.tf: X=377.0,Y=699.0 (should be at cap-height 700?)
-
-* uni06F5 (U+06F5): X=231.0,Y=702.0 (should be at cap-height 700?)
-
-* uni06F4.locl.numr: X=233.0,Y=700.5 (should be at cap-height 700?)
-
-* uni06F7.locl.numr: X=203.0,Y=702.0 (should be at cap-height 700?)
-
-* uni0669.numr: X=85.5,Y=698.0 (should be at cap-height 700?)
-
-* uni06F5.subs: X=195.0,Y=2.0 (should be at baseline 0?)
-
-* uni06F7.locl.subs: X=185.0,Y=1.0 (should be at baseline 0?)
-
-* uni0663.sups: X=245.0,Y=701.0 (should be at cap-height 700?)
-
-* uni06F5.tf: X=212.0,Y=702.0 (should be at cap-height 700?)
-
-* one.dnom: X=175.0,Y=-2.0 (should be at baseline 0?)
-
-* one.dnom: X=250.0,Y=-2.0 (should be at baseline 0?)
-
-* two.dnom: X=52.0,Y=-2.0 (should be at baseline 0?)
-
-* two.dnom: X=306.0,Y=-2.0 (should be at baseline 0?)
-
-* four.dnom: X=198.0,Y=-2.0 (should be at baseline 0?)
-
-* four.dnom: X=273.0,Y=-2.0 (should be at baseline 0?)
-
-* seven.dnom: X=92.0,Y=-2.0 (should be at baseline 0?)
-
-* seven.dnom: X=92.0,Y=2.0 (should be at baseline 0?)
-
-* seven.dnom: X=167.0,Y=-2.0 (should be at baseline 0?)
-
-* one.numr: X=177.0,Y=702.0 (should be at cap-height 700?)
-
-* one.numr: X=250.0,Y=702.0 (should be at cap-height 700?)
-
-* four.numr: X=201.0,Y=702.0 (should be at cap-height 700?)
-
-* four.numr: X=273.0,Y=702.0 (should be at cap-height 700?)
-
-* five.numr: X=74.0,Y=702.0 (should be at cap-height 700?)
-
-* five.numr: X=288.0,Y=702.0 (should be at cap-height 700?)
-
-* seven.numr: X=58.0,Y=702.0 (should be at cap-height 700?)
-
-* seven.numr: X=293.0,Y=702.0 (should be at cap-height 700?)
-
-* onehalf (U+00BD): X=177.0,Y=702.0 (should be at cap-height 700?)
-
-* onehalf (U+00BD): X=250.0,Y=702.0 (should be at cap-height 700?)
-
-* onehalf (U+00BD): X=485.0,Y=-2.0 (should be at baseline 0?)
-
-* onehalf (U+00BD): X=739.0,Y=-2.0 (should be at baseline 0?)
-
-* uni2153 (U+2153): X=177.0,Y=702.0 (should be at cap-height 700?)
-
-* uni2153 (U+2153): X=250.0,Y=702.0 (should be at cap-height 700?)
-
-* onequarter (U+00BC): X=177.0,Y=702.0 (should be at cap-height 700?)
-
-* onequarter (U+00BC): X=250.0,Y=702.0 (should be at cap-height 700?)
-
-* onequarter (U+00BC): X=581.0,Y=-2.0 (should be at baseline 0?)
-
-* onequarter (U+00BC): X=656.0,Y=-2.0 (should be at baseline 0?)
-
-* threequarters (U+00BE): X=601.0,Y=-2.0 (should be at baseline 0?)
-
-* threequarters (U+00BE): X=676.0,Y=-2.0 (should be at baseline 0?)
-
-* oneeighth (U+215B): X=177.0,Y=702.0 (should be at cap-height 700?)
-
-* oneeighth (U+215B): X=250.0,Y=702.0 (should be at cap-height 700?)
-
-* fiveeighths (U+215D): X=74.0,Y=702.0 (should be at cap-height 700?)
-
-* fiveeighths (U+215D): X=288.0,Y=702.0 (should be at cap-height 700?)
-
-* seveneighths (U+215E): X=58.0,Y=702.0 (should be at cap-height 700?)
-
-* seveneighths (U+215E): X=293.0,Y=702.0 (should be at cap-height 700?)
-
-* two.subs: X=225.0,Y=-2.0 (should be at baseline 0?)
-
-* nine.subs: X=161.0,Y=1.0 (should be at baseline 0?)
-
-* parenleft (U+0028): X=342.0,Y=702.0 (should be at cap-height 700?)
-
-* parenright (U+0029): X=25.0,Y=702.0 (should be at cap-height 700?)
-
-* questiondown (U+00BF): X=390.0,Y=1.0 (should be at baseline 0?)
-
-* quotesinglbase (U+201A): X=121.0,Y=-1.0 (should be at baseline 0?)
-
-* quotedblbase (U+201E): X=278.0,Y=-1.0 (should be at baseline 0?)
-
-* quotedblbase (U+201E): X=121.0,Y=-1.0 (should be at baseline 0?)
-
-* uniFDF2 (U+FDF2): X=593.0,Y=1001.0 (should be at ascender 1000?)
-
-* section (U+00A7): X=126.0,Y=-1.0 (should be at baseline 0?)
-
-* uni0650 (U+0650): X=0.0,Y=-1.0 (should be at baseline 0?)
-</code></pre>
-
-                            
-                             [code: found-misalignments]
-                            
-                            </span>
-                        </li>
-                
-                </ul>
-            </div>
-        </details>
-    
-
-
-    <h3>
-    
-    Are any segments inordinately short?
-</h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_short_segments&gt;</div>
-
-
-
-<div style="background-color:#ee8">
-
-    
-
-</div>
-
-
-    
-
-
-    <h3>
-    
-    Do any segments have colinear vectors?
-</h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_colinear_vectors&gt;</div>
-
-
-
-<div style="background-color:#ee8">
-
-    
-
-</div>
-
-
-    
-
-
-    <h3>
-    
-    Do outlines contain any jaggy segments?
-</h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_jaggy_segments&gt;</div>
-
-
-
-<div style="background-color:#ee8">
-
-    
-
-</div>
-
-
-    
-
-
-    <h3>
-    
-    Do outlines contain any semi-vertical or semi-horizontal lines?
-</h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_semi_vertical&gt;</div>
-
-
-
-<div style="background-color:#ee8">
-
-    
-
-</div>
-
-
-    
-
-
-    <h3>
-    
-    Check the direction of the outermost contour in each glyph
-</h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_direction&gt;</div>
-
-
-
-<div style="background-color:#ee8">
-
-    
-
-</div>
-
-
-    
-
-
-            
-        
-            
-        
-            
                 <h2>Article Checks</h2>
 <span class='section__emoji'>
     ⚠️
 </span>
 
     <h3>
-    
-    <div style='color:#88c'>EXPERIMENTAL CHECK - Since 2024/Mar/25</div>
     
     Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets.
 </h3>
@@ -1472,7 +1149,7 @@ twodotshorizontalabove_tahabovear, twodotshorizontalbelow_tahabovear and twodots
             
                 <h2>Metadata Checks</h2>
 <span class='section__emoji'>
-    ⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩
+    ⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩
 </span>
 
     <h3>
@@ -1824,24 +1501,6 @@ twodotshorizontalabove_tahabovear, twodotshorizontalbelow_tahabovear and twodots
     Ensure there is a regular style defined in METADATA.pb.
 </h3>
 <div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/metadata/has_regular&gt;</div>
-
-
-
-<div style="background-color:#ee8">
-
-    
-
-</div>
-
-
-    
-
-
-    <h3>
-    
-    The font has tags in the GF Tags spreadsheet
-</h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/metadata/has_tags&gt;</div>
 
 
 
@@ -2275,12 +1934,12 @@ definitions.</p>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, tifinagh, math</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, old-permic, malayalam, coptic, syriac, math, canadian-aboriginal, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, math, old-permic, canadian-aboriginal, tifinagh, tai-le, syriac, malayalam</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
@@ -2289,17 +1948,17 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0609 ARABIC-INDIC PER MILLE SIGN: try adding arabic</li>
-<li>U+060C ARABIC COMMA: try adding one of: thaana, yezidi, hanifi-rohingya, syriac, nko, arabic</li>
-<li>U+061B ARABIC SEMICOLON: try adding one of: thaana, yezidi, hanifi-rohingya, syriac, nko, arabic</li>
-<li>U+061F ARABIC QUESTION MARK: try adding one of: thaana, adlam, yezidi, hanifi-rohingya, syriac, nko, arabic</li>
+<li>U+060C ARABIC COMMA: try adding one of: nko, arabic, thaana, hanifi-rohingya, yezidi, syriac</li>
+<li>U+061B ARABIC SEMICOLON: try adding one of: nko, arabic, thaana, hanifi-rohingya, yezidi, syriac</li>
+<li>U+061F ARABIC QUESTION MARK: try adding one of: adlam, nko, arabic, thaana, hanifi-rohingya, yezidi, syriac</li>
 <li>U+0620 ARABIC LETTER KASHMIRI YEH: try adding arabic</li>
-<li>U+0621 ARABIC LETTER HAMZA: try adding one of: syriac, arabic</li>
+<li>U+0621 ARABIC LETTER HAMZA: try adding one of: arabic, syriac</li>
 <li>U+0622 ARABIC LETTER ALEF WITH MADDA ABOVE: try adding arabic</li>
 <li>U+0623 ARABIC LETTER ALEF WITH HAMZA ABOVE: try adding arabic</li>
 <li>U+0624 ARABIC LETTER WAW WITH HAMZA ABOVE: try adding arabic</li>
 <li>U+0625 ARABIC LETTER ALEF WITH HAMZA BELOW: try adding arabic</li>
 <li>U+0626 ARABIC LETTER YEH WITH HAMZA ABOVE: try adding arabic</li>
-<li>U+0627 ARABIC LETTER ALEF: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+0627 ARABIC LETTER ALEF: try adding one of: arabic, indic-siyaq-numbers</li>
 <li>U+0628 ARABIC LETTER BEH: try adding arabic</li>
 <li>U+0629 ARABIC LETTER TEH MARBUTA: try adding arabic</li>
 <li>U+062A ARABIC LETTER TEH: try adding arabic</li>
@@ -2324,7 +1983,7 @@ definitions.</p>
 <li>U+063D ARABIC LETTER FARSI YEH WITH INVERTED V: try adding arabic</li>
 <li>U+063E ARABIC LETTER FARSI YEH WITH TWO DOTS ABOVE: try adding arabic</li>
 <li>U+063F ARABIC LETTER FARSI YEH WITH THREE DOTS ABOVE: try adding arabic</li>
-<li>U+0640 ARABIC TATWEEL: try adding one of: manichaean, old-uyghur, psalter-pahlavi, adlam, hanifi-rohingya, syriac, sogdian, mandaic, arabic</li>
+<li>U+0640 ARABIC TATWEEL: try adding one of: adlam, old-uyghur, arabic, psalter-pahlavi, hanifi-rohingya, mandaic, sogdian, manichaean, syriac</li>
 <li>U+0641 ARABIC LETTER FEH: try adding arabic</li>
 <li>U+0642 ARABIC LETTER QAF: try adding arabic</li>
 <li>U+0643 ARABIC LETTER KAF: try adding arabic</li>
@@ -2335,37 +1994,37 @@ definitions.</p>
 <li>U+0648 ARABIC LETTER WAW: try adding arabic</li>
 <li>U+0649 ARABIC LETTER ALEF MAKSURA: try adding arabic</li>
 <li>U+064A ARABIC LETTER YEH: try adding arabic</li>
-<li>U+064B ARABIC FATHATAN: try adding one of: syriac, arabic</li>
-<li>U+064C ARABIC DAMMATAN: try adding one of: syriac, arabic</li>
-<li>U+064D ARABIC KASRATAN: try adding one of: syriac, arabic</li>
-<li>U+064E ARABIC FATHA: try adding one of: syriac, arabic</li>
-<li>U+064F ARABIC DAMMA: try adding one of: syriac, arabic</li>
-<li>U+0650 ARABIC KASRA: try adding one of: syriac, arabic</li>
-<li>U+0651 ARABIC SHADDA: try adding one of: syriac, arabic</li>
-<li>U+0652 ARABIC SUKUN: try adding one of: syriac, arabic</li>
-<li>U+0653 ARABIC MADDAH ABOVE: try adding one of: syriac, arabic</li>
-<li>U+0654 ARABIC HAMZA ABOVE: try adding one of: syriac, arabic</li>
-<li>U+0655 ARABIC HAMZA BELOW: try adding one of: syriac, arabic</li>
+<li>U+064B ARABIC FATHATAN: try adding one of: arabic, syriac</li>
+<li>U+064C ARABIC DAMMATAN: try adding one of: arabic, syriac</li>
+<li>U+064D ARABIC KASRATAN: try adding one of: arabic, syriac</li>
+<li>U+064E ARABIC FATHA: try adding one of: arabic, syriac</li>
+<li>U+064F ARABIC DAMMA: try adding one of: arabic, syriac</li>
+<li>U+0650 ARABIC KASRA: try adding one of: arabic, syriac</li>
+<li>U+0651 ARABIC SHADDA: try adding one of: arabic, syriac</li>
+<li>U+0652 ARABIC SUKUN: try adding one of: arabic, syriac</li>
+<li>U+0653 ARABIC MADDAH ABOVE: try adding one of: arabic, syriac</li>
+<li>U+0654 ARABIC HAMZA ABOVE: try adding one of: arabic, syriac</li>
+<li>U+0655 ARABIC HAMZA BELOW: try adding one of: arabic, syriac</li>
 <li>U+0656 ARABIC SUBSCRIPT ALEF: try adding arabic</li>
 <li>U+065A ARABIC VOWEL SIGN SMALL V ABOVE: try adding arabic</li>
 <li>U+065B ARABIC VOWEL SIGN INVERTED SMALL V ABOVE: try adding arabic</li>
-<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: thaana, indic-siyaq-numbers, yezidi, hanifi-rohingya, syriac, arabic</li>
-<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: thaana, indic-siyaq-numbers, yezidi, syriac, arabic</li>
-<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: thaana, indic-siyaq-numbers, yezidi, syriac, arabic</li>
-<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: thaana, indic-siyaq-numbers, yezidi, syriac, arabic</li>
-<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: thaana, indic-siyaq-numbers, yezidi, syriac, arabic</li>
-<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: thaana, indic-siyaq-numbers, yezidi, syriac, arabic</li>
-<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: thaana, indic-siyaq-numbers, yezidi, syriac, arabic</li>
-<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: thaana, indic-siyaq-numbers, yezidi, syriac, arabic</li>
-<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: thaana, indic-siyaq-numbers, yezidi, syriac, arabic</li>
-<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: thaana, indic-siyaq-numbers, yezidi, syriac, arabic</li>
-<li>U+066A ARABIC PERCENT SIGN: try adding one of: thaana, nko, syriac, arabic</li>
-<li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: thaana, syriac, arabic</li>
-<li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: thaana, syriac, arabic</li>
+<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: arabic, indic-siyaq-numbers, thaana, hanifi-rohingya, yezidi, syriac</li>
+<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: arabic, indic-siyaq-numbers, thaana, yezidi, syriac</li>
+<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: arabic, indic-siyaq-numbers, thaana, yezidi, syriac</li>
+<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: arabic, indic-siyaq-numbers, thaana, yezidi, syriac</li>
+<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: arabic, indic-siyaq-numbers, thaana, yezidi, syriac</li>
+<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: arabic, indic-siyaq-numbers, thaana, yezidi, syriac</li>
+<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: arabic, indic-siyaq-numbers, thaana, yezidi, syriac</li>
+<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: arabic, indic-siyaq-numbers, thaana, yezidi, syriac</li>
+<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: arabic, indic-siyaq-numbers, thaana, yezidi, syriac</li>
+<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: arabic, indic-siyaq-numbers, thaana, yezidi, syriac</li>
+<li>U+066A ARABIC PERCENT SIGN: try adding one of: arabic, syriac, nko, thaana</li>
+<li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: arabic, syriac, thaana</li>
+<li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: arabic, syriac, thaana</li>
 <li>U+066D ARABIC FIVE POINTED STAR: try adding arabic</li>
 <li>U+066E ARABIC LETTER DOTLESS BEH: try adding arabic</li>
 <li>U+066F ARABIC LETTER DOTLESS QAF: try adding arabic</li>
-<li>U+0670 ARABIC LETTER SUPERSCRIPT ALEF: try adding one of: syriac, arabic</li>
+<li>U+0670 ARABIC LETTER SUPERSCRIPT ALEF: try adding one of: arabic, syriac</li>
 <li>U+0671 ARABIC LETTER ALEF WASLA: try adding arabic</li>
 <li>U+0679 ARABIC LETTER TTEH: try adding arabic</li>
 <li>U+067A ARABIC LETTER TTEHEH: try adding arabic</li>
@@ -2456,20 +2115,20 @@ definitions.</p>
 <li>U+06D0 ARABIC LETTER E: try adding arabic</li>
 <li>U+06D2 ARABIC LETTER YEH BARREE: try adding arabic</li>
 <li>U+06D3 ARABIC LETTER YEH BARREE WITH HAMZA ABOVE: try adding arabic</li>
-<li>U+06D4 ARABIC FULL STOP: try adding one of: hanifi-rohingya, yezidi, arabic</li>
+<li>U+06D4 ARABIC FULL STOP: try adding one of: yezidi, hanifi-rohingya, arabic</li>
 <li>U+06D5 ARABIC LETTER AE: try adding arabic</li>
 <li>U+06EE ARABIC LETTER DAL WITH INVERTED V: try adding arabic</li>
 <li>U+06EF ARABIC LETTER REH WITH INVERTED V: try adding arabic</li>
-<li>U+06F0 EXTENDED ARABIC-INDIC DIGIT ZERO: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F1 EXTENDED ARABIC-INDIC DIGIT ONE: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F2 EXTENDED ARABIC-INDIC DIGIT TWO: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F3 EXTENDED ARABIC-INDIC DIGIT THREE: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F4 EXTENDED ARABIC-INDIC DIGIT FOUR: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F5 EXTENDED ARABIC-INDIC DIGIT FIVE: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F6 EXTENDED ARABIC-INDIC DIGIT SIX: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F7 EXTENDED ARABIC-INDIC DIGIT SEVEN: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F8 EXTENDED ARABIC-INDIC DIGIT EIGHT: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F9 EXTENDED ARABIC-INDIC DIGIT NINE: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F0 EXTENDED ARABIC-INDIC DIGIT ZERO: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F1 EXTENDED ARABIC-INDIC DIGIT ONE: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F2 EXTENDED ARABIC-INDIC DIGIT TWO: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F3 EXTENDED ARABIC-INDIC DIGIT THREE: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F4 EXTENDED ARABIC-INDIC DIGIT FOUR: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F5 EXTENDED ARABIC-INDIC DIGIT FIVE: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F6 EXTENDED ARABIC-INDIC DIGIT SIX: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F7 EXTENDED ARABIC-INDIC DIGIT SEVEN: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F8 EXTENDED ARABIC-INDIC DIGIT EIGHT: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F9 EXTENDED ARABIC-INDIC DIGIT NINE: try adding one of: arabic, indic-siyaq-numbers</li>
 <li>U+06FA ARABIC LETTER SHEEN WITH DOT BELOW: try adding arabic</li>
 <li>U+06FB ARABIC LETTER DAD WITH DOT BELOW: try adding arabic</li>
 <li>U+06FC ARABIC LETTER GHAIN WITH DOT BELOW: try adding arabic</li>
@@ -2547,7 +2206,7 @@ definitions.</p>
 <li>U+08C7 ARABIC LETTER LAM WITH SMALL ARABIC LETTER TAH ABOVE: try adding arabic</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
-<li>U+204F REVERSED SEMICOLON: try adding one of: adlam, arabic</li>
+<li>U+204F REVERSED SEMICOLON: try adding one of: arabic, adlam</li>
 <li>U+2116 NUMERO SIGN: try adding cyrillic</li>
 <li>U+212E ESTIMATED SYMBOL: not included in any glyphset definition</li>
 <li>U+2153 VULGAR FRACTION ONE THIRD: not included in any glyphset definition</li>
@@ -2556,28 +2215,28 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: not included in any glyphset definition</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: not included in any glyphset definition</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: not included in any glyphset definition</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
 <li>U+2248 ALMOST EQUAL TO: try adding math</li>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+2460 CIRCLED DIGIT ONE: try adding one of: symbols, yi, mongolian</li>
-<li>U+2461 CIRCLED DIGIT TWO: try adding one of: symbols, yi, mongolian</li>
-<li>U+2462 CIRCLED DIGIT THREE: try adding one of: symbols, yi, mongolian</li>
-<li>U+2463 CIRCLED DIGIT FOUR: try adding one of: symbols, yi, mongolian</li>
-<li>U+2464 CIRCLED DIGIT FIVE: try adding one of: symbols, yi, mongolian</li>
-<li>U+2465 CIRCLED DIGIT SIX: try adding one of: symbols, yi, mongolian</li>
-<li>U+2466 CIRCLED DIGIT SEVEN: try adding one of: symbols, yi, mongolian</li>
-<li>U+2467 CIRCLED DIGIT EIGHT: try adding one of: symbols, yi, mongolian</li>
-<li>U+2468 CIRCLED DIGIT NINE: try adding one of: symbols, yi, mongolian</li>
+<li>U+2460 CIRCLED DIGIT ONE: try adding one of: mongolian, yi, symbols</li>
+<li>U+2461 CIRCLED DIGIT TWO: try adding one of: mongolian, yi, symbols</li>
+<li>U+2462 CIRCLED DIGIT THREE: try adding one of: mongolian, yi, symbols</li>
+<li>U+2463 CIRCLED DIGIT FOUR: try adding one of: mongolian, yi, symbols</li>
+<li>U+2464 CIRCLED DIGIT FIVE: try adding one of: mongolian, yi, symbols</li>
+<li>U+2465 CIRCLED DIGIT SIX: try adding one of: mongolian, yi, symbols</li>
+<li>U+2466 CIRCLED DIGIT SEVEN: try adding one of: mongolian, yi, symbols</li>
+<li>U+2467 CIRCLED DIGIT EIGHT: try adding one of: mongolian, yi, symbols</li>
+<li>U+2468 CIRCLED DIGIT NINE: try adding one of: mongolian, yi, symbols</li>
 <li>U+24EA CIRCLED DIGIT ZERO: try adding symbols</li>
 <li>U+24FF NEGATIVE CIRCLED DIGIT ZERO: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: marchen, modi, bassa-vah, bhaiksuki, newa, dogra, khudawadi, sogdian, osage, devanagari, lepcha, adlam, warang-citi, pahawh-hmong, hanunoo, tai-le, tai-tham, telugu, lao, canadian-aboriginal, mandaic, khojki, old-permic, music, grantha, khmer, miao, zanabazar-square, saurashtra, sinhala, tamil, armenian, brahmi, gujarati, kaithi, oriya, balinese, manichaean, tagbanwa, cham, mongolian, coptic, mende-kikakui, ahom, yi, tai-viet, wancho, math, thai, batak, kharoshthi, phags-pa, soyombo, bengali, psalter-pahlavi, tagalog, buginese, caucasian-albanian, limbu, sharada, syriac, sundanese, kannada, tibetan, meetei-mayek, buhid, duployan, gunjala-gondi, chakma, elbasan, malayalam, nko, thaana, tirhuta, rejang, javanese, tifinagh, mahajani, kayah-li, symbols, hebrew, new-tai-lue, siddham, syloti-nagri, masaram-gondi, myanmar, gurmukhi, hanifi-rohingya, takri</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: tamil, bassa-vah, thaana, mandaic, saurashtra, syloti-nagri, tirhuta, takri, khmer, dogra, cham, math, hebrew, tagbanwa, warang-citi, meetei-mayek, yi, brahmi, adlam, sundanese, symbols, kaithi, marchen, tibetan, modi, mahajani, canadian-aboriginal, osage, grantha, tagalog, khojki, limbu, duployan, armenian, mongolian, rejang, masaram-gondi, new-tai-lue, psalter-pahlavi, sogdian, music, tai-le, thai, bengali, chakma, telugu, old-permic, javanese, malayalam, bhaiksuki, mende-kikakui, nko, hanunoo, sinhala, tifinagh, tai-tham, kharoshthi, myanmar, ahom, buhid, gunjala-gondi, khudawadi, syriac, manichaean, elbasan, kannada, balinese, phags-pa, tai-viet, hanifi-rohingya, lao, pahawh-hmong, kayah-li, gujarati, buginese, newa, devanagari, miao, sharada, oriya, wancho, coptic, siddham, batak, zanabazar-square, lepcha, soyombo, gurmukhi, caucasian-albanian</li>
 <li>U+26AA MEDIUM WHITE CIRCLE: try adding symbols</li>
 <li>U+26AB MEDIUM BLACK CIRCLE: try adding symbols</li>
 <li>U+2776 DINGBAT NEGATIVE CIRCLED DIGIT ONE: try adding symbols</li>
@@ -2591,10 +2250,10 @@ definitions.</p>
 <li>U+277E DINGBAT NEGATIVE CIRCLED DIGIT NINE: try adding symbols</li>
 <li>U+2B1B BLACK LARGE SQUARE: try adding symbols</li>
 <li>U+2B1C WHITE LARGE SQUARE: try adding symbols</li>
-<li>U+2E41 REVERSED COMMA: try adding one of: adlam, arabic</li>
+<li>U+2E41 REVERSED COMMA: try adding one of: arabic, adlam</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
-<li>U+FDF2 ARABIC LIGATURE ALLAH ISOLATED FORM: try adding one of: thaana, arabic</li>
+<li>U+FDF2 ARABIC LIGATURE ALLAH ISOLATED FORM: try adding one of: arabic, thaana</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code>, <code>latin-ext</code></p>
 
@@ -2775,6 +2434,293 @@ definitions.</p>
         
             
         
+            
+        
+            
+        
+            
+                <h2>Outline Checks</h2>
+<span class='section__emoji'>
+    ⚠️⏩⏩⏩⏩
+</span>
+
+    <h3>
+    
+    Are there any misaligned on-curve points?
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_alignment_miss&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+        <details>
+            <summary>
+                ⚠️
+                Fustat[wght].ttf
+                
+            </summary>
+            <div>
+                <ul>
+                
+                        <li class='details_item'>
+                            <span class='details_indicator'>
+                            ⚠️ WARN
+                            </span>
+
+                            <span class='details_text'>
+                            <p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
+<pre><code>* g (U+0067): X=404.5,Y=-2.0 (should be at baseline 0?)
+
+* g (U+0067): X=419.5,Y=501.5 (should be at x-height 500?)
+
+* gbreve (U+011F): X=404.5,Y=-2.0 (should be at baseline 0?)
+
+* uni0123 (U+0123): X=404.5,Y=-2.0 (should be at baseline 0?)
+
+* gdotaccent (U+0121): X=404.5,Y=-2.0 (should be at baseline 0?)
+
+* uni0627.fina: X=70.0,Y=1.0 (should be at baseline 0?)
+
+* uni0627.short.fina: X=70.0,Y=1.0 (should be at baseline 0?)
+
+* uni08C0 (U+08C0): X=382.0,Y=701.0 (should be at cap-height 700?)
+
+* uni08C0 (U+08C0): X=428.0,Y=701.0 (should be at cap-height 700?)
+
+* uni08C0 (U+08C0): X=489.0,Y=701.0 (should be at cap-height 700?)
+
+* uni08C0 (U+08C0): X=534.0,Y=701.0 (should be at cap-height 700?)
+
+* uni06B4 (U+06B4): X=190.0,Y=699.0 (should be at cap-height 700?)
+
+* uni06B4 (U+06B4): X=190.0,Y=699.0 (should be at cap-height 700?)
+
+* uni06B8 (U+06B8): X=287.0,Y=-422.0 (should be at descender -420?)
+
+* uni06440644065106700647: X=593.0,Y=1001.0 (should be at ascender 1000?)
+
+* uni066C (U+066C): X=208.0,Y=699.0 (should be at cap-height 700?)
+
+* uni066C.tf: X=377.0,Y=699.0 (should be at cap-height 700?)
+
+* uni06F5 (U+06F5): X=231.0,Y=702.0 (should be at cap-height 700?)
+
+* uni06F4.locl.numr: X=233.0,Y=700.5 (should be at cap-height 700?)
+
+* uni06F7.locl.numr: X=203.0,Y=702.0 (should be at cap-height 700?)
+
+* uni0669.numr: X=85.5,Y=698.0 (should be at cap-height 700?)
+
+* uni06F5.subs: X=195.0,Y=2.0 (should be at baseline 0?)
+
+* uni06F7.locl.subs: X=185.0,Y=1.0 (should be at baseline 0?)
+
+* uni0663.sups: X=245.0,Y=701.0 (should be at cap-height 700?)
+
+* uni06F5.tf: X=212.0,Y=702.0 (should be at cap-height 700?)
+
+* one.dnom: X=175.0,Y=-2.0 (should be at baseline 0?)
+
+* one.dnom: X=250.0,Y=-2.0 (should be at baseline 0?)
+
+* two.dnom: X=52.0,Y=-2.0 (should be at baseline 0?)
+
+* two.dnom: X=306.0,Y=-2.0 (should be at baseline 0?)
+
+* four.dnom: X=198.0,Y=-2.0 (should be at baseline 0?)
+
+* four.dnom: X=273.0,Y=-2.0 (should be at baseline 0?)
+
+* seven.dnom: X=92.0,Y=-2.0 (should be at baseline 0?)
+
+* seven.dnom: X=92.0,Y=2.0 (should be at baseline 0?)
+
+* seven.dnom: X=167.0,Y=-2.0 (should be at baseline 0?)
+
+* one.numr: X=177.0,Y=702.0 (should be at cap-height 700?)
+
+* one.numr: X=250.0,Y=702.0 (should be at cap-height 700?)
+
+* four.numr: X=201.0,Y=702.0 (should be at cap-height 700?)
+
+* four.numr: X=273.0,Y=702.0 (should be at cap-height 700?)
+
+* five.numr: X=74.0,Y=702.0 (should be at cap-height 700?)
+
+* five.numr: X=288.0,Y=702.0 (should be at cap-height 700?)
+
+* seven.numr: X=58.0,Y=702.0 (should be at cap-height 700?)
+
+* seven.numr: X=293.0,Y=702.0 (should be at cap-height 700?)
+
+* onehalf (U+00BD): X=177.0,Y=702.0 (should be at cap-height 700?)
+
+* onehalf (U+00BD): X=250.0,Y=702.0 (should be at cap-height 700?)
+
+* onehalf (U+00BD): X=485.0,Y=-2.0 (should be at baseline 0?)
+
+* onehalf (U+00BD): X=739.0,Y=-2.0 (should be at baseline 0?)
+
+* uni2153 (U+2153): X=177.0,Y=702.0 (should be at cap-height 700?)
+
+* uni2153 (U+2153): X=250.0,Y=702.0 (should be at cap-height 700?)
+
+* onequarter (U+00BC): X=177.0,Y=702.0 (should be at cap-height 700?)
+
+* onequarter (U+00BC): X=250.0,Y=702.0 (should be at cap-height 700?)
+
+* onequarter (U+00BC): X=581.0,Y=-2.0 (should be at baseline 0?)
+
+* onequarter (U+00BC): X=656.0,Y=-2.0 (should be at baseline 0?)
+
+* threequarters (U+00BE): X=601.0,Y=-2.0 (should be at baseline 0?)
+
+* threequarters (U+00BE): X=676.0,Y=-2.0 (should be at baseline 0?)
+
+* oneeighth (U+215B): X=177.0,Y=702.0 (should be at cap-height 700?)
+
+* oneeighth (U+215B): X=250.0,Y=702.0 (should be at cap-height 700?)
+
+* fiveeighths (U+215D): X=74.0,Y=702.0 (should be at cap-height 700?)
+
+* fiveeighths (U+215D): X=288.0,Y=702.0 (should be at cap-height 700?)
+
+* seveneighths (U+215E): X=58.0,Y=702.0 (should be at cap-height 700?)
+
+* seveneighths (U+215E): X=293.0,Y=702.0 (should be at cap-height 700?)
+
+* two.subs: X=225.0,Y=-2.0 (should be at baseline 0?)
+
+* nine.subs: X=161.0,Y=1.0 (should be at baseline 0?)
+
+* parenleft (U+0028): X=342.0,Y=702.0 (should be at cap-height 700?)
+
+* parenright (U+0029): X=25.0,Y=702.0 (should be at cap-height 700?)
+
+* questiondown (U+00BF): X=390.0,Y=1.0 (should be at baseline 0?)
+
+* quotesinglbase (U+201A): X=121.0,Y=-1.0 (should be at baseline 0?)
+
+* quotedblbase (U+201E): X=278.0,Y=-1.0 (should be at baseline 0?)
+
+* quotedblbase (U+201E): X=121.0,Y=-1.0 (should be at baseline 0?)
+
+* uniFDF2 (U+FDF2): X=593.0,Y=1001.0 (should be at ascender 1000?)
+
+* section (U+00A7): X=126.0,Y=-1.0 (should be at baseline 0?)
+
+* uni0650 (U+0650): X=0.0,Y=-1.0 (should be at baseline 0?)
+</code></pre>
+
+                            
+                             [code: found-misalignments]
+                            
+                            </span>
+                        </li>
+                
+                </ul>
+            </div>
+        </details>
+    
+
+
+    <h3>
+    
+    Are any segments inordinately short?
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_short_segments&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Do any segments have colinear vectors?
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_colinear_vectors&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Do outlines contain any jaggy segments?
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_jaggy_segments&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Do outlines contain any semi-vertical or semi-horizontal lines?
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_semi_vertical&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Check the direction of the outermost contour in each glyph
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_direction&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
             
         
             
