@@ -1,5 +1,5 @@
 {
-.appVersion = "3306";
+.appVersion = "3319";
 .formatVersion = 3;
 axes = (
 {
@@ -1493,7 +1493,6 @@ GSOffsetMakeStroke = 1;
 GSOffsetPosition = 0.75;
 GSOffsetVertical = 59.5;
 };
-visible = 1;
 }
 );
 instances = (
@@ -1661,6 +1660,10 @@ customParameters = (
 {
 name = "Variable Font Origin";
 value = "14EEE41F-D714-4243-A717-73445EE7DABA";
+},
+{
+name = Filter;
+value = "";
 }
 );
 name = Regular;

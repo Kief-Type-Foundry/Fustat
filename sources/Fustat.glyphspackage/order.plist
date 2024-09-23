@@ -1005,9 +1005,6 @@ tilde,
 macron,
 cedilla,
 ogonek,
-_HahTail,
-_HahTailLong,
-_SadCurve,
 _blackCircled,
 _circled,
 eightCircledComp,
@@ -1019,7 +1016,5 @@ sevenCircledComp,
 sixCircledComp,
 threeCircledComp,
 twoCircledComp,
-zeroCircledComp,
-_connection.l,
-_connection.r
+zeroCircledComp
 )
