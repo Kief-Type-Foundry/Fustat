@@ -485,8 +485,6 @@ ref = "threedotsdownbelow-ar";
 width = 1000;
 }
 );
-metricLeft = "=hah-ar";
-metricRight = "=hah-ar";
 script = arabic;
 subCategory = "";
 unicode = 1670;
