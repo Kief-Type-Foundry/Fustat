@@ -1,4 +1,6 @@
 {
+category = Letter;
+direction = RTL;
 glyphname = "ain-ar.init";
 layers = (
 {
@@ -980,4 +982,8 @@ width = 475;
 }
 );
 metricLeft = "=-20";
+script = arabic;
+sortName = arL0038;
+sortNameKeep = arL0038;
+subCategory = "";
 }

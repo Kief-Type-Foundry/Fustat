@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = dotaccentcomb.case;
 layers = (
 {
@@ -62,4 +64,8 @@ ref = dotaccentcomb;
 width = 214;
 }
 );
+script = "";
+sortName = case.ac002;
+sortNameKeep = ac002.case;
+subCategory = Nonspacing;
 }

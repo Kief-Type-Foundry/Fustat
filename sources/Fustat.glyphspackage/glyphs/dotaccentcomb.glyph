@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = dotaccentcomb;
 layers = (
 {
@@ -193,5 +195,9 @@ nodes = (
 width = 170;
 }
 );
+script = "";
+sortName = ac002;
+sortNameKeep = ac002;
+subCategory = Nonspacing;
 unicode = 775;
 }

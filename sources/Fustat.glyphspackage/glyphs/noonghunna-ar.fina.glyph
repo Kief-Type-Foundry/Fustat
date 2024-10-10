@@ -1,4 +1,6 @@
 {
+category = Letter;
+direction = RTL;
 glyphname = "noonghunna-ar.fina";
 layers = (
 {
@@ -154,4 +156,8 @@ width = 587;
 );
 metricLeft = "=noonghunna-ar";
 metricRight = "=0";
+script = arabic;
+sortName = arL0062;
+sortNameKeep = arL0062;
+subCategory = "";
 }

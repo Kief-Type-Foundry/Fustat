@@ -1,4 +1,6 @@
 {
+category = Letter;
+direction = RTL;
 glyphname = "hehgoal-ar.medi";
 layers = (
 {
@@ -486,4 +488,8 @@ width = 435;
 );
 metricLeft = "=-20";
 metricRight = "=0";
+script = arabic;
+sortName = arL0070;
+sortNameKeep = arL0070;
+subCategory = "";
 }

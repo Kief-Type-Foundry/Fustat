@@ -1,4 +1,6 @@
 {
+category = Number;
+direction = LTR;
 glyphname = "three-ar";
 layers = (
 {
@@ -620,5 +622,9 @@ width = 642;
 }
 );
 metricLeft = "=one-ar";
+script = arabic;
+sortName = Nua3;
+sortNameKeep = Nua3;
+subCategory = "Decimal Digit";
 unicode = (1635,1779);
 }

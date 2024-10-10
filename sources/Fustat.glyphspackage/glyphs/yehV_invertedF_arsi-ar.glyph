@@ -1,5 +1,7 @@
 {
+category = Letter;
 color = 0;
+direction = RTL;
 glyphname = "yehVinvertedFarsi-ar";
 layers = (
 {
@@ -42,5 +44,9 @@ ref = "vinvertedabove-ar";
 width = 834;
 }
 );
+script = arabic;
+sortName = arL0303;
+sortNameKeep = arL0303;
+subCategory = "";
 unicode = 1597;
 }

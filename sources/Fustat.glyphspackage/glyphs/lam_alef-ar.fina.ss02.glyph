@@ -1,5 +1,7 @@
 {
+category = Letter;
 color = 4;
+direction = RTL;
 glyphname = "lam_alef-ar.fina.ss02";
 layers = (
 {
@@ -336,4 +338,8 @@ width = 674;
 );
 metricLeft = "=tah-ar";
 metricRight = "lam-ar.medi";
+script = arabic;
+sortName = ar00103_arL0004.1.ss02;
+sortNameKeep = arL0053_arL0004.fina.ss02;
+subCategory = Ligature;
 }

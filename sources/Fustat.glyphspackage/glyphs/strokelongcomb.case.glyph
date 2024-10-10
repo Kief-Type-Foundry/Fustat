@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = strokelongcomb.case;
 layers = (
 {
@@ -158,4 +160,8 @@ width = 744;
 }
 );
 metricRight = "=|";
+script = "";
+sortName = case.ac110;
+sortNameKeep = ac110.case;
+subCategory = Nonspacing;
 }

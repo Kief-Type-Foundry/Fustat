@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = grave;
 layers = (
 {
@@ -29,5 +31,9 @@ ref = gravecomb;
 width = 286;
 }
 );
+script = "";
+sortName = ms002;
+sortNameKeep = ms002;
+subCategory = Spacing;
 unicode = 96;
 }

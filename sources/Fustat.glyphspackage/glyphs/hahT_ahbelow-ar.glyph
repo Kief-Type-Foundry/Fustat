@@ -1,5 +1,7 @@
 {
+category = Letter;
 color = 0;
+direction = RTL;
 glyphname = "hahTahbelow-ar";
 layers = (
 {
@@ -42,5 +44,9 @@ ref = "tahcenter-ar";
 width = 759;
 }
 );
+script = arabic;
+sortName = arL0156;
+sortNameKeep = arL0156;
+subCategory = "";
 unicode = 1902;
 }

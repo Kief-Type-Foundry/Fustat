@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = ogonek;
 layers = (
 {
@@ -31,5 +33,9 @@ ref = ogonekcomb;
 width = 255;
 }
 );
+script = "";
+sortName = ms017;
+sortNameKeep = ms017;
+subCategory = Spacing;
 unicode = 731;
 }

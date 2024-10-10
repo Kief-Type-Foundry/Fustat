@@ -1,4 +1,6 @@
 {
+category = Letter;
+direction = RTL;
 glyphname = "hehgoal-ar.fina";
 layers = (
 {
@@ -327,4 +329,8 @@ width = 466;
 }
 );
 metricRight = "=0";
+script = arabic;
+sortName = arL0069;
+sortNameKeep = arL0069;
+subCategory = "";
 }

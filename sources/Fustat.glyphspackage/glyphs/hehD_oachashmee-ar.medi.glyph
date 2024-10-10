@@ -1,4 +1,6 @@
 {
+category = Letter;
+direction = RTL;
 glyphname = "hehDoachashmee-ar.medi";
 layers = (
 {
@@ -29,4 +31,8 @@ ref = "heh-ar.medi";
 width = 521;
 }
 );
+script = arabic;
+sortName = arL0075;
+sortNameKeep = arL0075;
+subCategory = "";
 }

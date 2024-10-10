@@ -1,4 +1,6 @@
 {
+category = Number;
+direction = LTR;
 glyphname = "twoFarsi-ar";
 layers = (
 {
@@ -103,5 +105,9 @@ width = 460;
 );
 metricLeft = "=one-ar";
 metricRight = "=three-ar";
+script = arabic;
+sortName = Nua2;
+sortNameKeep = Nua2;
+subCategory = "Decimal Digit";
 unicode = 1778;
 }

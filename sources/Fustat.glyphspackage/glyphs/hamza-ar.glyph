@@ -1,4 +1,6 @@
 {
+category = Letter;
+direction = RTL;
 glyphname = "hamza-ar";
 layers = (
 {
@@ -577,5 +579,9 @@ nodes = (
 width = 396;
 }
 );
+script = arabic;
+sortName = arL0000;
+sortNameKeep = arL0000;
+subCategory = "";
 unicode = 1569;
 }

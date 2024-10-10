@@ -1,4 +1,6 @@
 {
+category = Number;
+direction = LTR;
 glyphname = seveneighths;
 kernLeft = zero.numr;
 kernRight = zero.dnom;
@@ -55,5 +57,9 @@ ref = eight.dnom;
 width = 753;
 }
 );
+script = "";
+sortName = "nu.08/7";
+sortNameKeep = "nu.08/7";
+subCategory = Fraction;
 unicode = 8542;
 }

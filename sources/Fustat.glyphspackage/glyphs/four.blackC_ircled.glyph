@@ -1,4 +1,6 @@
 {
+category = Number;
+direction = LTR;
 glyphname = four.blackCircled;
 kernLeft = O;
 kernRight = O;
@@ -43,5 +45,9 @@ ref = fourCircledComp;
 width = 812;
 }
 );
+script = "";
+sortName = blackCircled.Nu0_Nu4;
+sortNameKeep = blackCircled.Nu0_Nu4;
+subCategory = "Decimal Digit";
 unicode = 10105;
 }

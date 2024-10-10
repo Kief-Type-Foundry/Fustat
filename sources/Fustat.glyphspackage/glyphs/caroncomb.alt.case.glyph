@@ -1,5 +1,7 @@
 {
+category = Mark;
 color = 4;
+direction = LTR;
 glyphname = caroncomb.alt.case;
 layers = (
 {
@@ -48,4 +50,8 @@ ref = caroncomb.alt;
 width = 207;
 }
 );
+script = "";
+sortName = case.ac010;
+sortNameKeep = ac010.case;
+subCategory = Nonspacing;
 }

@@ -1,5 +1,7 @@
 {
+category = Letter;
 color = 0;
+direction = RTL;
 glyphname = "kirghizyu-ar";
 layers = (
 {
@@ -42,5 +44,9 @@ ref = "vinvertedabove-ar";
 width = 501;
 }
 );
+script = arabic;
+sortName = arL0294;
+sortNameKeep = arL0294;
+subCategory = "";
 unicode = 1737;
 }

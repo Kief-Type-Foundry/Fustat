@@ -1,5 +1,7 @@
 {
+category = Letter;
 color = 0;
+direction = RTL;
 glyphname = "gueh-ar";
 layers = (
 {
@@ -54,5 +56,9 @@ ref = "twodotsverticalbelow-ar";
 width = 896;
 }
 );
+script = arabic;
+sortName = arL0254;
+sortNameKeep = arL0254;
+subCategory = "";
 unicode = 1715;
 }

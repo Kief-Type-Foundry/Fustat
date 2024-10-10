@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = "tail-ar";
 layers = (
 {
@@ -67,4 +69,8 @@ width = 236;
 );
 metricLeft = "=0";
 metricRight = "=0";
+script = arabic;
+sortName = arM1126;
+sortNameKeep = arM1126;
+subCategory = Nonspacing;
 }

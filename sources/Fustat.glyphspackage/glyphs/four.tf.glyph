@@ -1,4 +1,6 @@
 {
+category = Number;
+direction = LTR;
 glyphname = four.tf;
 layers = (
 {
@@ -36,4 +38,8 @@ width = 600;
 }
 );
 metricWidth = "=zero.tf";
+script = "";
+sortName = tf.Nu4;
+sortNameKeep = Nu4.tf;
+subCategory = "Decimal Digit";
 }

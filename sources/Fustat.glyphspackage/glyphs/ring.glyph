@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = ring;
 layers = (
 {
@@ -31,5 +33,9 @@ ref = ringcomb;
 width = 336;
 }
 );
+script = "";
+sortName = ms013;
+sortNameKeep = ms013;
+subCategory = Spacing;
 unicode = 730;
 }

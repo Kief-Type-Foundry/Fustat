@@ -1,5 +1,7 @@
 {
+category = Number;
 color = 4;
+direction = LTR;
 glyphname = "fourFarsi-ar.locl";
 layers = (
 {
@@ -332,4 +334,8 @@ width = 634;
 );
 metricLeft = "=two-ar";
 metricRight = "=three-ar";
+script = arabic;
+sortName = Nua41;
+sortNameKeep = Nua41;
+subCategory = "Decimal Digit";
 }

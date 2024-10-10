@@ -1,4 +1,6 @@
 {
+category = Number;
+direction = LTR;
 glyphname = "six-ar";
 layers = (
 {
@@ -157,5 +159,9 @@ nodes = (
 width = 512;
 }
 );
+script = arabic;
+sortName = Nua6;
+sortNameKeep = Nua6;
+subCategory = "Decimal Digit";
 unicode = 1638;
 }

@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = "madda-ar";
 layers = (
 {
@@ -284,5 +286,9 @@ width = 152;
 );
 metricLeft = "=0";
 metricRight = "=0";
+script = arabic;
+sortName = arM1070;
+sortNameKeep = arM1070;
+subCategory = Nonspacing;
 unicode = 1619;
 }

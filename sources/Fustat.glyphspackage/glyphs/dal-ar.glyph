@@ -1,4 +1,6 @@
 {
+category = Letter;
+direction = RTL;
 glyphname = "dal-ar";
 layers = (
 {
@@ -1116,5 +1118,9 @@ width = 505;
 }
 );
 metricRight = "=behDotless-ar.init";
+script = arabic;
+sortName = arL0018;
+sortNameKeep = arL0018;
+subCategory = "";
 unicode = 1583;
 }

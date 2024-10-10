@@ -1,5 +1,7 @@
 {
+category = Letter;
 color = 0;
+direction = RTL;
 glyphname = "teh-ar";
 layers = (
 {
@@ -42,5 +44,9 @@ ref = "twodotshorizontalabove-ar";
 width = 881;
 }
 );
+script = arabic;
+sortName = arL0119;
+sortNameKeep = arL0119;
+subCategory = "";
 unicode = 1578;
 }

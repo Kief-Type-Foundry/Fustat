@@ -1,4 +1,6 @@
 {
+category = Number;
+direction = LTR;
 glyphname = two.subs;
 kernLeft = zero.subs;
 kernRight = zero.subs;
@@ -50,4 +52,8 @@ width = 350;
 );
 metricWidth = "=350";
 note = two.numr;
+script = "";
+sortName = Nub.12;
+sortNameKeep = Nub.12;
+subCategory = Small;
 }

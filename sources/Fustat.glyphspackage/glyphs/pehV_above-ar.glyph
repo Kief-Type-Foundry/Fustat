@@ -1,5 +1,7 @@
 {
+category = Letter;
 color = 0;
+direction = RTL;
 glyphname = "pehVabove-ar";
 layers = (
 {
@@ -54,5 +56,9 @@ ref = "vabove-ar";
 width = 936;
 }
 );
+script = arabic;
+sortName = arL0141;
+sortNameKeep = arL0141;
+subCategory = "";
 unicode = 2238;
 }

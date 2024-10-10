@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = caron;
 layers = (
 {
@@ -29,5 +31,9 @@ ref = caroncomb;
 width = 381;
 }
 );
+script = "";
+sortName = ms008;
+sortNameKeep = ms008;
+subCategory = Spacing;
 unicode = 711;
 }

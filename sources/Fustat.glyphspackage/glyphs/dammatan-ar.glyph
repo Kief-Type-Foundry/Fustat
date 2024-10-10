@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = "dammatan-ar";
 layers = (
 {
@@ -516,5 +518,9 @@ width = 245;
 );
 metricLeft = "=0";
 metricRight = "=0";
+script = arabic;
+sortName = arM1139;
+sortNameKeep = arM1139;
+subCategory = Nonspacing;
 unicode = 1612;
 }

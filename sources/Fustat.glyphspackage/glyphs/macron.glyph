@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = macron;
 layers = (
 {
@@ -29,5 +31,9 @@ ref = macroncomb;
 width = 406;
 }
 );
+script = "";
+sortName = ms015;
+sortNameKeep = ms015;
+subCategory = Spacing;
 unicode = 175;
 }

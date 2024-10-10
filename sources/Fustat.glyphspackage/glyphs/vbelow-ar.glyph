@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = "vbelow-ar";
 layers = (
 {
@@ -64,4 +66,8 @@ width = 190;
 );
 metricLeft = "=0";
 metricRight = "=0";
+script = arabic;
+sortName = arM1092;
+sortNameKeep = arM1092;
+subCategory = Nonspacing;
 }

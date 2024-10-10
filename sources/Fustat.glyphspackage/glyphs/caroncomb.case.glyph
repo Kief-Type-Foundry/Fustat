@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = caroncomb.case;
 layers = (
 {
@@ -65,4 +67,8 @@ scale = (1,-1);
 width = 405;
 }
 );
+script = "";
+sortName = case.ac014;
+sortNameKeep = ac014.case;
+subCategory = Nonspacing;
 }

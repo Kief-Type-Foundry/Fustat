@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = strokeshortcomb;
 layers = (
 {
@@ -173,5 +175,9 @@ width = 356;
 }
 );
 metricRight = "=|";
+script = "";
+sortName = ac108;
+sortNameKeep = ac108;
+subCategory = Nonspacing;
 unicode = 821;
 }

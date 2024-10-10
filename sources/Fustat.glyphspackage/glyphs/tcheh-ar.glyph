@@ -1,5 +1,7 @@
 {
+category = Letter;
 color = 0;
+direction = RTL;
 glyphname = "tcheh-ar";
 layers = (
 {
@@ -482,5 +484,9 @@ width = 658;
 );
 metricLeft = "=hah-ar";
 metricRight = "=hah-ar";
+script = arabic;
+sortName = arL0151;
+sortNameKeep = arL0151;
+subCategory = "";
 unicode = 1670;
 }

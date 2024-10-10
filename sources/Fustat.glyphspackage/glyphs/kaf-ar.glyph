@@ -1,5 +1,7 @@
 {
+category = Letter;
 color = 0;
+direction = RTL;
 glyphname = "kaf-ar";
 layers = (
 {
@@ -42,5 +44,9 @@ ref = "miniKeheh-ar";
 width = 831;
 }
 );
+script = arabic;
+sortName = arL0241;
+sortNameKeep = arL0241;
+subCategory = "";
 unicode = 1603;
 }

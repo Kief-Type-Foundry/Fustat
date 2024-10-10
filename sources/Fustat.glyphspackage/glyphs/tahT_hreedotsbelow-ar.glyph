@@ -1,5 +1,7 @@
 {
+category = Letter;
 color = 0;
+direction = RTL;
 glyphname = "tahThreedotsbelow-ar";
 layers = (
 {
@@ -42,5 +44,9 @@ ref = "threedotsdownbelow-ar";
 width = 1006;
 }
 );
+script = arabic;
+sortName = arL0215;
+sortNameKeep = arL0215;
+subCategory = "";
 unicode = 2188;
 }

@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = acutecomb.case;
 layers = (
 {
@@ -62,4 +64,8 @@ ref = acutecomb;
 width = 286;
 }
 );
+script = "";
+sortName = case.ac006;
+sortNameKeep = ac006.case;
+subCategory = Nonspacing;
 }

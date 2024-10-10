@@ -1,4 +1,6 @@
 {
+category = Letter;
+direction = RTL;
 glyphname = "alef-ar.short.fina";
 layers = (
 {
@@ -88,4 +90,8 @@ width = 196;
 );
 metricLeft = "=alef-ar.fina";
 metricRight = "=alef-ar.fina";
+script = arabic;
+sortName = arL0006.1;
+sortNameKeep = arL0006.1;
+subCategory = "";
 }

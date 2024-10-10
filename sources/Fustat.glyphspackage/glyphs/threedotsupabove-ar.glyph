@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = "threedotsupabove-ar";
 layers = (
 {
@@ -76,4 +78,8 @@ width = 114;
 );
 metricLeft = "=0";
 metricRight = "=0";
+script = arabic;
+sortName = arM1064;
+sortNameKeep = arM1064;
+subCategory = Nonspacing;
 }

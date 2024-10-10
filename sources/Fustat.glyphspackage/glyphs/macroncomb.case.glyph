@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = macroncomb.case;
 layers = (
 {
@@ -62,4 +64,8 @@ ref = macroncomb;
 width = 406;
 }
 );
+script = "";
+sortName = case.ac022;
+sortNameKeep = ac022.case;
+subCategory = Nonspacing;
 }

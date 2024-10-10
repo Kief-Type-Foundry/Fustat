@@ -1,4 +1,6 @@
 {
+category = Number;
+direction = LTR;
 glyphname = "seven-ar.tf";
 layers = (
 {
@@ -90,4 +92,8 @@ width = 600;
 }
 );
 metricWidth = "=zero-ar.tf";
+script = arabic;
+sortName = tf.Nua7;
+sortNameKeep = Nua7.tf;
+subCategory = "Decimal Digit";
 }

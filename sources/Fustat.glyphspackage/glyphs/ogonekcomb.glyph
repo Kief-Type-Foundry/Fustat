@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = ogonekcomb;
 layers = (
 {
@@ -121,5 +123,9 @@ nodes = (
 width = 237;
 }
 );
+script = "";
+sortName = ac082;
+sortNameKeep = ac082;
+subCategory = Nonspacing;
 unicode = 808;
 }

@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = "damma-ar";
 layers = (
 {
@@ -492,5 +494,9 @@ width = 116;
 );
 metricLeft = "=0";
 metricRight = "=0";
+script = arabic;
+sortName = arM1135;
+sortNameKeep = arM1135;
+subCategory = Nonspacing;
 unicode = 1615;
 }

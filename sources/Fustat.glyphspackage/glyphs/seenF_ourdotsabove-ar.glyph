@@ -1,5 +1,7 @@
 {
+category = Letter;
 color = 0;
+direction = RTL;
 glyphname = "seenFourdotsabove-ar";
 layers = (
 {
@@ -42,5 +44,9 @@ ref = "fourdotsabove-ar";
 width = 1068;
 }
 );
+script = arabic;
+sortName = arL0201;
+sortNameKeep = arL0201;
+subCategory = "";
 unicode = 1884;
 }

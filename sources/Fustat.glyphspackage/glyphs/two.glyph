@@ -1,4 +1,6 @@
 {
+category = Number;
+direction = LTR;
 glyphname = two;
 kernLeft = two;
 kernRight = two;
@@ -118,5 +120,9 @@ nodes = (
 width = 570;
 }
 );
+script = "";
+sortName = Nu2;
+sortNameKeep = Nu2;
+subCategory = "Decimal Digit";
 unicode = 50;
 }

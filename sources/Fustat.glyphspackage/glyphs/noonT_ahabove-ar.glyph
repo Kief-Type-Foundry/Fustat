@@ -1,5 +1,7 @@
 {
+category = Letter;
 color = 0;
+direction = RTL;
 glyphname = "noonTahabove-ar";
 layers = (
 {
@@ -42,5 +44,9 @@ ref = "dotabove_tahabove-ar";
 width = 585;
 }
 );
+script = arabic;
+sortName = arL0279;
+sortNameKeep = arL0279;
+subCategory = "";
 unicode = 1896;
 }

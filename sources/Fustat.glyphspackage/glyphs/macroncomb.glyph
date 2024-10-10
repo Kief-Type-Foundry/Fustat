@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = macroncomb;
 layers = (
 {
@@ -77,5 +79,9 @@ nodes = (
 width = 406;
 }
 );
+script = "";
+sortName = ac022;
+sortNameKeep = ac022;
+subCategory = Nonspacing;
 unicode = 772;
 }

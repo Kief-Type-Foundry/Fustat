@@ -1,4 +1,6 @@
 {
+category = Number;
+direction = LTR;
 glyphname = twothirds;
 kernLeft = zero.numr;
 kernRight = zero.dnom;
@@ -55,5 +57,9 @@ ref = three.dnom;
 width = 813;
 }
 );
+script = "";
+sortName = "nu.03/2";
+sortNameKeep = "nu.03/2";
+subCategory = Fraction;
 unicode = 8532;
 }

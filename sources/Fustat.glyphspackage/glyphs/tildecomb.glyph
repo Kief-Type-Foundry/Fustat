@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = tildecomb;
 layers = (
 {
@@ -125,5 +127,9 @@ nodes = (
 width = 488;
 }
 );
+script = "";
+sortName = ac020;
+sortNameKeep = ac020;
+subCategory = Nonspacing;
 unicode = 771;
 }

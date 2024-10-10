@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = "hamzaabove-ar";
 layers = (
 {
@@ -475,5 +477,9 @@ width = 173;
 );
 metricLeft = "=0";
 metricRight = "=0";
+script = arabic;
+sortName = arM1067;
+sortNameKeep = arM1067;
+subCategory = Nonspacing;
 unicode = 1620;
 }

@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = ringcomb.case;
 layers = (
 {
@@ -65,4 +67,8 @@ ref = ringcomb;
 width = 316;
 }
 );
+script = "";
+sortName = case.ac018;
+sortNameKeep = ac018.case;
+subCategory = Nonspacing;
 }

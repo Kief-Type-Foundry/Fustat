@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = tildecomb.case;
 layers = (
 {
@@ -62,4 +64,8 @@ ref = tildecomb;
 width = 488;
 }
 );
+script = "";
+sortName = case.ac020;
+sortNameKeep = ac020.case;
+subCategory = Nonspacing;
 }

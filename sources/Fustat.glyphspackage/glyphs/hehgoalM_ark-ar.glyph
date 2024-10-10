@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = "hehgoalMark-ar";
 layers = (
 {
@@ -53,4 +55,8 @@ scale = (0.8,0.8);
 width = 286;
 }
 );
+script = arabic;
+sortName = arM1127;
+sortNameKeep = arM1127;
+subCategory = Nonspacing;
 }

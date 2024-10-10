@@ -1,4 +1,6 @@
 {
+category = Letter;
+direction = RTL;
 glyphname = "kaf-ar.medi";
 layers = (
 {
@@ -196,4 +198,8 @@ width = 707;
 );
 metricLeft = "=-20";
 metricRight = "=0";
+script = arabic;
+sortName = arL0048;
+sortNameKeep = arL0048;
+subCategory = "";
 }

@@ -1,4 +1,6 @@
 {
+category = Letter;
+direction = RTL;
 glyphname = "hah-ar";
 layers = (
 {
@@ -2772,5 +2774,9 @@ nodes = (
 width = 710;
 }
 );
+script = arabic;
+sortName = arL0014;
+sortNameKeep = arL0014;
+subCategory = "";
 unicode = 1581;
 }

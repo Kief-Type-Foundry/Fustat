@@ -1,4 +1,6 @@
 {
+category = Number;
+direction = LTR;
 glyphname = six.numr;
 kernLeft = zero.numr;
 kernRight = zero.numr;
@@ -49,4 +51,8 @@ width = 350;
 }
 );
 metricWidth = "=350";
+script = "";
+sortName = Nun.36;
+sortNameKeep = Nun.36;
+subCategory = Fraction;
 }

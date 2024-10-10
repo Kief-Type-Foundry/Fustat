@@ -1,5 +1,7 @@
 {
+category = Letter;
 color = 0;
+direction = RTL;
 glyphname = "wawring-ar";
 layers = (
 {
@@ -42,5 +44,9 @@ ref = "ringbelow-ar";
 width = 501;
 }
 );
+script = arabic;
+sortName = arL0289;
+sortNameKeep = arL0289;
+subCategory = "";
 unicode = 1732;
 }

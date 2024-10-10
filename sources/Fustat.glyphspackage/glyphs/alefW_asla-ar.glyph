@@ -1,5 +1,7 @@
 {
+category = Letter;
 color = 0;
+direction = RTL;
 glyphname = "alefWasla-ar";
 layers = (
 {
@@ -42,5 +44,9 @@ ref = "wasla-ar";
 width = 295;
 }
 );
+script = arabic;
+sortName = arL0094;
+sortNameKeep = arL0094;
+subCategory = "";
 unicode = 1649;
 }

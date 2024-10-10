@@ -1,5 +1,7 @@
 {
+category = Letter;
 color = 0;
+direction = RTL;
 glyphname = "ng-ar";
 layers = (
 {
@@ -42,5 +44,9 @@ ref = "threedotsupabove-ar";
 width = 831;
 }
 );
+script = arabic;
+sortName = arL0243;
+sortNameKeep = arL0243;
+subCategory = "";
 unicode = 1709;
 }

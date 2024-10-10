@@ -1,4 +1,6 @@
 {
+category = Letter;
+direction = RTL;
 glyphname = "kafswash-ar.init";
 layers = (
 {
@@ -166,4 +168,8 @@ width = 970;
 );
 metricLeft = "=-20";
 metricRight = "=kafswash-ar";
+script = arabic;
+sortName = arL0052.3;
+sortNameKeep = arL0052.3;
+subCategory = "";
 }

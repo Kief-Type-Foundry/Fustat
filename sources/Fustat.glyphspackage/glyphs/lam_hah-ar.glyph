@@ -1,4 +1,6 @@
 {
+category = Letter;
+direction = RTL;
 glyphname = "lam_hah-ar";
 layers = (
 {
@@ -142,4 +144,8 @@ width = 764;
 );
 metricLeft = "hah-ar.fina";
 metricRight = "lam-ar.init";
+script = arabic;
+sortName = arL0056_arL0015;
+sortNameKeep = arL0056_arL0015;
+subCategory = Ligature;
 }

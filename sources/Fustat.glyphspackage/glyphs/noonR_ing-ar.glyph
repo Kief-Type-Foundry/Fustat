@@ -1,5 +1,7 @@
 {
+category = Letter;
 color = 0;
+direction = RTL;
 glyphname = "noonRing-ar";
 layers = (
 {
@@ -54,5 +56,9 @@ ref = "ringbelow-ar";
 width = 585;
 }
 );
+script = arabic;
+sortName = arL0276;
+sortNameKeep = arL0276;
+subCategory = "";
 unicode = 1724;
 }

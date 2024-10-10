@@ -1,4 +1,6 @@
 {
+category = Number;
+direction = LTR;
 glyphname = "eight-ar";
 layers = (
 {
@@ -37,5 +39,9 @@ width = 526;
 );
 metricLeft = "=seven-ar";
 metricRight = "=seven-ar";
+script = arabic;
+sortName = Nua8;
+sortNameKeep = Nua8;
+subCategory = "Decimal Digit";
 unicode = (1640,1784);
 }

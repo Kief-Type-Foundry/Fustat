@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = tilde;
 layers = (
 {
@@ -29,5 +31,9 @@ ref = tildecomb;
 width = 488;
 }
 );
+script = "";
+sortName = ms014;
+sortNameKeep = ms014;
+subCategory = Spacing;
 unicode = 732;
 }

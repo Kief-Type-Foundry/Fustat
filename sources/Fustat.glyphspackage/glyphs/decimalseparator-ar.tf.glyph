@@ -1,4 +1,6 @@
 {
+category = Number;
+direction = LTR;
 glyphname = "decimalseparator-ar.tf";
 layers = (
 {
@@ -36,4 +38,8 @@ width = 600;
 }
 );
 metricWidth = "=zero-ar.tf";
+script = arabic;
+sortName = tf.ar3204;
+sortNameKeep = ar3204.tf;
+subCategory = "";
 }

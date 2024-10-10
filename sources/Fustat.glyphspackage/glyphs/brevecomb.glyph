@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = brevecomb;
 layers = (
 {
@@ -107,5 +109,9 @@ nodes = (
 width = 370;
 }
 );
+script = "";
+sortName = ac016;
+sortNameKeep = ac016;
+subCategory = Nonspacing;
 unicode = 774;
 }

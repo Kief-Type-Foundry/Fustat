@@ -1,5 +1,7 @@
 {
+category = Mark;
 color = 4;
+direction = LTR;
 glyphname = "threedotsdownbelow-ar.alt";
 layers = (
 {
@@ -183,4 +185,8 @@ width = 114;
 );
 metricLeft = "=0";
 metricRight = "=0";
+script = arabic;
+sortName = arM1088.alt;
+sortNameKeep = arM1088.alt;
+subCategory = Nonspacing;
 }

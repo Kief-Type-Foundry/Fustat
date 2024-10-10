@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = "dotbelow_threedotsdownbelow-ar";
 layers = (
 {
@@ -53,4 +55,8 @@ width = 145;
 );
 metricLeft = "=0";
 metricRight = "=0";
+script = arabic;
+sortName = arM1083_arM1088;
+sortNameKeep = arM1083_arM1088;
+subCategory = Nonspacing;
 }

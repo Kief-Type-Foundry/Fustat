@@ -1,4 +1,6 @@
 {
+category = Letter;
+direction = LTR;
 glyphname = "lam_lam_shadda_alefabove_heh-ar";
 layers = (
 {
@@ -469,4 +471,8 @@ width = 1101;
 );
 metricLeft = "=heh-ar.fina";
 metricRight = "=lam-ar.init";
+script = arabic;
+sortName = arL1031;
+sortNameKeep = arL1031;
+subCategory = Ligature;
 }

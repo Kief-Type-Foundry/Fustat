@@ -1,5 +1,7 @@
 {
+category = Letter;
 color = 0;
+direction = RTL;
 glyphname = "rehFourdots-ar";
 layers = (
 {
@@ -42,5 +44,9 @@ ref = "fourdotsabove-ar";
 width = 310;
 }
 );
+script = arabic;
+sortName = arL0188;
+sortNameKeep = arL0188;
+subCategory = "";
 unicode = 1689;
 }

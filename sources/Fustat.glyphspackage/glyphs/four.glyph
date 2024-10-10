@@ -1,4 +1,6 @@
 {
+category = Number;
+direction = LTR;
 glyphname = four;
 kernLeft = four;
 kernRight = four;
@@ -81,5 +83,9 @@ nodes = (
 width = 573;
 }
 );
+script = "";
+sortName = Nu4;
+sortNameKeep = Nu4;
+subCategory = "Decimal Digit";
 unicode = 52;
 }

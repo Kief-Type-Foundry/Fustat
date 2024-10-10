@@ -1,5 +1,7 @@
 {
+category = Letter;
 color = 0;
+direction = RTL;
 glyphname = "dadDotbelow-ar";
 layers = (
 {
@@ -42,5 +44,9 @@ ref = "dotbelow-ar";
 width = 1279;
 }
 );
+script = arabic;
+sortName = arL0209;
+sortNameKeep = arL0209;
+subCategory = "";
 unicode = 1787;
 }

@@ -1,4 +1,6 @@
 {
+category = Number;
+direction = LTR;
 glyphname = three.dnom;
 kernLeft = zero.dnom;
 kernRight = zero.dnom;
@@ -53,4 +55,8 @@ width = 350;
 );
 metricWidth = "=350";
 note = three.dnom;
+script = "";
+sortName = Nud.23;
+sortNameKeep = Nud.23;
+subCategory = Fraction;
 }

@@ -1,4 +1,6 @@
 {
+category = Letter;
+direction = RTL;
 glyphname = "seen-ar.medi";
 layers = (
 {
@@ -367,4 +369,8 @@ width = 530;
 );
 metricLeft = "=-20";
 metricRight = "=0";
+script = arabic;
+sortName = arL0025;
+sortNameKeep = arL0025;
+subCategory = "";
 }

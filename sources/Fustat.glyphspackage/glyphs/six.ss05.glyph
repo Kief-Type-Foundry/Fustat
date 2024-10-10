@@ -1,5 +1,7 @@
 {
+category = Number;
 color = 4;
+direction = LTR;
 glyphname = six.ss05;
 kernLeft = sixgeom;
 kernRight = sixgeom;
@@ -273,4 +275,8 @@ nodes = (
 width = 558;
 }
 );
+script = "";
+sortName = Nu61;
+sortNameKeep = Nu61;
+subCategory = "Decimal Digit";
 }

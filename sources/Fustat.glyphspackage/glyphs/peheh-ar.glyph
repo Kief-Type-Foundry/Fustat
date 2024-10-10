@@ -1,5 +1,7 @@
 {
+category = Letter;
 color = 0;
+direction = RTL;
 glyphname = "peheh-ar";
 layers = (
 {
@@ -42,5 +44,9 @@ ref = "fourdotsabove-ar";
 width = 972;
 }
 );
+script = arabic;
+sortName = arL0229;
+sortNameKeep = arL0229;
+subCategory = "";
 unicode = 1702;
 }

@@ -1,4 +1,6 @@
 {
+category = Number;
+direction = LTR;
 glyphname = onehalf;
 kernLeft = zero.numr;
 kernRight = zero.dnom;
@@ -56,5 +58,9 @@ width = 783;
 }
 );
 note = onehalf;
+script = "";
+sortName = "nu.02/1";
+sortNameKeep = "nu.02/1";
+subCategory = Fraction;
 unicode = 189;
 }

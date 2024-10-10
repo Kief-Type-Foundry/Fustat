@@ -1,4 +1,6 @@
 {
+category = Number;
+direction = LTR;
 glyphname = four.dnom;
 kernLeft = zero.dnom;
 kernRight = zero.dnom;
@@ -53,4 +55,8 @@ width = 350;
 );
 metricWidth = "=350";
 note = four.dnom;
+script = "";
+sortName = Nud.24;
+sortNameKeep = Nud.24;
+subCategory = Fraction;
 }

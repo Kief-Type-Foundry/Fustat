@@ -1,4 +1,6 @@
 {
+category = Number;
+direction = LTR;
 glyphname = "eight-ar.subs";
 layers = (
 {
@@ -36,4 +38,8 @@ width = 350;
 }
 );
 metricWidth = "=zero-ar.dnom";
+script = arabic;
+sortName = subs.Nua8;
+sortNameKeep = Nua8.subs;
+subCategory = "Decimal Digit";
 }

@@ -1,5 +1,7 @@
 {
+category = Letter;
 color = 0;
+direction = RTL;
 glyphname = "zain-ar";
 layers = (
 {
@@ -57,5 +59,9 @@ ref = "dotabove-ar";
 width = 252;
 }
 );
+script = arabic;
+sortName = arL0179;
+sortNameKeep = arL0179;
+subCategory = "";
 unicode = 1586;
 }

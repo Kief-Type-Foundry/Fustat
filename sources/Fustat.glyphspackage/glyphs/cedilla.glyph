@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = cedilla;
 layers = (
 {
@@ -31,5 +33,9 @@ ref = cedillacomb;
 width = 239;
 }
 );
+script = "";
+sortName = ms016;
+sortNameKeep = ms016;
+subCategory = Spacing;
 unicode = 184;
 }

@@ -1,4 +1,6 @@
 {
+category = Number;
+direction = LTR;
 glyphname = "sevenFarsi-ar.numr";
 layers = (
 {
@@ -36,4 +38,8 @@ width = 350;
 }
 );
 metricWidth = "=zero-ar.dnom";
+script = arabic;
+sortName = numr.Nua7;
+sortNameKeep = Nua7.numr;
+subCategory = "Decimal Digit";
 }

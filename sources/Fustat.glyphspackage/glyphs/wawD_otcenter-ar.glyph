@@ -1,5 +1,7 @@
 {
+category = Letter;
 color = 0;
+direction = RTL;
 glyphname = "wawDotcenter-ar";
 layers = (
 {
@@ -42,5 +44,9 @@ ref = "dotcenter-ar";
 width = 501;
 }
 );
+script = arabic;
+sortName = arL0300;
+sortNameKeep = arL0300;
+subCategory = "";
 unicode = 2219;
 }

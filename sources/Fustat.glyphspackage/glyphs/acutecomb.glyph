@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = acutecomb;
 layers = (
 {
@@ -107,5 +109,9 @@ nodes = (
 width = 241;
 }
 );
+script = "";
+sortName = ac006;
+sortNameKeep = ac006;
+subCategory = Nonspacing;
 unicode = 769;
 }

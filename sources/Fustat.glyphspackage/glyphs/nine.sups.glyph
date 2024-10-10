@@ -1,4 +1,6 @@
 {
+category = Number;
+direction = LTR;
 glyphname = nine.sups;
 kernLeft = zero.sups;
 kernRight = zero.sups;
@@ -49,4 +51,8 @@ width = 350;
 }
 );
 metricWidth = "=350";
+script = "";
+sortName = Nup.59;
+sortNameKeep = Nup.59;
+subCategory = Small;
 }

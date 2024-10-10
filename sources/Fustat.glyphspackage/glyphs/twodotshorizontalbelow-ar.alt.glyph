@@ -1,5 +1,7 @@
 {
+category = Mark;
 color = 4;
+direction = LTR;
 glyphname = "twodotshorizontalbelow-ar.alt";
 layers = (
 {
@@ -50,4 +52,8 @@ width = 114;
 );
 metricLeft = "=0";
 metricRight = "=0";
+script = arabic;
+sortName = arM1084.alt;
+sortNameKeep = arM1084.alt;
+subCategory = Nonspacing;
 }

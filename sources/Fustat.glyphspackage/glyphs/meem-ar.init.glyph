@@ -1,4 +1,6 @@
 {
+category = Letter;
+direction = RTL;
 glyphname = "meem-ar.init";
 layers = (
 {
@@ -1917,4 +1919,8 @@ width = 525;
 );
 metricLeft = "=-20";
 metricRight = "=feh-ar";
+script = arabic;
+sortName = arL0060;
+sortNameKeep = arL0060;
+subCategory = "";
 }

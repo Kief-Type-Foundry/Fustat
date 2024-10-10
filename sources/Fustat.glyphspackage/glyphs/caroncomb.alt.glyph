@@ -1,5 +1,7 @@
 {
+category = Mark;
 color = 4;
+direction = LTR;
 glyphname = caroncomb.alt;
 layers = (
 {
@@ -131,4 +133,8 @@ nodes = (
 width = 168;
 }
 );
+script = "";
+sortName = ac010;
+sortNameKeep = ac010;
+subCategory = Nonspacing;
 }

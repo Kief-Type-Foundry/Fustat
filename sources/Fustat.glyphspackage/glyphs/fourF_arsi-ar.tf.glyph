@@ -1,4 +1,6 @@
 {
+category = Number;
+direction = LTR;
 glyphname = "fourFarsi-ar.tf";
 layers = (
 {
@@ -372,4 +374,8 @@ width = 634;
 }
 );
 metricWidth = "=zero-ar.tf";
+script = arabic;
+sortName = tf.Nua4;
+sortNameKeep = Nua4.tf;
+subCategory = "Decimal Digit";
 }

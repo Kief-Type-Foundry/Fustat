@@ -1,4 +1,6 @@
 {
+category = Number;
+direction = LTR;
 glyphname = "fiveFarsi-ar.sups";
 layers = (
 {
@@ -36,4 +38,8 @@ width = 350;
 }
 );
 metricWidth = "=zero-ar.dnom";
+script = arabic;
+sortName = sups.Nua5;
+sortNameKeep = Nua5.sups;
+subCategory = "Decimal Digit";
 }

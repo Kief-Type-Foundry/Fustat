@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = dieresiscomb.case;
 layers = (
 {
@@ -62,4 +64,8 @@ ref = dieresiscomb;
 width = 436;
 }
 );
+script = "";
+sortName = case.ac000;
+sortNameKeep = ac000.case;
+subCategory = Nonspacing;
 }

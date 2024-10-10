@@ -1,4 +1,6 @@
 {
+category = Letter;
+direction = RTL;
 glyphname = "alef-ar";
 layers = (
 {
@@ -154,5 +156,9 @@ nodes = (
 width = 205;
 }
 );
+script = arabic;
+sortName = arL0004;
+sortNameKeep = arL0004;
+subCategory = "";
 unicode = 1575;
 }

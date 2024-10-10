@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = slashlongcomb;
 layers = (
 {
@@ -146,5 +148,9 @@ width = 653;
 }
 );
 metricRight = "=|";
+script = "";
+sortName = ac114;
+sortNameKeep = ac114;
+subCategory = Nonspacing;
 unicode = 824;
 }

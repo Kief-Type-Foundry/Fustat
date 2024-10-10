@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = dieresis;
 layers = (
 {
@@ -29,5 +31,9 @@ ref = dieresiscomb;
 width = 432;
 }
 );
+script = "";
+sortName = ms000;
+sortNameKeep = ms000;
+subCategory = Spacing;
 unicode = 168;
 }

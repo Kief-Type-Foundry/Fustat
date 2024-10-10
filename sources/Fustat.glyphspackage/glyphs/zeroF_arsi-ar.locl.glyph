@@ -1,5 +1,7 @@
 {
+category = Number;
 color = 4;
+direction = LTR;
 glyphname = "zeroFarsi-ar.locl";
 layers = (
 {
@@ -123,4 +125,8 @@ nodes = (
 width = 383;
 }
 );
+script = arabic;
+sortName = Nua01;
+sortNameKeep = Nua01;
+subCategory = "Decimal Digit";
 }

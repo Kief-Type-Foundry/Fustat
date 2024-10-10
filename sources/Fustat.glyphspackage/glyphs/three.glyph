@@ -1,4 +1,6 @@
 {
+category = Number;
+direction = LTR;
 glyphname = three;
 kernLeft = zero;
 kernRight = zero;
@@ -195,5 +197,9 @@ width = 598;
 );
 metricLeft = zero;
 metricRight = zero;
+script = "";
+sortName = Nu3;
+sortNameKeep = Nu3;
+subCategory = "Decimal Digit";
 unicode = 51;
 }

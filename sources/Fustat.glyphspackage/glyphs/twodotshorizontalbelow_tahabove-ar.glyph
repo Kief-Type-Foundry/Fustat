@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = "twodotshorizontalbelow_tahabove-ar";
 layers = (
 {
@@ -52,4 +54,8 @@ width = 242;
 );
 metricLeft = "=0";
 metricRight = "=0";
+script = arabic;
+sortName = arM1084_arM1080;
+sortNameKeep = arM1084_arM1080;
+subCategory = Nonspacing;
 }

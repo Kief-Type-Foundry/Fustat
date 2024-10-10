@@ -1,5 +1,7 @@
 {
+category = Letter;
 color = 0;
+direction = RTL;
 glyphname = "hahHamzaabove-ar";
 layers = (
 {
@@ -42,5 +44,9 @@ ref = "hamzaabove-ar";
 width = 759;
 }
 );
+script = arabic;
+sortName = arL0146;
+sortNameKeep = arL0146;
+subCategory = "";
 unicode = 1665;
 }

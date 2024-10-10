@@ -1,5 +1,7 @@
 {
+category = Letter;
 color = 0;
+direction = RTL;
 glyphname = "veh-ar";
 layers = (
 {
@@ -42,5 +44,9 @@ ref = "threedotsupabove-ar";
 width = 954;
 }
 );
+script = arabic;
+sortName = arL0227;
+sortNameKeep = arL0227;
+subCategory = "";
 unicode = 1700;
 }

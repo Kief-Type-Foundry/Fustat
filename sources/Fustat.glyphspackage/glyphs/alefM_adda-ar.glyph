@@ -1,5 +1,7 @@
 {
+category = Letter;
 color = 0;
+direction = RTL;
 glyphname = "alefMadda-ar";
 layers = (
 {
@@ -42,5 +44,9 @@ ref = "madda-ar";
 width = 205;
 }
 );
+script = arabic;
+sortName = arL0091;
+sortNameKeep = arL0091;
+subCategory = "";
 unicode = 1570;
 }

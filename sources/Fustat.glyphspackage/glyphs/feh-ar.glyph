@@ -1,5 +1,7 @@
 {
+category = Letter;
 color = 0;
+direction = RTL;
 glyphname = "feh-ar";
 layers = (
 {
@@ -42,5 +44,9 @@ ref = "dotabove-ar";
 width = 954;
 }
 );
+script = arabic;
+sortName = arL0224;
+sortNameKeep = arL0224;
+subCategory = "";
 unicode = 1601;
 }

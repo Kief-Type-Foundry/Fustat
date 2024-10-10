@@ -1,5 +1,7 @@
 {
+category = Letter;
 color = 0;
+direction = RTL;
 glyphname = "sheen-ar";
 layers = (
 {
@@ -42,5 +44,9 @@ ref = "threedotsupabove-ar";
 width = 873;
 }
 );
+script = arabic;
+sortName = arL0196;
+sortNameKeep = arL0196;
+subCategory = "";
 unicode = 1588;
 }

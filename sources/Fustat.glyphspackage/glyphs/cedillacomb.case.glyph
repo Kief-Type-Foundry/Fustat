@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = cedillacomb.case;
 layers = (
 {
@@ -59,4 +61,8 @@ ref = cedillacomb;
 width = 231;
 }
 );
+script = "";
+sortName = case.ac080;
+sortNameKeep = ac080.case;
+subCategory = Nonspacing;
 }

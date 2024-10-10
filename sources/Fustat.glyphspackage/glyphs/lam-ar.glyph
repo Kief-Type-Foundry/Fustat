@@ -1,4 +1,6 @@
 {
+category = Letter;
+direction = RTL;
 glyphname = "lam-ar";
 layers = (
 {
@@ -287,5 +289,9 @@ width = 561;
 );
 metricLeft = "=noonghunna-ar";
 metricRight = "=noonghunna-ar";
+script = arabic;
+sortName = arL0053;
+sortNameKeep = arL0053;
+subCategory = "";
 unicode = 1604;
 }

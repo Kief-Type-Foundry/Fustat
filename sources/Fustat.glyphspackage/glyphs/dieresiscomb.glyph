@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = dieresiscomb;
 layers = (
 {
@@ -75,5 +77,9 @@ ref = dotaccentcomb;
 width = 436;
 }
 );
+script = "";
+sortName = ac000;
+sortNameKeep = ac000;
+subCategory = Nonspacing;
 unicode = 776;
 }

@@ -1,4 +1,6 @@
 {
+category = Number;
+direction = LTR;
 glyphname = three.numr;
 kernLeft = zero.numr;
 kernRight = zero.numr;
@@ -50,4 +52,8 @@ width = 350;
 );
 metricWidth = "=350";
 note = three.numr;
+script = "";
+sortName = Nun.33;
+sortNameKeep = Nun.33;
+subCategory = Fraction;
 }

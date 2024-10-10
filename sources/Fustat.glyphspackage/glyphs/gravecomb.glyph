@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = gravecomb;
 layers = (
 {
@@ -67,5 +69,9 @@ width = 286;
 );
 metricLeft = "=|acutecomb";
 metricRight = "=|acutecomb";
+script = "";
+sortName = ac004;
+sortNameKeep = ac004;
+subCategory = Nonspacing;
 unicode = 768;
 }

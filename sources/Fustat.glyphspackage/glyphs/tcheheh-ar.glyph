@@ -1,5 +1,7 @@
 {
+category = Letter;
 color = 0;
+direction = RTL;
 glyphname = "tcheheh-ar";
 layers = (
 {
@@ -42,5 +44,9 @@ ref = "fourdotscenter-ar";
 width = 759;
 }
 );
+script = arabic;
+sortName = arL0152;
+sortNameKeep = arL0152;
+subCategory = "";
 unicode = 1671;
 }

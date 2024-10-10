@@ -1,4 +1,6 @@
 {
+category = Letter;
+direction = RTL;
 glyphname = "tah-ar.fina";
 layers = (
 {
@@ -199,4 +201,8 @@ width = 828;
 );
 metricLeft = "=tah-ar";
 metricRight = "=0";
+script = arabic;
+sortName = arL0032;
+sortNameKeep = arL0032;
+subCategory = "";
 }

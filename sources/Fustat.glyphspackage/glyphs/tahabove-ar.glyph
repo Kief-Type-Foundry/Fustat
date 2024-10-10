@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = "tahabove-ar";
 layers = (
 {
@@ -238,4 +240,8 @@ width = 290;
 );
 metricLeft = "=0";
 metricRight = "=0";
+script = arabic;
+sortName = arM1080;
+sortNameKeep = arM1080;
+subCategory = Nonspacing;
 }

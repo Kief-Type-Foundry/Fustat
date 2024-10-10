@@ -1,5 +1,7 @@
 {
+category = Number;
 color = 4;
+direction = LTR;
 glyphname = nine.ss05;
 kernLeft = ninegeom;
 kernRight = ninegeom;
@@ -40,4 +42,8 @@ width = 558;
 );
 metricLeft = "=|six";
 metricRight = "=|six";
+script = "";
+sortName = Nu91;
+sortNameKeep = Nu91;
+subCategory = "Decimal Digit";
 }

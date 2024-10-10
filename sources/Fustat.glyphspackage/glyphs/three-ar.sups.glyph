@@ -1,4 +1,6 @@
 {
+category = Number;
+direction = LTR;
 glyphname = "three-ar.sups";
 layers = (
 {
@@ -36,4 +38,8 @@ width = 350;
 }
 );
 metricWidth = "=zero-ar.dnom";
+script = arabic;
+sortName = sups.Nua3;
+sortNameKeep = Nua3.sups;
+subCategory = "Decimal Digit";
 }

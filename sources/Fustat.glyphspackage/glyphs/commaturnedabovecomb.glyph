@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = commaturnedabovecomb;
 layers = (
 {
@@ -174,5 +176,9 @@ nodes = (
 width = 172;
 }
 );
+script = "";
+sortName = ac038;
+sortNameKeep = ac038;
+subCategory = Nonspacing;
 unicode = 786;
 }

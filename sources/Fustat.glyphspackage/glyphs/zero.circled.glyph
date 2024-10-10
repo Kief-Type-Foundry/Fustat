@@ -1,4 +1,6 @@
 {
+category = Number;
+direction = LTR;
 glyphname = zero.circled;
 kernLeft = O;
 kernRight = O;
@@ -83,5 +85,9 @@ ref = zeroCircledComp;
 width = 812;
 }
 );
+script = "";
+sortName = circled.Nu0_Nu0;
+sortNameKeep = circled.Nu0_Nu0;
+subCategory = "Decimal Digit";
 unicode = 9450;
 }

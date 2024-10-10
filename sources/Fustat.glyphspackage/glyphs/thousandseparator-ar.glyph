@@ -1,4 +1,6 @@
 {
+category = Number;
+direction = LTR;
 glyphname = "thousandseparator-ar";
 layers = (
 {
@@ -40,5 +42,9 @@ width = 317;
 );
 metricLeft = "=decimalseparator-ar";
 metricRight = "=decimalseparator-ar";
+script = arabic;
+sortName = ar3207;
+sortNameKeep = ar3207;
+subCategory = "";
 unicode = 1644;
 }

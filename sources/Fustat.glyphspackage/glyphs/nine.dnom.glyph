@@ -1,4 +1,6 @@
 {
+category = Number;
+direction = LTR;
 glyphname = nine.dnom;
 kernLeft = zero.dnom;
 kernRight = zero.dnom;
@@ -52,4 +54,8 @@ width = 350;
 }
 );
 metricWidth = "=350";
+script = "";
+sortName = Nud.29;
+sortNameKeep = Nud.29;
+subCategory = Fraction;
 }

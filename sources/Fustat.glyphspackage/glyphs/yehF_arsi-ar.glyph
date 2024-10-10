@@ -1,5 +1,7 @@
 {
+category = Letter;
 color = 0;
+direction = RTL;
 glyphname = "yehFarsi-ar";
 layers = (
 {
@@ -30,5 +32,9 @@ ref = "alefMaksura-ar";
 width = 735;
 }
 );
+script = arabic;
+sortName = arL0307;
+sortNameKeep = arL0307;
+subCategory = "";
 unicode = 1740;
 }

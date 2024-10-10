@@ -1,4 +1,6 @@
 {
+category = Letter;
+direction = RTL;
 glyphname = "alefMaksura-ar";
 layers = (
 {
@@ -1396,5 +1398,9 @@ nodes = (
 width = 811;
 }
 );
+script = arabic;
+sortName = arL0079;
+sortNameKeep = arL0079;
+subCategory = "";
 unicode = 1609;
 }

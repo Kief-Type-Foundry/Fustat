@@ -1,4 +1,6 @@
 {
+category = Number;
+direction = LTR;
 glyphname = "four-ar";
 layers = (
 {
@@ -537,5 +539,9 @@ nodes = (
 width = 511;
 }
 );
+script = arabic;
+sortName = Nua4;
+sortNameKeep = Nua4;
+subCategory = "Decimal Digit";
 unicode = 1636;
 }

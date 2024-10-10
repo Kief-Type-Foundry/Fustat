@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = circumflexcomb;
 layers = (
 {
@@ -86,5 +88,9 @@ nodes = (
 width = 405;
 }
 );
+script = "";
+sortName = ac012;
+sortNameKeep = ac012;
+subCategory = Nonspacing;
 unicode = 770;
 }

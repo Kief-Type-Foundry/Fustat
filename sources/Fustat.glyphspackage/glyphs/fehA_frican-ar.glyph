@@ -1,5 +1,7 @@
 {
+category = Letter;
 color = 0;
+direction = RTL;
 glyphname = "fehAfrican-ar";
 layers = (
 {
@@ -30,5 +32,9 @@ ref = "fehDotless-ar";
 width = 972;
 }
 );
+script = arabic;
+sortName = arL0233;
+sortNameKeep = arL0233;
+subCategory = "";
 unicode = 2235;
 }

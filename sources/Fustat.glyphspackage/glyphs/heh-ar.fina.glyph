@@ -1,4 +1,6 @@
 {
+category = Letter;
+direction = RTL;
 glyphname = "heh-ar.fina";
 layers = (
 {
@@ -1360,4 +1362,8 @@ width = 495;
 }
 );
 metricRight = "=0";
+script = arabic;
+sortName = arL0065;
+sortNameKeep = arL0065;
+subCategory = "";
 }

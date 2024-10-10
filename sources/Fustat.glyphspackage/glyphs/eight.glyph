@@ -1,4 +1,6 @@
 {
+category = Number;
+direction = LTR;
 glyphname = eight;
 kernLeft = zero;
 kernRight = zero;
@@ -227,5 +229,9 @@ width = 560;
 );
 metricLeft = "=|B";
 metricRight = B;
+script = "";
+sortName = Nu8;
+sortNameKeep = Nu8;
+subCategory = "Decimal Digit";
 unicode = 56;
 }

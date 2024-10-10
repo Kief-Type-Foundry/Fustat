@@ -1,5 +1,7 @@
 {
+category = Number;
 color = 4;
+direction = LTR;
 glyphname = "fourFarsi-ar.locl.dnom";
 layers = (
 {
@@ -121,4 +123,8 @@ width = 350;
 }
 );
 metricWidth = "=zero-ar.dnom";
+script = arabic;
+sortName = dnom.Nua41;
+sortNameKeep = Nua41.dnom;
+subCategory = "Decimal Digit";
 }

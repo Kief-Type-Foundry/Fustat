@@ -1,4 +1,6 @@
 {
+category = Letter;
+direction = RTL;
 glyphname = "dal-ar.fina";
 layers = (
 {
@@ -160,4 +162,8 @@ width = 504;
 );
 metricLeft = "=dal-ar";
 metricRight = "=0";
+script = arabic;
+sortName = arL0019;
+sortNameKeep = arL0019;
+subCategory = "";
 }

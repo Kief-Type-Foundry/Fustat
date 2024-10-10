@@ -1,5 +1,7 @@
 {
+category = Letter;
 color = 0;
+direction = RTL;
 glyphname = "u-ar";
 layers = (
 {
@@ -42,5 +44,9 @@ ref = "commaabove-ar";
 width = 501;
 }
 );
+script = arabic;
+sortName = arL0292;
+sortNameKeep = arL0292;
+subCategory = "";
 unicode = 1735;
 }

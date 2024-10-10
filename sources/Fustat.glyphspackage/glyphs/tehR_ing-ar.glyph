@@ -1,5 +1,7 @@
 {
+category = Letter;
 color = 0;
+direction = RTL;
 glyphname = "tehRing-ar";
 layers = (
 {
@@ -54,5 +56,9 @@ ref = "ringbelow-ar";
 width = 936;
 }
 );
+script = arabic;
+sortName = arL0124;
+sortNameKeep = arL0124;
+subCategory = "";
 unicode = 1660;
 }

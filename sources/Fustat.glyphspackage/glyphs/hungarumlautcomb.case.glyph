@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = hungarumlautcomb.case;
 layers = (
 {
@@ -62,4 +64,8 @@ ref = hungarumlautcomb;
 width = 431;
 }
 );
+script = "";
+sortName = case.ac008;
+sortNameKeep = ac008.case;
+subCategory = Nonspacing;
 }

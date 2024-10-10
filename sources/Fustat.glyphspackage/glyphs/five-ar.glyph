@@ -1,4 +1,6 @@
 {
+category = Number;
+direction = LTR;
 glyphname = "five-ar";
 layers = (
 {
@@ -122,5 +124,9 @@ nodes = (
 width = 618;
 }
 );
+script = arabic;
+sortName = Nua5;
+sortNameKeep = Nua5;
+subCategory = "Decimal Digit";
 unicode = 1637;
 }

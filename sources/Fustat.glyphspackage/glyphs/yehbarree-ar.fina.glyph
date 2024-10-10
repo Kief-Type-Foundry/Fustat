@@ -1,4 +1,6 @@
 {
+category = Letter;
+direction = RTL;
 glyphname = "yehbarree-ar.fina";
 layers = (
 {
@@ -884,4 +886,8 @@ width = 760;
 );
 metricLeft = "=yehbarree-ar";
 metricRight = "=0";
+script = arabic;
+sortName = arL0082;
+sortNameKeep = arL0082;
+subCategory = "";
 }

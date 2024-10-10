@@ -1,4 +1,6 @@
 {
+category = Number;
+direction = LTR;
 glyphname = "one-ar.numr";
 layers = (
 {
@@ -36,4 +38,8 @@ width = 350;
 }
 );
 metricWidth = "=zero-ar.dnom";
+script = arabic;
+sortName = numr.Nua1;
+sortNameKeep = Nua1.numr;
+subCategory = "Decimal Digit";
 }

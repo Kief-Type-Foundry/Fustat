@@ -1,4 +1,6 @@
 {
+category = Mark;
+direction = LTR;
 glyphname = hungarumlautcomb;
 layers = (
 {
@@ -110,5 +112,9 @@ nodes = (
 width = 431;
 }
 );
+script = "";
+sortName = ac008;
+sortNameKeep = ac008;
+subCategory = Nonspacing;
 unicode = 779;
 }

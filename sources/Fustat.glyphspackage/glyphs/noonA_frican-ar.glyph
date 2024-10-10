@@ -1,5 +1,7 @@
 {
+category = Letter;
 color = 0;
+direction = RTL;
 glyphname = "noonAfrican-ar";
 layers = (
 {
@@ -30,5 +32,9 @@ ref = "noonghunna-ar";
 width = 585;
 }
 );
+script = arabic;
+sortName = arL0281;
+sortNameKeep = arL0281;
+subCategory = "";
 unicode = 2237;
 }

@@ -1,4 +1,6 @@
 {
+category = Letter;
+direction = RTL;
 glyphname = "fehDotless-ar.fina";
 layers = (
 {
@@ -187,4 +189,8 @@ width = 979;
 );
 metricLeft = "=fehDotless-ar";
 metricRight = "=0";
+script = arabic;
+sortName = arL0040;
+sortNameKeep = arL0040;
+subCategory = "";
 }

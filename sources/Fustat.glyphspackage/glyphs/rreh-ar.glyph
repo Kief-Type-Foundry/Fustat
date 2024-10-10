@@ -1,5 +1,7 @@
 {
+category = Letter;
 color = 0;
+direction = RTL;
 glyphname = "rreh-ar";
 layers = (
 {
@@ -42,5 +44,9 @@ ref = "tahabove-ar";
 width = 252;
 }
 );
+script = arabic;
+sortName = arL0180;
+sortNameKeep = arL0180;
+subCategory = "";
 unicode = 1681;
 }
