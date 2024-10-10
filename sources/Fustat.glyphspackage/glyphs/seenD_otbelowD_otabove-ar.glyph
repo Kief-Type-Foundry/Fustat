@@ -8,6 +8,7 @@ layers = (
 layerId = "3114FB65-9464-41A5-B67E-A8F9F43C0EF1";
 shapes = (
 {
+alignment = -1;
 ref = "seen-ar";
 },
 {
@@ -19,12 +20,13 @@ pos = (594,-17);
 ref = "dotabove-ar";
 }
 );
-width = 873;
+width = 1000;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
 shapes = (
 {
+alignment = -1;
 ref = "seen-ar";
 },
 {
@@ -36,12 +38,13 @@ pos = (654,-17);
 ref = "dotabove-ar";
 }
 );
-width = 1026;
+width = 1000;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
 shapes = (
 {
+alignment = -1;
 ref = "seen-ar";
 },
 {
@@ -53,7 +56,7 @@ pos = (645,0);
 ref = "dotabove-ar";
 }
 );
-width = 1068;
+width = 1000;
 }
 );
 script = arabic;

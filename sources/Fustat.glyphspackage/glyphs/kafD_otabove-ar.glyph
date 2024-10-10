@@ -15,7 +15,7 @@ pos = (369,122);
 ref = "dotabove-ar";
 }
 );
-width = 831;
+width = 1000;
 },
 {
 layerId = "14EEE41F-D714-4243-A717-73445EE7DABA";
@@ -28,7 +28,7 @@ pos = (346,149);
 ref = "dotabove-ar";
 }
 );
-width = 821;
+width = 1000;
 },
 {
 layerId = "090CB6A0-BE7C-4D17-A551-206C7456A8A3";
@@ -41,7 +41,7 @@ pos = (337,189);
 ref = "dotabove-ar";
 }
 );
-width = 854;
+width = 1000;
 }
 );
 script = arabic;
