@@ -1,5 +1,5 @@
 {
-category = Letter;
+category = Placeholder;
 color = 0;
 direction = RTL;
 glyphname = "hehVinvertedabove-ar";
@@ -45,8 +45,6 @@ width = 649;
 }
 );
 script = arabic;
-sortName = arL0287;
-sortNameKeep = arL0287;
 subCategory = "";
 unicode = 1791;
 }

@@ -1,5 +1,5 @@
 {
-category = Letter;
+category = Placeholder;
 color = 0;
 direction = RTL;
 glyphname = "alefHamzaabove-ar";
@@ -51,8 +51,6 @@ width = 205;
 }
 );
 script = arabic;
-sortName = arL0092;
-sortNameKeep = arL0092;
 subCategory = "";
 unicode = 1571;
 }

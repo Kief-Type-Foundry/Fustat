@@ -1,5 +1,5 @@
 {
-category = Letter;
+category = Placeholder;
 color = 0;
 direction = RTL;
 glyphname = "meemDotabove-ar";
@@ -45,8 +45,6 @@ width = 781;
 }
 );
 script = arabic;
-sortName = arL0271;
-sortNameKeep = arL0271;
 subCategory = "";
 unicode = 1893;
 }

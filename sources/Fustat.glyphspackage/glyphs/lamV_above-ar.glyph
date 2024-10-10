@@ -1,5 +1,5 @@
 {
-category = Letter;
+category = Placeholder;
 color = 0;
 direction = RTL;
 glyphname = "lamVabove-ar";
@@ -45,8 +45,6 @@ width = 585;
 }
 );
 script = arabic;
-sortName = arL0263;
-sortNameKeep = arL0263;
 subCategory = "";
 unicode = 1717;
 }

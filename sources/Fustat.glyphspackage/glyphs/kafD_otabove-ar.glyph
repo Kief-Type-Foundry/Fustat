@@ -1,5 +1,5 @@
 {
-category = Letter;
+category = Placeholder;
 color = 0;
 direction = RTL;
 glyphname = "kafDotabove-ar";
@@ -45,8 +45,6 @@ width = 854;
 }
 );
 script = arabic;
-sortName = arL0242;
-sortNameKeep = arL0242;
 subCategory = "";
 unicode = 1708;
 }

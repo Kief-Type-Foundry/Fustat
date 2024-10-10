@@ -1,5 +1,5 @@
 {
-category = Letter;
+category = Placeholder;
 color = 0;
 direction = RTL;
 glyphname = "dalDotbelow-ar";
@@ -45,8 +45,6 @@ width = 616;
 }
 );
 script = arabic;
-sortName = arL0168;
-sortNameKeep = arL0168;
 subCategory = "";
 unicode = 1674;
 }

@@ -1,5 +1,5 @@
 {
-category = Letter;
+category = Placeholder;
 color = 0;
 direction = RTL;
 glyphname = "tchehDotabove-ar";
@@ -57,8 +57,6 @@ width = 759;
 }
 );
 script = arabic;
-sortName = arL0153;
-sortNameKeep = arL0153;
 subCategory = "";
 unicode = 1727;
 }

@@ -1,5 +1,5 @@
 {
-category = Letter;
+category = Placeholder;
 color = 0;
 direction = RTL;
 glyphname = "seenDotbelowDotabove-ar";
@@ -57,8 +57,6 @@ width = 1068;
 }
 );
 script = arabic;
-sortName = arL0197;
-sortNameKeep = arL0197;
 subCategory = "";
 unicode = 1690;
 }

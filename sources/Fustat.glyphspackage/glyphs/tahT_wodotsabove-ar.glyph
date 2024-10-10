@@ -1,5 +1,5 @@
 {
-category = Letter;
+category = Placeholder;
 color = 0;
 direction = RTL;
 glyphname = "tahTwodotsabove-ar";
@@ -45,8 +45,6 @@ width = 1006;
 }
 );
 script = arabic;
-sortName = arL0213;
-sortNameKeep = arL0213;
 subCategory = "";
 unicode = 2211;
 }

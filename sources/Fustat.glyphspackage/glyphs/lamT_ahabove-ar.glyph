@@ -1,5 +1,5 @@
 {
-category = Letter;
+category = Placeholder;
 color = 0;
 direction = RTL;
 glyphname = "lamTahabove-ar";
@@ -45,8 +45,6 @@ width = 585;
 }
 );
 script = arabic;
-sortName = arL0269;
-sortNameKeep = arL0269;
 subCategory = "";
 unicode = 2247;
 }

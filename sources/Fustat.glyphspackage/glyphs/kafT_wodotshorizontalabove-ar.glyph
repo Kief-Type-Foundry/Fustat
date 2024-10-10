@@ -1,5 +1,5 @@
 {
-category = Letter;
+category = Placeholder;
 color = 0;
 direction = RTL;
 glyphname = "kafTwodotshorizontalabove-ar";
@@ -45,8 +45,6 @@ width = 854;
 }
 );
 script = arabic;
-sortName = arL0245;
-sortNameKeep = arL0245;
 subCategory = "";
 unicode = 1919;
 }

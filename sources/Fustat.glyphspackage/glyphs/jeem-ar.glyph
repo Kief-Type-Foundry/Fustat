@@ -1,5 +1,5 @@
 {
-category = Letter;
+category = Placeholder;
 color = 0;
 direction = RTL;
 glyphname = "jeem-ar";
@@ -45,8 +45,6 @@ width = 688;
 }
 );
 script = arabic;
-sortName = arL0144;
-sortNameKeep = arL0144;
 subCategory = "";
 unicode = 1580;
 }

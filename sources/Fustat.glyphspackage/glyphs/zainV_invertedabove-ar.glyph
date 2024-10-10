@@ -1,5 +1,5 @@
 {
-category = Letter;
+category = Placeholder;
 color = 0;
 direction = RTL;
 glyphname = "zainVinvertedabove-ar";
@@ -45,8 +45,6 @@ width = 310;
 }
 );
 script = arabic;
-sortName = arL0194;
-sortNameKeep = arL0194;
 subCategory = "";
 unicode = 2226;
 }

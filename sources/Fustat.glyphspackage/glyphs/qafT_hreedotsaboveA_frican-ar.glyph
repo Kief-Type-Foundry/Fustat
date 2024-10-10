@@ -1,5 +1,5 @@
 {
-category = Letter;
+category = Placeholder;
 color = 0;
 direction = RTL;
 glyphname = "qafThreedotsaboveAfrican-ar";
@@ -33,8 +33,6 @@ width = 655;
 }
 );
 script = arabic;
-sortName = arL0239;
-sortNameKeep = arL0239;
 subCategory = "";
 unicode = 2244;
 }

@@ -1,5 +1,5 @@
 {
-category = Letter;
+category = Placeholder;
 color = 0;
 direction = RTL;
 glyphname = "seenTwodotsverticalabove-ar";
@@ -45,8 +45,6 @@ width = 1068;
 }
 );
 script = arabic;
-sortName = arL0202;
-sortNameKeep = arL0202;
 subCategory = "";
 unicode = 1901;
 }

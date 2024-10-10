@@ -1,5 +1,5 @@
 {
-category = Letter;
+category = Placeholder;
 color = 0;
 direction = RTL;
 glyphname = "hehgoalHamzaabove-ar";
@@ -45,8 +45,6 @@ width = 459;
 }
 );
 script = arabic;
-sortName = arL0285;
-sortNameKeep = arL0285;
 subCategory = "";
 unicode = 1730;
 }

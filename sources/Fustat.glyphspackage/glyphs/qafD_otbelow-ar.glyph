@@ -1,5 +1,5 @@
 {
-category = Letter;
+category = Placeholder;
 color = 0;
 direction = RTL;
 glyphname = "qafDotbelow-ar";
@@ -57,8 +57,6 @@ width = 655;
 }
 );
 script = arabic;
-sortName = arL0237;
-sortNameKeep = arL0237;
 subCategory = "";
 unicode = 2213;
 }

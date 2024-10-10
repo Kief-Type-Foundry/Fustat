@@ -1,5 +1,5 @@
 {
-category = Letter;
+category = Placeholder;
 color = 0;
 direction = RTL;
 glyphname = "tteheh-ar";
@@ -45,8 +45,6 @@ width = 936;
 }
 );
 script = arabic;
-sortName = arL0122;
-sortNameKeep = arL0122;
 subCategory = "";
 unicode = 1658;
 }

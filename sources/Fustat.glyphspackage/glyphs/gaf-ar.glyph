@@ -1,5 +1,5 @@
 {
-category = Letter;
+category = Placeholder;
 color = 0;
 direction = RTL;
 glyphname = "gaf-ar";
@@ -45,8 +45,6 @@ width = 792;
 }
 );
 script = arabic;
-sortName = arL0250;
-sortNameKeep = arL0250;
 subCategory = "";
 unicode = 1711;
 }

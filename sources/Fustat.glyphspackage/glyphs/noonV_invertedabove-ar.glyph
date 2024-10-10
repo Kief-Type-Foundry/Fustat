@@ -1,5 +1,5 @@
 {
-category = Letter;
+category = Placeholder;
 color = 0;
 direction = RTL;
 glyphname = "noonVinvertedabove-ar";
@@ -45,8 +45,6 @@ width = 585;
 }
 );
 script = arabic;
-sortName = arL0282;
-sortNameKeep = arL0282;
 subCategory = "";
 unicode = 2185;
 }
