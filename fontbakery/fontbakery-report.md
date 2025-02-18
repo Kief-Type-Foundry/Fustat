@@ -1,6 +1,8 @@
 ## FontBakery report
 
-fontbakery version: 0.12.10
+fontbakery version: 0.13.2
+
+
 
 
 
@@ -13,7 +15,7 @@ fontbakery version: 0.12.10
 <details><summary>[7] Fustat[wght].ttf</summary>
 <div>
 <details>
-    <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
     <div>
 
 
@@ -22,16 +24,216 @@ fontbakery version: 0.12.10
 
 
 
-* 💥 **ERROR** <p>Failed with AttributeError: 'NoneType' object has no attribute 'get'</p>
-<pre><code>  File &quot;/home/runner/work/Fustat/Fustat/venv-test/lib/python3.10/site-packages/fontbakery/checkrunner.py&quot;, line 213, in _run_check
-    subresults = list(subresults)
-  File &quot;/home/runner/work/Fustat/Fustat/venv-test/lib/python3.10/site-packages/fontbakery/checks/googlefonts/glyphset.py&quot;, line 145, in com_google_fonts_check_glyphsets_shape_languages
-    reporter = shaperglot_checker.check(shaperglot_languages[language_code])
-  File &quot;/home/runner/work/Fustat/Fustat/venv-test/lib/python3.10/site-packages/shaperglot/checker.py&quot;, line 53, in check
-    for check_object in self.lang.get(&quot;shaperglot_checks&quot;, []):
+* ⚠️ **WARN** <p>The following glyphs have overlapping path segments:</p>
+<pre><code>* A (U+0041): L&lt;&lt;271.0,700.0&gt;--&lt;346.0,700.0&gt;&gt; has the same coordinates as a previous segment.
 
+* Aacute (U+00C1): L&lt;&lt;271.0,700.0&gt;--&lt;346.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* Abreve (U+0102): L&lt;&lt;271.0,700.0&gt;--&lt;346.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* Acircumflex (U+00C2): L&lt;&lt;271.0,700.0&gt;--&lt;346.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* Adieresis (U+00C4): L&lt;&lt;271.0,700.0&gt;--&lt;346.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* Agrave (U+00C0): L&lt;&lt;271.0,700.0&gt;--&lt;346.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* Amacron (U+0100): L&lt;&lt;271.0,700.0&gt;--&lt;346.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* Aogonek (U+0104): L&lt;&lt;271.0,700.0&gt;--&lt;346.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* Aring (U+00C5): L&lt;&lt;271.0,700.0&gt;--&lt;346.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* Atilde (U+00C3): L&lt;&lt;271.0,700.0&gt;--&lt;346.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* N (U+004E): L&lt;&lt;80.0,700.0&gt;--&lt;155.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* N (U+004E): L&lt;&lt;614.0,0.0&gt;--&lt;539.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+
+* Nacute (U+0143): L&lt;&lt;80.0,700.0&gt;--&lt;155.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* Nacute (U+0143): L&lt;&lt;614.0,0.0&gt;--&lt;539.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+
+* Ncaron (U+0147): L&lt;&lt;80.0,700.0&gt;--&lt;155.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* Ncaron (U+0147): L&lt;&lt;614.0,0.0&gt;--&lt;539.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0145 (U+0145): L&lt;&lt;80.0,700.0&gt;--&lt;155.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0145 (U+0145): L&lt;&lt;614.0,0.0&gt;--&lt;539.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+
+* Ntilde (U+00D1): L&lt;&lt;80.0,700.0&gt;--&lt;155.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* Ntilde (U+00D1): L&lt;&lt;614.0,0.0&gt;--&lt;539.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+
+* Eng (U+014A): L&lt;&lt;80.0,700.0&gt;--&lt;155.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* Eng (U+014A): L&lt;&lt;614.0,0.0&gt;--&lt;539.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+
+* P (U+0050): L&lt;&lt;459.0,493.0&gt;--&lt;540.0,493.0&gt;&gt; has the same coordinates as a previous segment.
+
+* Thorn (U+00DE): L&lt;&lt;459.0,350.0&gt;--&lt;540.0,350.0&gt;&gt; has the same coordinates as a previous segment.
+
+* R (U+0052): L&lt;&lt;550.0,493.0&gt;--&lt;469.0,493.0&gt;&gt; has the same coordinates as a previous segment.
+
+* Racute (U+0154): L&lt;&lt;550.0,493.0&gt;--&lt;469.0,493.0&gt;&gt; has the same coordinates as a previous segment.
+
+* Rcaron (U+0158): L&lt;&lt;550.0,493.0&gt;--&lt;469.0,493.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0156 (U+0156): L&lt;&lt;550.0,493.0&gt;--&lt;469.0,493.0&gt;&gt; has the same coordinates as a previous segment.
+
+* V (U+0056): L&lt;&lt;371.0,0.0&gt;--&lt;296.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+
+* W (U+0057): L&lt;&lt;744.0,0.0&gt;--&lt;673.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+
+* W (U+0057): L&lt;&lt;449.0,700.0&gt;--&lt;526.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* W (U+0057): L&lt;&lt;302.0,0.0&gt;--&lt;231.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+
+* Wacute (U+1E82): L&lt;&lt;744.0,0.0&gt;--&lt;673.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+
+* Wacute (U+1E82): L&lt;&lt;449.0,700.0&gt;--&lt;526.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* Wacute (U+1E82): L&lt;&lt;302.0,0.0&gt;--&lt;231.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+
+* Wcircumflex (U+0174): L&lt;&lt;744.0,0.0&gt;--&lt;673.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+
+* Wcircumflex (U+0174): L&lt;&lt;449.0,700.0&gt;--&lt;526.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* Wcircumflex (U+0174): L&lt;&lt;302.0,0.0&gt;--&lt;231.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+
+* Wdieresis (U+1E84): L&lt;&lt;744.0,0.0&gt;--&lt;673.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+
+* Wdieresis (U+1E84): L&lt;&lt;449.0,700.0&gt;--&lt;526.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* Wdieresis (U+1E84): L&lt;&lt;302.0,0.0&gt;--&lt;231.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+
+* Wgrave (U+1E80): L&lt;&lt;744.0,0.0&gt;--&lt;673.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+
+* Wgrave (U+1E80): L&lt;&lt;449.0,700.0&gt;--&lt;526.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* Wgrave (U+1E80): L&lt;&lt;302.0,0.0&gt;--&lt;231.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+
+* ae (U+00E6): L&lt;&lt;448.0,298.0&gt;--&lt;448.0,225.0&gt;&gt; has the same coordinates as a previous segment.
+
+* w (U+0077): L&lt;&lt;246.0,0.0&gt;--&lt;176.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+
+* w (U+0077): L&lt;&lt;347.0,500.0&gt;--&lt;415.0,500.0&gt;&gt; has the same coordinates as a previous segment.
+
+* w (U+0077): L&lt;&lt;586.0,0.0&gt;--&lt;516.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+
+* wacute (U+1E83): L&lt;&lt;246.0,0.0&gt;--&lt;176.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+
+* wacute (U+1E83): L&lt;&lt;347.0,500.0&gt;--&lt;415.0,500.0&gt;&gt; has the same coordinates as a previous segment.
+
+* wacute (U+1E83): L&lt;&lt;586.0,0.0&gt;--&lt;516.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+
+* wcircumflex (U+0175): L&lt;&lt;246.0,0.0&gt;--&lt;176.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+
+* wcircumflex (U+0175): L&lt;&lt;347.0,500.0&gt;--&lt;415.0,500.0&gt;&gt; has the same coordinates as a previous segment.
+
+* wcircumflex (U+0175): L&lt;&lt;586.0,0.0&gt;--&lt;516.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+
+* wdieresis (U+1E85): L&lt;&lt;246.0,0.0&gt;--&lt;176.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+
+* wdieresis (U+1E85): L&lt;&lt;347.0,500.0&gt;--&lt;415.0,500.0&gt;&gt; has the same coordinates as a previous segment.
+
+* wdieresis (U+1E85): L&lt;&lt;586.0,0.0&gt;--&lt;516.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+
+* wgrave (U+1E81): L&lt;&lt;246.0,0.0&gt;--&lt;176.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+
+* wgrave (U+1E81): L&lt;&lt;347.0,500.0&gt;--&lt;415.0,500.0&gt;&gt; has the same coordinates as a previous segment.
+
+* wgrave (U+1E81): L&lt;&lt;586.0,0.0&gt;--&lt;516.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni06C1.medi: L&lt;&lt;0.0,0.0&gt;--&lt;0.0,75.0&gt;&gt; has the same coordinates as a previous segment.
+
+* asterisk (U+002A): L&lt;&lt;190.0,512.0&gt;--&lt;257.0,512.0&gt;&gt; has the same coordinates as a previous segment.
+
+* asterisk (U+002A): L&lt;&lt;238.0,540.0&gt;--&lt;206.0,482.0&gt;&gt; has the same coordinates as a previous segment.
+
+* asterisk (U+002A): L&lt;&lt;206.0,540.0&gt;--&lt;239.0,482.0&gt;&gt; has the same coordinates as a previous segment.
+
+* parenleft (U+0028): L&lt;&lt;70.0,255.0&gt;--&lt;147.0,255.0&gt;&gt; has the same coordinates as a previous segment.
+
+* parenleft.case: L&lt;&lt;70.0,350.0&gt;--&lt;147.0,350.0&gt;&gt; has the same coordinates as a previous segment.
+
+* parenright (U+0029): L&lt;&lt;220.0,255.0&gt;--&lt;297.0,255.0&gt;&gt; has the same coordinates as a previous segment.
+
+* parenright.case: L&lt;&lt;220.0,350.0&gt;--&lt;297.0,350.0&gt;&gt; has the same coordinates as a previous segment.
+
+* braceleft (U+007B): L&lt;&lt;55.0,216.0&gt;--&lt;55.0,294.0&gt;&gt; has the same coordinates as a previous segment.
+
+* braceleft.case: L&lt;&lt;55.0,311.0&gt;--&lt;55.0,389.0&gt;&gt; has the same coordinates as a previous segment.
+
+* braceright (U+007D): L&lt;&lt;316.0,294.0&gt;--&lt;316.0,216.0&gt;&gt; has the same coordinates as a previous segment.
+
+* braceright.case: L&lt;&lt;316.0,389.0&gt;--&lt;316.0,311.0&gt;&gt; has the same coordinates as a previous segment.
+
+* guillemotleft.locl: L&lt;&lt;203.0,295.0&gt;--&lt;283.0,295.0&gt;&gt; has the same coordinates as a previous segment.
+
+* guillemotleft.locl: L&lt;&lt;45.0,295.0&gt;--&lt;125.0,295.0&gt;&gt; has the same coordinates as a previous segment.
+
+* guillemotleft.locl.case: L&lt;&lt;203.0,350.0&gt;--&lt;283.0,350.0&gt;&gt; has the same coordinates as a previous segment.
+
+* guillemotleft.locl.case: L&lt;&lt;45.0,350.0&gt;--&lt;125.0,350.0&gt;&gt; has the same coordinates as a previous segment.
+
+* guillemotright.locl: L&lt;&lt;153.0,295.0&gt;--&lt;233.0,295.0&gt;&gt; has the same coordinates as a previous segment.
+
+* guillemotright.locl: L&lt;&lt;311.0,295.0&gt;--&lt;391.0,295.0&gt;&gt; has the same coordinates as a previous segment.
+
+* guillemotright.locl.case: L&lt;&lt;153.0,350.0&gt;--&lt;233.0,350.0&gt;&gt; has the same coordinates as a previous segment.
+
+* guillemotright.locl.case: L&lt;&lt;311.0,350.0&gt;--&lt;391.0,350.0&gt;&gt; has the same coordinates as a previous segment.
+
+* guilsinglleft.locl: L&lt;&lt;45.0,295.0&gt;--&lt;125.0,295.0&gt;&gt; has the same coordinates as a previous segment.
+
+* guilsinglleft.locl.case: L&lt;&lt;45.0,350.0&gt;--&lt;125.0,350.0&gt;&gt; has the same coordinates as a previous segment.
+
+* guilsinglright.locl: L&lt;&lt;153.0,295.0&gt;--&lt;233.0,295.0&gt;&gt; has the same coordinates as a previous segment.
+
+* guilsinglright.locl.case: L&lt;&lt;153.0,350.0&gt;--&lt;233.0,350.0&gt;&gt; has the same coordinates as a previous segment.
+
+* less (U+003C): L&lt;&lt;50.0,318.0&gt;--&lt;50.0,382.0&gt;&gt; has the same coordinates as a previous segment.
+
+* greater (U+003E): L&lt;&lt;498.0,382.0&gt;--&lt;498.0,318.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni2116 (U+2116): L&lt;&lt;80.0,700.0&gt;--&lt;155.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni2116 (U+2116): L&lt;&lt;614.0,0.0&gt;--&lt;539.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+
+* sterling (U+20A4): L&lt;&lt;45.0,0.0&gt;--&lt;45.0,73.0&gt;&gt; has the same coordinates as a previous segment.
+
+* greaterequal (U+2265): L&lt;&lt;498.0,416.0&gt;--&lt;498.0,352.0&gt;&gt; has the same coordinates as a previous segment.
+
+* lessequal (U+2264): L&lt;&lt;50.0,352.0&gt;--&lt;50.0,416.0&gt;&gt; has the same coordinates as a previous segment.
+
+* asciicircum (U+005E): L&lt;&lt;205.0,700.0&gt;--&lt;269.0,700.0&gt;&gt; has the same coordinates as a previous segment.
+
+* arrowup (U+2191): L&lt;&lt;335.0,580.0&gt;--&lt;335.0,671.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni2197 (U+2197): L&lt;&lt;523.0,496.0&gt;--&lt;459.0,432.0&gt;&gt; has the same coordinates as a previous segment.
+
+* arrowright (U+2192): L&lt;&lt;592.0,350.0&gt;--&lt;683.0,350.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni2198 (U+2198): L&lt;&lt;459.0,68.0&gt;--&lt;523.0,4.0&gt;&gt; has the same coordinates as a previous segment.
+
+* arrowdown (U+2193): L&lt;&lt;335.0,114.0&gt;--&lt;335.0,23.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni2199 (U+2199): L&lt;&lt;54.0,4.0&gt;--&lt;118.0,68.0&gt;&gt; has the same coordinates as a previous segment.
+
+* arrowleft (U+2190): L&lt;&lt;50.0,350.0&gt;--&lt;141.0,350.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni2196 (U+2196): L&lt;&lt;54.0,496.0&gt;--&lt;118.0,432.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0669.dnom: L&lt;&lt;228.0,207.0&gt;--&lt;302.0,207.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0669.numr: L&lt;&lt;228.0,545.0&gt;--&lt;302.0,545.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0669.subs: L&lt;&lt;228.0,83.0&gt;--&lt;302.0,83.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0669.sups: L&lt;&lt;228.0,646.0&gt;--&lt;302.0,646.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
- [code: failed-check]
+ [code: overlapping-path-segments]
 
 
 
@@ -39,7 +241,7 @@ fontbakery version: 0.12.10
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
     <div>
 
 
@@ -63,7 +265,7 @@ fontbakery version: 0.12.10
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Glyph names are all valid? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphnames.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Glyph names are all valid? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#valid-glyphnames">valid_glyphnames</a></summary>
     <div>
 
 
@@ -82,7 +284,7 @@ twodotshorizontalabove_tahabovear, twodotshorizontalbelow_tahabovear and twodots
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.article.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-article-images">googlefonts/article/images</a></summary>
     <div>
 
 
@@ -100,7 +302,7 @@ twodotshorizontalabove_tahabovear, twodotshorizontalbelow_tahabovear and twodots
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.subsets.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-metadata-unreachable-subsetting">googlefonts/metadata/unreachable_subsetting</a></summary>
     <div>
 
 
@@ -118,11 +320,11 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, hebrew, tai-le, syriac, duployan, old-permic, coptic, canadian-aboriginal, tifinagh, math, todhri</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, duployan, tifinagh, math, malayalam, tai-le, syriac, old-permic, hebrew, coptic, todhri</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
@@ -132,17 +334,17 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0609 ARABIC-INDIC PER MILLE SIGN: try adding arabic</li>
-<li>U+060C ARABIC COMMA: try adding one of: thaana, yezidi, arabic, syriac, nko, hanifi-rohingya, garay</li>
-<li>U+061B ARABIC SEMICOLON: try adding one of: thaana, yezidi, arabic, syriac, nko, hanifi-rohingya, garay</li>
-<li>U+061F ARABIC QUESTION MARK: try adding one of: thaana, yezidi, arabic, syriac, nko, adlam, hanifi-rohingya, garay</li>
+<li>U+060C ARABIC COMMA: try adding one of: thaana, hanifi-rohingya, arabic, syriac, nko, yezidi, garay</li>
+<li>U+061B ARABIC SEMICOLON: try adding one of: thaana, hanifi-rohingya, arabic, syriac, nko, yezidi, garay</li>
+<li>U+061F ARABIC QUESTION MARK: try adding one of: thaana, adlam, hanifi-rohingya, arabic, syriac, nko, yezidi, garay</li>
 <li>U+0620 ARABIC LETTER KASHMIRI YEH: try adding arabic</li>
-<li>U+0621 ARABIC LETTER HAMZA: try adding one of: syriac, arabic</li>
+<li>U+0621 ARABIC LETTER HAMZA: try adding one of: arabic, syriac</li>
 <li>U+0622 ARABIC LETTER ALEF WITH MADDA ABOVE: try adding arabic</li>
 <li>U+0623 ARABIC LETTER ALEF WITH HAMZA ABOVE: try adding arabic</li>
 <li>U+0624 ARABIC LETTER WAW WITH HAMZA ABOVE: try adding arabic</li>
 <li>U+0625 ARABIC LETTER ALEF WITH HAMZA BELOW: try adding arabic</li>
 <li>U+0626 ARABIC LETTER YEH WITH HAMZA ABOVE: try adding arabic</li>
-<li>U+0627 ARABIC LETTER ALEF: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+0627 ARABIC LETTER ALEF: try adding one of: arabic, indic-siyaq-numbers</li>
 <li>U+0628 ARABIC LETTER BEH: try adding arabic</li>
 <li>U+0629 ARABIC LETTER TEH MARBUTA: try adding arabic</li>
 <li>U+062A ARABIC LETTER TEH: try adding arabic</li>
@@ -167,7 +369,7 @@ definitions.</p>
 <li>U+063D ARABIC LETTER FARSI YEH WITH INVERTED V: try adding arabic</li>
 <li>U+063E ARABIC LETTER FARSI YEH WITH TWO DOTS ABOVE: try adding arabic</li>
 <li>U+063F ARABIC LETTER FARSI YEH WITH THREE DOTS ABOVE: try adding arabic</li>
-<li>U+0640 ARABIC TATWEEL: try adding one of: arabic, mandaic, psalter-pahlavi, syriac, sogdian, old-uyghur, manichaean, adlam, hanifi-rohingya</li>
+<li>U+0640 ARABIC TATWEEL: try adding one of: old-uyghur, manichaean, sogdian, hanifi-rohingya, arabic, syriac, mandaic, psalter-pahlavi, adlam</li>
 <li>U+0641 ARABIC LETTER FEH: try adding arabic</li>
 <li>U+0642 ARABIC LETTER QAF: try adding arabic</li>
 <li>U+0643 ARABIC LETTER KAF: try adding arabic</li>
@@ -178,37 +380,37 @@ definitions.</p>
 <li>U+0648 ARABIC LETTER WAW: try adding arabic</li>
 <li>U+0649 ARABIC LETTER ALEF MAKSURA: try adding arabic</li>
 <li>U+064A ARABIC LETTER YEH: try adding arabic</li>
-<li>U+064B ARABIC FATHATAN: try adding one of: syriac, arabic</li>
-<li>U+064C ARABIC DAMMATAN: try adding one of: syriac, arabic</li>
-<li>U+064D ARABIC KASRATAN: try adding one of: syriac, arabic</li>
-<li>U+064E ARABIC FATHA: try adding one of: syriac, arabic</li>
-<li>U+064F ARABIC DAMMA: try adding one of: syriac, arabic</li>
-<li>U+0650 ARABIC KASRA: try adding one of: syriac, arabic</li>
-<li>U+0651 ARABIC SHADDA: try adding one of: syriac, arabic</li>
-<li>U+0652 ARABIC SUKUN: try adding one of: syriac, arabic</li>
-<li>U+0653 ARABIC MADDAH ABOVE: try adding one of: syriac, arabic</li>
-<li>U+0654 ARABIC HAMZA ABOVE: try adding one of: syriac, arabic</li>
-<li>U+0655 ARABIC HAMZA BELOW: try adding one of: syriac, arabic</li>
+<li>U+064B ARABIC FATHATAN: try adding one of: arabic, syriac</li>
+<li>U+064C ARABIC DAMMATAN: try adding one of: arabic, syriac</li>
+<li>U+064D ARABIC KASRATAN: try adding one of: arabic, syriac</li>
+<li>U+064E ARABIC FATHA: try adding one of: arabic, syriac</li>
+<li>U+064F ARABIC DAMMA: try adding one of: arabic, syriac</li>
+<li>U+0650 ARABIC KASRA: try adding one of: arabic, syriac</li>
+<li>U+0651 ARABIC SHADDA: try adding one of: arabic, syriac</li>
+<li>U+0652 ARABIC SUKUN: try adding one of: arabic, syriac</li>
+<li>U+0653 ARABIC MADDAH ABOVE: try adding one of: arabic, syriac</li>
+<li>U+0654 ARABIC HAMZA ABOVE: try adding one of: arabic, syriac</li>
+<li>U+0655 ARABIC HAMZA BELOW: try adding one of: arabic, syriac</li>
 <li>U+0656 ARABIC SUBSCRIPT ALEF: try adding arabic</li>
 <li>U+065A ARABIC VOWEL SIGN SMALL V ABOVE: try adding arabic</li>
 <li>U+065B ARABIC VOWEL SIGN INVERTED SMALL V ABOVE: try adding arabic</li>
-<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: thaana, indic-siyaq-numbers, arabic, yezidi, syriac, hanifi-rohingya</li>
-<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: thaana, indic-siyaq-numbers, arabic, yezidi, syriac</li>
-<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: thaana, indic-siyaq-numbers, arabic, yezidi, syriac</li>
-<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: thaana, indic-siyaq-numbers, arabic, yezidi, syriac</li>
-<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: thaana, indic-siyaq-numbers, arabic, yezidi, syriac</li>
-<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: thaana, indic-siyaq-numbers, arabic, yezidi, syriac</li>
-<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: thaana, indic-siyaq-numbers, arabic, yezidi, syriac</li>
-<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: thaana, indic-siyaq-numbers, arabic, yezidi, syriac</li>
-<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: thaana, indic-siyaq-numbers, arabic, yezidi, syriac</li>
-<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: thaana, indic-siyaq-numbers, arabic, yezidi, syriac</li>
-<li>U+066A ARABIC PERCENT SIGN: try adding one of: syriac, thaana, arabic, nko</li>
-<li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: syriac, thaana, arabic</li>
-<li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: syriac, thaana, arabic</li>
+<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: thaana, hanifi-rohingya, arabic, syriac, yezidi, indic-siyaq-numbers</li>
+<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: thaana, arabic, syriac, yezidi, indic-siyaq-numbers</li>
+<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: thaana, arabic, syriac, yezidi, indic-siyaq-numbers</li>
+<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: thaana, arabic, syriac, yezidi, indic-siyaq-numbers</li>
+<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: thaana, arabic, syriac, yezidi, indic-siyaq-numbers</li>
+<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: thaana, arabic, syriac, yezidi, indic-siyaq-numbers</li>
+<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: thaana, arabic, syriac, yezidi, indic-siyaq-numbers</li>
+<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: thaana, arabic, syriac, yezidi, indic-siyaq-numbers</li>
+<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: thaana, arabic, syriac, yezidi, indic-siyaq-numbers</li>
+<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: thaana, arabic, syriac, yezidi, indic-siyaq-numbers</li>
+<li>U+066A ARABIC PERCENT SIGN: try adding one of: nko, thaana, arabic, syriac</li>
+<li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: thaana, arabic, syriac</li>
+<li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: thaana, arabic, syriac</li>
 <li>U+066D ARABIC FIVE POINTED STAR: try adding arabic</li>
 <li>U+066E ARABIC LETTER DOTLESS BEH: try adding arabic</li>
 <li>U+066F ARABIC LETTER DOTLESS QAF: try adding arabic</li>
-<li>U+0670 ARABIC LETTER SUPERSCRIPT ALEF: try adding one of: syriac, arabic</li>
+<li>U+0670 ARABIC LETTER SUPERSCRIPT ALEF: try adding one of: arabic, syriac</li>
 <li>U+0671 ARABIC LETTER ALEF WASLA: try adding arabic</li>
 <li>U+0679 ARABIC LETTER TTEH: try adding arabic</li>
 <li>U+067A ARABIC LETTER TTEHEH: try adding arabic</li>
@@ -299,20 +501,20 @@ definitions.</p>
 <li>U+06D0 ARABIC LETTER E: try adding arabic</li>
 <li>U+06D2 ARABIC LETTER YEH BARREE: try adding arabic</li>
 <li>U+06D3 ARABIC LETTER YEH BARREE WITH HAMZA ABOVE: try adding arabic</li>
-<li>U+06D4 ARABIC FULL STOP: try adding one of: yezidi, arabic, hanifi-rohingya</li>
+<li>U+06D4 ARABIC FULL STOP: try adding one of: hanifi-rohingya, arabic, yezidi</li>
 <li>U+06D5 ARABIC LETTER AE: try adding arabic</li>
 <li>U+06EE ARABIC LETTER DAL WITH INVERTED V: try adding arabic</li>
 <li>U+06EF ARABIC LETTER REH WITH INVERTED V: try adding arabic</li>
-<li>U+06F0 EXTENDED ARABIC-INDIC DIGIT ZERO: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F1 EXTENDED ARABIC-INDIC DIGIT ONE: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F2 EXTENDED ARABIC-INDIC DIGIT TWO: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F3 EXTENDED ARABIC-INDIC DIGIT THREE: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F4 EXTENDED ARABIC-INDIC DIGIT FOUR: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F5 EXTENDED ARABIC-INDIC DIGIT FIVE: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F6 EXTENDED ARABIC-INDIC DIGIT SIX: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F7 EXTENDED ARABIC-INDIC DIGIT SEVEN: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F8 EXTENDED ARABIC-INDIC DIGIT EIGHT: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F9 EXTENDED ARABIC-INDIC DIGIT NINE: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F0 EXTENDED ARABIC-INDIC DIGIT ZERO: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F1 EXTENDED ARABIC-INDIC DIGIT ONE: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F2 EXTENDED ARABIC-INDIC DIGIT TWO: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F3 EXTENDED ARABIC-INDIC DIGIT THREE: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F4 EXTENDED ARABIC-INDIC DIGIT FOUR: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F5 EXTENDED ARABIC-INDIC DIGIT FIVE: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F6 EXTENDED ARABIC-INDIC DIGIT SIX: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F7 EXTENDED ARABIC-INDIC DIGIT SEVEN: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F8 EXTENDED ARABIC-INDIC DIGIT EIGHT: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F9 EXTENDED ARABIC-INDIC DIGIT NINE: try adding one of: arabic, indic-siyaq-numbers</li>
 <li>U+06FA ARABIC LETTER SHEEN WITH DOT BELOW: try adding arabic</li>
 <li>U+06FB ARABIC LETTER DAD WITH DOT BELOW: try adding arabic</li>
 <li>U+06FC ARABIC LETTER GHAIN WITH DOT BELOW: try adding arabic</li>
@@ -420,7 +622,7 @@ definitions.</p>
 <li>U+2468 CIRCLED DIGIT NINE: try adding one of: symbols, mongolian, yi</li>
 <li>U+24EA CIRCLED DIGIT ZERO: try adding symbols</li>
 <li>U+24FF NEGATIVE CIRCLED DIGIT ZERO: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: thaana, modi, gunjala-gondi, syriac, music, tai-tham, phags-pa, manichaean, caucasian-albanian, sinhala, symbols, telugu, limbu, bassa-vah, oriya, canadian-aboriginal, javanese, adlam, duployan, khojki, hebrew, mongolian, pahawh-hmong, newa, lepcha, gujarati, mahajani, batak, cham, tai-viet, takri, dogra, new-tai-lue, ahom, wancho, mende-kikakui, math, bengali, marchen, chakma, tifinagh, warang-citi, khudawadi, tibetan, balinese, yi, tagbanwa, psalter-pahlavi, sogdian, devanagari, osage, sharada, thai, mandaic, grantha, coptic, nko, elbasan, kaithi, bhaiksuki, zanabazar-square, malayalam, saurashtra, tagalog, buginese, tirhuta, masaram-gondi, kayah-li, kharoshthi, gurmukhi, armenian, hanifi-rohingya, siddham, tai-le, rejang, soyombo, myanmar, syloti-nagri, miao, meetei-mayek, buhid, hanunoo, lao, old-permic, khmer, kannada, tamil, sundanese, brahmi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: modi, rejang, elbasan, siddham, tibetan, tamil, saurashtra, devanagari, gujarati, gurmukhi, hebrew, limbu, javanese, phags-pa, grantha, pahawh-hmong, bassa-vah, coptic, cham, syloti-nagri, buhid, tai-le, marchen, zanabazar-square, masaram-gondi, thaana, tirhuta, old-permic, symbols, psalter-pahlavi, mende-kikakui, sogdian, hanunoo, hanifi-rohingya, yi, bengali, ahom, mahajani, dogra, warang-citi, lao, tagbanwa, brahmi, kharoshthi, miao, khmer, balinese, myanmar, sundanese, tagalog, new-tai-lue, telugu, kaithi, adlam, music, kannada, tifinagh, malayalam, oriya, sharada, armenian, tai-viet, takri, gunjala-gondi, mongolian, newa, chakma, syriac, soyombo, thai, lepcha, wancho, nko, buginese, caucasian-albanian, bhaiksuki, canadian-aboriginal, meetei-mayek, manichaean, khojki, math, tai-tham, osage, mandaic, batak, kayah-li, sinhala, duployan, khudawadi</li>
 <li>U+26AA MEDIUM WHITE CIRCLE: try adding symbols</li>
 <li>U+26AB MEDIUM BLACK CIRCLE: try adding symbols</li>
 <li>U+2776 DINGBAT NEGATIVE CIRCLED DIGIT ONE: try adding symbols</li>
@@ -434,10 +636,10 @@ definitions.</p>
 <li>U+277E DINGBAT NEGATIVE CIRCLED DIGIT NINE: try adding symbols</li>
 <li>U+2B1B BLACK LARGE SQUARE: try adding symbols</li>
 <li>U+2B1C WHITE LARGE SQUARE: try adding symbols</li>
-<li>U+2E41 REVERSED COMMA: try adding one of: arabic, adlam, old-hungarian</li>
+<li>U+2E41 REVERSED COMMA: try adding one of: arabic, old-hungarian, adlam</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
-<li>U+FDF2 ARABIC LIGATURE ALLAH ISOLATED FORM: try adding one of: thaana, arabic</li>
+<li>U+FDF2 ARABIC LIGATURE ALLAH ISOLATED FORM: try adding one of: arabic, thaana</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
@@ -448,7 +650,127 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there any misaligned on-curve points? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/outline.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>GF_TransLatin_Arabic glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">WARN messages</th>
+<th align="left">Languages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ſ</td>
+<td align="left">de_Latn (German) and fr_Latn (French)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ǥ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ŧ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ʒ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ǯ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ǥ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ŧ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ʒ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ǯ</td>
+<td align="left">fi_Latn (Finnish)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach tildecomb to m when shaping the text 'm̃'</td>
+<td align="left">lt_Latn (Lithuanian)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ŧ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ŧ</td>
+<td align="left">nb_Latn (Norwegian Bokmål)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ĳ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ĳ</td>
+<td align="left">nl_Latn (Dutch)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ؀؁؂؃‌‍‏</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ٗ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ٘</td>
+<td align="left">ur_Arab (Urdu) and ur_Arab (Urdu)</td>
+</tr>
+</tbody>
+</table>
+ [code: warning-language-shaping]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Are there any misaligned on-curve points? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-alignment-miss">outline_alignment_miss</a></summary>
     <div>
 
 
@@ -516,19 +838,27 @@ definitions.</p>
 
 * one.dnom: X=250.0,Y=-2.0 (should be at baseline 0?)
 
+* one.dnom: X=175.0,Y=-2.0 (should be at baseline 0?)
+
 * two.dnom: X=52.0,Y=-2.0 (should be at baseline 0?)
 
 * two.dnom: X=306.0,Y=-2.0 (should be at baseline 0?)
 
+* two.dnom: X=52.0,Y=-2.0 (should be at baseline 0?)
+
 * four.dnom: X=198.0,Y=-2.0 (should be at baseline 0?)
 
 * four.dnom: X=273.0,Y=-2.0 (should be at baseline 0?)
+
+* four.dnom: X=198.0,Y=-2.0 (should be at baseline 0?)
 
 * seven.dnom: X=92.0,Y=-2.0 (should be at baseline 0?)
 
 * seven.dnom: X=92.0,Y=2.0 (should be at baseline 0?)
 
 * seven.dnom: X=167.0,Y=-2.0 (should be at baseline 0?)
+
+* seven.dnom: X=92.0,Y=-2.0 (should be at baseline 0?)
 
 * one.numr: X=177.0,Y=702.0 (should be at cap-height 700?)
 
@@ -554,6 +884,8 @@ definitions.</p>
 
 * onehalf (U+00BD): X=739.0,Y=-2.0 (should be at baseline 0?)
 
+* onehalf (U+00BD): X=485.0,Y=-2.0 (should be at baseline 0?)
+
 * uni2153 (U+2153): X=177.0,Y=702.0 (should be at cap-height 700?)
 
 * uni2153 (U+2153): X=250.0,Y=702.0 (should be at cap-height 700?)
@@ -566,9 +898,13 @@ definitions.</p>
 
 * onequarter (U+00BC): X=656.0,Y=-2.0 (should be at baseline 0?)
 
+* onequarter (U+00BC): X=581.0,Y=-2.0 (should be at baseline 0?)
+
 * threequarters (U+00BE): X=601.0,Y=-2.0 (should be at baseline 0?)
 
 * threequarters (U+00BE): X=676.0,Y=-2.0 (should be at baseline 0?)
+
+* threequarters (U+00BE): X=601.0,Y=-2.0 (should be at baseline 0?)
 
 * oneeighth (U+215B): X=177.0,Y=702.0 (should be at cap-height 700?)
 
@@ -606,38 +942,6 @@ definitions.</p>
 
 </div>
 </details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Is there kerning info for non-ligated sequences? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gpos.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
-<pre><code>- uni0644.init + uni0644.medi
-
-- uni0644.medi + uni0651
-
-- uni0651 + uni0670
-
-- uni066E.init + uni062D.fina
-
-- uni066E.init + uni062D.medi
-
-- uni0670 + uni0647.fina
-
-- uni0670 + uni06C1.fina
-</code></pre>
- [code: lacks-kern-info]
-
-
-
-</div>
-</details>
 </div>
 </details>
 
@@ -648,8 +952,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 1 | 0 | 0 | 6 | 95 | 9 | 140 | 0 | 
-| 0% | 0% | 0% | 2% | 38% | 4% | 56% | 0% | 
+| 0 | 0 | 0 | 7 | 87 | 9 | 133 | 0 | 
+| 0% | 0% | 0% | 3% | 37% | 4% | 56% | 0% | 
 
 
 
