@@ -75,9 +75,9 @@ commandlines==0.4.1
     # via ufolint
 compreffor==0.5.6
     # via ufo2ft
-cryptography==44.0.1
+cryptography==44.0.2
     # via pyjwt
-defcon[lxml,pens]==0.10.3
+defcon[lxml,pens]==0.12.0
     # via
     #   afdko
     #   fontbakery
@@ -194,7 +194,7 @@ idna==3.10
     #   trio
 importlib-resources==6.5.2
     # via gfsubsets
-jinja2==3.1.5
+jinja2==3.1.6
     # via
     #   diffenator2
     #   fontbakery
@@ -286,7 +286,7 @@ pycparser==2.22
     # via cffi
 pygit2==1.15.0
     # via gftools
-pygithub==2.6.0
+pygithub==2.6.1
     # via gftools
 pygments==2.19.1
     # via rich
@@ -328,9 +328,9 @@ ruamel-yaml==0.18.10
     # via gftools
 ruamel-yaml-clib==0.2.12
     # via ruamel-yaml
-selenium==4.28.1
+selenium==4.29.0
     # via diffenator2
-shaperglot==1.0.0a1
+shaperglot==1.0.0
     # via fontbakery
 six==1.17.0
     # via
@@ -377,7 +377,7 @@ trio==0.29.0
     # via
     #   selenium
     #   trio-websocket
-trio-websocket==0.12.1
+trio-websocket==0.12.2
     # via selenium
 ttfautohint-py==0.5.1
     # via gftools
@@ -410,7 +410,7 @@ ufonormalizer==0.6.2
     # via afdko
 ufoprocessor==1.13.3
     # via afdko
-uharfbuzz==0.45.0
+uharfbuzz==0.46.0
     # via
     #   blackrenderer
     #   collidoscope
