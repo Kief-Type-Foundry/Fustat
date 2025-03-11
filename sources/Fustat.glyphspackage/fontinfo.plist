@@ -727,26 +727,10 @@ lookup isolated_heh {
 
 lookup high_tooth {
  lookupflag IgnoreMarks;
- sub [behDotless-ar.init behDotless-ar.medi]'
-     [seen-ar.medi seen-ar.fina]
-  by [behDotless-ar.init.high behDotless-ar.medi.high];
-
- sub [behDotless-ar.init behDotless-ar.medi]
-     [behDotless-ar.medi]'
-     [behDotless-ar.medi behDotless-ar.fina noonghunna-ar.fina
-      seen-ar.medi seen-ar.fina]
-  by  behDotless-ar.medi.high;
-
- ignore
- sub [seen-ar.init seen-ar.medi]
-      behDotless-ar.medi'
-     [behDotless-ar.medi behDotless-ar.fina]
-     [behDotless-ar.medi behDotless-ar.fina seen-ar.medi seen-ar.fina];
-
- sub [seen-ar.init seen-ar.medi]
-      behDotless-ar.medi'
-     [behDotless-ar.medi behDotless-ar.fina]
-  by  behDotless-ar.medi.high;
+ rsub [behDotless-ar.init behDotless-ar.medi]'
+      [behDotless-ar.medi behDotless-ar.fina noonghunna-ar.fina
+       seen-ar.medi seen-ar.fina]
+   by [behDotless-ar.init.high behDotless-ar.medi.high];
 } high_tooth;
 
 lookup lam_alef {
