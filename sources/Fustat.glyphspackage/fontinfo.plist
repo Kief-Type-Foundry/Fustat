@@ -1,5 +1,5 @@
 {
-.appVersion = "3324";
+.appVersion = "3401";
 .formatVersion = 3;
 axes = (
 {
@@ -733,7 +733,7 @@ lookup high_tooth {
 
  sub [behDotless-ar.init behDotless-ar.medi]
      [behDotless-ar.medi]'
-     [behDotless-ar.medi behDotless-ar.fina
+     [behDotless-ar.medi behDotless-ar.fina noonghunna-ar.fina
       seen-ar.medi seen-ar.fina]
   by  behDotless-ar.medi.high;
 
