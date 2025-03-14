@@ -12,7 +12,7 @@ fontbakery version: 0.13.2
 
 
 
-<details><summary>[7] Fustat[wght].ttf</summary>
+<details><summary>[8] Fustat[wght].ttf</summary>
 <div>
 <details>
     <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
@@ -320,11 +320,11 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, tifinagh, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, old-permic, canadian-aboriginal, coptic, tai-le, todhri, hebrew, math, syriac, duployan, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, todhri, duployan, syriac, tifinagh, coptic, malayalam, old-permic, canadian-aboriginal, math, tai-le</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
@@ -334,9 +334,9 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0609 ARABIC-INDIC PER MILLE SIGN: try adding arabic</li>
-<li>U+060C ARABIC COMMA: try adding one of: garay, nko, yezidi, hanifi-rohingya, arabic, thaana, syriac</li>
-<li>U+061B ARABIC SEMICOLON: try adding one of: garay, nko, yezidi, hanifi-rohingya, arabic, thaana, syriac</li>
-<li>U+061F ARABIC QUESTION MARK: try adding one of: adlam, garay, nko, yezidi, hanifi-rohingya, arabic, thaana, syriac</li>
+<li>U+060C ARABIC COMMA: try adding one of: nko, syriac, arabic, thaana, yezidi, hanifi-rohingya, garay</li>
+<li>U+061B ARABIC SEMICOLON: try adding one of: nko, syriac, arabic, thaana, yezidi, hanifi-rohingya, garay</li>
+<li>U+061F ARABIC QUESTION MARK: try adding one of: nko, syriac, arabic, thaana, yezidi, hanifi-rohingya, garay, adlam</li>
 <li>U+0620 ARABIC LETTER KASHMIRI YEH: try adding arabic</li>
 <li>U+0621 ARABIC LETTER HAMZA: try adding one of: arabic, syriac</li>
 <li>U+0622 ARABIC LETTER ALEF WITH MADDA ABOVE: try adding arabic</li>
@@ -344,7 +344,7 @@ definitions.</p>
 <li>U+0624 ARABIC LETTER WAW WITH HAMZA ABOVE: try adding arabic</li>
 <li>U+0625 ARABIC LETTER ALEF WITH HAMZA BELOW: try adding arabic</li>
 <li>U+0626 ARABIC LETTER YEH WITH HAMZA ABOVE: try adding arabic</li>
-<li>U+0627 ARABIC LETTER ALEF: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+0627 ARABIC LETTER ALEF: try adding one of: indic-siyaq-numbers, arabic</li>
 <li>U+0628 ARABIC LETTER BEH: try adding arabic</li>
 <li>U+0629 ARABIC LETTER TEH MARBUTA: try adding arabic</li>
 <li>U+062A ARABIC LETTER TEH: try adding arabic</li>
@@ -369,7 +369,7 @@ definitions.</p>
 <li>U+063D ARABIC LETTER FARSI YEH WITH INVERTED V: try adding arabic</li>
 <li>U+063E ARABIC LETTER FARSI YEH WITH TWO DOTS ABOVE: try adding arabic</li>
 <li>U+063F ARABIC LETTER FARSI YEH WITH THREE DOTS ABOVE: try adding arabic</li>
-<li>U+0640 ARABIC TATWEEL: try adding one of: adlam, sogdian, manichaean, hanifi-rohingya, mandaic, arabic, psalter-pahlavi, syriac, old-uyghur</li>
+<li>U+0640 ARABIC TATWEEL: try adding one of: old-uyghur, syriac, mandaic, manichaean, arabic, hanifi-rohingya, psalter-pahlavi, adlam, sogdian</li>
 <li>U+0641 ARABIC LETTER FEH: try adding arabic</li>
 <li>U+0642 ARABIC LETTER QAF: try adding arabic</li>
 <li>U+0643 ARABIC LETTER KAF: try adding arabic</li>
@@ -394,19 +394,19 @@ definitions.</p>
 <li>U+0656 ARABIC SUBSCRIPT ALEF: try adding arabic</li>
 <li>U+065A ARABIC VOWEL SIGN SMALL V ABOVE: try adding arabic</li>
 <li>U+065B ARABIC VOWEL SIGN INVERTED SMALL V ABOVE: try adding arabic</li>
-<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: yezidi, syriac, hanifi-rohingya, arabic, thaana, indic-siyaq-numbers</li>
-<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: yezidi, syriac, arabic, thaana, indic-siyaq-numbers</li>
-<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: yezidi, syriac, arabic, thaana, indic-siyaq-numbers</li>
-<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: yezidi, syriac, arabic, thaana, indic-siyaq-numbers</li>
-<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: yezidi, syriac, arabic, thaana, indic-siyaq-numbers</li>
-<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: yezidi, syriac, arabic, thaana, indic-siyaq-numbers</li>
-<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: yezidi, syriac, arabic, thaana, indic-siyaq-numbers</li>
-<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: yezidi, syriac, arabic, thaana, indic-siyaq-numbers</li>
-<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: yezidi, syriac, arabic, thaana, indic-siyaq-numbers</li>
-<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: yezidi, syriac, arabic, thaana, indic-siyaq-numbers</li>
-<li>U+066A ARABIC PERCENT SIGN: try adding one of: arabic, thaana, syriac, nko</li>
-<li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: arabic, thaana, syriac</li>
-<li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: arabic, thaana, syriac</li>
+<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: syriac, indic-siyaq-numbers, arabic, thaana, hanifi-rohingya, yezidi</li>
+<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: syriac, indic-siyaq-numbers, arabic, thaana, yezidi</li>
+<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: syriac, indic-siyaq-numbers, arabic, thaana, yezidi</li>
+<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: syriac, indic-siyaq-numbers, arabic, thaana, yezidi</li>
+<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: syriac, indic-siyaq-numbers, arabic, thaana, yezidi</li>
+<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: syriac, indic-siyaq-numbers, arabic, thaana, yezidi</li>
+<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: syriac, indic-siyaq-numbers, arabic, thaana, yezidi</li>
+<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: syriac, indic-siyaq-numbers, arabic, thaana, yezidi</li>
+<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: syriac, indic-siyaq-numbers, arabic, thaana, yezidi</li>
+<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: syriac, indic-siyaq-numbers, arabic, thaana, yezidi</li>
+<li>U+066A ARABIC PERCENT SIGN: try adding one of: thaana, nko, arabic, syriac</li>
+<li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: thaana, arabic, syriac</li>
+<li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: thaana, arabic, syriac</li>
 <li>U+066D ARABIC FIVE POINTED STAR: try adding arabic</li>
 <li>U+066E ARABIC LETTER DOTLESS BEH: try adding arabic</li>
 <li>U+066F ARABIC LETTER DOTLESS QAF: try adding arabic</li>
@@ -505,16 +505,16 @@ definitions.</p>
 <li>U+06D5 ARABIC LETTER AE: try adding arabic</li>
 <li>U+06EE ARABIC LETTER DAL WITH INVERTED V: try adding arabic</li>
 <li>U+06EF ARABIC LETTER REH WITH INVERTED V: try adding arabic</li>
-<li>U+06F0 EXTENDED ARABIC-INDIC DIGIT ZERO: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F1 EXTENDED ARABIC-INDIC DIGIT ONE: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F2 EXTENDED ARABIC-INDIC DIGIT TWO: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F3 EXTENDED ARABIC-INDIC DIGIT THREE: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F4 EXTENDED ARABIC-INDIC DIGIT FOUR: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F5 EXTENDED ARABIC-INDIC DIGIT FIVE: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F6 EXTENDED ARABIC-INDIC DIGIT SIX: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F7 EXTENDED ARABIC-INDIC DIGIT SEVEN: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F8 EXTENDED ARABIC-INDIC DIGIT EIGHT: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F9 EXTENDED ARABIC-INDIC DIGIT NINE: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F0 EXTENDED ARABIC-INDIC DIGIT ZERO: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F1 EXTENDED ARABIC-INDIC DIGIT ONE: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F2 EXTENDED ARABIC-INDIC DIGIT TWO: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F3 EXTENDED ARABIC-INDIC DIGIT THREE: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F4 EXTENDED ARABIC-INDIC DIGIT FOUR: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F5 EXTENDED ARABIC-INDIC DIGIT FIVE: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F6 EXTENDED ARABIC-INDIC DIGIT SIX: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F7 EXTENDED ARABIC-INDIC DIGIT SEVEN: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F8 EXTENDED ARABIC-INDIC DIGIT EIGHT: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F9 EXTENDED ARABIC-INDIC DIGIT NINE: try adding one of: indic-siyaq-numbers, arabic</li>
 <li>U+06FA ARABIC LETTER SHEEN WITH DOT BELOW: try adding arabic</li>
 <li>U+06FB ARABIC LETTER DAD WITH DOT BELOW: try adding arabic</li>
 <li>U+06FC ARABIC LETTER GHAIN WITH DOT BELOW: try adding arabic</li>
@@ -601,28 +601,28 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
 <li>U+2248 ALMOST EQUAL TO: try adding math</li>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+2460 CIRCLED DIGIT ONE: try adding one of: symbols, yi, mongolian</li>
-<li>U+2461 CIRCLED DIGIT TWO: try adding one of: symbols, yi, mongolian</li>
-<li>U+2462 CIRCLED DIGIT THREE: try adding one of: symbols, yi, mongolian</li>
-<li>U+2463 CIRCLED DIGIT FOUR: try adding one of: symbols, yi, mongolian</li>
-<li>U+2464 CIRCLED DIGIT FIVE: try adding one of: symbols, yi, mongolian</li>
-<li>U+2465 CIRCLED DIGIT SIX: try adding one of: symbols, yi, mongolian</li>
-<li>U+2466 CIRCLED DIGIT SEVEN: try adding one of: symbols, yi, mongolian</li>
-<li>U+2467 CIRCLED DIGIT EIGHT: try adding one of: symbols, yi, mongolian</li>
-<li>U+2468 CIRCLED DIGIT NINE: try adding one of: symbols, yi, mongolian</li>
+<li>U+2460 CIRCLED DIGIT ONE: try adding one of: yi, symbols, mongolian</li>
+<li>U+2461 CIRCLED DIGIT TWO: try adding one of: yi, symbols, mongolian</li>
+<li>U+2462 CIRCLED DIGIT THREE: try adding one of: yi, symbols, mongolian</li>
+<li>U+2463 CIRCLED DIGIT FOUR: try adding one of: yi, symbols, mongolian</li>
+<li>U+2464 CIRCLED DIGIT FIVE: try adding one of: yi, symbols, mongolian</li>
+<li>U+2465 CIRCLED DIGIT SIX: try adding one of: yi, symbols, mongolian</li>
+<li>U+2466 CIRCLED DIGIT SEVEN: try adding one of: yi, symbols, mongolian</li>
+<li>U+2467 CIRCLED DIGIT EIGHT: try adding one of: yi, symbols, mongolian</li>
+<li>U+2468 CIRCLED DIGIT NINE: try adding one of: yi, symbols, mongolian</li>
 <li>U+24EA CIRCLED DIGIT ZERO: try adding symbols</li>
 <li>U+24FF NEGATIVE CIRCLED DIGIT ZERO: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: tamil, elbasan, mahajani, myanmar, manichaean, buginese, chakma, music, bassa-vah, tai-le, balinese, phags-pa, saurashtra, wancho, malayalam, tirhuta, syloti-nagri, bengali, rejang, takri, new-tai-lue, masaram-gondi, hanunoo, mandaic, brahmi, old-permic, dogra, bhaiksuki, khudawadi, newa, tagbanwa, ahom, armenian, thai, soyombo, adlam, caucasian-albanian, oriya, thaana, javanese, lao, gujarati, syriac, siddham, gunjala-gondi, nko, buhid, yi, modi, batak, limbu, warang-citi, grantha, sundanese, kayah-li, pahawh-hmong, tai-tham, hebrew, lepcha, math, duployan, meetei-mayek, kaithi, gurmukhi, khojki, devanagari, zanabazar-square, tagalog, canadian-aboriginal, coptic, mongolian, sogdian, sinhala, kharoshthi, psalter-pahlavi, kannada, telugu, osage, miao, hanifi-rohingya, marchen, tibetan, tifinagh, cham, mende-kikakui, tai-viet, khmer, sharada, symbols</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: elbasan, mende-kikakui, kaithi, cham, zanabazar-square, marchen, adlam, hebrew, mandaic, coptic, wancho, mahajani, myanmar, gunjala-gondi, syloti-nagri, yi, thaana, bassa-vah, saurashtra, brahmi, ahom, miao, malayalam, tagbanwa, thai, tifinagh, tai-viet, javanese, osage, balinese, bhaiksuki, tirhuta, devanagari, pahawh-hmong, warang-citi, soyombo, khmer, siddham, grantha, buginese, sundanese, modi, sogdian, nko, dogra, limbu, khudawadi, tamil, tai-tham, takri, kayah-li, psalter-pahlavi, syriac, bengali, batak, rejang, sharada, khojki, music, chakma, masaram-gondi, math, gurmukhi, tai-le, gujarati, symbols, telugu, newa, hanunoo, tagalog, canadian-aboriginal, hanifi-rohingya, kharoshthi, kannada, meetei-mayek, oriya, sinhala, old-permic, buhid, lepcha, duployan, mongolian, manichaean, lao, tibetan, new-tai-lue, caucasian-albanian, phags-pa, armenian</li>
 <li>U+26AA MEDIUM WHITE CIRCLE: try adding symbols</li>
 <li>U+26AB MEDIUM BLACK CIRCLE: try adding symbols</li>
 <li>U+2776 DINGBAT NEGATIVE CIRCLED DIGIT ONE: try adding symbols</li>
@@ -636,10 +636,10 @@ definitions.</p>
 <li>U+277E DINGBAT NEGATIVE CIRCLED DIGIT NINE: try adding symbols</li>
 <li>U+2B1B BLACK LARGE SQUARE: try adding symbols</li>
 <li>U+2B1C WHITE LARGE SQUARE: try adding symbols</li>
-<li>U+2E41 REVERSED COMMA: try adding one of: arabic, adlam, old-hungarian</li>
+<li>U+2E41 REVERSED COMMA: try adding one of: old-hungarian, arabic, adlam</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
-<li>U+FDF2 ARABIC LIGATURE ALLAH ISOLATED FORM: try adding one of: arabic, thaana</li>
+<li>U+FDF2 ARABIC LIGATURE ALLAH ISOLATED FORM: try adding one of: thaana, arabic</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
@@ -862,31 +862,31 @@ definitions.</p>
 
 * seven.dnom: X=92.0,Y=-2.0 (should be at baseline 0?)
 
-* seven.dnom: X=92.0,Y=2.0 (should be at baseline 0?)
-
 * seven.dnom: X=167.0,Y=-2.0 (should be at baseline 0?)
+
+* seven.dnom: X=92.0,Y=2.0 (should be at baseline 0?)
 
 * seven.dnom: X=92.0,Y=-2.0 (should be at baseline 0?)
 
-* one.numr: X=177.0,Y=702.0 (should be at cap-height 700?)
-
 * one.numr: X=250.0,Y=702.0 (should be at cap-height 700?)
 
-* four.numr: X=201.0,Y=702.0 (should be at cap-height 700?)
+* one.numr: X=177.0,Y=702.0 (should be at cap-height 700?)
 
 * four.numr: X=273.0,Y=702.0 (should be at cap-height 700?)
 
-* five.numr: X=74.0,Y=702.0 (should be at cap-height 700?)
+* four.numr: X=201.0,Y=702.0 (should be at cap-height 700?)
 
 * five.numr: X=288.0,Y=702.0 (should be at cap-height 700?)
 
-* seven.numr: X=58.0,Y=702.0 (should be at cap-height 700?)
+* five.numr: X=74.0,Y=702.0 (should be at cap-height 700?)
 
 * seven.numr: X=293.0,Y=702.0 (should be at cap-height 700?)
 
-* onehalf (U+00BD): X=177.0,Y=702.0 (should be at cap-height 700?)
+* seven.numr: X=58.0,Y=702.0 (should be at cap-height 700?)
 
 * onehalf (U+00BD): X=250.0,Y=702.0 (should be at cap-height 700?)
+
+* onehalf (U+00BD): X=177.0,Y=702.0 (should be at cap-height 700?)
 
 * onehalf (U+00BD): X=485.0,Y=-2.0 (should be at baseline 0?)
 
@@ -894,13 +894,13 @@ definitions.</p>
 
 * onehalf (U+00BD): X=485.0,Y=-2.0 (should be at baseline 0?)
 
-* uni2153 (U+2153): X=177.0,Y=702.0 (should be at cap-height 700?)
-
 * uni2153 (U+2153): X=250.0,Y=702.0 (should be at cap-height 700?)
 
-* onequarter (U+00BC): X=177.0,Y=702.0 (should be at cap-height 700?)
+* uni2153 (U+2153): X=177.0,Y=702.0 (should be at cap-height 700?)
 
 * onequarter (U+00BC): X=250.0,Y=702.0 (should be at cap-height 700?)
+
+* onequarter (U+00BC): X=177.0,Y=702.0 (should be at cap-height 700?)
 
 * onequarter (U+00BC): X=581.0,Y=-2.0 (should be at baseline 0?)
 
@@ -914,17 +914,17 @@ definitions.</p>
 
 * threequarters (U+00BE): X=601.0,Y=-2.0 (should be at baseline 0?)
 
-* oneeighth (U+215B): X=177.0,Y=702.0 (should be at cap-height 700?)
-
 * oneeighth (U+215B): X=250.0,Y=702.0 (should be at cap-height 700?)
 
-* fiveeighths (U+215D): X=74.0,Y=702.0 (should be at cap-height 700?)
+* oneeighth (U+215B): X=177.0,Y=702.0 (should be at cap-height 700?)
 
 * fiveeighths (U+215D): X=288.0,Y=702.0 (should be at cap-height 700?)
 
-* seveneighths (U+215E): X=58.0,Y=702.0 (should be at cap-height 700?)
+* fiveeighths (U+215D): X=74.0,Y=702.0 (should be at cap-height 700?)
 
 * seveneighths (U+215E): X=293.0,Y=702.0 (should be at cap-height 700?)
+
+* seveneighths (U+215E): X=58.0,Y=702.0 (should be at cap-height 700?)
 
 * two.subs: X=225.0,Y=-2.0 (should be at baseline 0?)
 
@@ -950,6 +950,150 @@ definitions.</p>
 
 </div>
 </details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check the direction of the outermost contour in each glyph <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-direction">outline_direction</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs have a counter-clockwise outer contour:</p>
+<pre><code>* eight.dnom has a counter-clockwise outer contour
+
+* eight.numr has a counter-clockwise outer contour
+
+* eight.subs has a counter-clockwise outer contour
+
+* eight.sups has a counter-clockwise outer contour
+
+* five.dnom has a counter-clockwise outer contour
+
+* five.numr has a counter-clockwise outer contour
+
+* five.subs has a counter-clockwise outer contour
+
+* five.sups has a counter-clockwise outer contour
+
+* fiveeighths (U+215D) has a counter-clockwise outer contour
+
+* fiveeighths (U+215D) has a counter-clockwise outer contour
+
+* four.dnom has a counter-clockwise outer contour
+
+* four.numr has a counter-clockwise outer contour
+
+* four.subs has a counter-clockwise outer contour
+
+* four.sups has a counter-clockwise outer contour
+
+* nine.dnom has a counter-clockwise outer contour
+
+* nine.numr has a counter-clockwise outer contour
+
+* nine.subs has a counter-clockwise outer contour
+
+* nine.sups has a counter-clockwise outer contour
+
+* one.dnom has a counter-clockwise outer contour
+
+* one.numr has a counter-clockwise outer contour
+
+* one.subs has a counter-clockwise outer contour
+
+* one.sups has a counter-clockwise outer contour
+
+* oneeighth (U+215B) has a counter-clockwise outer contour
+
+* oneeighth (U+215B) has a counter-clockwise outer contour
+
+* onehalf (U+00BD) has a counter-clockwise outer contour
+
+* onehalf (U+00BD) has a counter-clockwise outer contour
+
+* onequarter (U+00BC) has a counter-clockwise outer contour
+
+* onequarter (U+00BC) has a counter-clockwise outer contour
+
+* percent (U+0025) has a counter-clockwise outer contour
+
+* percent (U+0025) has a counter-clockwise outer contour
+
+* perthousand (U+2030) has a counter-clockwise outer contour
+
+* perthousand (U+2030) has a counter-clockwise outer contour
+
+* perthousand (U+2030) has a counter-clockwise outer contour
+
+* seven.dnom has a counter-clockwise outer contour
+
+* seven.numr has a counter-clockwise outer contour
+
+* seven.subs has a counter-clockwise outer contour
+
+* seven.sups has a counter-clockwise outer contour
+
+* seveneighths (U+215E) has a counter-clockwise outer contour
+
+* seveneighths (U+215E) has a counter-clockwise outer contour
+
+* six.dnom has a counter-clockwise outer contour
+
+* six.numr has a counter-clockwise outer contour
+
+* six.subs has a counter-clockwise outer contour
+
+* six.sups has a counter-clockwise outer contour
+
+* three.dnom has a counter-clockwise outer contour
+
+* three.numr has a counter-clockwise outer contour
+
+* three.subs has a counter-clockwise outer contour
+
+* three.sups has a counter-clockwise outer contour
+
+* threeeighths (U+215C) has a counter-clockwise outer contour
+
+* threeeighths (U+215C) has a counter-clockwise outer contour
+
+* threequarters (U+00BE) has a counter-clockwise outer contour
+
+* threequarters (U+00BE) has a counter-clockwise outer contour
+
+* two.dnom has a counter-clockwise outer contour
+
+* two.numr has a counter-clockwise outer contour
+
+* two.subs has a counter-clockwise outer contour
+
+* two.sups has a counter-clockwise outer contour
+
+* uni2153 (U+2153) has a counter-clockwise outer contour
+
+* uni2153 (U+2153) has a counter-clockwise outer contour
+
+* uni2154 (U+2154) has a counter-clockwise outer contour
+
+* uni2154 (U+2154) has a counter-clockwise outer contour
+
+* zero.dnom has a counter-clockwise outer contour
+
+* zero.numr has a counter-clockwise outer contour
+
+* zero.subs has a counter-clockwise outer contour
+
+* zero.sups has a counter-clockwise outer contour
+</code></pre>
+ [code: ccw-outer-contour]
+
+
+
+</div>
+</details>
 </div>
 </details>
 
@@ -960,7 +1104,7 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 0 | 7 | 87 | 9 | 133 | 0 | 
+| 0 | 0 | 0 | 8 | 87 | 9 | 132 | 0 | 
 | 0% | 0% | 0% | 3% | 37% | 4% | 56% | 0% | 
 
 
