@@ -14,10 +14,6 @@ name = center;
 pos = (210,-59);
 },
 {
-name = ring;
-pos = (215,-12);
-},
-{
 name = top;
 pos = (229,477);
 }
@@ -691,10 +687,6 @@ name = center;
 pos = (79,-5);
 },
 {
-name = ring;
-pos = (115,19);
-},
-{
 name = top;
 pos = (245,477);
 }
@@ -757,10 +749,6 @@ pos = (249,-296);
 {
 name = center;
 pos = (230,-75);
-},
-{
-name = ring;
-pos = (235,-40);
 },
 {
 name = top;

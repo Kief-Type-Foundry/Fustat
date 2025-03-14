@@ -10,10 +10,6 @@ name = bottom;
 pos = (465,-100);
 },
 {
-name = ring;
-pos = (599,47);
-},
-{
 name = top;
 pos = (455,362);
 }
@@ -75,10 +71,6 @@ name = bottom;
 pos = (525,-113);
 },
 {
-name = ring;
-pos = (705,61);
-},
-{
 name = top;
 pos = (525,436);
 }
@@ -138,10 +130,6 @@ anchors = (
 {
 name = bottom;
 pos = (410,-110);
-},
-{
-name = ring;
-pos = (555,29);
 },
 {
 name = top;
