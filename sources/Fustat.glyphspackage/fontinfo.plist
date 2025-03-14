@@ -198,6 +198,30 @@ data = "Arab,Latn";
 tag = slng;
 }
 );
+},
+{
+name = subscriptYOffset;
+value = 124;
+},
+{
+name = subscriptXSize;
+value = 530;
+},
+{
+name = subscriptYSize;
+value = 530;
+},
+{
+name = superscriptYOffset;
+value = 439;
+},
+{
+name = superscriptXSize;
+value = 530;
+},
+{
+name = superscriptYSize;
+value = 530;
 }
 );
 date = "2024-03-23 22:08:27 +0000";
