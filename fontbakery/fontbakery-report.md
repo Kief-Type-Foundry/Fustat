@@ -317,12 +317,12 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, syriac, coptic, todhri, canadian-aboriginal, math, old-permic, hebrew, malayalam, duployan, tai-le</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, old-permic, tai-le, todhri, hebrew, canadian-aboriginal, coptic, malayalam, tifinagh, syriac, math</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -334,9 +334,9 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0609 ARABIC-INDIC PER MILLE SIGN: try adding arabic</li>
-<li>U+060C ARABIC COMMA: try adding one of: syriac, arabic, garay, hanifi-rohingya, nko, yezidi, thaana</li>
-<li>U+061B ARABIC SEMICOLON: try adding one of: syriac, arabic, garay, hanifi-rohingya, nko, yezidi, thaana</li>
-<li>U+061F ARABIC QUESTION MARK: try adding one of: syriac, adlam, arabic, garay, hanifi-rohingya, nko, yezidi, thaana</li>
+<li>U+060C ARABIC COMMA: try adding one of: hanifi-rohingya, yezidi, nko, garay, arabic, thaana, syriac</li>
+<li>U+061B ARABIC SEMICOLON: try adding one of: hanifi-rohingya, yezidi, nko, garay, arabic, thaana, syriac</li>
+<li>U+061F ARABIC QUESTION MARK: try adding one of: hanifi-rohingya, yezidi, nko, garay, arabic, adlam, thaana, syriac</li>
 <li>U+0620 ARABIC LETTER KASHMIRI YEH: try adding arabic</li>
 <li>U+0621 ARABIC LETTER HAMZA: try adding one of: arabic, syriac</li>
 <li>U+0622 ARABIC LETTER ALEF WITH MADDA ABOVE: try adding arabic</li>
@@ -369,7 +369,7 @@ definitions.</p>
 <li>U+063D ARABIC LETTER FARSI YEH WITH INVERTED V: try adding arabic</li>
 <li>U+063E ARABIC LETTER FARSI YEH WITH TWO DOTS ABOVE: try adding arabic</li>
 <li>U+063F ARABIC LETTER FARSI YEH WITH THREE DOTS ABOVE: try adding arabic</li>
-<li>U+0640 ARABIC TATWEEL: try adding one of: syriac, mandaic, adlam, psalter-pahlavi, arabic, hanifi-rohingya, old-uyghur, sogdian, manichaean</li>
+<li>U+0640 ARABIC TATWEEL: try adding one of: hanifi-rohingya, old-uyghur, mandaic, arabic, manichaean, adlam, psalter-pahlavi, syriac, sogdian</li>
 <li>U+0641 ARABIC LETTER FEH: try adding arabic</li>
 <li>U+0642 ARABIC LETTER QAF: try adding arabic</li>
 <li>U+0643 ARABIC LETTER KAF: try adding arabic</li>
@@ -394,19 +394,19 @@ definitions.</p>
 <li>U+0656 ARABIC SUBSCRIPT ALEF: try adding arabic</li>
 <li>U+065A ARABIC VOWEL SIGN SMALL V ABOVE: try adding arabic</li>
 <li>U+065B ARABIC VOWEL SIGN INVERTED SMALL V ABOVE: try adding arabic</li>
-<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: syriac, arabic, hanifi-rohingya, indic-siyaq-numbers, yezidi, thaana</li>
-<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: syriac, arabic, indic-siyaq-numbers, yezidi, thaana</li>
-<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: syriac, arabic, indic-siyaq-numbers, yezidi, thaana</li>
-<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: syriac, arabic, indic-siyaq-numbers, yezidi, thaana</li>
-<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: syriac, arabic, indic-siyaq-numbers, yezidi, thaana</li>
-<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: syriac, arabic, indic-siyaq-numbers, yezidi, thaana</li>
-<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: syriac, arabic, indic-siyaq-numbers, yezidi, thaana</li>
-<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: syriac, arabic, indic-siyaq-numbers, yezidi, thaana</li>
-<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: syriac, arabic, indic-siyaq-numbers, yezidi, thaana</li>
-<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: syriac, arabic, indic-siyaq-numbers, yezidi, thaana</li>
-<li>U+066A ARABIC PERCENT SIGN: try adding one of: arabic, syriac, thaana, nko</li>
-<li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: arabic, syriac, thaana</li>
-<li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: arabic, syriac, thaana</li>
+<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: hanifi-rohingya, yezidi, arabic, indic-siyaq-numbers, thaana, syriac</li>
+<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: yezidi, arabic, indic-siyaq-numbers, thaana, syriac</li>
+<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: yezidi, arabic, indic-siyaq-numbers, thaana, syriac</li>
+<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: yezidi, arabic, indic-siyaq-numbers, thaana, syriac</li>
+<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: yezidi, arabic, indic-siyaq-numbers, thaana, syriac</li>
+<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: yezidi, arabic, indic-siyaq-numbers, thaana, syriac</li>
+<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: yezidi, arabic, indic-siyaq-numbers, thaana, syriac</li>
+<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: yezidi, arabic, indic-siyaq-numbers, thaana, syriac</li>
+<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: yezidi, arabic, indic-siyaq-numbers, thaana, syriac</li>
+<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: yezidi, arabic, indic-siyaq-numbers, thaana, syriac</li>
+<li>U+066A ARABIC PERCENT SIGN: try adding one of: arabic, nko, syriac, thaana</li>
+<li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: arabic, thaana, syriac</li>
+<li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: arabic, thaana, syriac</li>
 <li>U+066D ARABIC FIVE POINTED STAR: try adding arabic</li>
 <li>U+066E ARABIC LETTER DOTLESS BEH: try adding arabic</li>
 <li>U+066F ARABIC LETTER DOTLESS QAF: try adding arabic</li>
@@ -501,7 +501,7 @@ definitions.</p>
 <li>U+06D0 ARABIC LETTER E: try adding arabic</li>
 <li>U+06D2 ARABIC LETTER YEH BARREE: try adding arabic</li>
 <li>U+06D3 ARABIC LETTER YEH BARREE WITH HAMZA ABOVE: try adding arabic</li>
-<li>U+06D4 ARABIC FULL STOP: try adding one of: arabic, yezidi, hanifi-rohingya</li>
+<li>U+06D4 ARABIC FULL STOP: try adding one of: arabic, hanifi-rohingya, yezidi</li>
 <li>U+06D5 ARABIC LETTER AE: try adding arabic</li>
 <li>U+06EE ARABIC LETTER DAL WITH INVERTED V: try adding arabic</li>
 <li>U+06EF ARABIC LETTER REH WITH INVERTED V: try adding arabic</li>
@@ -601,12 +601,12 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2248 ALMOST EQUAL TO: try adding math</li>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
@@ -622,7 +622,7 @@ definitions.</p>
 <li>U+2468 CIRCLED DIGIT NINE: try adding one of: yi, symbols, mongolian</li>
 <li>U+24EA CIRCLED DIGIT ZERO: try adding symbols</li>
 <li>U+24FF NEGATIVE CIRCLED DIGIT ZERO: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: tai-tham, mahajani, takri, devanagari, soyombo, dogra, limbu, malayalam, sundanese, pahawh-hmong, hanunoo, zanabazar-square, mandaic, armenian, saurashtra, balinese, gunjala-gondi, javanese, tirhuta, sogdian, siddham, myanmar, syriac, khojki, hebrew, tifinagh, bassa-vah, thai, coptic, thaana, tagbanwa, tagalog, manichaean, math, music, masaram-gondi, grantha, tibetan, rejang, old-permic, hanifi-rohingya, mende-kikakui, duployan, kayah-li, psalter-pahlavi, yi, caucasian-albanian, kaithi, elbasan, gujarati, tai-le, buhid, nko, warang-citi, sharada, meetei-mayek, osage, telugu, newa, khudawadi, chakma, khmer, brahmi, miao, ahom, tamil, lao, mongolian, oriya, gurmukhi, batak, buginese, lepcha, syloti-nagri, canadian-aboriginal, bhaiksuki, kannada, modi, adlam, tai-viet, cham, bengali, sinhala, phags-pa, wancho, new-tai-lue, symbols, marchen, kharoshthi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bengali, limbu, tamil, phags-pa, saurashtra, telugu, sundanese, mandaic, yi, sinhala, hanunoo, thaana, caucasian-albanian, hanifi-rohingya, newa, pahawh-hmong, zanabazar-square, syloti-nagri, manichaean, adlam, brahmi, psalter-pahlavi, elbasan, oriya, duployan, kannada, myanmar, cham, chakma, buginese, tifinagh, sogdian, mende-kikakui, lepcha, javanese, dogra, symbols, meetei-mayek, old-permic, hebrew, tai-tham, modi, mahajani, tirhuta, mongolian, warang-citi, sharada, armenian, soyombo, canadian-aboriginal, siddham, malayalam, new-tai-lue, gujarati, math, nko, miao, wancho, syriac, devanagari, thai, tagbanwa, gurmukhi, tai-le, takri, kayah-li, coptic, tai-viet, batak, bhaiksuki, kaithi, balinese, masaram-gondi, lao, rejang, buhid, khmer, bassa-vah, marchen, ahom, gunjala-gondi, music, kharoshthi, khojki, tagalog, grantha, osage, khudawadi, tibetan</li>
 <li>U+26AA MEDIUM WHITE CIRCLE: try adding symbols</li>
 <li>U+26AB MEDIUM BLACK CIRCLE: try adding symbols</li>
 <li>U+2776 DINGBAT NEGATIVE CIRCLED DIGIT ONE: try adding symbols</li>
