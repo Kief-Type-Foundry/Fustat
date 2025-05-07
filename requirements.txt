@@ -69,7 +69,7 @@ cffi==1.17.1
     #   pynacl
 cffsubr==0.3.0
     # via ufo2ft
-charset-normalizer==3.4.1
+charset-normalizer==3.4.2
     # via requests
 cmarkgfm==2024.11.20
     # via fontbakery
@@ -79,7 +79,7 @@ commandlines==0.4.1
     # via ufolint
 compreffor==0.5.6
     # via ufo2ft
-cryptography==44.0.2
+cryptography==44.0.3
     # via pyjwt
 defcon[lxml,pens]==0.12.1
     # via
@@ -103,7 +103,7 @@ filelock==3.18.0
     # via youseedee
 font-v==2.1.0
     # via gftools
-fontbakery[beautifulsoup4,googlefonts,googlefontsalwayslatest,shaperglot]==0.13.2
+fontbakery[beautifulsoup4,googlefonts,googlefontsalwayslatest,shaperglot]==0.13.3
     # via gftools
 fontfeatures==1.8.0
     # via gftools
@@ -177,7 +177,7 @@ gfsubsets==2024.9.25
     # via
     #   fontbakery
     #   gftools
-gftools[qa]==0.9.79
+gftools[qa]==0.9.81
     # via -r requirements.in
 gitdb==4.0.12
     # via gitpython
@@ -249,9 +249,9 @@ opentype-sanitizer==9.2.0
     # via
     #   fontbakery
     #   gftools
-opentypespec==1.9.1
+opentypespec==1.9.2
     # via fontbakery
-orjson==3.10.16
+orjson==3.10.18
     # via
     #   babelfont
     #   ufolib2
@@ -339,7 +339,7 @@ ruamel-yaml==0.18.10
     # via gftools
 ruamel-yaml-clib==0.2.12
     # via ruamel-yaml
-selenium==4.31.0
+selenium==4.32.0
     # via diffenator2
 sh==2.2.2
     # via -r requirements.in
