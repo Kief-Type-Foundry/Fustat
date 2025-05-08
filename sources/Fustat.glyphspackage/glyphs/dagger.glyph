@@ -76,6 +76,8 @@ nodes = (
 width = 479;
 }
 );
+metricLeft = "=40";
+metricRight = "=|";
 note = dagger;
 unicode = 8224;
 }
