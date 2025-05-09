@@ -1,6 +1,6 @@
 {
 category = Mark;
-direction = LTR;
+direction = RTL;
 glyphname = "vinvertedcenter-ar";
 layers = (
 {

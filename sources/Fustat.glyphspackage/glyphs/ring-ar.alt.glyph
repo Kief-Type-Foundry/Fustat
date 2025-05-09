@@ -1,7 +1,7 @@
 {
 category = Mark;
 color = 4;
-direction = LTR;
+direction = RTL;
 glyphname = "ring-ar.alt";
 layers = (
 {

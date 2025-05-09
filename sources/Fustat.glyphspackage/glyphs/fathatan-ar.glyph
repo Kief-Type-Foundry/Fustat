@@ -1,6 +1,6 @@
 {
 category = Mark;
-direction = LTR;
+direction = RTL;
 glyphname = "fathatan-ar";
 layers = (
 {
