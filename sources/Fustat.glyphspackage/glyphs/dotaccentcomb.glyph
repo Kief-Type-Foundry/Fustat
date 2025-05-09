@@ -83,11 +83,6 @@ pos = (73,719);
 associatedMasterId = "14EEE41F-D714-4243-A717-73445EE7DABA";
 layerId = "F35A3DCA-A9E5-4DE8-AE00-ED068CA1388D";
 name = "15 Dec 23, 13:23";
-shapes = (
-{
-ref = dotaccentcomb.i;
-}
-);
 width = 146;
 },
 {
