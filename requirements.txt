@@ -79,7 +79,7 @@ commandlines==0.4.1
     # via ufolint
 compreffor==0.5.6
     # via ufo2ft
-cryptography==44.0.3
+cryptography==45.0.2
     # via pyjwt
 defcon[lxml,pens]==0.12.1
     # via
@@ -93,7 +93,7 @@ dehinter==4.0.0
     # via fontbakery
 deprecated==1.2.18
     # via pygithub
-diffenator2==0.4.5
+diffenator2==0.4.9
     # via
     #   -r requirements.in
     #   gftools
@@ -103,7 +103,7 @@ filelock==3.18.0
     # via youseedee
 font-v==2.1.0
     # via gftools
-fontbakery[beautifulsoup4,googlefonts,googlefontsalwayslatest,shaperglot]==0.13.3
+fontbakery[beautifulsoup4,googlefonts,googlefontsalwayslatest,shaperglot]==1.0.0
     # via gftools
 fontfeatures==1.8.0
     # via gftools
@@ -123,7 +123,7 @@ fontparts==0.12.5
     # via ufoprocessor
 fontpens==0.2.4
     # via defcon
-fonttools[lxml,ufo,unicode,woff]==4.57.0
+fonttools[lxml,ufo,unicode,woff]==4.58.0
     # via
     #   afdko
     #   axisregistry
@@ -167,7 +167,7 @@ fs==2.4.16
     # via
     #   fontfeatures
     #   fonttools
-gflanguages==0.7.3
+gflanguages==0.7.4
     # via
     #   diffenator2
     #   fontbakery
@@ -177,7 +177,7 @@ gfsubsets==2024.9.25
     # via
     #   fontbakery
     #   gftools
-gftools[qa]==0.9.81
+gftools[qa]==0.9.85
     # via -r requirements.in
 gitdb==4.0.12
     # via gitpython
@@ -188,7 +188,7 @@ glyphsets==1.1.0
     #   diffenator2
     #   fontbakery
     #   gftools
-glyphslib==6.10.1
+glyphslib==6.10.2
     # via
     #   bumpfontversion
     #   fontmake
@@ -235,7 +235,7 @@ ninja==1.11.1.4
     #   diffenator2
     #   gftools
     #   nanoemoji
-numpy==2.2.5
+numpy==2.2.6
     # via
     #   blackrenderer
     #   drawbot-skia
@@ -401,7 +401,7 @@ typing-extensions==4.13.2
     #   beautifulsoup4
     #   pygithub
     #   selenium
-ufo2ft[cffsubr,compreffor]==3.4.3
+ufo2ft[cffsubr,compreffor]==3.4.5
     # via
     #   fontbakery
     #   fontmake
@@ -417,7 +417,7 @@ ufolib2[json]==0.17.1
     #   vttlib
 ufolint==1.2.0
     # via fontbakery
-ufomerge==1.9.1
+ufomerge==1.9.3
     # via
     #   babelfont
     #   gftools
@@ -425,7 +425,7 @@ ufonormalizer==0.6.2
     # via afdko
 ufoprocessor==1.13.3
     # via afdko
-uharfbuzz==0.50.0
+uharfbuzz==0.50.2
     # via
     #   blackrenderer
     #   collidoscope
