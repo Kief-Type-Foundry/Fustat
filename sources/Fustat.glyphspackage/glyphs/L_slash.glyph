@@ -11,7 +11,7 @@ ref = L;
 },
 {
 pos = (-7,0);
-ref = slashshortcomb;
+ref = slash.shortcomb;
 }
 );
 width = 536;
@@ -24,7 +24,7 @@ ref = L;
 },
 {
 pos = (-22,0);
-ref = slashshortcomb;
+ref = slash.shortcomb;
 }
 );
 width = 531;
@@ -37,7 +37,7 @@ ref = L;
 },
 {
 pos = (-17,0);
-ref = slashshortcomb;
+ref = slash.shortcomb;
 }
 );
 width = 549;

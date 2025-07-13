@@ -11,7 +11,7 @@ ref = H;
 },
 {
 pos = (-19,-12);
-ref = strokelongcomb.case;
+ref = stroke.longcomb;
 }
 );
 width = 690;
@@ -24,7 +24,7 @@ ref = H;
 },
 {
 pos = (-30,-2);
-ref = strokelongcomb.case;
+ref = stroke.longcomb;
 }
 );
 width = 684;
@@ -37,7 +37,7 @@ ref = H;
 },
 {
 pos = (-26,0);
-ref = strokelongcomb.case;
+ref = stroke.longcomb;
 }
 );
 width = 724;

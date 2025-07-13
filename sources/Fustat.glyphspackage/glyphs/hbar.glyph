@@ -11,7 +11,7 @@ ref = h;
 },
 {
 pos = (-42,236);
-ref = strokeshortcomb;
+ref = stroke.shortcomb;
 }
 );
 width = 569;
@@ -24,7 +24,7 @@ ref = h;
 },
 {
 pos = (-27,254);
-ref = strokeshortcomb;
+ref = stroke.shortcomb;
 }
 );
 width = 576;
@@ -37,7 +37,7 @@ ref = h;
 },
 {
 pos = (-17,255);
-ref = strokeshortcomb;
+ref = stroke.shortcomb;
 }
 );
 width = 613;

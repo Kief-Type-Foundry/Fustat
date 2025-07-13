@@ -1,12 +1,12 @@
 {
 category = Mark;
 direction = LTR;
-glyphname = slashshortcomb;
+glyphname = slash.shortcomb;
 layers = (
 {
 anchors = (
 {
-name = _center;
+name = "_#center";
 pos = (150,350);
 }
 );
@@ -40,7 +40,7 @@ width = 300;
 {
 anchors = (
 {
-name = _center;
+name = "_#center";
 pos = (207,350);
 }
 );
@@ -74,7 +74,7 @@ width = 414;
 {
 anchors = (
 {
-name = _center;
+name = "_#center";
 pos = (188,350);
 }
 );
@@ -97,5 +97,4 @@ script = "";
 sortName = ac112;
 sortNameKeep = ac112;
 subCategory = Nonspacing;
-unicode = 823;
 }

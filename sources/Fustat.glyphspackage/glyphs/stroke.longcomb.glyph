@@ -1,12 +1,12 @@
 {
 category = Mark;
 direction = LTR;
-glyphname = strokelongcomb.case;
+glyphname = stroke.longcomb;
 layers = (
 {
 anchors = (
 {
-name = _center;
+name = "_#center";
 pos = (364,550);
 }
 );
@@ -46,7 +46,7 @@ width = 728;
 {
 anchors = (
 {
-name = _center;
+name = "_#center";
 pos = (388,550);
 }
 );
@@ -98,7 +98,7 @@ width = 600;
 {
 anchors = (
 {
-name = _center;
+name = "_#center";
 pos = (377,334);
 }
 );
@@ -140,7 +140,7 @@ width = 754;
 {
 anchors = (
 {
-name = _center;
+name = "_#center";
 pos = (372,543);
 }
 );

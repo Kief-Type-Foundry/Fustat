@@ -338,8 +338,8 @@ code = "lookup ccmp_DFLT_1 {
 
 lookup ccmp_Other_1 {
 	lookupflag 0;
-	@Markscomb = [dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb caroncomb.alt circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb cedillacomb strokeshortcomb];
-	@MarkscombCase = [dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case caroncomb.alt.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case macroncomb.case cedillacomb.case strokeshortcomb.case];
+	@Markscomb = [dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb caroncomb.alt circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb cedillacomb];
+	@MarkscombCase = [dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case caroncomb.alt.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case macroncomb.case cedillacomb.case];
 	sub @Markscomb @Markscomb' by @MarkscombCase;
 	sub @Uppercase @Markscomb' by @MarkscombCase;
 } ccmp_Other_1;
@@ -1073,25 +1073,25 @@ tag = tnum;
 },
 {
 automatic = 1;
-code = "sub slash by slash.case;
+code = "sub exclamdown by exclamdown.case;
+sub questiondown by questiondown.case;
+sub slash by slash.case;
 sub backslash by backslash.case;
+sub hyphen by hyphen.case;
+sub endash by endash.case;
+sub emdash by emdash.case;
 sub parenleft by parenleft.case;
 sub parenright by parenright.case;
 sub braceleft by braceleft.case;
-sub bar by bar.case;
 sub braceright by braceright.case;
 sub bracketleft by bracketleft.case;
 sub bracketright by bracketright.case;
-sub hyphen by hyphen.case;
 sub guillemetleft.locl by guillemetleft.locl.case;
 sub guillemetright.locl by guillemetright.locl.case;
 sub guilsinglleft.locl by guilsinglleft.locl.case;
 sub guilsinglright.locl by guilsinglright.locl.case;
-sub exclamdown by exclamdown.case;
-sub questiondown by questiondown.case;
-sub endash by endash.case;
-sub emdash by emdash.case;
 sub at by at.case;
+sub bar by bar.case;
 sub dieresiscomb by dieresiscomb.case;
 sub dotaccentcomb by dotaccentcomb.case;
 sub gravecomb by gravecomb.case;
@@ -1105,7 +1105,6 @@ sub ringcomb by ringcomb.case;
 sub tildecomb by tildecomb.case;
 sub macroncomb by macroncomb.case;
 sub cedillacomb by cedillacomb.case;
-sub strokeshortcomb by strokeshortcomb.case;
 ";
 tag = case;
 },
