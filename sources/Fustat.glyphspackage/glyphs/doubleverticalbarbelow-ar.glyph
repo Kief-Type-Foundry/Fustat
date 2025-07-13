@@ -1,6 +1,7 @@
 {
 category = Mark;
 direction = RTL;
+export = 0;
 glyphname = "doubleverticalbarbelow-ar";
 layers = (
 {

@@ -1,6 +1,7 @@
 {
 category = Mark;
 direction = LTR;
+export = 0;
 glyphname = dieresiscomb.narrow;
 layers = (
 {
