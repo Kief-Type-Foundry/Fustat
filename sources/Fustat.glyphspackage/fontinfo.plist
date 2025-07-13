@@ -1422,7 +1422,6 @@ GSOffsetMakeStroke = 1;
 GSOffsetPosition = 0.7;
 GSOffsetVertical = 37.5;
 };
-visible = 1;
 },
 {
 axesValues = (
