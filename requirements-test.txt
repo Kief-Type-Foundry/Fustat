@@ -4,7 +4,7 @@
 #
 #    pip-compile requirements-test.in
 #
-absl-py==2.3.0
+absl-py==2.3.1
     # via
     #   gftools
     #   nanoemoji
@@ -53,7 +53,7 @@ cattrs==25.1.1
     # via
     #   statmake
     #   ufolib2
-certifi==2025.6.15
+certifi==2025.7.9
     # via
     #   requests
     #   selenium
@@ -75,7 +75,7 @@ commandlines==0.4.1
     # via ufolint
 compreffor==0.5.6
     # via ufo2ft
-cryptography==45.0.4
+cryptography==45.0.5
     # via pyjwt
 defcon[lxml,pens]==0.12.1
     # via
@@ -91,15 +91,17 @@ deprecated==1.2.18
     # via pygithub
 diffenator2==0.4.9
     # via gftools
+ffmpeg-python==0.2.0
+    # via gftools
 filelock==3.18.0
     # via youseedee
 font-v==2.1.0
     # via gftools
-fontbakery[beautifulsoup4,googlefonts,googlefontsalwayslatest,shaperglot]==1.0.0
+fontbakery[beautifulsoup4,googlefonts,googlefontsalwayslatest,shaperglot]==1.0.1
     # via
     #   -r requirements-test.in
     #   gftools
-fontfeatures==1.8.0
+fontfeatures==1.9.0
     # via gftools
 fontmake[json]==3.10.1
     # via gftools
@@ -115,7 +117,7 @@ fontparts==0.13.1
     # via ufoprocessor
 fontpens==0.2.4
     # via defcon
-fonttools[lxml,ufo,unicode,woff]==4.58.4
+fonttools[lxml,ufo,unicode,woff]==4.58.5
     # via
     #   afdko
     #   axisregistry
@@ -156,9 +158,9 @@ freetype-py==2.3.0
     #   diffenator2
     #   fontbakery
 fs==2.4.16
-    # via
-    #   fontfeatures
-    #   fonttools
+    # via fonttools
+future==1.0.0
+    # via ffmpeg-python
 gflanguages==0.7.5
     # via
     #   diffenator2
@@ -169,7 +171,7 @@ gfsubsets==2024.9.25
     # via
     #   fontbakery
     #   gftools
-gftools[qa]==0.9.85
+gftools[qa]==0.9.86
     # via -r requirements-test.in
 gitdb==4.0.12
     # via gitpython
@@ -180,7 +182,7 @@ glyphsets==1.1.0
     #   diffenator2
     #   fontbakery
     #   gftools
-glyphslib==6.11.0
+glyphslib==6.11.1
     # via
     #   bumpfontversion
     #   fontmake
@@ -201,7 +203,7 @@ jinja2==3.1.6
     #   gftools
 kurbopy==0.11.1
     # via collidoscope
-lxml==5.4.0
+lxml==6.0.0
     # via
     #   afdko
     #   fontfeatures
@@ -218,7 +220,7 @@ munkres==1.1.4
     # via fontbakery
 mutatormath==3.0.1
     # via ufoprocessor
-nanoemoji==0.15.7
+nanoemoji==0.15.8
     # via gftools
 networkx==3.5
     # via gftools
@@ -227,7 +229,7 @@ ninja==1.11.1.4
     #   diffenator2
     #   gftools
     #   nanoemoji
-numpy==2.3.0
+numpy==2.3.1
     # via
     #   blackrenderer
     #   skia-python
@@ -256,7 +258,7 @@ packaging==25.0
     #   gftools
 picosvg==0.22.3
     # via nanoemoji
-pillow==11.2.1
+pillow==11.3.0
     # via
     #   diffenator2
     #   gftools
@@ -272,9 +274,9 @@ protobuf==3.20.3
     #   fontbakery
     #   gflanguages
     #   gftools
-pyahocorasick==2.1.0
+pyahocorasick==2.2.0
     # via diffenator2
-pybind11==2.13.6
+pybind11==3.0.0
     # via skia-python
 pycairo==1.28.0
     # via gftools
@@ -288,7 +290,7 @@ pygit2==1.16.0
     # via gftools
 pygithub==2.6.1
     # via gftools
-pygments==2.19.1
+pygments==2.19.2
     # via rich
 pyjwt[crypto]==2.10.1
     # via pygithub
@@ -328,7 +330,7 @@ ruamel-yaml==0.18.14
     # via gftools
 ruamel-yaml-clib==0.2.12
     # via ruamel-yaml
-selenium==4.33.0
+selenium==4.34.2
     # via diffenator2
 shaperglot==1.0.2
     # via fontbakery
@@ -381,18 +383,18 @@ trio-websocket==0.12.2
     # via selenium
 ttfautohint-py==0.5.1
     # via gftools
-typing-extensions==4.13.2
+typing-extensions==4.14.1
     # via
     #   beautifulsoup4
     #   cattrs
     #   pygithub
     #   selenium
-ufo2ft[cffsubr,compreffor]==3.5.0
+ufo2ft[cffsubr,compreffor]==3.5.1
     # via
     #   fontbakery
     #   fontmake
     #   nanoemoji
-ufolib2[json]==0.17.1
+ufolib2[json]==0.18.1
     # via
     #   babelfont
     #   bumpfontversion
@@ -403,7 +405,7 @@ ufolib2[json]==0.17.1
     #   vttlib
 ufolint==1.2.0
     # via fontbakery
-ufomerge==1.9.3
+ufomerge==1.9.5
     # via
     #   babelfont
     #   gftools
@@ -425,7 +427,7 @@ unicodedata2==15.1.0
     #   glyphsets
 unidecode==1.4.0
     # via gftools
-urllib3[socks]==2.4.0
+urllib3[socks]==2.5.0
     # via
     #   pygithub
     #   requests
