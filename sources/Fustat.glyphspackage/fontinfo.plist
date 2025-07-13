@@ -1,5 +1,5 @@
 {
-.appVersion = "3343";
+.appVersion = "3414";
 .formatVersion = 3;
 axes = (
 {
@@ -3156,6 +3156,26 @@ seven.numr = {
 };
 "twoFarsi-ar" = {
 "zeroFarsi-ar.locl" = -60;
+};
+};
+};
+kerningRTL = {
+"3114FB65-9464-41A5-B67E-A8F9F43C0EF1" = {
+"@MMK_R_hah-medi" = {
+"@MMK_L_hah-medi" = -130;
+"@MMK_L_sad-medi" = -110;
+};
+};
+"14EEE41F-D714-4243-A717-73445EE7DABA" = {
+"@MMK_R_hah-medi" = {
+"@MMK_L_hah-medi" = -130;
+"@MMK_L_sad-medi" = -100;
+};
+};
+"090CB6A0-BE7C-4D17-A551-206C7456A8A3" = {
+"@MMK_R_hah-medi" = {
+"@MMK_L_hah-medi" = -130;
+"@MMK_L_sad-medi" = -60;
 };
 };
 };

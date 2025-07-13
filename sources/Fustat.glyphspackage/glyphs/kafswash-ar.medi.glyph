@@ -2,6 +2,7 @@
 category = Letter;
 direction = RTL;
 glyphname = "kafswash-ar.medi";
+kernRight = "sad-medi";
 layers = (
 {
 anchors = (

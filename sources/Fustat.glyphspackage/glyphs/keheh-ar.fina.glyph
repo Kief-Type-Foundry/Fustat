@@ -2,6 +2,7 @@
 category = Letter;
 direction = RTL;
 glyphname = "keheh-ar.fina";
+kernRight = "sad-medi";
 layers = (
 {
 anchors = (
