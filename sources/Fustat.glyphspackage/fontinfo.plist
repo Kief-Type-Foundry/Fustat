@@ -1266,6 +1266,14 @@ customParameters = (
 {
 name = "Master Icon Glyph Name";
 value = "seen-ar.init";
+},
+{
+name = Filter;
+value = "decomposeComponents;include:zero.blackCircled, one.blackCircled, two.blackCircled, three.blackCircled, four.blackCircled, five.blackCircled, six.blackCircled, seven.blackCircled, eight.blackCircled, nine.blackCircled";
+},
+{
+name = Filter;
+value = "reverseContourDirection;include:zero.blackCircled, one.blackCircled, two.blackCircled, three.blackCircled, four.blackCircled, five.blackCircled, six.blackCircled, seven.blackCircled, eight.blackCircled, nine.blackCircled, mediumBlackCircle";
 }
 );
 guides = (
@@ -1347,6 +1355,14 @@ customParameters = (
 {
 name = "Master Icon Glyph Name";
 value = "seen-ar.init";
+},
+{
+name = Filter;
+value = "decomposeComponents;include:zero.blackCircled, one.blackCircled, two.blackCircled, three.blackCircled, four.blackCircled, five.blackCircled, six.blackCircled, seven.blackCircled, eight.blackCircled, nine.blackCircled";
+},
+{
+name = Filter;
+value = "reverseContourDirection;include:zero.blackCircled, one.blackCircled, two.blackCircled, three.blackCircled, four.blackCircled, five.blackCircled, six.blackCircled, seven.blackCircled, eight.blackCircled, nine.blackCircled, mediumBlackCircle";
 }
 );
 guides = (
@@ -1430,6 +1446,14 @@ customParameters = (
 {
 name = "Master Icon Glyph Name";
 value = "seen-ar.init";
+},
+{
+name = Filter;
+value = "decomposeComponents;include:zero.blackCircled, one.blackCircled, two.blackCircled, three.blackCircled, four.blackCircled, five.blackCircled, six.blackCircled, seven.blackCircled, eight.blackCircled, nine.blackCircled";
+},
+{
+name = Filter;
+value = "reverseContourDirection;include:zero.blackCircled, one.blackCircled, two.blackCircled, three.blackCircled, four.blackCircled, five.blackCircled, six.blackCircled, seven.blackCircled, eight.blackCircled, nine.blackCircled, mediumBlackCircle";
 }
 );
 guides = (
@@ -1666,7 +1690,11 @@ value = "14EEE41F-D714-4243-A717-73445EE7DABA";
 },
 {
 name = Filter;
-value = "";
+value = "decomposeComponents;include:zero.blackCircled, one.blackCircled, two.blackCircled, three.blackCircled, four.blackCircled, five.blackCircled, six.blackCircled, seven.blackCircled, eight.blackCircled, nine.blackCircled";
+},
+{
+name = Filter;
+value = "reverseContourDirection;include:zero.blackCircled, one.blackCircled, two.blackCircled, three.blackCircled, four.blackCircled, five.blackCircled, six.blackCircled, seven.blackCircled, eight.blackCircled, nine.blackCircled, mediumBlackCircle";
 }
 );
 name = Regular;
