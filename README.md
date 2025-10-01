@@ -1,7 +1,19 @@
 # Fustat
 
-[![Build](https://github.com/Kief-Type-Foundry/Fustat/actions/workflows/build.yaml/badge.svg)](https://github.com/Kief-Type-Foundry/Fustat/actions/workflows/build.yaml)
-[![FontBakery](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkief-type-foundry%2FFustat%2Fgh-pages%2Fbadges%2Foverall.json)](https://kief-type-foundry.github.io/Fustat/fontbakery/fontbakery-report.html)
+[![][Build]](https://github.com/Kief-Type-Foundry/Fustat/actions/workflows/build.yaml)
+[![][Fontspector]](https://kief-type-foundry.github.io/Fustat/fontspector/fontspector-report.html)
+[![][OpenType]](https://kief-type-foundry.github.io/Fustat/fontspector/fontspector-report.html)
+[![][Universal]](https://kief-type-foundry.github.io/Fustat/fontspector/fontspector-report.html)
+[![][Google Fonts]](https://kief-type-foundry.github.io/Fustat/fontspector/fontspector-report.html)
+[![][Glyphset]](https://kief-type-foundry.github.io/Fustat/fontspector/fontspector-report.html)
+
+[Build]: https://github.com/Kief-Type-Foundry/Fustat/actions/workflows/build.yaml/badge.svg
+[Fontspector]: https://img.shields.io/endpoint?url=https%3A%2F%2Fkief-type-foundry.github.io%2FFustat%2Fbadges%2FFontspectorQA.json
+[OpenType]: https://img.shields.io/endpoint?url=https%3A%2F%2Fkief-type-foundry.github.io%2FFustat%2Fbadges%2FOpentypeSpecificationChecks.json
+[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fkief-type-foundry.github.io%2FFustat%2Fbadges%2FUniversalProfileChecks.json
+[Google Fonts]: https://img.shields.io/endpoint?url=https%3A%2F%2Fkief-type-foundry.github.io%2FFustat%2Fbadges%2FFontFileChecks.json
+[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fkief-type-foundry.github.io%2FFustat%2Fbadges%2FOutlineCorrectnessChecks.json
+[Glyphset]: https://img.shields.io/endpoint?url=https%3A%2F%2Fkief-type-foundry.github.io%2FFustat%2Fbadges%2FGlyphsetChecks.json
 
 _Fustat_ Arabic designed by [Mohamed](https://gaber.design/) [Gaber](https://www.instagram.com/gue3bara/) and engineered by [Khaled Hosny](https://aliftype.com/), draws its inspiration from the traditional manuscript Kufi style. The typeface uniquely balances modernization with the authentic elements of Arabic script. It supports a large number of languages that use Arabic script, and includes a number of OpenType features for finer typography, including stylistic sets, proportional and tabular digits, super/subscripts, and fractions. Additionally, _Fustat_ is a variable that providing dynamic flexibility for various design applications, and includes seven pre-defined weight instances: ExtraLight, Light, Regular, Medium, SemiBold, Bold, and ExtraBold.
 
