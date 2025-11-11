@@ -252,5 +252,4 @@ width = 563;
 }
 );
 metricLeft = a;
-metricWidth = a.ss05;
 }
