@@ -1,3 +1,4 @@
 familyName: Fustat
 sources:
     - Fustat.glyphspackage
+buildStatic: false
