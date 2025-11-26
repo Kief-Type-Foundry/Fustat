@@ -11,7 +11,7 @@ shapes = (
 ref = a.ss06;
 },
 {
-pos = (52,0);
+pos = (92,0);
 ref = macroncomb;
 }
 );
@@ -24,7 +24,7 @@ shapes = (
 ref = a.ss06;
 },
 {
-pos = (61,0);
+pos = (95,0);
 ref = macroncomb;
 }
 );
