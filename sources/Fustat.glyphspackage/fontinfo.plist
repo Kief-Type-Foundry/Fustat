@@ -1,5 +1,5 @@
 {
-.appVersion = "3414";
+.appVersion = "3436";
 .formatVersion = 3;
 axes = (
 {
@@ -284,6 +284,7 @@ feature ss02;
 feature ss03;
 feature ss04;
 feature ss05;
+feature ss06;
 ";
 tag = aalt;
 },
@@ -1227,6 +1228,27 @@ value = "Alt numbers";
 }
 );
 tag = ss05;
+},
+{
+automatic = 1;
+code = "sub a by a.ss06;
+sub aacute by aacute.ss06;
+sub abreve by abreve.ss06;
+sub acircumflex by acircumflex.ss06;
+sub adieresis by adieresis.ss06;
+sub agrave by agrave.ss06;
+sub amacron by amacron.ss06;
+sub aogonek by aogonek.ss06;
+sub aring by aring.ss06;
+sub atilde by atilde.ss06;
+";
+labels = (
+{
+language = dflt;
+value = "Double-story tailed a";
+}
+);
+tag = ss06;
 },
 {
 code = "# Automatic Code
