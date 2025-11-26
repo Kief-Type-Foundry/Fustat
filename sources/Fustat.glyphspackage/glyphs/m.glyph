@@ -4,6 +4,16 @@ kernLeft = n;
 kernRight = n;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (442,0);
+},
+{
+name = top;
+pos = (442,492);
+}
+);
 background = {
 shapes = (
 {
@@ -71,6 +81,16 @@ nodes = (
 width = 883;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (456,0);
+},
+{
+name = top;
+pos = (456,500);
+}
+);
 background = {
 shapes = (
 {
@@ -136,6 +156,16 @@ nodes = (
 width = 912;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (473,0);
+},
+{
+name = top;
+pos = (473,508);
+}
+);
 background = {
 shapes = (
 {
