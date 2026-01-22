@@ -16,9 +16,7 @@ jobs:
     - name: Setup fontspector
       uses: fonttools/setup-fontspector@main
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        version: 1.5.1
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Install toolset
       run: |
         sudo apt-get update
