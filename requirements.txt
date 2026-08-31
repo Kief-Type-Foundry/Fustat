@@ -4,7 +4,7 @@
 #
 #    pip-compile requirements.in
 #
-absl-py==2.4.0
+absl-py==2.5.0
     # via
     #   gftools
     #   nanoemoji
@@ -41,11 +41,11 @@ bumpfontversion==0.4.1
     # via -r requirements.in
 cattrs==26.1.0
     # via ufolib2
-certifi==2026.6.17
+certifi==2026.7.22
     # via
     #   requests
     #   selenium
-cffi==2.0.0
+cffi==2.1.1
     # via
     #   cmarkgfm
     #   cryptography
@@ -53,7 +53,7 @@ cffi==2.0.0
     #   pynacl
 cffsubr==0.4.0
     # via ufo2ft
-charset-normalizer==3.4.7
+charset-normalizer==3.5.1
     # via requests
 cmarkgfm==2025.10.22
     # via fontbakery
@@ -63,7 +63,7 @@ commandlines==0.4.1
     # via ufolint
 compreffor==0.6.0
     # via ufo2ft
-cryptography==49.0.0
+cryptography==50.0.1
     # via pyjwt
 defcon==0.12.2
     # via
@@ -79,8 +79,10 @@ drawbot-skia==0.5.1
     # via -r requirements.in
 ffmpeg-python==0.2.0
     # via gftools
-filelock==3.29.4
-    # via youseedee
+filelock==3.32.5
+    # via
+    #   gftools
+    #   youseedee
 fontbakery[beautifulsoup4,googlefonts,googlefontsalwayslatest,shaperglot]==1.1.0
     # via gftools
 fontfeatures==1.9.0
@@ -93,7 +95,7 @@ fontmath==0.10.0
     # via
     #   fontmake
     #   ufo2ft
-fonttools[lxml,ufo,unicode]==4.63.0
+fonttools[lxml,ufo,unicode]==4.64.0
     # via
     #   axisregistry
     #   babelfont
@@ -145,7 +147,7 @@ glyphsets==1.1.0
     #   diffenator2
     #   fontbakery
     #   gftools
-glyphslib==6.13.1
+glyphslib==6.14.0
     # via
     #   bumpfontversion
     #   fontmake
@@ -153,7 +155,7 @@ glyphslib==6.13.1
     #   glyphsets
 h11==0.16.0
     # via wsproto
-idna==3.18
+idna==3.19
     # via
     #   requests
     #   trio
@@ -166,7 +168,7 @@ jinja2==3.1.6
     #   gftools
 kurbopy==0.13.1
     # via collidoscope
-lxml==6.1.1
+lxml==6.1.2
     # via
     #   fontfeatures
     #   fonttools
@@ -180,16 +182,16 @@ mdurl==0.1.2
     # via markdown-it-py
 munkres==1.1.4
     # via fontbakery
-nanoemoji==0.15.9
+nanoemoji==0.16.0
     # via gftools
 networkx==3.6.1
     # via gftools
-ninja==1.13.0
+ninja==1.13.2
     # via
     #   diffenator2
     #   gftools
     #   nanoemoji
-numpy==2.5.0
+numpy==2.5.2
     # via
     #   blackrenderer
     #   drawbot-skia
@@ -205,7 +207,7 @@ opentype-sanitizer==9.2.0
     #   gftools
 opentypespec==1.9.2
     # via fontbakery
-orjson==3.11.9
+orjson==3.12.0
     # via
     #   babelfont
     #   ufolib2
@@ -213,20 +215,20 @@ outcome==1.3.0.post0
     # via
     #   trio
     #   trio-websocket
-packaging==26.2
+packaging==26.3
     # via
     #   fontbakery
     #   gftools
-picosvg==0.22.3
+picosvg==0.23.0
     # via nanoemoji
-pillow==12.2.0
+pillow==12.3.0
     # via
     #   diffenator2
     #   gftools
     #   nanoemoji
 pip-api==0.0.34
     # via fontbakery
-platformdirs==4.10.0
+platformdirs==4.11.5
     # via youseedee
 pngquant-cli==3.0.3
     # via nanoemoji
@@ -239,9 +241,9 @@ protobuf==3.20.3
     #   gftools
 pyahocorasick==2.3.1
     # via diffenator2
-pybind11==3.0.4
+pybind11==3.1.0
     # via skia-python
-pycairo==1.29.0
+pycairo==1.29.1
     # via gftools
 pyclipper==1.4.0
     # via
@@ -249,11 +251,11 @@ pyclipper==1.4.0
     #   booleanoperations
 pycparser==3.0
     # via cffi
-pygit2==1.19.3
+pygit2==1.20.0
     # via gftools
-pygithub==2.9.1
+pygithub==2.10.0
     # via gftools
-pygments==2.20.0
+pygments==2.21.0
     # via rich
 pyjwt[crypto]==2.13.0
     # via pygithub
@@ -274,7 +276,7 @@ pyyaml==6.0.3
     #   fontbakery
     #   gftools
     #   glyphsets
-regex==2026.6.28
+regex==2026.8.31
     # via nanoemoji
 requests==2.34.2
     # via
@@ -293,9 +295,9 @@ rstr==3.2.2
     # via stringbrewer
 ruamel-yaml==0.19.1
     # via gftools
-selenium==4.45.0
+selenium==4.48.0
     # via diffenator2
-sh==2.3.0
+sh==2.4.0
     # via -r requirements.in
 shaperglot==1.2.1
     # via fontbakery
@@ -315,7 +317,7 @@ sniffio==1.3.1
     # via trio
 sortedcontainers==2.4.0
     # via trio
-soupsieve==2.8.4
+soupsieve==2.9.2
     # via beautifulsoup4
 sre-yield==1.2
     # via stringbrewer
@@ -331,25 +333,25 @@ toml==0.10.2
     # via
     #   fontbakery
     #   nanoemoji
-tqdm==4.68.3
+tqdm==4.70.0
     # via
     #   collidoscope
     #   diffenator2
-trio==0.33.0
+trio==0.34.0
     # via
     #   selenium
     #   trio-websocket
 trio-websocket==0.12.2
     # via selenium
-ttfautohint-py==0.6.0
+ttfautohint-py==0.6.1
     # via gftools
-typing-extensions==4.15.0
+typing-extensions==4.16.0
     # via
     #   beautifulsoup4
     #   cattrs
     #   pygithub
     #   selenium
-ufo2ft[cffsubr,compreffor]==3.8.2
+ufo2ft[cffsubr,compreffor]==3.9.0
     # via
     #   fontbakery
     #   fontmake
@@ -365,11 +367,11 @@ ufolib2[json]==0.18.1
     #   vttlib
 ufolint==1.2.0
     # via fontbakery
-ufomerge==1.9.6
+ufomerge==1.9.7
     # via
     #   babelfont
     #   gftools
-uharfbuzz==0.55.0
+uharfbuzz==0.56.1
     # via
     #   blackrenderer
     #   collidoscope
@@ -395,9 +397,9 @@ vharfbuzz==0.3.1
     # via
     #   fontbakery
     #   gftools
-vttlib==0.12.0
+vttlib==0.12.1
     # via gftools
-websocket-client==1.9.0
+websocket-client==1.9.2
     # via selenium
 wsproto==1.3.2
     # via trio-websocket
