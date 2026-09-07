@@ -27,7 +27,7 @@ bump2version==1.0.1
     # via bumpfontversion
 bumpfontversion==0.4.1
     # via -r requirements.in
-cattrs==26.1.0
+cattrs==26.2.0
     # via ufolib2
 certifi==2026.7.22
     # via requests
@@ -88,7 +88,7 @@ fonttools[lxml,ufo,unicode]==4.64.0
     #   vttlib
 future==1.0.0
     # via ffmpeg-python
-gflanguages==0.7.10
+gflanguages==0.7.11
     # via
     #   gftools
     #   glyphsets
@@ -99,8 +99,12 @@ gfmetadata==0.2.5
     #   gftools
 gfsubsets==2025.11.4
     # via gftools
-gftools==0.9991
+gftools==0.10.0
     # via -r requirements.in
+gitdb==4.0.12
+    # via gitpython
+gitpython==3.1.62
+    # via gftools
 glyphsets==1.1.3
     # via gftools
 glyphslib==6.14.0
@@ -115,7 +119,7 @@ importlib-resources==7.1.0
     # via gfsubsets
 jinja2==3.1.6
     # via gftools
-lxml==6.1.2
+lxml==6.1.3
     # via
     #   fontfeatures
     #   fonttools
@@ -135,7 +139,7 @@ ninja==1.13.2
     # via
     #   gftools
     #   nanoemoji
-numpy==2.5.2
+numpy==2.5.3
     # via
     #   drawbot-skia
     #   skia-python
@@ -155,7 +159,7 @@ pillow==12.3.0
     # via
     #   gftools
     #   nanoemoji
-platformdirs==4.11.6
+platformdirs==4.11.7
     # via youseedee
 pngquant-cli==3.0.3
     # via nanoemoji
@@ -213,6 +217,8 @@ skia-pathops==0.9.2
     # via picosvg
 skia-python==144.0.post2
     # via drawbot-skia
+smmap==5.0.3
+    # via gitdb
 soupsieve==2.9.2
     # via beautifulsoup4
 strictyaml==1.7.3
@@ -242,7 +248,7 @@ ufolib2[json]==0.18.1
     #   nanoemoji
     #   ufomerge
     #   vttlib
-ufomerge==1.9.7
+ufomerge==1.9.8
     # via gftools
 uharfbuzz==0.56.1
     # via
