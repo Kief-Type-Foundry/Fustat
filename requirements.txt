@@ -27,7 +27,7 @@ bump2version==1.0.1
     # via bumpfontversion
 bumpfontversion==0.4.1
     # via -r requirements.in
-cattrs==26.2.0
+cattrs==26.2.1
     # via ufolib2
 certifi==2026.7.22
     # via requests
@@ -38,11 +38,11 @@ cffi==2.1.1
     #   pynacl
 cffsubr==0.4.0
     # via ufo2ft
-charset-normalizer==3.5.1
+charset-normalizer==3.5.2
     # via requests
 compreffor==0.6.0
     # via ufo2ft
-cryptography==50.0.1
+cryptography==50.0.2
     # via pyjwt
 defcon==0.12.2
     # via glyphsets
@@ -50,7 +50,7 @@ drawbot-skia==0.5.1
     # via -r requirements.in
 ffmpeg-python==0.2.0
     # via gftools
-filelock==3.32.5
+filelock==4.0.9
     # via
     #   gftools
     #   youseedee
@@ -64,7 +64,7 @@ fontmath==0.10.0
     # via
     #   fontmake
     #   ufo2ft
-fonttools[lxml,ufo,unicode]==4.64.0
+fonttools[lxml,ufo,unicode]==4.66.1
     # via
     #   axisregistry
     #   blackrenderer
@@ -103,17 +103,17 @@ gftools==0.10.0
     # via -r requirements.in
 gitdb==4.0.12
     # via gitpython
-gitpython==3.1.62
+gitpython==3.2.0
     # via gftools
 glyphsets==1.1.3
     # via gftools
-glyphslib==6.14.0
+glyphslib==6.15.0
     # via
     #   bumpfontversion
     #   fontmake
     #   gftools
     #   glyphsets
-idna==3.19
+idna==3.20
     # via requests
 importlib-resources==7.1.0
     # via gfsubsets
@@ -127,13 +127,13 @@ lxml==6.1.3
     #   picosvg
 markdown-it-py==4.2.0
     # via rich
-markupsafe==3.0.3
+markupsafe==3.0.4
     # via jinja2
 mdurl==0.1.2
     # via markdown-it-py
 nanoemoji==0.16.0
     # via gftools
-networkx==3.6.1
+networkx==3.7
     # via gftools
 ninja==1.13.2
     # via
@@ -159,11 +159,11 @@ pillow==12.3.0
     # via
     #   gftools
     #   nanoemoji
-platformdirs==4.11.7
+platformdirs==4.12.2
     # via youseedee
 pngquant-cli==3.0.3
     # via nanoemoji
-protobuf==7.36.1
+protobuf==7.36.2
     # via
     #   gfmetadata
     #   gftools
@@ -173,17 +173,17 @@ pyclipper==1.4.0
     # via booleanoperations
 pycparser==3.0
     # via cffi
-pygit2==1.20.0
+pygit2==1.20.1
     # via gftools
 pygithub==2.10.0
     # via gftools
 pygments==2.21.0
     # via rich
-pyjwt[crypto]==2.13.0
+pyjwt[crypto]==2.15.1
     # via pygithub
 pynacl==1.6.2
     # via pygithub
-pyparsing==3.3.2
+pyparsing==3.3.3
     # via vttlib
 python-bidi==0.4.2
     # via drawbot-skia
@@ -193,7 +193,7 @@ pyyaml==6.0.3
     # via
     #   gftools
     #   glyphsets
-regex==2026.9.3
+regex==2026.9.29
     # via nanoemoji
 requests==2.34.2
     # via
@@ -219,7 +219,7 @@ skia-python==144.0.post2
     # via drawbot-skia
 smmap==5.0.3
     # via gitdb
-soupsieve==2.9.2
+soupsieve==2.10
     # via beautifulsoup4
 strictyaml==1.7.3
     # via gftools
@@ -236,7 +236,7 @@ typing-extensions==4.16.0
     #   beautifulsoup4
     #   cattrs
     #   pygithub
-ufo2ft[cffsubr,compreffor]==3.9.0
+ufo2ft[cffsubr,compreffor]==3.9.1
     # via
     #   fontmake
     #   nanoemoji
@@ -250,19 +250,19 @@ ufolib2[json]==0.18.1
     #   vttlib
 ufomerge==1.9.8
     # via gftools
-uharfbuzz==0.56.1
+uharfbuzz==0.56.2
     # via
     #   blackrenderer
     #   drawbot-skia
     #   vharfbuzz
-unicodedata2==17.0.1
+unicodedata2==18.0.0
     # via
     #   drawbot-skia
     #   fonttools
     #   glyphsets
 unidecode==1.4.0
     # via gftools
-urllib3==2.7.0
+urllib3==2.8.0
     # via
     #   pygithub
     #   requests
